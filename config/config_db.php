@@ -12,6 +12,7 @@
 //   public $allow_datetime = false;
 //   public $allow_signed_keys = false;
 //}
+
 $CFG_GLPI['url'] = 'https://mesa.azurewebsites.net/';
 
 class DB extends DBmysql {
