@@ -1,0 +1,48 @@
+2024-09-30 16:46:14 [7@SISTEMAS2]
+2 seconds for "Installing glpi_plugin_order_configs"
+2024-09-30 16:46:15 [7@SISTEMAS2]
+1 segundos for "Add default order state workflow"
+2024-09-30 16:46:16 [7@SISTEMAS2]
+1 segundos for "Installing glpi_plugin_order_billstates"
+2024-09-30 16:46:16 [7@SISTEMAS2]
+0 seconds for "Installing glpi_plugin_order_billtypes"
+2024-09-30 16:46:18 [7@SISTEMAS2]
+2 seconds for "Installing glpi_plugin_order_orderstates"
+2024-09-30 16:46:21 [7@SISTEMAS2]
+3 seconds for "Installing glpi_plugin_order_orders"
+2024-09-30 16:46:22 [7@SISTEMAS2]
+1 segundos for "Installing glpi_plugin_order_orders_items"
+2024-09-30 16:46:23 [7@SISTEMAS2]
+1 segundos for "Installing glpi_plugin_order_references"
+2024-09-30 16:46:23 [7@SISTEMAS2]
+0 seconds for "Installing glpi_plugin_order_deliverystates"
+2024-09-30 16:46:30 [7@SISTEMAS2]
+7 seconds for "Migrate PluginOrderOrder notifications"
+2024-09-30 16:46:31 [7@SISTEMAS2]
+1 segundos for "Installing glpi_plugin_order_orders_suppliers"
+2024-09-30 16:46:32 [7@SISTEMAS2]
+1 segundos for "Installing glpi_plugin_order_bills"
+2024-09-30 16:46:32 [7@SISTEMAS2]
+0 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_order_orders_suppliers"
+2024-09-30 16:46:32 [7@SISTEMAS2]
+0 seconds for "Installing glpi_plugin_order_orderpayments"
+2024-09-30 16:46:33 [7@SISTEMAS2]
+1 segundos for "Installing glpi_plugin_order_ordertypes"
+2024-09-30 16:46:33 [7@SISTEMAS2]
+0 seconds for "Installing glpi_plugin_order_others"
+2024-09-30 16:46:33 [7@SISTEMAS2]
+0 seconds for "Installing glpi_plugin_order_othertypes"
+2024-09-30 16:46:39 [7@SISTEMAS2]
+6 seconds for "Installing glpi_plugin_order_preferences"
+2024-09-30 16:46:39 [7@SISTEMAS2]
+0 seconds for "Installing glpi_plugin_order_references_suppliers"
+2024-09-30 16:46:40 [7@SISTEMAS2]
+1 segundos for "Installing glpi_plugin_order_surveysuppliers"
+2024-09-30 16:46:41 [7@SISTEMAS2]
+1 segundos for "Installing glpi_plugin_order_ordertaxes"
+2024-09-30 16:46:42 [7@SISTEMAS2]
+1 segundos for "Installing glpi_plugin_order_documentcategories"
+2024-09-30 16:46:42 [7@SISTEMAS2]
+0 seconds for "Installing glpi_plugin_order_referencefrees"
+2024-09-30 16:46:43 [7@SISTEMAS2]
+1 segundos for "Installing glpi_plugin_order_accountsections"

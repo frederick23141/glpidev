@@ -1,0 +1,1485 @@
+{
+    "action": "inventory",
+    "content": {
+        "accesslog": {
+            "logdate": "2025-01-30 08:30:33"
+        },
+        "antivirus": [
+            {
+                "base_version": "1.421.1592.0",
+                "company": "Microsoft Corporation",
+                "enabled": true,
+                "guid": "{D68DDC3A-831F-4fae-9E44-DA132C1ACF46}",
+                "name": "Windows Defender",
+                "uptodate": true,
+                "version": "4.18.24090.11"
+            },
+            {
+                "enabled": true,
+                "guid": "{0BE13B34-492A-21C0-AE43-C1742279CCB6}",
+                "name": "McAfee",
+                "uptodate": true
+            }
+        ],
+        "batteries": [
+            {
+                "capacity": 41050,
+                "chemistry": "LIon",
+                "manufacturer": "Hewlett-Packard",
+                "name": "Primary",
+                "real_capacity": 41050,
+                "serial": "100000"
+            },
+            {
+                "capacity": 41050,
+                "chemistry": "Lithium Ion",
+                "date": "2024-06-06",
+                "manufacturer": "313-AC-33-A",
+                "name": "HW03041X",
+                "serial": "09403 06\/06\/2024",
+                "voltage": 11340
+            }
+        ],
+        "bios": {
+            "bdate": "2024-05-06",
+            "bmanufacturer": "AMI",
+            "bversion": "F.09",
+            "mmanufacturer": "HP",
+            "mmodel": "8997",
+            "msn": "PPPZL00WBJV0BC",
+            "skunumber": "A9FJ2AT#ABM",
+            "smanufacturer": "HP",
+            "smodel": "HP 240 14 inch G9 Notebook PC",
+            "ssn": "5CG4321RQ1"
+        },
+        "controllers": [
+            {
+                "caption": "Alder Lake-P SATA AHCI Controller",
+                "manufacturer": "Intel Corporation",
+                "name": "Alder Lake-P SATA AHCI Controller",
+                "pcisubsystemid": "103c:8997",
+                "productid": "51d3",
+                "type": "Standard SATA AHCI Controller",
+                "vendorid": "8086"
+            },
+            {
+                "caption": "NVMe SSD Controller PM9B1 (DRAM-less)",
+                "manufacturer": "Samsung Electronics Co Ltd",
+                "name": "NVMe SSD Controller PM9B1 (DRAM-less)",
+                "pcisubsystemid": "144d:a80b",
+                "productid": "a80b",
+                "type": "Standard NVM Express Controller",
+                "vendorid": "144d"
+            },
+            {
+                "caption": "Alder Lake PCH USB 3.2 xHCI Host Controller",
+                "manufacturer": "Intel Corporation",
+                "name": "Alder Lake PCH USB 3.2 xHCI Host Controller",
+                "pcisubsystemid": "103c:8997",
+                "productid": "51ed",
+                "type": "Intel(R) USB 3.10 eXtensible Host Controller - 1.20 (Microsoft)",
+                "vendorid": "8086"
+            },
+            {
+                "caption": "Alder Lake-UP3 GT2 [UHD Graphics]",
+                "manufacturer": "Intel Corporation",
+                "name": "Alder Lake-UP3 GT2 [UHD Graphics]",
+                "pcisubsystemid": "103c:8997",
+                "productid": "4628",
+                "type": "Intel(R) UHD Graphics",
+                "vendorid": "8086"
+            },
+            {
+                "caption": "12th Gen Core Processor Gaussian & Neural Accelerator",
+                "manufacturer": "Intel Corporation",
+                "name": "12th Gen Core Processor Gaussian & Neural Accelerator",
+                "pcisubsystemid": "103c:8997",
+                "productid": "464f",
+                "type": "Intel(R) GNA Scoring Accelerator module",
+                "vendorid": "8086"
+            },
+            {
+                "caption": "Alder Lake PCH Serial IO I2C Controller #1",
+                "manufacturer": "Intel Corporation",
+                "name": "Alder Lake PCH Serial IO I2C Controller #1",
+                "pcisubsystemid": "103c:8997",
+                "productid": "51e9",
+                "type": "Intel(R) Serial IO I2C Host Controller - 51E9",
+                "vendorid": "8086"
+            },
+            {
+                "caption": "Intel(R) PCI Express Root Port #5 - 51BC",
+                "manufacturer": "Intel Corporation",
+                "name": "Intel(R) PCI Express Root Port #5 - 51BC",
+                "pcisubsystemid": "103c:8997",
+                "productid": "51bc",
+                "type": "Intel(R) PCI Express Root Port #5 - 51BC",
+                "vendorid": "8086"
+            },
+            {
+                "caption": "Intel(R) Host Bridge\/DRAM Registers - 4601",
+                "manufacturer": "Intel Corporation",
+                "name": "Intel(R) Host Bridge\/DRAM Registers - 4601",
+                "pcisubsystemid": "103c:8997",
+                "productid": "4601",
+                "type": "Intel(R) Host Bridge\/DRAM Registers - 4601",
+                "vendorid": "8086"
+            },
+            {
+                "caption": "Alder Lake PCI Express Root Port #9",
+                "manufacturer": "Intel Corporation",
+                "name": "Alder Lake PCI Express Root Port #9",
+                "pcisubsystemid": "103c:8997",
+                "productid": "51b0",
+                "type": "Intel(R) PCI Express Root Port #9 - 51B0",
+                "vendorid": "8086"
+            },
+            {
+                "caption": "Alder Lake-P PCH SPI Controller",
+                "manufacturer": "Intel Corporation",
+                "name": "Alder Lake-P PCH SPI Controller",
+                "pcisubsystemid": "103c:8997",
+                "productid": "51a4",
+                "type": "Intel(R) SPI (flash) Controller - 51A4",
+                "vendorid": "8086"
+            },
+            {
+                "caption": "Alder Lake PCH eSPI Controller",
+                "manufacturer": "Intel Corporation",
+                "name": "Alder Lake PCH eSPI Controller",
+                "pcisubsystemid": "103c:8997",
+                "productid": "5182",
+                "type": "Intel(R) LPC Controller - 5182",
+                "vendorid": "8086"
+            },
+            {
+                "caption": "Alder Lake PCH HECI Controller",
+                "manufacturer": "Intel Corporation",
+                "name": "Alder Lake PCH HECI Controller",
+                "pcisubsystemid": "103c:8997",
+                "productid": "51e0",
+                "type": "Intel(R) Management Engine Interface #1",
+                "vendorid": "8086"
+            },
+            {
+                "caption": "RTL8852BE PCIe 802.11ax Wireless Network Controller",
+                "manufacturer": "Realtek Semiconductor Co., Ltd.",
+                "name": "RTL8852BE PCIe 802.11ax Wireless Network Controller",
+                "pcisubsystemid": "103c:88e3",
+                "productid": "b852",
+                "type": "Realtek RTL8852BE WiFi 6 802.11ax PCIe Adapter",
+                "vendorid": "10ec"
+            },
+            {
+                "caption": "Alder Lake PCH Serial IO I2C Controller #0",
+                "manufacturer": "Intel Corporation",
+                "name": "Alder Lake PCH Serial IO I2C Controller #0",
+                "pcisubsystemid": "103c:8997",
+                "productid": "51e8",
+                "type": "Intel(R) Serial IO I2C Host Controller - 51E8",
+                "vendorid": "8086"
+            },
+            {
+                "caption": "RTL8111\/8168\/8411 PCI Express Gigabit Ethernet Controller",
+                "manufacturer": "Realtek Semiconductor Co., Ltd.",
+                "name": "RTL8111\/8168\/8411 PCI Express Gigabit Ethernet Controller",
+                "pcisubsystemid": "103c:8997",
+                "productid": "8168",
+                "type": "Realtek PCIe GbE Family Controller",
+                "vendorid": "10ec"
+            },
+            {
+                "caption": "Alder Lake Innovation Platform Framework Processor Participant",
+                "manufacturer": "Intel Corporation",
+                "name": "Alder Lake Innovation Platform Framework Processor Participant",
+                "pcisubsystemid": "103c:8997",
+                "productid": "461d",
+                "type": "Intel(R) Innovation Platform Framework Processor Participant",
+                "vendorid": "8086"
+            },
+            {
+                "caption": "Alder Lake PCH-P High Definition Audio Controller",
+                "manufacturer": "Intel Corporation",
+                "name": "Alder Lake PCH-P High Definition Audio Controller",
+                "pcisubsystemid": "103c:8997",
+                "productid": "51c8",
+                "type": "Intel\u00ae Smart Sound Technology BUS",
+                "vendorid": "8086"
+            },
+            {
+                "caption": "Alder Lake PCH-P SMBus Host Controller",
+                "manufacturer": "Intel Corporation",
+                "name": "Alder Lake PCH-P SMBus Host Controller",
+                "pcisubsystemid": "103c:8997",
+                "productid": "51a3",
+                "type": "Intel(R) SMBus - 51A3",
+                "vendorid": "8086"
+            },
+            {
+                "caption": "Alder Lake PCH Shared SRAM",
+                "manufacturer": "Intel Corporation",
+                "name": "Alder Lake PCH Shared SRAM",
+                "pcisubsystemid": "0000:0000",
+                "productid": "51ef",
+                "type": "Intel(R) Shared SRAM - 51EF",
+                "vendorid": "8086"
+            },
+            {
+                "caption": "Alder Lake PCI Express x1 Root Port #10",
+                "manufacturer": "Intel Corporation",
+                "name": "Alder Lake PCI Express x1 Root Port #10",
+                "pcisubsystemid": "103c:8997",
+                "productid": "51b1",
+                "type": "Intel(R) PCI Express Root Port #10 - 51B1",
+                "vendorid": "8086"
+            }
+        ],
+        "cpus": [
+            {
+                "core": 10,
+                "description": "Intel64 Family 6 Model 154 Stepping 4",
+                "familynumber": "6",
+                "id": "BFEBFBFF000906A4",
+                "manufacturer": "Intel(R) Corporation",
+                "model": "154",
+                "name": "12th Gen Intel Core i5-1235U",
+                "serial": "ToBeFilledByO.E.M.",
+                "speed": 3465,
+                "stepping": 4,
+                "thread": 2
+            }
+        ],
+        "drives": [
+            {
+                "description": "Disco fijo local",
+                "encrypt_algo": "XTS_AES_128",
+                "encrypt_name": "BitLocker",
+                "encrypt_status": "No",
+                "filesystem": "NTFS",
+                "free": 426583,
+                "label": "Windows",
+                "letter": "C:",
+                "serial": "A64EF33A",
+                "systemdrive": true,
+                "total": 487252,
+                "type": "Local Disk",
+                "volumn": "Windows"
+            },
+            {
+                "filesystem": "NTFS",
+                "free": 136,
+                "serial": "0AC4C993",
+                "systemdrive": false,
+                "total": 849,
+                "type": "Local Disk"
+            },
+            {
+                "filesystem": "FAT32",
+                "free": 190,
+                "label": "SYSTEM",
+                "letter": "SYSTEM",
+                "serial": "308414F9",
+                "systemdrive": false,
+                "total": 256,
+                "type": "Local Disk",
+                "volumn": "SYSTEM"
+            }
+        ],
+        "envs": [
+            {
+                "key": "ComSpec",
+                "val": "%SystemRoot%\\system32\\cmd.exe"
+            },
+            {
+                "key": "DriverData",
+                "val": "C:\\Windows\\System32\\Drivers\\DriverData"
+            },
+            {
+                "key": "OS",
+                "val": "Windows_NT"
+            },
+            {
+                "key": "Path",
+                "val": "%SystemRoot%\\system32;%SystemRoot%;%SystemRoot%\\System32\\Wbem;%SYSTEMROOT%\\System32\\WindowsPowerShell\\v1.0\\;%SYSTEMROOT%\\System32\\OpenSSH\\"
+            },
+            {
+                "key": "PATHEXT",
+                "val": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"
+            },
+            {
+                "key": "PROCESSOR_ARCHITECTURE",
+                "val": "AMD64"
+            },
+            {
+                "key": "PSModulePath",
+                "val": "%ProgramFiles%\\WindowsPowerShell\\Modules;%SystemRoot%\\system32\\WindowsPowerShell\\v1.0\\Modules"
+            },
+            {
+                "key": "TEMP",
+                "val": "%SystemRoot%\\TEMP"
+            },
+            {
+                "key": "TMP",
+                "val": "%SystemRoot%\\TEMP"
+            },
+            {
+                "key": "USERNAME",
+                "val": "SYSTEM"
+            },
+            {
+                "key": "windir",
+                "val": "%SystemRoot%"
+            },
+            {
+                "key": "OnlineServices",
+                "val": "Online Services"
+            },
+            {
+                "key": "platformcode",
+                "val": "AN"
+            },
+            {
+                "key": "RegionCode",
+                "val": "LA"
+            },
+            {
+                "key": "ZES_ENABLE_SYSMAN",
+                "val": "1"
+            },
+            {
+                "key": "NUMBER_OF_PROCESSORS",
+                "val": "12"
+            },
+            {
+                "key": "PROCESSOR_LEVEL",
+                "val": "6"
+            },
+            {
+                "key": "PROCESSOR_IDENTIFIER",
+                "val": "Intel64 Family 6 Model 154 Stepping 4, GenuineIntel"
+            },
+            {
+                "key": "PROCESSOR_REVISION",
+                "val": "9a04"
+            }
+        ],
+        "firewalls": [
+            {
+                "profile": "DomainProfile",
+                "status": "on"
+            },
+            {
+                "profile": "StandardProfile",
+                "status": "on"
+            },
+            {
+                "description": "Realtek RTL8852BE WiFi 6 802.11ax PCIe Adapter",
+                "ipaddress": "10.10.10.176",
+                "profile": "PublicProfile",
+                "status": "on"
+            },
+            {
+                "description": "Realtek RTL8852BE WiFi 6 802.11ax PCIe Adapter",
+                "ipaddress6": "fe80::1e79:1a99:4a10:cc3c",
+                "profile": "PublicProfile",
+                "status": "on"
+            }
+        ],
+        "hardware": {
+            "chassis_type": "Notebook",
+            "defaultgateway": "10.10.10.1",
+            "dns": "10.10.10.245",
+            "lastloggeduser": "DAVID.ISAZA",
+            "memory": 7865,
+            "name": "DIRCOMERCIAL",
+            "uuid": "A8409A4F-D261-784B-9B6F-27522863DF6E",
+            "vmsystem": "Physical",
+            "wincompany": "HP",
+            "winlang": "2058",
+            "winowner": "SISTEMAS",
+            "winprodid": "00355-61748-06302-AAOEM",
+            "winprodkey": "YK8M4-NDVBR-7KPT2-DBB44-8B6PT",
+            "workgroup": "dissql.com.co"
+        },
+        "inputs": [
+            {
+                "caption": "Mejorado (101 \u00f3 102 teclas)",
+                "description": "HID Keyboard Device",
+                "layout": "0000080A",
+                "name": "Mejorado (101 \u00f3 102 teclas)"
+            },
+            {
+                "caption": "ELAN Input Device",
+                "description": "ELAN Input Device",
+                "interface": "USB",
+                "manufacturer": "ELAN",
+                "name": "ELAN Input Device",
+                "pointingtype": "2"
+            }
+        ],
+        "licenseinfos": [
+            {
+                "fullname": "Office 16, RETAIL(Free) channel",
+                "key": "XXXXX-XXXXX-XXXXX-XXXXX-7CFGB",
+                "name": "Office 16, Office16OneNoteFreeR_Bypass edition",
+                "productid": "00336-00000-00000-AA565"
+            },
+            {
+                "fullname": "Office 16, RETAIL(Grace) channel",
+                "key": "XXXXX-XXXXX-XXXXX-XXXXX-3RQ6B",
+                "name": "Office 16, Office16O365BusinessR_Grace edition",
+                "productid": "00265-60000-00004-AA643"
+            }
+        ],
+        "memories": [
+            {
+                "caption": "Bottom - Slot 1 (left)",
+                "description": "SODIMM",
+                "numslots": 1
+            },
+            {
+                "capacity": 8192,
+                "caption": "Bottom - Slot 2 (right)",
+                "description": "SODIMM",
+                "manufacturer": "SK Hynix",
+                "model": "HMAG68EXNSA051N",
+                "numslots": 2,
+                "serialnumber": "2A88E619",
+                "speed": "3200",
+                "type": "DDR4"
+            }
+        ],
+        "monitors": [
+            {
+                "base64": "AP\/\/\/\/\/\/\/wANrkIUAAAAACIhAQSVHxF4A47VlFdTkychUFQAAAABAQEBAQEBAQEBAQEBAQEB2h1W0lAAKDBELUcANa0QAAAa5xNW0lAAKDBELUcANa0QAAAaAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAMPf8NPH0LDh19AAAAAGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=",
+                "description": "34\/2023",
+                "manufacturer": "Chimei Innolux Corporation",
+                "serial": "00000000"
+            }
+        ],
+        "networks": [
+            {
+                "description": "Fortinet Virtual Ethernet Adapter (NDIS 6.30)",
+                "mac": "00:09:0F:FE:00:01",
+                "pnpdeviceid": "ROOT\\NET\\0000",
+                "speed": "100",
+                "status": "down",
+                "type": "ethernet",
+                "virtualdev": true
+            },
+            {
+                "description": "Realtek RTL8852BE WiFi 6 802.11ax PCIe Adapter",
+                "ipaddress": "10.10.10.176",
+                "ipdhcp": "10.10.10.245",
+                "ipgateway": "10.10.10.1",
+                "ipmask": "255.255.255.0",
+                "ipsubnet": "10.10.10.0",
+                "mac": "28:D0:43:B7:1A:8E",
+                "pciid": "10EC:B852:88E3:103C",
+                "pnpdeviceid": "PCI\\VEN_10EC&DEV_B852&SUBSYS_88E3103C&REV_00\\00E04CFFFE88520100",
+                "speed": "400",
+                "status": "up",
+                "type": "wifi",
+                "virtualdev": false
+            },
+            {
+                "description": "Realtek RTL8852BE WiFi 6 802.11ax PCIe Adapter",
+                "ipaddress6": "fe80::1e79:1a99:4a10:cc3c",
+                "ipmask6": "ffff:ffff:ffff:ffff::",
+                "ipsubnet6": "fe80::",
+                "mac": "28:D0:43:B7:1A:8E",
+                "pciid": "10EC:B852:88E3:103C",
+                "pnpdeviceid": "PCI\\VEN_10EC&DEV_B852&SUBSYS_88E3103C&REV_00\\00E04CFFFE88520100",
+                "speed": "400",
+                "status": "up",
+                "type": "wifi",
+                "virtualdev": false
+            },
+            {
+                "description": "Realtek PCIe GbE Family Controller",
+                "mac": "24:6A:0E:66:B3:2D",
+                "pciid": "10EC:8168:8997:103C",
+                "pnpdeviceid": "PCI\\VEN_10EC&DEV_8168&SUBSYS_8997103C&REV_15\\01000000684CE00000",
+                "status": "down",
+                "type": "ethernet",
+                "virtualdev": false
+            }
+        ],
+        "operatingsystem": {
+            "arch": "64-bit",
+            "boot_time": "2025-01-21 08:21:40",
+            "dns_domain": "dissql.com.co",
+            "fqdn": "DIRCOMERCIAL.dissql.com.co",
+            "full_name": "Microsoft Windows 11 Pro",
+            "install_date": "2025-01-17 14:03:40",
+            "kernel_name": "MSWin32",
+            "kernel_version": "10.0.26100",
+            "name": "Windows",
+            "service_pack": "26100.2894",
+            "timezone": {
+                "name": "America\/Bogota",
+                "offset": "-0500"
+            },
+            "version": "24H2"
+        },
+        "ports": [
+            {
+                "caption": "PS2Mouse",
+                "description": "PS\/2",
+                "name": "J1A1",
+                "type": "Mouse Port"
+            },
+            {
+                "caption": "Keyboard",
+                "description": "PS\/2",
+                "name": "J1A1",
+                "type": "Keyboard Port"
+            },
+            {
+                "caption": "TV Out",
+                "description": "Mini Centronics Type-14",
+                "name": "J2A1",
+                "type": "Other"
+            },
+            {
+                "caption": "COM A",
+                "description": "DB-9 male",
+                "name": "J2A2A",
+                "type": "Serial Port 16550A Compatible"
+            },
+            {
+                "caption": "Video",
+                "description": "DB-15 female",
+                "name": "J2A2B",
+                "type": "Video Port"
+            },
+            {
+                "caption": "USB1",
+                "description": "Access Bus (USB)",
+                "name": "J3A1",
+                "type": "USB"
+            },
+            {
+                "caption": "USB2",
+                "description": "Access Bus (USB)",
+                "name": "J3A1",
+                "type": "USB"
+            },
+            {
+                "caption": "Sample String B",
+                "description": "Access Bus (USB)",
+                "name": "Sample String A",
+                "type": "USB"
+            },
+            {
+                "caption": "Keyboard",
+                "description": "PS\/2",
+                "name": "Keyboard",
+                "type": "Keyboard Port"
+            },
+            {
+                "caption": "Mouse",
+                "description": "PS\/2",
+                "name": "Mouse",
+                "type": "Mouse Port"
+            },
+            {
+                "caption": "COM 1",
+                "description": "Other",
+                "name": "COM 1",
+                "type": "Serial Port 16550A Compatible"
+            },
+            {
+                "caption": "Video",
+                "description": "Other",
+                "name": "J1A2B",
+                "type": "Video Port"
+            },
+            {
+                "caption": "HDMI",
+                "description": "Other",
+                "name": "J3A2",
+                "type": "Video Port"
+            },
+            {
+                "caption": "USB1.1 - 1#",
+                "description": "Access Bus (USB)",
+                "name": "USB1.1 - 1#",
+                "type": "USB"
+            },
+            {
+                "caption": "USB1.1 - 2#",
+                "description": "Access Bus (USB)",
+                "name": "USB1.1 - 2#",
+                "type": "USB"
+            },
+            {
+                "caption": "USB1.1 - 3#",
+                "description": "Access Bus (USB)",
+                "name": "USB1.1 - 3#",
+                "type": "USB"
+            },
+            {
+                "caption": "USB1.1 - 4#",
+                "description": "Access Bus (USB)",
+                "name": "USB1.1 - 4#",
+                "type": "USB"
+            },
+            {
+                "caption": "USB1.1 - 5#",
+                "description": "Access Bus (USB)",
+                "name": "USB1.1 - 5#",
+                "type": "USB"
+            },
+            {
+                "caption": "USB2.0 - 1#",
+                "description": "Access Bus (USB)",
+                "name": "USB2.0 - 1#",
+                "type": "USB"
+            },
+            {
+                "caption": "USB2.0 - 2#",
+                "description": "Access Bus (USB)",
+                "name": "USB2.0 - 2#",
+                "type": "USB"
+            },
+            {
+                "caption": "Ethernet",
+                "description": "RJ-45",
+                "name": "Ethernet",
+                "type": "Network Port"
+            },
+            {
+                "caption": "SATA Port 0 Direct Connect",
+                "description": "SAS\/SATA Plug Receptacle",
+                "name": "J8J1",
+                "type": "SATA"
+            },
+            {
+                "caption": "eSATA Port 4",
+                "description": "SAS\/SATA Plug Receptacle",
+                "name": "J7J1",
+                "type": "SATA"
+            },
+            {
+                "caption": "eSATA Port 3",
+                "description": "SAS\/SATA Plug Receptacle",
+                "name": "J6J1",
+                "type": "SATA"
+            },
+            {
+                "description": "SAS\/SATA Plug Receptacle",
+                "name": "J7G1 - SATA Port 2",
+                "type": "SATA"
+            },
+            {
+                "description": "SAS\/SATA Plug Receptacle",
+                "name": "J7G2 - SATA Port 1",
+                "type": "SATA"
+            },
+            {
+                "caption": "AC IN",
+                "description": "Other",
+                "name": "J1F2",
+                "type": "Other"
+            },
+            {
+                "description": "Other",
+                "name": "J5B1 - PCH JTAG",
+                "type": "Other"
+            },
+            {
+                "description": "Other",
+                "name": "J9A1 - TPM\/PORT 80",
+                "type": "Other"
+            },
+            {
+                "description": "Other",
+                "name": "J9E4 - HDA 2X8 Header",
+                "type": "Other"
+            },
+            {
+                "description": "Other",
+                "name": "J9E7 - HDA 8Pin Header",
+                "type": "Other"
+            },
+            {
+                "description": "Other",
+                "name": "J8F1 - HDA HDMI",
+                "type": "Other"
+            },
+            {
+                "description": "Other",
+                "name": "J9E3 - Scan Matrix Keyboard",
+                "type": "Other"
+            },
+            {
+                "description": "Other",
+                "name": "J8E1 - SPI Program",
+                "type": "Other"
+            },
+            {
+                "description": "Other",
+                "name": "J9E5 - LPC Hot Docking",
+                "type": "Other"
+            },
+            {
+                "description": "Other",
+                "name": "J9G2 - LPC SIDE BAND",
+                "type": "Other"
+            },
+            {
+                "description": "Other",
+                "name": "J8F2 - LPC Slot",
+                "type": "Other"
+            },
+            {
+                "description": "Other",
+                "name": "J8H3 - PCH XDP",
+                "type": "Other"
+            },
+            {
+                "description": "Other",
+                "name": "J6H1 - SATA Power",
+                "type": "Other"
+            },
+            {
+                "description": "Other",
+                "name": "J5J1 - FP Header",
+                "type": "Other"
+            },
+            {
+                "description": "Other",
+                "name": "J4H1 - ATX Power",
+                "type": "Other"
+            },
+            {
+                "description": "Other",
+                "name": "J1J3 - AVMC",
+                "type": "Other"
+            },
+            {
+                "description": "Other",
+                "name": "J1H1 - BATT B",
+                "type": "Other"
+            },
+            {
+                "description": "Other",
+                "name": "J1H2 - BATT A",
+                "type": "Other"
+            },
+            {
+                "description": "Other",
+                "name": "J2G1 - CPU Fan",
+                "type": "Other"
+            },
+            {
+                "description": "Other",
+                "name": "J1D3 - XDP",
+                "type": "Other"
+            },
+            {
+                "description": "Other",
+                "name": "J4V1 - Memory Slot 1",
+                "type": "Other"
+            },
+            {
+                "description": "Other",
+                "name": "J4V2 - Memory Slot 2",
+                "type": "Other"
+            },
+            {
+                "description": "Other",
+                "name": "J4C1 - FAN PWR",
+                "type": "Other"
+            },
+            {
+                "caption": "Primary HDD Bay",
+                "description": "SAS\/SATA Plug Receptacle",
+                "name": "Ctrl0Port0",
+                "type": "SATA"
+            },
+            {
+                "caption": "Secondary HDD Bay",
+                "description": "SAS\/SATA Plug Receptacle",
+                "name": "Ctrl0Port0",
+                "type": "SATA"
+            },
+            {
+                "caption": "J1A1",
+                "description": "J1A1",
+                "name": "J1A1",
+                "type": "PS\/2"
+            },
+            {
+                "caption": "J1A1",
+                "description": "J1A1",
+                "name": "J1A1",
+                "type": "PS\/2"
+            },
+            {
+                "caption": "J2A1",
+                "description": "J2A1",
+                "name": "J2A1",
+                "type": "Mini-Centronics Type-14"
+            },
+            {
+                "caption": "J2A2A",
+                "description": "J2A2A",
+                "name": "J2A2A",
+                "type": "DB-9, Male"
+            },
+            {
+                "caption": "J2A2B",
+                "description": "J2A2B",
+                "name": "J2A2B",
+                "type": "DB-15, Female"
+            },
+            {
+                "caption": "J3A1",
+                "description": "J3A1",
+                "name": "J3A1",
+                "type": "Access.bus"
+            },
+            {
+                "caption": "J3A1",
+                "description": "J3A1",
+                "name": "J3A1",
+                "type": "Access.bus"
+            },
+            {
+                "caption": "Sample String A",
+                "description": "Sample String A",
+                "name": "Sample String A",
+                "type": "Access.bus, Access.bus"
+            },
+            {
+                "caption": "None",
+                "description": "None",
+                "name": "None",
+                "type": "PS\/2"
+            },
+            {
+                "caption": "None",
+                "description": "None",
+                "name": "None",
+                "type": "PS\/2"
+            },
+            {
+                "caption": "None",
+                "description": "None",
+                "name": "None",
+                "type": "Unknown"
+            },
+            {
+                "caption": "J1A2B",
+                "description": "J1A2B",
+                "name": "J1A2B",
+                "type": "DB-15, Female"
+            },
+            {
+                "caption": "J3A2",
+                "description": "J3A2",
+                "name": "J3A2",
+                "type": "Unknown"
+            },
+            {
+                "caption": "None",
+                "description": "None",
+                "name": "None",
+                "type": "Access.bus"
+            },
+            {
+                "caption": "None",
+                "description": "None",
+                "name": "None",
+                "type": "Access.bus"
+            },
+            {
+                "caption": "None",
+                "description": "None",
+                "name": "None",
+                "type": "Access.bus"
+            },
+            {
+                "caption": "None",
+                "description": "None",
+                "name": "None",
+                "type": "Access.bus"
+            },
+            {
+                "caption": "None",
+                "description": "None",
+                "name": "None",
+                "type": "Access.bus"
+            },
+            {
+                "caption": "None",
+                "description": "None",
+                "name": "None",
+                "type": "Access.bus"
+            },
+            {
+                "caption": "None",
+                "description": "None",
+                "name": "None",
+                "type": "Access.bus"
+            },
+            {
+                "caption": "None",
+                "description": "None",
+                "name": "None",
+                "type": "RJ45"
+            },
+            {
+                "caption": "J8J1",
+                "description": "J8J1",
+                "name": "J8J1",
+                "type": "Unknown"
+            },
+            {
+                "caption": "J7J1",
+                "description": "J7J1",
+                "name": "J7J1",
+                "type": "Unknown"
+            },
+            {
+                "caption": "J6J1",
+                "description": "J6J1",
+                "name": "J6J1",
+                "type": "Unknown"
+            },
+            {
+                "caption": "J7G1 - SATA Port 2",
+                "description": "J7G1 - SATA Port 2",
+                "name": "J7G1 - SATA Port 2",
+                "type": "Unknown"
+            },
+            {
+                "caption": "J7G2 - SATA Port 1",
+                "description": "J7G2 - SATA Port 1",
+                "name": "J7G2 - SATA Port 1",
+                "type": "Unknown"
+            },
+            {
+                "caption": "J1F2",
+                "description": "J1F2",
+                "name": "J1F2",
+                "type": "Unknown"
+            },
+            {
+                "caption": "J5B1 - PCH JTAG",
+                "description": "J5B1 - PCH JTAG",
+                "name": "J5B1 - PCH JTAG",
+                "type": "Unknown"
+            },
+            {
+                "caption": "J9A1 - TPM\/PORT 80",
+                "description": "J9A1 - TPM\/PORT 80",
+                "name": "J9A1 - TPM\/PORT 80",
+                "type": "Unknown"
+            },
+            {
+                "caption": "J9E4 - HDA 2X8 Header",
+                "description": "J9E4 - HDA 2X8 Header",
+                "name": "J9E4 - HDA 2X8 Header",
+                "type": "Unknown"
+            },
+            {
+                "caption": "J9E7 - HDA 8Pin Header",
+                "description": "J9E7 - HDA 8Pin Header",
+                "name": "J9E7 - HDA 8Pin Header",
+                "type": "Unknown"
+            },
+            {
+                "caption": "J8F1 - HDA HDMI",
+                "description": "J8F1 - HDA HDMI",
+                "name": "J8F1 - HDA HDMI",
+                "type": "Unknown"
+            },
+            {
+                "caption": "J9E3 - Scan Matrix Keyboard",
+                "description": "J9E3 - Scan Matrix Keyboard",
+                "name": "J9E3 - Scan Matrix Keyboard",
+                "type": "Unknown"
+            },
+            {
+                "caption": "J8E1 - SPI Program",
+                "description": "J8E1 - SPI Program",
+                "name": "J8E1 - SPI Program",
+                "type": "Unknown"
+            },
+            {
+                "caption": "J9E5 - LPC Hot Docking",
+                "description": "J9E5 - LPC Hot Docking",
+                "name": "J9E5 - LPC Hot Docking",
+                "type": "Unknown"
+            },
+            {
+                "caption": "J9G2 - LPC SIDE BAND",
+                "description": "J9G2 - LPC SIDE BAND",
+                "name": "J9G2 - LPC SIDE BAND",
+                "type": "Unknown"
+            },
+            {
+                "caption": "J8F2 - LPC Slot",
+                "description": "J8F2 - LPC Slot",
+                "name": "J8F2 - LPC Slot",
+                "type": "Unknown"
+            },
+            {
+                "caption": "J8H3 - PCH XDP",
+                "description": "J8H3 - PCH XDP",
+                "name": "J8H3 - PCH XDP",
+                "type": "Unknown"
+            },
+            {
+                "caption": "J6H1 - SATA Power",
+                "description": "J6H1 - SATA Power",
+                "name": "J6H1 - SATA Power",
+                "type": "Unknown"
+            },
+            {
+                "caption": "J5J1 - FP Header",
+                "description": "J5J1 - FP Header",
+                "name": "J5J1 - FP Header",
+                "type": "Unknown"
+            },
+            {
+                "caption": "J4H1 - ATX Power",
+                "description": "J4H1 - ATX Power",
+                "name": "J4H1 - ATX Power",
+                "type": "Unknown"
+            },
+            {
+                "caption": "J1J3 - AVMC",
+                "description": "J1J3 - AVMC",
+                "name": "J1J3 - AVMC",
+                "type": "Unknown"
+            },
+            {
+                "caption": "J1H1 - BATT B",
+                "description": "J1H1 - BATT B",
+                "name": "J1H1 - BATT B",
+                "type": "Unknown"
+            },
+            {
+                "caption": "J1H2 - BATT A",
+                "description": "J1H2 - BATT A",
+                "name": "J1H2 - BATT A",
+                "type": "Unknown"
+            },
+            {
+                "caption": "J2G1 - CPU Fan",
+                "description": "J2G1 - CPU Fan",
+                "name": "J2G1 - CPU Fan",
+                "type": "Unknown"
+            },
+            {
+                "caption": "J1D3 - XDP",
+                "description": "J1D3 - XDP",
+                "name": "J1D3 - XDP",
+                "type": "Unknown"
+            },
+            {
+                "caption": "J4V1 - Memory Slot 1",
+                "description": "J4V1 - Memory Slot 1",
+                "name": "J4V1 - Memory Slot 1",
+                "type": "Unknown"
+            },
+            {
+                "caption": "J4V2 - Memory Slot 2",
+                "description": "J4V2 - Memory Slot 2",
+                "name": "J4V2 - Memory Slot 2",
+                "type": "Unknown"
+            },
+            {
+                "caption": "J4C1 - FAN PWR",
+                "description": "J4C1 - FAN PWR",
+                "name": "J4C1 - FAN PWR",
+                "type": "Unknown"
+            },
+            {
+                "caption": "Ctrl0Port0",
+                "description": "Ctrl0Port0",
+                "name": "Ctrl0Port0",
+                "type": "Unknown"
+            },
+            {
+                "caption": "Ctrl0Port0",
+                "description": "Ctrl0Port0",
+                "name": "Ctrl0Port0",
+                "type": "Unknown"
+            }
+        ],
+        "printers": [
+            {
+                "driver": "HP DJ 2700 series PCL-3",
+                "errstatus": "Other",
+                "name": "HPC80A44 (HP DeskJet 2700 series)",
+                "network": false,
+                "port": "WSD-bd4273a0-adc5-4f6f-90e6-a04bc95b7468",
+                "printprocessor": "winprint",
+                "resolution": "300x300",
+                "shared": false,
+                "status": "Other"
+            },
+            {
+                "driver": "Send to Microsoft OneNote 16 Driver",
+                "name": "OneNote (Desktop)",
+                "network": false,
+                "port": "nul:",
+                "printprocessor": "winprint",
+                "resolution": "600x600",
+                "shared": false,
+                "status": "Idle"
+            },
+            {
+                "driver": "Microsoft Print To PDF",
+                "name": "Microsoft Print to PDF",
+                "network": false,
+                "port": "PORTPROMPT:",
+                "printprocessor": "winprint",
+                "resolution": "600x600",
+                "shared": false,
+                "status": "Idle"
+            },
+            {
+                "driver": "AnyDesk v4 Printer Driver",
+                "name": "AnyDesk Printer",
+                "network": false,
+                "port": "AD_Port",
+                "printprocessor": "winprint",
+                "resolution": "600x600",
+                "shared": false,
+                "status": "Idle"
+            }
+        ],
+        "remote_mgmt": [
+            {
+                "id": "1532474255",
+                "type": "anydesk"
+            }
+        ],
+        "slots": [
+            {
+                "description": "x16 PCI Express",
+                "designation": "0",
+                "name": "J6B2",
+                "status": "used"
+            },
+            {
+                "description": "Ranura de sistema",
+                "designation": "J6B2",
+                "name": "Ranura de sistema",
+                "status": "used"
+            }
+        ],
+        "softwares": [
+            {
+                "arch": "x86_64",
+                "from": "registry",
+                "guid": "CCleaner",
+                "install_date": "2025-01-22",
+                "name": "CCleaner",
+                "publisher": "Piriform",
+                "system_category": "application",
+                "uninstall_string": "\"C:\\Program Files\\CCleaner\\uninst.exe\"",
+                "version": "6.32"
+            },
+            {
+                "arch": "x86_64",
+                "from": "registry",
+                "guid": "HP_Documentation",
+                "install_date": "2025-01-17",
+                "name": "HP Documentation",
+                "publisher": "HP Inc.",
+                "system_category": "application",
+                "uninstall_string": "CMD \/C \"C:\\Program Files\\HP\\Documentation\\Doc_Uninstall.cmd\"",
+                "version": "1.0.0.1"
+            },
+            {
+                "arch": "x86_64",
+                "from": "registry",
+                "guid": "mstsc-4b0a31aa-df6a-4307-9b47-d5cc50009643",
+                "install_date": "2025-01-17",
+                "name": "mstsc-4b0a31aa-df6a-4307-9b47-d5cc50009643",
+                "publisher": "Microsoft Corporation",
+                "system_category": "application",
+                "uninstall_string": "\"C:\\Windows\\System32\\mstsc.exe\" \/uninstall"
+            },
+            {
+                "arch": "x86_64",
+                "from": "registry",
+                "guid": "O365BusinessRetail - es-es",
+                "install_date": "2025-01-17",
+                "name": "Aplicaciones de Microsoft 365 para negocios - es-es",
+                "no_remove": false,
+                "publisher": "Microsoft Corporation",
+                "system_category": "application",
+                "uninstall_string": "\"C:\\Program Files\\Common Files\\Microsoft Shared\\ClickToRun\\OfficeClickToRun.exe\" scenario=install scenariosubtype=ARP sourcetype=None productstoremove=O365BusinessRetail.16_es-es_x-none culture=es-es version.16=16.0",
+                "version": "16.0.18324.20194"
+            },
+            {
+                "arch": "x86_64",
+                "from": "registry",
+                "guid": "OneDriveSetup.exe",
+                "helplink": "https:\/\/go.microsoft.com\/fwlink\/?LinkID=215117",
+                "install_date": "2025-01-30",
+                "name": "Microsoft OneDrive",
+                "publisher": "Microsoft Corporation",
+                "system_category": "application",
+                "uninstall_string": "\"C:\\Program Files\\Microsoft OneDrive\\25.004.0109.0002\\OneDriveSetup.exe\"  \/uninstall  \/allusers ",
+                "version": "25.004.0109.0002"
+            },
+            {
+                "arch": "x86_64",
+                "from": "registry",
+                "guid": "OneNoteFreeRetail - en-us",
+                "install_date": "2025-01-17",
+                "name": "Microsoft OneNote - en-us",
+                "no_remove": false,
+                "publisher": "Microsoft Corporation",
+                "system_category": "application",
+                "uninstall_string": "\"C:\\Program Files\\Common Files\\Microsoft Shared\\ClickToRun\\OfficeClickToRun.exe\" scenario=install scenariosubtype=ARP sourcetype=None productstoremove=OneNoteFreeRetail.16_en-us_x-none culture=en-us version.16=16.0",
+                "version": "16.0.18324.20194"
+            },
+            {
+                "arch": "x86_64",
+                "from": "registry",
+                "guid": "OneNoteFreeRetail - es-mx",
+                "install_date": "2025-01-17",
+                "name": "Microsoft OneNote - es-mx",
+                "no_remove": false,
+                "publisher": "Microsoft Corporation",
+                "system_category": "application",
+                "uninstall_string": "\"C:\\Program Files\\Common Files\\Microsoft Shared\\ClickToRun\\OfficeClickToRun.exe\" scenario=install scenariosubtype=ARP sourcetype=None productstoremove=OneNoteFreeRetail.16_es-mx_x-none culture=es-mx version.16=16.0",
+                "version": "16.0.18324.20194"
+            },
+            {
+                "arch": "x86_64",
+                "from": "registry",
+                "guid": "VLC media player",
+                "install_date": "2025-01-17",
+                "name": "VLC media player",
+                "publisher": "VideoLAN",
+                "system_category": "application",
+                "uninstall_string": "\"C:\\Program Files\\VideoLAN\\VLC\\uninstall.exe\"",
+                "url_info_about": "https:\/\/www.videolan.org\/",
+                "version": "3.0.21"
+            },
+            {
+                "arch": "x86_64",
+                "from": "registry",
+                "guid": "{90160000-007E-0000-1000-0000000FF1CE}",
+                "install_date": "2025-01-17",
+                "name": "Office 16 Click-to-Run Licensing Component",
+                "publisher": "Microsoft Corporation",
+                "system_category": "system_component",
+                "uninstall_string": "MsiExec.exe \/I{90160000-007E-0000-1000-0000000FF1CE}",
+                "version": "16.0.18324.20168"
+            },
+            {
+                "arch": "x86_64",
+                "from": "registry",
+                "guid": "{90160000-008C-0000-1000-0000000FF1CE}",
+                "install_date": "2025-01-17",
+                "name": "Office 16 Click-to-Run Extensibility Component",
+                "publisher": "Microsoft Corporation",
+                "system_category": "system_component",
+                "uninstall_string": "MsiExec.exe \/X{90160000-008C-0000-1000-0000000FF1CE}",
+                "version": "16.0.18324.20194"
+            },
+            {
+                "arch": "x86_64",
+                "from": "registry",
+                "guid": "{90160000-008C-0C0A-1000-0000000FF1CE}",
+                "install_date": "2025-01-17",
+                "name": "Office 16 Click-to-Run Localization Component",
+                "publisher": "Microsoft Corporation",
+                "system_category": "system_component",
+                "uninstall_string": "MsiExec.exe \/X{90160000-008C-0C0A-1000-0000000FF1CE}",
+                "version": "16.0.18324.20194"
+            },
+            {
+                "arch": "x86_64",
+                "from": "registry",
+                "guid": "{A7AB73A3-CB10-4AA5-9D38-6AEFFBDE4C91}",
+                "install_date": "2025-01-15",
+                "name": "Microsoft Teams Meeting Add-in for Microsoft Office",
+                "publisher": "Microsoft",
+                "system_category": "application",
+                "uninstall_string": "MsiExec.exe \/I{A7AB73A3-CB10-4AA5-9D38-6AEFFBDE4C91}",
+                "version": "1.24.31301"
+            },
+            {
+                "arch": "x86_64",
+                "from": "registry",
+                "guid": "{C1CAB747-7463-4218-972B-56DA4032310F}",
+                "install_date": "2025-01-17",
+                "name": "FortiClient VPN",
+                "publisher": "Fortinet Technologies Inc",
+                "system_category": "application",
+                "uninstall_string": "MsiExec.exe \/I{C1CAB747-7463-4218-972B-56DA4032310F}",
+                "version": "7.0.14.0585"
+            },
+            {
+                "arch": "x86_64",
+                "from": "registry",
+                "guid": "{C6FD611E-7EFE-488C-A0E0-974C09EF6473}",
+                "install_date": "2025-01-14",
+                "name": "Microsoft Update Health Tools",
+                "publisher": "Microsoft Corporation",
+                "system_category": "application",
+                "uninstall_string": "MsiExec.exe \/X{C6FD611E-7EFE-488C-A0E0-974C09EF6473}",
+                "version": "5.72.0.0"
+            },
+            {
+                "arch": "x86_64",
+                "comments": "GLPI Agent 1.7.1",
+                "from": "registry",
+                "guid": "{CF9A3F4C-6BF4-1014-BBBD-E6E599B62783}",
+                "helplink": "https:\/\/glpi-project.org\/discussions\/",
+                "install_date": "2025-01-17",
+                "name": "GLPI Agent 1.7.1",
+                "publisher": "Teclib'",
+                "system_category": "application",
+                "uninstall_string": "MsiExec.exe \/I{CF9A3F4C-6BF4-1014-BBBD-E6E599B62783}",
+                "url_info_about": "https:\/\/glpi-project.org\/",
+                "version": "1.7.1"
+            },
+            {
+                "arch": "x86_64",
+                "from": "registry",
+                "install_date": "2025-01-17",
+                "name": "Internet Explorer (64bit)",
+                "publisher": "Microsoft Corporation",
+                "version": "11.1882.26100.0"
+            },
+            {
+                "arch": "i586",
+                "from": "registry",
+                "guid": "AnyDesk",
+                "helplink": "http:\/\/help.anydesk.com\/",
+                "install_date": "2025-01-17",
+                "name": "AnyDesk",
+                "publisher": "AnyDesk Software GmbH",
+                "system_category": "application",
+                "uninstall_string": "\"C:\\Program Files (x86)\\AnyDesk\\AnyDesk.exe\" --uninstall",
+                "version": "ad 7.0.0"
+            },
+            {
+                "arch": "i586",
+                "from": "registry",
+                "guid": "DMS S.A.",
+                "install_date": "2025-01-17",
+                "name": "DMS S.A.",
+                "system_category": "application",
+                "uninstall_string": "C:\\Program Files (x86)\\DMS\\uninstall.exe"
+            },
+            {
+                "arch": "i586",
+                "from": "registry",
+                "guid": "Foxit Reader_is1",
+                "helplink": "https:\/\/www.foxit.com\/spanish\/support\/0",
+                "install_date": "2025-01-15",
+                "name": "Foxit PDF Reader",
+                "publisher": "Foxit Software Inc.",
+                "system_category": "application",
+                "uninstall_string": "\"C:\\Program Files (x86)\\Foxit Software\\Foxit PDF Reader\\unins000.exe\"",
+                "url_info_about": "https:\/\/www.foxit.com\/spanish\/0",
+                "version": "2024.4.0.27683",
+                "version_major": "2024",
+                "version_minor": "4"
+            },
+            {
+                "arch": "i586",
+                "from": "registry",
+                "guid": "Google Chrome",
+                "install_date": "2025-01-29",
+                "name": "Google Chrome",
+                "publisher": "Google LLC",
+                "system_category": "application",
+                "uninstall_string": "\"C:\\Program Files\\Google\\Chrome\\Application\\132.0.6834.111\\Installer\\setup.exe\" --uninstall --channel=stable --system-level --verbose-logging",
+                "version": "132.0.6834.111"
+            },
+            {
+                "arch": "i586",
+                "from": "registry",
+                "guid": "Microsoft Edge",
+                "install_date": "2025-01-27",
+                "name": "Microsoft Edge",
+                "no_remove": true,
+                "publisher": "Microsoft Corporation",
+                "system_category": "application",
+                "uninstall_string": "\"C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\132.0.2957.127\\Installer\\setup.exe\" --uninstall --msedge --channel=stable --system-level --verbose-logging",
+                "version": "132.0.2957.127"
+            },
+            {
+                "arch": "i586",
+                "from": "registry",
+                "guid": "Microsoft Edge Update",
+                "install_date": "2025-01-17",
+                "name": "Microsoft Edge Update",
+                "no_remove": true,
+                "system_category": "application",
+                "version": "1.3.195.43"
+            },
+            {
+                "arch": "i586",
+                "from": "registry",
+                "guid": "Microsoft EdgeWebView",
+                "install_date": "2025-01-27",
+                "name": "WebView2 Runtime de Microsoft Edge",
+                "no_remove": true,
+                "publisher": "Microsoft Corporation",
+                "system_category": "system_component",
+                "uninstall_string": "\"C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\132.0.2957.127\\Installer\\setup.exe\" --uninstall --msedgewebview --system-level --verbose-logging",
+                "version": "132.0.2957.127"
+            },
+            {
+                "arch": "i586",
+                "from": "registry",
+                "guid": "{6468C4A5-E47E-405F-B675-A70A70983EA6}",
+                "install_date": "2024-05-18",
+                "name": "HP Connection Optimizer",
+                "publisher": "HP Inc",
+                "system_category": "application",
+                "uninstall_string": "\"C:\\Program Files (x86)\\InstallShield Installation Information\\{6468C4A5-E47E-405F-B675-A70A70983EA6}\\setup.exe\" -runfromtemp -l0x040a  -removeonly",
+                "url_info_about": "http:\/\/www.HPInc.com",
+                "version": "2.0.20.0"
+            },
+            {
+                "arch": "i586",
+                "from": "registry",
+                "install_date": "2025-01-17",
+                "name": "Internet Explorer",
+                "publisher": "Microsoft Corporation",
+                "version": "11.1882.26100.0"
+            }
+        ],
+        "users": [
+            {
+                "domain": "DISSQL",
+                "login": "DAVID.ISAZA"
+            }
+        ],
+        "versionclient": "GLPI-Agent_v1.7.1",
+        "versionprovider": {
+            "comments": [
+                "Provided by Teclib Edition",
+                "Installer built on Fri Dec 22 15:25:22 2023 UTC",
+                "Built with Strawberry Perl 5.36.0",
+                "Built on github actions windows image for glpi-project\/glpi-agent repository"
+            ],
+            "etime": 1192,
+            "name": "GLPI",
+            "perl_exe": "C:\\Program Files\\GLPI-Agent\\perl\\bin\\glpi-agent.exe",
+            "perl_version": "v5.36.0",
+            "program": "C:\\Program Files\\GLPI-Agent\\perl\\bin\\glpi-win32-service",
+            "version": "1.7.1"
+        }
+    },
+    "deviceid": "DIRCOMERCIAL-2025-01-17-14-08-43",
+    "itemtype": "Computer"
+}

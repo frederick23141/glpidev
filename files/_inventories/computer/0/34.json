@@ -1,0 +1,3116 @@
+{
+    "action": "inventory",
+    "content": {
+        "accesslog": {
+            "logdate": "2025-02-20 07:44:52"
+        },
+        "antivirus": [
+            {
+                "company": "WithSecure Corporation",
+                "enabled": true,
+                "guid": "{DA5F8466-F00B-8E6B-6CB8-5AE55C9EBDCD}",
+                "name": "WithSecure\u2122 Elements Agent",
+                "uptodate": true,
+                "version": "25.1"
+            },
+            {
+                "base_version": "1.421.523.0",
+                "company": "Microsoft Corporation",
+                "enabled": false,
+                "guid": "{D68DDC3A-831F-4fae-9E44-DA132C1ACF46}",
+                "name": "Windows Defender",
+                "uptodate": true
+            }
+        ],
+        "batteries": [
+            {
+                "capacity": 40144,
+                "chemistry": "LIon",
+                "date": "2021-02-18",
+                "manufacturer": "Hewlett-Packard",
+                "name": "Primary",
+                "real_capacity": 40144,
+                "serial": "00001 02\/18\/2021",
+                "voltage": 11340
+            }
+        ],
+        "bios": {
+            "assettag": "5CG11318V2",
+            "bdate": "2021-02-02",
+            "bmanufacturer": "AMI",
+            "bversion": "F.14",
+            "mmanufacturer": "HP",
+            "mmodel": "868A",
+            "msn": "PJRSK00WBEZ40R",
+            "skunumber": "151D7LT#ABM",
+            "smanufacturer": "HP",
+            "smodel": "HP 240 G7 Notebook PC",
+            "ssn": "5CG11318V2"
+        },
+        "controllers": [
+            {
+                "caption": "82801 Mobile SATA Controller [RAID mode]",
+                "manufacturer": "Intel Corporation",
+                "name": "82801 Mobile SATA Controller [RAID mode]",
+                "pcisubsystemid": "103c:868a",
+                "productid": "282a",
+                "type": "Intel(R) Chipset SATA\/PCIe RST Premium Controller",
+                "vendorid": "8086"
+            },
+            {
+                "caption": "NV2 NVMe SSD E21T",
+                "manufacturer": "Kingston Technology Company, Inc.",
+                "name": "NV2 NVMe SSD E21T",
+                "pcisubsystemid": "2646:5019",
+                "productid": "5019",
+                "type": "Standard NVM Express Controller",
+                "vendorid": "2646"
+            },
+            {
+                "caption": "Ice Lake-LP USB 3.1 xHCI Host Controller",
+                "manufacturer": "Intel Corporation",
+                "name": "Ice Lake-LP USB 3.1 xHCI Host Controller",
+                "pcisubsystemid": "103c:868a",
+                "productid": "34ed",
+                "type": "Controlador de host eXtensible Intel(R) USB 3.10 - 1.10 (Microsoft)",
+                "vendorid": "8086"
+            },
+            {
+                "caption": "Ice Lake-LP PCI Express Root Port #9",
+                "manufacturer": "Intel Corporation",
+                "name": "Ice Lake-LP PCI Express Root Port #9",
+                "pcisubsystemid": "103c:868a",
+                "productid": "34b0",
+                "type": "Intel(R) PCI Express Root Port #9 - 34B0",
+                "vendorid": "8086"
+            },
+            {
+                "caption": "RTL8821CE 802.11ac PCIe Wireless Network Adapter",
+                "manufacturer": "Realtek Semiconductor Co., Ltd.",
+                "name": "RTL8821CE 802.11ac PCIe Wireless Network Adapter",
+                "pcisubsystemid": "103c:831a",
+                "productid": "c821",
+                "type": "Realtek RTL8821CE 802.11ac PCIe Adapter",
+                "vendorid": "10ec"
+            },
+            {
+                "caption": "Ice Lake-LP PCIe Port #1",
+                "manufacturer": "Intel Corporation",
+                "name": "Ice Lake-LP PCIe Port #1",
+                "pcisubsystemid": "103c:868a",
+                "productid": "34b8",
+                "type": "Intel(R) PCI Express Root Port #1 - 34B8",
+                "vendorid": "8086"
+            },
+            {
+                "caption": "Ice Lake-LP SPI Controller",
+                "manufacturer": "Intel Corporation",
+                "name": "Ice Lake-LP SPI Controller",
+                "pcisubsystemid": "103c:868a",
+                "productid": "34a4",
+                "type": "Intel(R) SPI (flash) Controller - 34A4",
+                "vendorid": "8086"
+            },
+            {
+                "caption": "Ice Lake-LP LPC Controller",
+                "manufacturer": "Intel Corporation",
+                "name": "Ice Lake-LP LPC Controller",
+                "pcisubsystemid": "103c:868a",
+                "productid": "3482",
+                "type": "I\/O LPC Controller (U Premium) - 3482 for Intel(R) On-Package Platform Controller Hub",
+                "vendorid": "8086"
+            },
+            {
+                "caption": "RTL8111\/8168\/8411 PCI Express Gigabit Ethernet Controller",
+                "manufacturer": "Realtek Semiconductor Co., Ltd.",
+                "name": "RTL8111\/8168\/8411 PCI Express Gigabit Ethernet Controller",
+                "pcisubsystemid": "103c:868a",
+                "productid": "8168",
+                "type": "Realtek PCIe GbE Family Controller",
+                "vendorid": "10ec"
+            },
+            {
+                "caption": "Ice Lake-LP Management Engine",
+                "manufacturer": "Intel Corporation",
+                "name": "Ice Lake-LP Management Engine",
+                "pcisubsystemid": "103c:868a",
+                "productid": "34e0",
+                "type": "Intel(R) Management Engine Interface #1",
+                "vendorid": "8086"
+            },
+            {
+                "caption": "Processor Power and Thermal Controller",
+                "manufacturer": "Intel Corporation",
+                "name": "Processor Power and Thermal Controller",
+                "pcisubsystemid": "103c:868a",
+                "productid": "8a03",
+                "type": "Intel(R) Dynamic Tuning Processor Participant",
+                "vendorid": "8086"
+            },
+            {
+                "caption": "Ice Lake-LP DRAM Controller",
+                "manufacturer": "Intel Corporation",
+                "name": "Ice Lake-LP DRAM Controller",
+                "pcisubsystemid": "8086:7270",
+                "productid": "34ef",
+                "type": "PCI standard RAM Controller",
+                "vendorid": "8086"
+            },
+            {
+                "caption": "Ice Lake-LP PCIe Port #4",
+                "manufacturer": "Intel Corporation",
+                "name": "Ice Lake-LP PCIe Port #4",
+                "pcisubsystemid": "103c:868a",
+                "productid": "34bb",
+                "type": "Intel(R) PCI Express Root Port #4 - 34BB",
+                "vendorid": "8086"
+            },
+            {
+                "caption": "Iris Plus Graphics G1 (Ice Lake)",
+                "manufacturer": "Intel Corporation",
+                "name": "Iris Plus Graphics G1 (Ice Lake)",
+                "pcisubsystemid": "103c:868a",
+                "productid": "8a56",
+                "type": "Intel(R) UHD Graphics",
+                "vendorid": "8086"
+            },
+            {
+                "caption": "Ice Lake-LP Smart Sound Technology Audio Controller",
+                "manufacturer": "Intel Corporation",
+                "name": "Ice Lake-LP Smart Sound Technology Audio Controller",
+                "pcisubsystemid": "103c:868a",
+                "productid": "34c8",
+                "type": "Controlador de audio de la tecnolog\u00eda Intel(R) Smart Sound",
+                "vendorid": "8086"
+            },
+            {
+                "caption": "Ice Lake-LP SMBus Controller",
+                "manufacturer": "Intel Corporation",
+                "name": "Ice Lake-LP SMBus Controller",
+                "pcisubsystemid": "103c:868a",
+                "productid": "34a3",
+                "type": "ELAN SMBus Driver",
+                "vendorid": "8086"
+            },
+            {
+                "caption": "Ice Lake-LP PCIe Port #13",
+                "manufacturer": "Intel Corporation",
+                "name": "Ice Lake-LP PCIe Port #13",
+                "pcisubsystemid": "103c:868a",
+                "productid": "34b4",
+                "type": "Intel(R) PCI Express Root Port #13 - 34B4",
+                "vendorid": "8086"
+            },
+            {
+                "caption": "PCI standard host CPU bridge",
+                "manufacturer": "Intel Corporation",
+                "name": "PCI standard host CPU bridge",
+                "pcisubsystemid": "103c:868a",
+                "productid": "8a02",
+                "type": "PCI standard host CPU bridge",
+                "vendorid": "8086"
+            }
+        ],
+        "cpus": [
+            {
+                "core": 2,
+                "description": "Intel64 Family 6 Model 126 Stepping 5",
+                "familynumber": "6",
+                "id": "BFEBFBFF000706E5",
+                "manufacturer": "Intel(R) Corporation",
+                "model": "126",
+                "name": "Intel Core i3-1005G1 CPU @ 1.20GHz",
+                "serial": "ToBeFilledByO.E.M.",
+                "speed": 1200,
+                "stepping": 5,
+                "thread": 2
+            }
+        ],
+        "drives": [
+            {
+                "description": "Disco fijo local",
+                "encrypt_algo": "None",
+                "encrypt_name": "BitLocker",
+                "encrypt_status": "No",
+                "filesystem": "NTFS",
+                "free": 123878,
+                "label": "",
+                "letter": "C:",
+                "serial": "385F0B48",
+                "systemdrive": true,
+                "total": 237636,
+                "type": "Local Disk",
+                "volumn": ""
+            },
+            {
+                "filesystem": "NTFS",
+                "free": 100,
+                "serial": "DA267923",
+                "systemdrive": false,
+                "total": 719,
+                "type": "Local Disk"
+            },
+            {
+                "filesystem": "FAT32",
+                "free": 67,
+                "serial": "EE5BD260",
+                "systemdrive": false,
+                "total": 96,
+                "type": "Local Disk"
+            }
+        ],
+        "envs": [
+            {
+                "key": "ComSpec",
+                "val": "%SystemRoot%\\system32\\cmd.exe"
+            },
+            {
+                "key": "DriverData",
+                "val": "C:\\Windows\\System32\\Drivers\\DriverData"
+            },
+            {
+                "key": "OS",
+                "val": "Windows_NT"
+            },
+            {
+                "key": "Path",
+                "val": "%SystemRoot%\\system32;%SystemRoot%;%SystemRoot%\\System32\\Wbem;%SYSTEMROOT%\\System32\\WindowsPowerShell\\v1.0\\;%SYSTEMROOT%\\System32\\OpenSSH\\"
+            },
+            {
+                "key": "PATHEXT",
+                "val": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"
+            },
+            {
+                "key": "PROCESSOR_ARCHITECTURE",
+                "val": "AMD64"
+            },
+            {
+                "key": "PSModulePath",
+                "val": "%ProgramFiles%\\WindowsPowerShell\\Modules;%SystemRoot%\\system32\\WindowsPowerShell\\v1.0\\Modules"
+            },
+            {
+                "key": "TEMP",
+                "val": "%SystemRoot%\\TEMP"
+            },
+            {
+                "key": "TMP",
+                "val": "%SystemRoot%\\TEMP"
+            },
+            {
+                "key": "USERNAME",
+                "val": "SYSTEM"
+            },
+            {
+                "key": "windir",
+                "val": "%SystemRoot%"
+            },
+            {
+                "key": "NUMBER_OF_PROCESSORS",
+                "val": "4"
+            },
+            {
+                "key": "PROCESSOR_LEVEL",
+                "val": "6"
+            },
+            {
+                "key": "PROCESSOR_IDENTIFIER",
+                "val": "Intel64 Family 6 Model 126 Stepping 5, GenuineIntel"
+            },
+            {
+                "key": "PROCESSOR_REVISION",
+                "val": "7e05"
+            },
+            {
+                "key": "__PSLockDownPolicy",
+                "val": "0"
+            }
+        ],
+        "firewalls": [
+            {
+                "description": "Realtek PCIe GbE Family Controller",
+                "ipaddress": "10.10.10.71",
+                "profile": "DomainProfile",
+                "status": "on"
+            },
+            {
+                "description": "Realtek PCIe GbE Family Controller",
+                "ipaddress6": "fe80::a39:952b:d057:cabc",
+                "profile": "DomainProfile",
+                "status": "on"
+            },
+            {
+                "profile": "StandardProfile",
+                "status": "on"
+            },
+            {
+                "profile": "PublicProfile",
+                "status": "on"
+            }
+        ],
+        "hardware": {
+            "chassis_type": "Notebook",
+            "defaultgateway": "10.10.10.1",
+            "description": "CORSAN S.A PATRICIA RENDON 313-645-53-24",
+            "dns": "10.10.10.245",
+            "lastloggeduser": "COORD.VTASOFI",
+            "memory": 7880,
+            "name": "COORDVTASMED",
+            "uuid": "39C093DC-F782-8D44-8935-71D47EBB8A98",
+            "vmsystem": "Physical",
+            "winlang": "3082",
+            "winowner": "SISTEMAS",
+            "winprodid": "00330-53546-24665-AAOEM",
+            "winprodkey": "3PPNQ-B9YX4-KX6HC-QPRXV-6XXTP",
+            "workgroup": "dissql.com.co"
+        },
+        "inputs": [
+            {
+                "caption": "Mejorado (101 \u00f3 102 teclas)",
+                "description": "USB Input Device",
+                "layout": "0000080A",
+                "name": "Mejorado (101 \u00f3 102 teclas)"
+            },
+            {
+                "caption": "USB Input Device",
+                "description": "USB Input Device",
+                "interface": "USB",
+                "manufacturer": "(Standard system devices)",
+                "name": "USB Input Device",
+                "pointingtype": "2"
+            },
+            {
+                "caption": "ELAN Touchpad",
+                "description": "ELAN Touchpad",
+                "interface": "Other",
+                "manufacturer": "ELAN",
+                "name": "ELAN Touchpad",
+                "pointingtype": "2"
+            }
+        ],
+        "licenseinfos": [
+            {
+                "fullname": "Office 16, VOLUME_KMSCLIENT channel",
+                "key": "XXXXX-XXXXX-XXXXX-XXXXX-WFG99",
+                "name": "Office 16, Office16ProPlusVL_KMS_Client edition",
+                "productid": "00339-10000-00000-AA026"
+            }
+        ],
+        "local_groups": [
+            {
+                "id": "S-1-5-32-544",
+                "name": "Administradores"
+            },
+            {
+                "id": "S-1-5-32-578",
+                "name": "Administradores de Hyper-V"
+            },
+            {
+                "id": "S-1-5-32-552",
+                "name": "Duplicadores"
+            },
+            {
+                "id": "S-1-5-32-568",
+                "name": "IIS_IUSRS"
+            },
+            {
+                "id": "S-1-5-32-546",
+                "name": "Invitados"
+            },
+            {
+                "id": "S-1-5-32-573",
+                "name": "Lectores del registro de eventos"
+            },
+            {
+                "id": "S-1-5-32-569",
+                "name": "Operadores criptogr\u00e1ficos"
+            },
+            {
+                "id": "S-1-5-32-579",
+                "name": "Operadores de asistencia de control de acceso"
+            },
+            {
+                "id": "S-1-5-32-556",
+                "name": "Operadores de configuraci\u00f3n de red"
+            },
+            {
+                "id": "S-1-5-32-551",
+                "name": "Operadores de copia de seguridad"
+            },
+            {
+                "id": "S-1-5-32-583",
+                "name": "Propietarios del dispositivo"
+            },
+            {
+                "id": "S-1-5-32-581",
+                "name": "System Managed Accounts Group"
+            },
+            {
+                "id": "S-1-5-32-545",
+                "name": "Usuarios"
+            },
+            {
+                "id": "S-1-5-32-547",
+                "name": "Usuarios avanzados"
+            },
+            {
+                "id": "S-1-5-32-562",
+                "name": "Usuarios COM distribuidos"
+            },
+            {
+                "id": "S-1-5-32-580",
+                "name": "Usuarios de administraci\u00f3n remota"
+            },
+            {
+                "id": "S-1-5-32-555",
+                "name": "Usuarios de escritorio remoto"
+            },
+            {
+                "id": "S-1-5-32-558",
+                "name": "Usuarios del monitor de sistema"
+            },
+            {
+                "id": "S-1-5-32-559",
+                "name": "Usuarios del registro de rendimiento"
+            }
+        ],
+        "local_users": [
+            {
+                "id": "S-1-5-21-1064318464-3585971342-2164106296-1001",
+                "name": "SISTEMAS"
+            }
+        ],
+        "memories": [
+            {
+                "capacity": 4096,
+                "caption": "Bottom - Slot 1 (left)",
+                "description": "SODIMM",
+                "manufacturer": "Kingston",
+                "model": "9905711-047.A00G",
+                "numslots": 1,
+                "serialnumber": "AB76B612",
+                "speed": "2667",
+                "type": "DDR4"
+            },
+            {
+                "capacity": 4096,
+                "caption": "Bottom - Slot 2 (right)",
+                "description": "SODIMM",
+                "manufacturer": "Samsung",
+                "model": "M471A5244CB0-CWE",
+                "numslots": 2,
+                "serialnumber": "454C6411",
+                "speed": "3200",
+                "type": "DDR4"
+            }
+        ],
+        "monitors": [
+            {
+                "base64": "AP\/\/\/\/\/\/\/wANrsMUAAAAABMaAQSVHxF4An5Fk1VTlCgjUFQAAAABAQEBAQEBAQEBAQEBAQEB2h1W4lAAIDBELUcANa0QAAAa5xNW4lAAIDBELUcANa0QAAAaAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAMRP8LPG4PDxtuAAAAAJwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+                "description": "19\/2016",
+                "manufacturer": "Chimei Innolux Corporation",
+                "serial": "00000000"
+            },
+            {
+                "altserial": "6M356",
+                "base64": "AP\/\/\/\/\/\/\/wAebRhYTHADAAMVAQOAMBt46pU1oVlXnycOUFSlSwBxT4GAgY+zAAEBAQEBAQEBAjqAGHE4LUBYLEUA3QwRAAAeAAAA\/QA4Sx5TDwAKICAgICAgAAAA\/ABFMjI0MQogICAgICAgAAAA\/wAxMDNOREVaNk0zNTYKAXsCAxthQ5CEAiMJBweDAQAAZwMMACAAgCjiAA+MCtCKIOAtEBA+lgCgWgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALg==",
+                "caption": "E2241",
+                "description": "3\/2011",
+                "manufacturer": "Goldstar Company Ltd",
+                "serial": "103NDEZ6M356"
+            }
+        ],
+        "networks": [
+            {
+                "description": "Realtek PCIe GbE Family Controller",
+                "ipaddress": "10.10.10.71",
+                "ipdhcp": "10.10.10.245",
+                "ipgateway": "10.10.10.1",
+                "ipmask": "255.255.255.0",
+                "ipsubnet": "10.10.10.0",
+                "mac": "14:CB:19:73:91:D1",
+                "pciid": "10EC:8168:868A:103C",
+                "pnpdeviceid": "PCI\\VEN_10EC&DEV_8168&SUBSYS_868A103C&REV_15\\4&60de861&0&00E3",
+                "speed": "100",
+                "status": "up",
+                "type": "ethernet",
+                "virtualdev": false
+            },
+            {
+                "description": "Realtek PCIe GbE Family Controller",
+                "ipaddress6": "fe80::a39:952b:d057:cabc",
+                "ipmask6": "ffff:ffff:ffff:ffff::",
+                "ipsubnet6": "fe80::",
+                "mac": "14:CB:19:73:91:D1",
+                "pciid": "10EC:8168:868A:103C",
+                "pnpdeviceid": "PCI\\VEN_10EC&DEV_8168&SUBSYS_868A103C&REV_15\\4&60de861&0&00E3",
+                "speed": "100",
+                "status": "up",
+                "type": "ethernet",
+                "virtualdev": false
+            },
+            {
+                "description": "Realtek RTL8821CE 802.11ac PCIe Adapter",
+                "mac": "64:6C:80:CA:D5:4B",
+                "pciid": "10EC:C821:831A:103C",
+                "pnpdeviceid": "PCI\\VEN_10EC&DEV_C821&SUBSYS_831A103C&REV_00\\4&2bd749c1&0&00E8",
+                "speed": "200",
+                "status": "down",
+                "type": "wifi",
+                "virtualdev": false
+            },
+            {
+                "description": "Bluetooth Device (Personal Area Network)",
+                "mac": "64:6C:80:CA:D5:4C",
+                "pnpdeviceid": "BTH\\MS_BTHPAN\\6&1f5a82a4&0&2",
+                "speed": "3",
+                "status": "down",
+                "type": "ethernet",
+                "virtualdev": false
+            },
+            {
+                "description": "Fortinet Virtual Ethernet Adapter (NDIS 6.30)",
+                "mac": "00:09:0F:FE:00:01",
+                "pnpdeviceid": "ROOT\\NET\\0000",
+                "speed": "100",
+                "status": "down",
+                "type": "ethernet",
+                "virtualdev": true
+            }
+        ],
+        "operatingsystem": {
+            "arch": "64-bit",
+            "boot_time": "2025-02-11 07:16:35",
+            "dns_domain": "dissql.com.co",
+            "fqdn": "COORDVTASMED.dissql.com.co",
+            "full_name": "Microsoft Windows 11 Pro",
+            "install_date": "2023-07-28 16:31:04",
+            "kernel_name": "MSWin32",
+            "kernel_version": "10.0.22631",
+            "name": "Windows",
+            "service_pack": "22631.4751",
+            "timezone": {
+                "name": "America\/Bogota",
+                "offset": "-0500"
+            },
+            "version": "23H2"
+        },
+        "ports": [
+            {
+                "caption": "PS2Mouse",
+                "description": "PS\/2",
+                "name": "J1A1",
+                "type": "Mouse Port"
+            },
+            {
+                "caption": "Keyboard",
+                "description": "PS\/2",
+                "name": "J1A1",
+                "type": "Keyboard Port"
+            },
+            {
+                "caption": "TV Out",
+                "description": "Mini Centronics Type-14",
+                "name": "J2A1",
+                "type": "Other"
+            },
+            {
+                "caption": "COM A",
+                "description": "DB-9 male",
+                "name": "J2A2A",
+                "type": "Serial Port 16550A Compatible"
+            },
+            {
+                "caption": "Video",
+                "description": "DB-15 female",
+                "name": "J2A2B",
+                "type": "Video Port"
+            },
+            {
+                "caption": "USB1",
+                "description": "Access Bus (USB)",
+                "name": "J3A1",
+                "type": "USB"
+            },
+            {
+                "caption": "USB2",
+                "description": "Access Bus (USB)",
+                "name": "J3A1",
+                "type": "USB"
+            },
+            {
+                "caption": "Sample String B",
+                "description": "Access Bus (USB)",
+                "name": "Sample String A",
+                "type": "USB"
+            },
+            {
+                "caption": "Primary HDD Bay",
+                "description": "SAS\/SATA Plug Receptacle",
+                "name": "Ctrl0Port0",
+                "type": "SATA"
+            },
+            {
+                "caption": "Secondary HDD Bay",
+                "description": "SAS\/SATA Plug Receptacle",
+                "name": "Ctrl0Port2",
+                "type": "SATA"
+            },
+            {
+                "caption": "J1A1",
+                "description": "J1A1",
+                "name": "J1A1",
+                "type": "PS\/2"
+            },
+            {
+                "caption": "J1A1",
+                "description": "J1A1",
+                "name": "J1A1",
+                "type": "PS\/2"
+            },
+            {
+                "caption": "J2A1",
+                "description": "J2A1",
+                "name": "J2A1",
+                "type": "Mini-Centronics Type-14"
+            },
+            {
+                "caption": "J2A2A",
+                "description": "J2A2A",
+                "name": "J2A2A",
+                "type": "DB-9, Male"
+            },
+            {
+                "caption": "J2A2B",
+                "description": "J2A2B",
+                "name": "J2A2B",
+                "type": "DB-15, Female"
+            },
+            {
+                "caption": "J3A1",
+                "description": "J3A1",
+                "name": "J3A1",
+                "type": "Access.bus"
+            },
+            {
+                "caption": "J3A1",
+                "description": "J3A1",
+                "name": "J3A1",
+                "type": "Access.bus"
+            },
+            {
+                "caption": "Sample String A",
+                "description": "Sample String A",
+                "name": "Sample String A",
+                "type": "Access.bus, Access.bus"
+            },
+            {
+                "caption": "Ctrl0Port0",
+                "description": "Ctrl0Port0",
+                "name": "Ctrl0Port0",
+                "type": "Unknown"
+            },
+            {
+                "caption": "Ctrl0Port2",
+                "description": "Ctrl0Port2",
+                "name": "Ctrl0Port2",
+                "type": "Unknown"
+            }
+        ],
+        "printers": [
+            {
+                "driver": "RICOH MP 3054J PCL 6",
+                "name": "RICOH-241",
+                "network": false,
+                "port": "10.10.10.241",
+                "printprocessor": "winprint",
+                "resolution": "600x600",
+                "shared": false,
+                "status": "Idle"
+            },
+            {
+                "driver": "Send to Microsoft OneNote 16 Driver",
+                "name": "OneNote (Desktop)",
+                "network": false,
+                "port": "nul:",
+                "printprocessor": "winprint",
+                "resolution": "600x600",
+                "shared": false,
+                "status": "Idle"
+            },
+            {
+                "driver": "Microsoft Print To PDF",
+                "name": "Microsoft Print to PDF",
+                "network": false,
+                "port": "PORTPROMPT:",
+                "printprocessor": "winprint",
+                "resolution": "600x600",
+                "shared": false,
+                "status": "Idle"
+            },
+            {
+                "driver": "RICOH MP 3054 PCL 6",
+                "errstatus": "Other",
+                "name": "DESPACHOS",
+                "network": false,
+                "port": "10.10.10.96",
+                "printprocessor": "winprint",
+                "resolution": "600x600",
+                "shared": false,
+                "status": "Other"
+            },
+            {
+                "driver": "AnyDesk v4 Printer Driver",
+                "name": "AnyDesk Printer",
+                "network": false,
+                "port": "AD_Port",
+                "printprocessor": "winprint",
+                "resolution": "600x600",
+                "shared": false,
+                "status": "Idle"
+            }
+        ],
+        "remote_mgmt": [
+            {
+                "id": "1321528744",
+                "type": "anydesk"
+            }
+        ],
+        "slots": [
+            {
+                "description": "x16 PCI Express",
+                "designation": "0",
+                "name": "J6B2",
+                "status": "used"
+            },
+            {
+                "description": "Ranura de sistema",
+                "designation": "J6B2",
+                "name": "Ranura de sistema",
+                "status": "used"
+            }
+        ],
+        "softwares": [
+            {
+                "arch": "x86_64",
+                "from": "registry",
+                "guid": "CCleaner",
+                "install_date": "2025-01-22",
+                "name": "CCleaner",
+                "publisher": "Piriform",
+                "system_category": "application",
+                "uninstall_string": "\"C:\\Program Files\\CCleaner\\uninst.exe\"",
+                "version": "6.32"
+            },
+            {
+                "arch": "x86_64",
+                "from": "registry",
+                "guid": "mstsc-4b0a31aa-df6a-4307-9b47-d5cc50009643",
+                "install_date": "2023-09-15",
+                "name": "mstsc-4b0a31aa-df6a-4307-9b47-d5cc50009643",
+                "publisher": "Microsoft Corporation",
+                "system_category": "application",
+                "uninstall_string": "\"C:\\Windows\\System32\\mstsc.exe\" \/uninstall"
+            },
+            {
+                "arch": "x86_64",
+                "from": "registry",
+                "guid": "ProPlusVolume - en-us",
+                "install_date": "2023-07-29",
+                "name": "Microsoft Office Professional Plus 2016 - en-us",
+                "no_remove": false,
+                "publisher": "Microsoft Corporation",
+                "system_category": "application",
+                "uninstall_string": "\"C:\\Program Files\\Common Files\\Microsoft Shared\\ClickToRun\\OfficeClickToRun.exe\" scenario=install scenariosubtype=ARP sourcetype=None productstoremove=ProPlusVolume.16_en-us_x-none culture=en-us version.16=16.0",
+                "version": "16.0.15629.20208"
+            },
+            {
+                "arch": "x86_64",
+                "from": "registry",
+                "guid": "ProPlusVolume - es-es",
+                "install_date": "2023-07-29",
+                "name": "Microsoft Office Profesional Plus 2016 - es-es",
+                "no_remove": false,
+                "publisher": "Microsoft Corporation",
+                "system_category": "application",
+                "uninstall_string": "\"C:\\Program Files\\Common Files\\Microsoft Shared\\ClickToRun\\OfficeClickToRun.exe\" scenario=install scenariosubtype=ARP sourcetype=None productstoremove=ProPlusVolume.16_es-es_x-none culture=es-es version.16=16.0",
+                "version": "16.0.15629.20208"
+            },
+            {
+                "arch": "x86_64",
+                "from": "registry",
+                "guid": "VLC media player",
+                "install_date": "2023-07-29",
+                "name": "VLC media player",
+                "publisher": "VideoLAN",
+                "system_category": "application",
+                "uninstall_string": "\"C:\\Program Files\\VideoLAN\\VLC\\uninstall.exe\"",
+                "url_info_about": "https:\/\/www.videolan.org\/",
+                "version": "3.0.18"
+            },
+            {
+                "arch": "x86_64",
+                "from": "registry",
+                "guid": "WinRAR archiver",
+                "install_date": "2023-07-29",
+                "name": "WinRAR 6.22 (64-bit)",
+                "publisher": "win.rar GmbH",
+                "system_category": "application",
+                "uninstall_string": "C:\\Program Files\\WinRAR\\uninstall.exe",
+                "version": "6.22.0"
+            },
+            {
+                "arch": "x86_64",
+                "from": "registry",
+                "guid": "{78CA3586-0715-4862-B091-200565E3BC87}",
+                "install_date": "2024-12-20",
+                "name": "TightVNC",
+                "publisher": "GlavSoft LLC.",
+                "system_category": "application",
+                "uninstall_string": "MsiExec.exe \/I{78CA3586-0715-4862-B091-200565E3BC87}",
+                "version": "2.8.85.0"
+            },
+            {
+                "arch": "x86_64",
+                "from": "registry",
+                "guid": "{90160000-007E-0000-1000-0000000FF1CE}",
+                "install_date": "2023-07-29",
+                "name": "Office 16 Click-to-Run Licensing Component",
+                "publisher": "Microsoft Corporation",
+                "system_category": "system_component",
+                "uninstall_string": "MsiExec.exe \/I{90160000-007E-0000-1000-0000000FF1CE}",
+                "version": "16.0.15629.20156"
+            },
+            {
+                "arch": "x86_64",
+                "from": "registry",
+                "guid": "{90160000-008C-0000-1000-0000000FF1CE}",
+                "install_date": "2023-07-29",
+                "name": "Office 16 Click-to-Run Extensibility Component",
+                "publisher": "Microsoft Corporation",
+                "system_category": "system_component",
+                "uninstall_string": "MsiExec.exe \/X{90160000-008C-0000-1000-0000000FF1CE}",
+                "version": "16.0.15629.20118"
+            },
+            {
+                "arch": "x86_64",
+                "from": "registry",
+                "guid": "{90160000-008C-0C0A-1000-0000000FF1CE}",
+                "install_date": "2023-07-29",
+                "name": "Office 16 Click-to-Run Localization Component",
+                "publisher": "Microsoft Corporation",
+                "system_category": "system_component",
+                "uninstall_string": "MsiExec.exe \/X{90160000-008C-0C0A-1000-0000000FF1CE}",
+                "version": "16.0.15629.20118"
+            },
+            {
+                "arch": "x86_64",
+                "from": "registry",
+                "guid": "{A7AB73A3-CB10-4AA5-9D38-6AEFFBDE4C91}",
+                "install_date": "2025-01-16",
+                "name": "Microsoft Teams Meeting Add-in for Microsoft Office",
+                "publisher": "Microsoft",
+                "system_category": "application",
+                "uninstall_string": "MsiExec.exe \/I{A7AB73A3-CB10-4AA5-9D38-6AEFFBDE4C91}",
+                "version": "1.24.31301"
+            },
+            {
+                "arch": "x86_64",
+                "from": "registry",
+                "guid": "{C6FD611E-7EFE-488C-A0E0-974C09EF6473}",
+                "install_date": "2023-10-27",
+                "name": "Microsoft Update Health Tools",
+                "publisher": "Microsoft Corporation",
+                "system_category": "application",
+                "uninstall_string": "MsiExec.exe \/X{C6FD611E-7EFE-488C-A0E0-974C09EF6473}",
+                "version": "5.72.0.0"
+            },
+            {
+                "arch": "x86_64",
+                "comments": "GLPI Agent 1.7.1",
+                "from": "registry",
+                "guid": "{CF9A3F4C-6BF4-1014-BBBD-E6E599B62783}",
+                "helplink": "https:\/\/glpi-project.org\/discussions\/",
+                "install_date": "2024-12-13",
+                "name": "GLPI Agent 1.7.1",
+                "publisher": "Teclib'",
+                "system_category": "application",
+                "uninstall_string": "MsiExec.exe \/I{CF9A3F4C-6BF4-1014-BBBD-E6E599B62783}",
+                "url_info_about": "https:\/\/glpi-project.org\/",
+                "version": "1.7.1"
+            },
+            {
+                "arch": "x86_64",
+                "from": "registry",
+                "guid": "{FF46D152-9845-4ACE-8258-DBA7E3BE9785}",
+                "install_date": "2023-07-29",
+                "name": "FortiClient VPN",
+                "publisher": "Fortinet Technologies Inc",
+                "system_category": "application",
+                "uninstall_string": "MsiExec.exe \/I{FF46D152-9845-4ACE-8258-DBA7E3BE9785}",
+                "version": "7.0.9.0493"
+            },
+            {
+                "arch": "x86_64",
+                "from": "registry",
+                "install_date": "2023-07-29",
+                "name": "Internet Explorer (64bit)",
+                "publisher": "Microsoft Corporation",
+                "version": "11.1.22621.0"
+            },
+            {
+                "arch": "i586",
+                "from": "registry",
+                "guid": "AnyDesk",
+                "helplink": "https:\/\/help.anydesk.com\/",
+                "install_date": "2024-05-22",
+                "name": "AnyDesk",
+                "publisher": "AnyDesk Software GmbH",
+                "system_category": "application",
+                "uninstall_string": "\"C:\\Program Files (x86)\\AnyDesk\\AnyDesk.exe\" --uninstall",
+                "version": "ad 8.0.10"
+            },
+            {
+                "arch": "i586",
+                "from": "registry",
+                "guid": "DMS S.A.",
+                "install_date": "2023-07-29",
+                "name": "DMS S.A.",
+                "system_category": "application",
+                "uninstall_string": "C:\\Program Files (x86)\\DMS\\uninstall.exe"
+            },
+            {
+                "arch": "i586",
+                "from": "registry",
+                "guid": "Google Chrome",
+                "install_date": "2025-02-20",
+                "name": "Google Chrome",
+                "publisher": "Google LLC",
+                "system_category": "application",
+                "uninstall_string": "\"C:\\Program Files\\Google\\Chrome\\Application\\133.0.6943.99\\Installer\\setup.exe\" --uninstall --channel=stable --system-level --verbose-logging",
+                "version": "133.0.6943.99"
+            },
+            {
+                "arch": "i586",
+                "from": "registry",
+                "guid": "Microsoft Edge",
+                "install_date": "2025-02-17",
+                "name": "Microsoft Edge",
+                "no_remove": true,
+                "publisher": "Microsoft Corporation",
+                "system_category": "application",
+                "uninstall_string": "\"C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\133.0.3065.69\\Installer\\setup.exe\" --uninstall --msedge --channel=stable --system-level --verbose-logging",
+                "version": "133.0.3065.69"
+            },
+            {
+                "arch": "i586",
+                "from": "registry",
+                "guid": "Microsoft Edge Update",
+                "install_date": "2024-12-23",
+                "name": "Microsoft Edge Update",
+                "no_remove": true,
+                "system_category": "application",
+                "version": "1.3.195.43"
+            },
+            {
+                "arch": "i586",
+                "from": "registry",
+                "guid": "Microsoft EdgeWebView",
+                "install_date": "2025-02-17",
+                "name": "WebView2 Runtime de Microsoft Edge",
+                "no_remove": true,
+                "publisher": "Microsoft Corporation",
+                "system_category": "system_component",
+                "uninstall_string": "\"C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\133.0.3065.69\\Installer\\setup.exe\" --uninstall --msedgewebview --system-level --verbose-logging",
+                "version": "133.0.3065.69"
+            },
+            {
+                "arch": "i586",
+                "from": "registry",
+                "guid": "{029E2310-D741-4AD4-BEBB-23830E56DC25}",
+                "install_date": "2025-02-10",
+                "name": "WithSecure\u2122 Elements Agent",
+                "publisher": "WithSecure Corporation",
+                "system_category": "application",
+                "uninstall_string": "\"C:\\Program Files (x86)\\F-Secure\\PSB\\fs_uninstall_32.exe\"",
+                "version": "25.1"
+            },
+            {
+                "arch": "i586",
+                "from": "registry",
+                "guid": "{E2596EA7-1E0B-11EE-9304-54BF64A63C26}",
+                "helplink": "http:\/\/www.foxit.com\/spanish\/support\/",
+                "install_date": "2023-07-28",
+                "name": "Foxit PDF Reader",
+                "publisher": "Foxit Software Inc.",
+                "system_category": "application",
+                "uninstall_string": "MsiExec.exe \/I{E2596EA7-1E0B-11EE-9304-54BF64A63C26}",
+                "url_info_about": "http:\/\/www.foxit.com\/spanish\/",
+                "version": "12.1.3.15356"
+            },
+            {
+                "arch": "i586",
+                "from": "registry",
+                "install_date": "2023-07-29",
+                "name": "Internet Explorer",
+                "publisher": "Microsoft Corporation",
+                "version": "11.1.22621.0"
+            },
+            {
+                "arch": "x86_64",
+                "comments": "Update",
+                "from": "WMI",
+                "install_date": "2025-01-16",
+                "name": "KB5049624",
+                "release_type": "Update",
+                "system_category": "update"
+            },
+            {
+                "arch": "x86_64",
+                "comments": "Security Update",
+                "from": "WMI",
+                "install_date": "2023-07-29",
+                "name": "KB5012170",
+                "release_type": "Security Update",
+                "system_category": "security_update"
+            },
+            {
+                "arch": "x86_64",
+                "comments": "Update",
+                "from": "WMI",
+                "install_date": "2024-03-15",
+                "name": "KB5027397",
+                "release_type": "Update",
+                "system_category": "update"
+            },
+            {
+                "arch": "x86_64",
+                "comments": "Security Update",
+                "from": "WMI",
+                "install_date": "2025-01-16",
+                "name": "KB5050021",
+                "release_type": "Security Update",
+                "system_category": "security_update"
+            },
+            {
+                "arch": "x86_64",
+                "comments": "Security Update",
+                "from": "WMI",
+                "install_date": "2025-01-15",
+                "name": "KB5050113",
+                "release_type": "Security Update",
+                "system_category": "security_update"
+            },
+            {
+                "arch": "neutral",
+                "folder": "C:\\Windows\\SystemApps\\Microsoft.Windows.FilePicker_cw5n1h2txyewy",
+                "from": "uwp",
+                "install_date": "2022-05-07",
+                "name": "1527c705-839a-4832-9118-54d4Bd6a0c89",
+                "publisher": "Microsoft Corporation",
+                "system_category": "system",
+                "version": "10.0.19640.1000"
+            },
+            {
+                "arch": "neutral",
+                "folder": "C:\\Windows\\SystemApps\\Microsoft.Windows.FileExplorer_cw5n1h2txyewy",
+                "from": "uwp",
+                "install_date": "2022-05-07",
+                "name": "Explorador de archivos",
+                "publisher": "Microsoft Corporation",
+                "system_category": "system",
+                "version": "10.0.22621.1"
+            },
+            {
+                "arch": "neutral",
+                "folder": "C:\\Windows\\SystemApps\\Microsoft.Windows.AppResolverUX_cw5n1h2txyewy",
+                "from": "uwp",
+                "install_date": "2022-05-07",
+                "name": "Resoluci\u00f3n de aplicaciones",
+                "publisher": "Microsoft Corporation",
+                "system_category": "system",
+                "version": "10.0.19640.1000"
+            },
+            {
+                "arch": "neutral",
+                "folder": "C:\\Windows\\SystemApps\\Microsoft.Windows.AddSuggestedFoldersToLibraryDialog_cw5n1h2txyewy",
+                "from": "uwp",
+                "install_date": "2022-05-07",
+                "name": "Agregar el cuadro de di\u00e1logo de sugerencias de carpeta",
+                "publisher": "Microsoft Corporation",
+                "system_category": "system",
+                "version": "10.0.22621.1"
+            },
+            {
+                "arch": "neutral",
+                "folder": "C:\\Windows\\SystemApps\\Microsoft.AAD.BrokerPlugin_cw5n1h2txyewy",
+                "from": "uwp",
+                "install_date": "2022-05-07",
+                "name": "Agregar una cuenta profesional o educativa",
+                "publisher": "Microsoft Corporation",
+                "system_category": "system",
+                "version": "1000.19580.1000.0"
+            },
+            {
+                "arch": "neutral",
+                "folder": "C:\\Windows\\SystemApps\\Microsoft.AccountsControl_cw5n1h2txyewy",
+                "from": "uwp",
+                "install_date": "2022-05-07",
+                "name": "Correo electr\u00f3nico y cuentas",
+                "publisher": "Microsoft Corporation",
+                "system_category": "system",
+                "version": "10.0.22621.1"
+            },
+            {
+                "arch": "neutral",
+                "folder": "C:\\Windows\\SystemApps\\Microsoft.AsyncTextService_8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2022-05-07",
+                "name": "AsyncTextService",
+                "publisher": "Microsoft Corporation",
+                "system_category": "system",
+                "version": "10.0.22621.1"
+            },
+            {
+                "arch": "neutral",
+                "folder": "C:\\Windows\\SystemApps\\Microsoft.BioEnrollment_cw5n1h2txyewy",
+                "from": "uwp",
+                "install_date": "2022-05-07",
+                "name": "Configuraci\u00f3n de Windows Hello",
+                "publisher": "Microsoft Corporation",
+                "system_category": "system",
+                "version": "10.0.19587.1000"
+            },
+            {
+                "arch": "neutral",
+                "folder": "C:\\Windows\\SystemApps\\microsoft.creddialoghost_cw5n1h2txyewy",
+                "from": "uwp",
+                "install_date": "2022-05-07",
+                "name": "Cuadro de di\u00e1logo de credenciales",
+                "publisher": "Microsoft Corporation",
+                "system_category": "system",
+                "version": "10.0.19595.1001"
+            },
+            {
+                "arch": "neutral",
+                "folder": "C:\\Windows\\SystemApps\\Microsoft.ECApp_8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2022-05-07",
+                "name": "Control ocular",
+                "publisher": "Microsoft Corporation",
+                "system_category": "system",
+                "version": "10.0.22621.1"
+            },
+            {
+                "arch": "neutral",
+                "folder": "C:\\Windows\\SystemApps\\Microsoft.LockApp_cw5n1h2txyewy",
+                "from": "uwp",
+                "install_date": "2022-05-07",
+                "name": "Pantalla de bloqueo predeterminada de Windows",
+                "publisher": "Microsoft Corporation",
+                "system_category": "system",
+                "version": "10.0.22621.1"
+            },
+            {
+                "arch": "neutral",
+                "comments": "Cliente de Microsoft Edge DevTools",
+                "folder": "C:\\Windows\\SystemApps\\Microsoft.MicrosoftEdgeDevToolsClient_8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2022-05-07",
+                "name": "Cliente de Microsoft Edge DevTools",
+                "publisher": "Microsoft Corporation",
+                "system_category": "system",
+                "version": "1000.22621.1.0"
+            },
+            {
+                "arch": "neutral",
+                "folder": "C:\\Windows\\SystemApps\\Microsoft.MicrosoftEdge_8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2022-05-07",
+                "name": "Microsoft MicrosoftEdge",
+                "publisher": "Microsoft Corporation",
+                "system_category": "system",
+                "version": "44.22621.525.0"
+            },
+            {
+                "arch": "x64",
+                "comments": "Microsoft.UI.Xaml",
+                "folder": "C:\\Windows\\SystemApps\\Microsoft.UI.Xaml.CBS_8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2022-05-07",
+                "name": "Microsoft UI Xaml CBS",
+                "publisher": "Microsoft Corporation",
+                "system_category": "system",
+                "version": "8.2206.15001.0"
+            },
+            {
+                "arch": "neutral",
+                "comments": "Visor web de aplicaci\u00f3n de escritorio",
+                "folder": "C:\\Windows\\SystemApps\\Microsoft.Win32WebViewHost_cw5n1h2txyewy",
+                "from": "uwp",
+                "install_date": "2022-05-07",
+                "name": "Visor web de aplicaci\u00f3n de escritorio",
+                "publisher": "Microsoft Corporation",
+                "system_category": "system",
+                "version": "10.0.22621.1"
+            },
+            {
+                "arch": "neutral",
+                "folder": "C:\\Windows\\SystemApps\\Microsoft.Windows.AppRep.ChxApp_cw5n1h2txyewy",
+                "from": "uwp",
+                "install_date": "2022-05-07",
+                "name": "SmartScreen de Windows Defender ",
+                "publisher": "Microsoft Corporation",
+                "system_category": "system",
+                "version": "1000.22621.1.0"
+            },
+            {
+                "arch": "neutral",
+                "comments": "Inicia la aplicaci\u00f3n para bloqueo encima cuando un usuario de acceso asignado inicia sesi\u00f3n",
+                "folder": "C:\\Windows\\SystemApps\\Microsoft.Windows.AssignedAccessLockApp_cw5n1h2txyewy",
+                "from": "uwp",
+                "install_date": "2022-05-07",
+                "name": "Aplicaci\u00f3n para bloqueo de acceso asignado",
+                "publisher": "Microsoft Corporation",
+                "system_category": "system",
+                "version": "1000.22621.1.0"
+            },
+            {
+                "arch": "neutral",
+                "folder": "C:\\Windows\\SystemApps\\Microsoft.Windows.CallingShellApp_cw5n1h2txyewy",
+                "from": "uwp",
+                "install_date": "2022-05-07",
+                "name": "Llamadas",
+                "publisher": "Microsoft Corporation",
+                "system_category": "system",
+                "version": "1000.22621.1.0"
+            },
+            {
+                "arch": "neutral",
+                "folder": "C:\\Windows\\SystemApps\\Microsoft.Windows.CapturePicker_cw5n1h2txyewy",
+                "from": "uwp",
+                "install_date": "2022-05-07",
+                "name": "CapturePicker",
+                "publisher": "Microsoft Corporation",
+                "system_category": "system",
+                "version": "10.0.19580.1000"
+            },
+            {
+                "arch": "neutral",
+                "folder": "C:\\Windows\\SystemApps\\Microsoft.Windows.CloudExperienceHost_cw5n1h2txyewy",
+                "from": "uwp",
+                "install_date": "2022-05-07",
+                "name": "Tu cuenta",
+                "publisher": "Microsoft Corporation",
+                "system_category": "system",
+                "version": "10.0.22621.1"
+            },
+            {
+                "arch": "neutral",
+                "folder": "C:\\Windows\\SystemApps\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy",
+                "from": "uwp",
+                "install_date": "2022-05-07",
+                "name": "Contenido de Microsoft",
+                "publisher": "Microsoft Corporation",
+                "system_category": "system",
+                "version": "10.0.22621.1"
+            },
+            {
+                "arch": "neutral",
+                "comments": "P\u00e1gina principal de Narrador",
+                "folder": "C:\\Windows\\SystemApps\\microsoft.windows.narratorquickstart_8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2022-05-07",
+                "name": "Narrador",
+                "publisher": "Microsoft Corporation",
+                "system_category": "system",
+                "version": "10.0.22621.1"
+            },
+            {
+                "arch": "neutral",
+                "folder": "C:\\Windows\\SystemApps\\Microsoft.Windows.OOBENetworkCaptivePortal_cw5n1h2txyewy",
+                "from": "uwp",
+                "install_date": "2023-07-28",
+                "name": "Flujo del portal cautivo",
+                "publisher": "Microsoft Corporation",
+                "system_category": "system",
+                "version": "10.0.21302.1000"
+            },
+            {
+                "arch": "neutral",
+                "folder": "C:\\Windows\\SystemApps\\Microsoft.Windows.OOBENetworkConnectionFlow_cw5n1h2txyewy",
+                "from": "uwp",
+                "install_date": "2023-07-28",
+                "name": "Flujo de conexi\u00f3n de red",
+                "publisher": "Microsoft Corporation",
+                "system_category": "system",
+                "version": "10.0.21302.1000"
+            },
+            {
+                "arch": "neutral",
+                "folder": "C:\\Windows\\SystemApps\\ParentalControls_cw5n1h2txyewy",
+                "from": "uwp",
+                "install_date": "2022-05-07",
+                "name": "Caracter\u00edsticas de la familia de Microsoft",
+                "publisher": "Microsoft Corporation",
+                "system_category": "system",
+                "version": "1000.22621.1.0"
+            },
+            {
+                "arch": "neutral",
+                "folder": "C:\\Windows\\SystemApps\\Microsoft.Windows.PeopleExperienceHost_cw5n1h2txyewy",
+                "from": "uwp",
+                "install_date": "2022-05-07",
+                "name": "Experiencia del shell de Windows",
+                "publisher": "Microsoft Corporation",
+                "system_category": "system",
+                "version": "10.0.22621.1"
+            },
+            {
+                "arch": "neutral",
+                "folder": "C:\\Windows\\SystemApps\\Microsoft.Windows.PinningConfirmationDialog_cw5n1h2txyewy",
+                "from": "uwp",
+                "install_date": "2022-05-07",
+                "name": "PinningConfirmationDialog",
+                "publisher": "Microsoft Corporation",
+                "system_category": "system",
+                "version": "1000.22621.1.0"
+            },
+            {
+                "arch": "neutral",
+                "folder": "C:\\Windows\\SystemApps\\Microsoft.Windows.PrintQueueActionCenter_cw5n1h2txyewy",
+                "from": "uwp",
+                "install_date": "2022-05-07",
+                "name": "Cola de impresi\u00f3n",
+                "publisher": "Microsoft Corporation",
+                "system_category": "system",
+                "version": "1.0.1.0"
+            },
+            {
+                "arch": "neutral",
+                "comments": "Hacer una prueba",
+                "folder": "C:\\Windows\\SystemApps\\Microsoft.Windows.SecureAssessmentBrowser_cw5n1h2txyewy",
+                "from": "uwp",
+                "install_date": "2022-05-07",
+                "name": "Hacer una prueba",
+                "publisher": "Microsoft Corporation",
+                "system_category": "system",
+                "version": "10.0.22621.1"
+            },
+            {
+                "arch": "neutral",
+                "folder": "C:\\Windows\\SystemApps\\ShellExperienceHost_cw5n1h2txyewy",
+                "from": "uwp",
+                "install_date": "2022-05-07",
+                "name": "Experiencia del shell de Windows",
+                "publisher": "Microsoft Corporation",
+                "system_category": "system",
+                "version": "10.0.22621.457"
+            },
+            {
+                "arch": "neutral",
+                "folder": "C:\\Windows\\SystemApps\\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy",
+                "from": "uwp",
+                "install_date": "2022-05-07",
+                "name": "Microsoft Windows StartMenuExperienceHost",
+                "publisher": "Microsoft Corporation",
+                "system_category": "system",
+                "version": "10.0.22621.1"
+            },
+            {
+                "arch": "neutral",
+                "folder": "C:\\Windows\\SystemApps\\Microsoft.Windows.XGpuEjectDialog_cw5n1h2txyewy",
+                "from": "uwp",
+                "install_date": "2022-05-07",
+                "name": "Quitar el dispositivo de forma segura",
+                "publisher": "Microsoft Corporation",
+                "system_category": "system",
+                "version": "10.0.22621.1"
+            },
+            {
+                "arch": "neutral",
+                "folder": "C:\\Windows\\SystemApps\\Microsoft.XboxGameCallableUI_cw5n1h2txyewy",
+                "from": "uwp",
+                "install_date": "2022-05-07",
+                "name": "Xbox Game UI",
+                "publisher": "Microsoft Corporation",
+                "system_category": "system",
+                "version": "1000.22621.1.0"
+            },
+            {
+                "arch": "x64",
+                "folder": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy",
+                "from": "uwp",
+                "install_date": "2022-05-07",
+                "name": "Paquete de experiencia de caracter\u00edsticas de Windows",
+                "publisher": "Microsoft Corporation",
+                "system_category": "system",
+                "version": "1000.22634.1000.0"
+            },
+            {
+                "arch": "x64",
+                "folder": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.Core_cw5n1h2txyewy",
+                "from": "uwp",
+                "install_date": "2022-05-07",
+                "name": "Paquete de experiencia de caracter\u00edsticas de Windows",
+                "publisher": "Microsoft Corporation",
+                "system_category": "system",
+                "version": "1000.22633.1000.0"
+            },
+            {
+                "arch": "neutral",
+                "folder": "C:\\Windows\\SystemApps\\MicrosoftWindows.UndockedDevKit_cw5n1h2txyewy",
+                "from": "uwp",
+                "install_date": "2023-07-28",
+                "name": "UDK Package",
+                "publisher": "Microsoft Corporation",
+                "system_category": "system",
+                "version": "10.0.22621.1"
+            },
+            {
+                "arch": "neutral",
+                "folder": "C:\\Windows\\SystemApps\\NcsiUwpApp_8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2022-05-07",
+                "name": "NcsiUwpApp",
+                "publisher": "Microsoft Corporation",
+                "system_category": "system",
+                "version": "1000.22621.1.0"
+            },
+            {
+                "arch": "neutral",
+                "comments": "Cuadro de di\u00e1logo de vista previa del c\u00f3digo de barras de Windows",
+                "folder": "C:\\Windows\\SystemApps\\Windows.CBSPreview_cw5n1h2txyewy",
+                "from": "uwp",
+                "install_date": "2022-05-07",
+                "name": "Vista previa del c\u00f3digo de barras de Windows",
+                "publisher": "Microsoft Corporation",
+                "system_category": "system",
+                "version": "10.0.19580.1000"
+            },
+            {
+                "arch": "neutral",
+                "comments": "Cambia la configuraci\u00f3n y personaliza la forma en que usas el equipo.",
+                "folder": "C:\\Windows\\ImmersiveControlPanel",
+                "from": "uwp",
+                "install_date": "2022-05-07",
+                "name": "Configuraci\u00f3n",
+                "publisher": "Microsoft Corporation",
+                "system_category": "system",
+                "version": "10.0.6.1000"
+            },
+            {
+                "arch": "neutral",
+                "comments": "Windows Print",
+                "folder": "C:\\Windows\\PrintDialog",
+                "from": "uwp",
+                "install_date": "2022-05-07",
+                "name": "Windows Print",
+                "publisher": "Microsoft Corporation",
+                "system_category": "system",
+                "version": "6.2.2.0"
+            },
+            {
+                "arch": "x64",
+                "comments": "Microsoft.UI.Xaml",
+                "folder": "C:\\Program Files\\WindowsApps\\Microsoft.UI.Xaml.2.4_2.42007.9001.0_x64__8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2022-05-07",
+                "name": "Microsoft UI Xaml 2.4",
+                "publisher": "Microsoft Corporation",
+                "system_category": "store",
+                "version": "2.42007.9001.0"
+            },
+            {
+                "arch": "x64",
+                "comments": "Microsoft Visual C++ 2015 UWP Runtime support for native applications",
+                "folder": "C:\\Program Files\\WindowsApps\\Microsoft.VCLibs.140.00_14.0.30704.0_x64__8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2022-05-07",
+                "name": "Microsoft Visual C++ 2015 UWP Runtime Package",
+                "publisher": "Microsoft Corporation",
+                "system_category": "store",
+                "version": "14.0.30704.0"
+            },
+            {
+                "arch": "x64",
+                "comments": "Microsoft .Net Native Runtime Package 2.2",
+                "folder": "C:\\Program Files\\WindowsApps\\Microsoft.NET.Native.Runtime.2.2_2.2.28604.0_x64__8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2022-05-07",
+                "name": "Microsoft .Net Native Runtime Package 2.2",
+                "publisher": "Microsoft Corporation",
+                "system_category": "store",
+                "version": "2.2.28604.0"
+            },
+            {
+                "arch": "x64",
+                "comments": "Microsoft .Net Native Framework Package 2.2",
+                "folder": "C:\\Program Files\\WindowsApps\\Microsoft.NET.Native.Framework.2.2_2.2.29512.0_x64__8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2022-05-07",
+                "name": "Microsoft .Net Native Framework Package 2.2",
+                "publisher": "Microsoft Corporation",
+                "system_category": "store",
+                "version": "2.2.29512.0"
+            },
+            {
+                "arch": "x86",
+                "comments": "Microsoft .Net Native Runtime Package 2.2",
+                "folder": "C:\\Program Files\\WindowsApps\\Microsoft.NET.Native.Runtime.2.2_2.2.28604.0_x86__8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2023-07-28",
+                "name": "Microsoft .Net Native Runtime Package 2.2",
+                "publisher": "Microsoft Corporation",
+                "system_category": "store",
+                "version": "2.2.28604.0"
+            },
+            {
+                "arch": "x86",
+                "comments": "Microsoft .Net Native Framework Package 2.2",
+                "folder": "C:\\Program Files\\WindowsApps\\Microsoft.NET.Native.Framework.2.2_2.2.29512.0_x86__8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2023-07-28",
+                "name": "Microsoft .Net Native Framework Package 2.2",
+                "publisher": "Microsoft Corporation",
+                "system_category": "store",
+                "version": "2.2.29512.0"
+            },
+            {
+                "arch": "x86",
+                "comments": "Microsoft.UI.Xaml",
+                "folder": "C:\\Program Files\\WindowsApps\\Microsoft.UI.Xaml.2.7_7.2208.15002.0_x86__8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2023-07-28",
+                "name": "Microsoft UI Xaml 2.7",
+                "publisher": "Microsoft Corporation",
+                "system_category": "store",
+                "version": "7.2208.15002.0"
+            },
+            {
+                "arch": "x64",
+                "comments": "Microsoft.UI.Xaml",
+                "folder": "C:\\Program Files\\WindowsApps\\Microsoft.UI.Xaml.2.7_7.2208.15002.0_x64__8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2023-07-28",
+                "name": "Microsoft UI Xaml 2.7",
+                "publisher": "Microsoft Corporation",
+                "system_category": "store",
+                "version": "7.2208.15002.0"
+            },
+            {
+                "arch": "x86",
+                "comments": "Microsoft Visual C++ 2015 UWP Runtime support for native applications",
+                "folder": "C:\\Program Files\\WindowsApps\\Microsoft.VCLibs.140.00_14.0.32530.0_x86__8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2023-07-28",
+                "name": "Microsoft Visual C++ 2015 UWP Runtime Package",
+                "publisher": "Microsoft Corporation",
+                "system_category": "store",
+                "version": "14.0.32530.0"
+            },
+            {
+                "arch": "x64",
+                "comments": "Microsoft Visual C++ 2015 UWP Runtime support for native applications",
+                "folder": "C:\\Program Files\\WindowsApps\\Microsoft.VCLibs.140.00_14.0.32530.0_x64__8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2023-07-28",
+                "name": "Microsoft Visual C++ 2015 UWP Runtime Package",
+                "publisher": "Microsoft Corporation",
+                "system_category": "store",
+                "version": "14.0.32530.0"
+            },
+            {
+                "arch": "x86",
+                "comments": "Microsoft Windows App Runtime 1.2 (2000.802.31.0 x86 )",
+                "folder": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsAppRuntime.1.2_2000.802.31.0_x86__8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2023-07-28",
+                "name": "WindowsAppRuntime.1.2",
+                "publisher": "Microsoft Corporation",
+                "system_category": "store",
+                "version": "2000.802.31.0"
+            },
+            {
+                "arch": "x64",
+                "comments": "Microsoft Windows App Runtime 1.2 (2000.802.31.0 x64 )",
+                "folder": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsAppRuntime.1.2_2000.802.31.0_x64__8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2023-07-28",
+                "name": "WindowsAppRuntime.1.2",
+                "publisher": "Microsoft Corporation",
+                "system_category": "store",
+                "version": "2000.802.31.0"
+            },
+            {
+                "arch": "x64",
+                "comments": "Microsoft Visual C++ 2015 UWP Desktop Runtime support for native applications",
+                "folder": "C:\\Program Files\\WindowsApps\\Microsoft.VCLibs.140.00.UWPDesktop_14.0.32530.0_x64__8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2023-07-28",
+                "name": "Microsoft Visual C++ 2015 UWP Desktop Runtime Package",
+                "publisher": "Microsoft Corporation",
+                "system_category": "store",
+                "version": "14.0.32530.0"
+            },
+            {
+                "arch": "x86",
+                "comments": "Microsoft Visual C++ 2015 UWP Desktop Runtime support for native applications",
+                "folder": "C:\\Program Files\\WindowsApps\\Microsoft.VCLibs.140.00.UWPDesktop_14.0.32530.0_x86__8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2023-07-28",
+                "name": "Microsoft Visual C++ 2015 UWP Desktop Runtime Package",
+                "publisher": "Microsoft Corporation",
+                "system_category": "store",
+                "version": "14.0.32530.0"
+            },
+            {
+                "arch": "x64",
+                "comments": "Microsoft.UI.Xaml",
+                "folder": "C:\\Program Files\\WindowsApps\\Microsoft.UI.Xaml.2.8_8.2306.22001.0_x64__8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2023-07-28",
+                "name": "Microsoft UI Xaml 2.8",
+                "publisher": "Microsoft Corporation",
+                "system_category": "store",
+                "version": "8.2306.22001.0"
+            },
+            {
+                "arch": "x86",
+                "comments": "Microsoft.UI.Xaml",
+                "folder": "C:\\Program Files\\WindowsApps\\Microsoft.UI.Xaml.2.8_8.2306.22001.0_x86__8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2023-07-28",
+                "name": "Microsoft UI Xaml 2.8",
+                "publisher": "Microsoft Corporation",
+                "system_category": "store",
+                "version": "8.2306.22001.0"
+            },
+            {
+                "arch": "x64",
+                "folder": "C:\\Program Files\\WindowsApps\\ELANMicroelectronicsCorpo.ELANTouchpadSetting_11.2.63.0_x64__stws0m115j6hg",
+                "from": "uwp",
+                "install_date": "2023-07-29",
+                "name": "ELAN Touchpad Setting",
+                "publisher": "ELAN Microelectronics Corporation",
+                "system_category": "store",
+                "version": "11.2.63.0"
+            },
+            {
+                "arch": "x64",
+                "folder": "C:\\Program Files\\WindowsApps\\AD2F1837.HPAudioCenter_1.14.225.0_x64__v10z8vjag6ke6",
+                "from": "uwp",
+                "install_date": "2023-07-29",
+                "name": "HP Audio Center",
+                "publisher": "HP Inc.",
+                "system_category": "store",
+                "version": "1.14.225.0"
+            },
+            {
+                "arch": "neutral",
+                "comments": "Microsoft Edge Browser",
+                "folder": "C:\\Program Files\\WindowsApps\\Microsoft.MicrosoftEdge.Stable_115.0.1901.188_neutral__8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2023-07-29",
+                "name": "Microsoft Edge",
+                "publisher": "Microsoft Corporation",
+                "system_category": "developer",
+                "version": "115.0.1901.188"
+            },
+            {
+                "arch": "x64",
+                "comments": "Microsoft.UI.Xaml",
+                "folder": "C:\\Windows\\SystemApps\\Microsoft.UI.Xaml.CBS_8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2022-05-07",
+                "name": "Microsoft UI Xaml CBS",
+                "publisher": "Microsoft Corporation",
+                "system_category": "system",
+                "version": "8.2207.29001.0"
+            },
+            {
+                "arch": "neutral",
+                "comments": "Microsoft.UI.Xaml",
+                "folder": "C:\\Windows\\SystemApps\\Microsoft.MicrosoftEdge_8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2022-05-07",
+                "name": "Microsoft UI Xaml CBS",
+                "publisher": "Microsoft Corporation",
+                "system_category": "system",
+                "version": "44.22621.1992.0"
+            },
+            {
+                "arch": "x64",
+                "folder": "C:\\Program Files\\WindowsApps\\WinRAR.ShellExtension_1.0.0.2_x64__s4jet1zx4n14a",
+                "from": "uwp",
+                "install_date": "2023-07-29",
+                "name": "WinRAR",
+                "publisher": "win.rar GmbH",
+                "system_category": "developer",
+                "version": "1.0.0.2"
+            },
+            {
+                "arch": "x64",
+                "comments": "Microsoft Windows App Runtime 1.3 (3000.934.1904.0 x64 )",
+                "folder": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsAppRuntime.1.3_3000.934.1904.0_x64__8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2023-07-31",
+                "name": "WindowsAppRuntime.1.3",
+                "publisher": "Microsoft Corporation",
+                "system_category": "store",
+                "version": "3000.934.1904.0"
+            },
+            {
+                "arch": "x86",
+                "comments": "Microsoft Windows App Runtime 1.3 (3000.934.1904.0 x86 )",
+                "folder": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsAppRuntime.1.3_3000.934.1904.0_x86__8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2023-07-31",
+                "name": "WindowsAppRuntime.1.3",
+                "publisher": "Microsoft Corporation",
+                "system_category": "store",
+                "version": "3000.934.1904.0"
+            },
+            {
+                "arch": "x64",
+                "folder": "C:\\Program Files\\WindowsApps\\Microsoft.XboxGameOverlay_1.54.4001.0_x64__8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2023-07-31",
+                "name": "Xbox Game Bar Plugin",
+                "publisher": "Microsoft Corporation",
+                "system_category": "store",
+                "version": "1.54.4001.0"
+            },
+            {
+                "arch": "x86",
+                "comments": "Microsoft Engagement Framework",
+                "folder": "C:\\Program Files\\WindowsApps\\Microsoft.Services.Store.Engagement_10.0.23012.0_x86__8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2023-07-31",
+                "name": "Microsoft Engagement Framework",
+                "publisher": "Microsoft Corporation",
+                "system_category": "store",
+                "version": "10.0.23012.0"
+            },
+            {
+                "arch": "x64",
+                "comments": "Microsoft Engagement Framework",
+                "folder": "C:\\Program Files\\WindowsApps\\Microsoft.Services.Store.Engagement_10.0.23012.0_x64__8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2023-07-31",
+                "name": "Microsoft Engagement Framework",
+                "publisher": "Microsoft Corporation",
+                "system_category": "store",
+                "version": "10.0.23012.0"
+            },
+            {
+                "arch": "x64",
+                "folder": "C:\\Program Files\\WindowsApps\\Microsoft.Xbox.TCUI_1.24.10001.0_x64__8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2023-07-31",
+                "name": "Xbox TCUI",
+                "publisher": "Microsoft Corporation",
+                "system_category": "store",
+                "version": "1.24.10001.0"
+            },
+            {
+                "arch": "x64",
+                "folder": "C:\\Program Files\\WindowsApps\\Microsoft.XboxSpeechToTextOverlay_1.21.13002.0_x64__8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2023-07-31",
+                "name": "Microsoft XboxSpeechToTextOverlay",
+                "publisher": "Microsoft Corporation",
+                "system_category": "store",
+                "version": "1.21.13002.0"
+            },
+            {
+                "arch": "x64",
+                "folder": "C:\\Program Files\\WindowsApps\\Microsoft.549981C3F5F10_4.2308.1005.0_x64__8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2023-08-11",
+                "name": "Cortana",
+                "publisher": "Microsoft Corporation",
+                "system_category": "store",
+                "version": "4.2308.1005.0"
+            },
+            {
+                "arch": "x64",
+                "folder": "C:\\Program Files\\WindowsApps\\Microsoft.BingNews_4.55.62231.0_x64__8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2023-08-15",
+                "name": "Microsoft BingNews",
+                "publisher": "Microsoft Corporation",
+                "system_category": "store",
+                "version": "4.55.62231.0"
+            },
+            {
+                "arch": "x64",
+                "comments": "Microsoft.UI.Xaml",
+                "folder": "C:\\Windows\\SystemApps\\Microsoft.UI.Xaml.CBS_8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2022-05-07",
+                "name": "Microsoft UI Xaml CBS",
+                "publisher": "Microsoft Corporation",
+                "system_category": "system",
+                "version": "8.2303.31001.0"
+            },
+            {
+                "arch": "x64",
+                "comments": "Microsoft Windows App Runtime CBS (4000.1309.2056.0 x64)",
+                "folder": "C:\\Windows\\SystemApps\\Microsoft.WindowsAppRuntime.CBS_8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2023-08-24",
+                "name": "Microsoft WindowsAppRuntime CBS",
+                "publisher": "Microsoft Corporation",
+                "system_category": "system",
+                "version": "4000.864.1406.0"
+            },
+            {
+                "arch": "x64",
+                "comments": "Microsoft.UI.Xaml",
+                "folder": "C:\\Windows\\SystemApps\\Microsoft.UI.Xaml.CBS_8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2022-05-07",
+                "name": "Microsoft UI Xaml CBS",
+                "publisher": "Microsoft Corporation",
+                "system_category": "system",
+                "version": "8.2305.16002.0"
+            },
+            {
+                "arch": "x64",
+                "comments": "Microsoft Windows App Runtime CBS (4000.1309.2056.0 x64)",
+                "folder": "C:\\Windows\\SystemApps\\Microsoft.WindowsAppRuntime.CBS_8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2023-08-24",
+                "name": "Microsoft WindowsAppRuntime CBS",
+                "publisher": "Microsoft Corporation",
+                "system_category": "system",
+                "version": "4000.887.425.0"
+            },
+            {
+                "arch": "x64",
+                "comments": "Microsoft Windows App Runtime CBS (4000.1309.2056.0 x64)",
+                "folder": "C:\\Windows\\SystemApps\\Microsoft.WindowsAppRuntime.CBS_8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2023-08-24",
+                "name": "Microsoft WindowsAppRuntime CBS",
+                "publisher": "Microsoft Corporation",
+                "system_category": "system",
+                "version": "4000.1000.1727.0"
+            },
+            {
+                "arch": "x86",
+                "comments": "Microsoft.UI.Xaml",
+                "folder": "C:\\Program Files\\WindowsApps\\Microsoft.UI.Xaml.2.8_8.2310.30001.0_x86__8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2023-11-07",
+                "name": "Microsoft UI Xaml 2.8",
+                "publisher": "Microsoft Corporation",
+                "system_category": "store",
+                "version": "8.2310.30001.0"
+            },
+            {
+                "arch": "x64",
+                "comments": "Microsoft.UI.Xaml",
+                "folder": "C:\\Program Files\\WindowsApps\\Microsoft.UI.Xaml.2.8_8.2310.30001.0_x64__8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2023-11-07",
+                "name": "Microsoft UI Xaml 2.8",
+                "publisher": "Microsoft Corporation",
+                "system_category": "store",
+                "version": "8.2310.30001.0"
+            },
+            {
+                "arch": "neutral",
+                "folder": "C:\\Windows\\SystemApps\\Microsoft.Windows.CloudExperienceHost_cw5n1h2txyewy",
+                "from": "uwp",
+                "install_date": "2022-05-07",
+                "name": "Tu cuenta",
+                "publisher": "Microsoft Corporation",
+                "system_category": "system",
+                "version": "10.0.22621.2506"
+            },
+            {
+                "arch": "neutral",
+                "folder": "C:\\Windows\\SystemApps\\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy",
+                "from": "uwp",
+                "install_date": "2022-05-07",
+                "name": "Contenido de Microsoft",
+                "publisher": "Microsoft Corporation",
+                "system_category": "system",
+                "version": "10.0.22621.2506"
+            },
+            {
+                "arch": "neutral",
+                "comments": "Hacer una prueba",
+                "folder": "C:\\Windows\\SystemApps\\Microsoft.Windows.SecureAssessmentBrowser_cw5n1h2txyewy",
+                "from": "uwp",
+                "install_date": "2022-05-07",
+                "name": "Hacer una prueba",
+                "publisher": "Microsoft Corporation",
+                "system_category": "system",
+                "version": "10.0.22621.2506"
+            },
+            {
+                "arch": "neutral",
+                "folder": "C:\\Windows\\SystemApps\\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy",
+                "from": "uwp",
+                "install_date": "2022-05-07",
+                "name": "Microsoft Windows StartMenuExperienceHost",
+                "publisher": "Microsoft Corporation",
+                "system_category": "system",
+                "version": "10.0.22621.2506"
+            },
+            {
+                "arch": "x64",
+                "comments": "Microsoft Windows App Runtime CBS (4000.1309.2056.0 x64)",
+                "folder": "C:\\Windows\\SystemApps\\Microsoft.WindowsAppRuntime.CBS_8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2023-08-24",
+                "name": "Microsoft WindowsAppRuntime CBS",
+                "publisher": "Microsoft Corporation",
+                "system_category": "system",
+                "version": "4000.1027.2341.0"
+            },
+            {
+                "arch": "x64",
+                "folder": "C:\\Program Files\\WindowsApps\\Microsoft.Getstarted_10.2312.1.0_x64__8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2024-01-09",
+                "name": "Microsoft Getstarted",
+                "publisher": "Microsoft Corporation",
+                "system_category": "store",
+                "version": "10.2312.1.0"
+            },
+            {
+                "arch": "x64",
+                "folder": "C:\\Program Files\\WindowsApps\\Microsoft.Todos_2.114.7122.0_x64__8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2024-01-23",
+                "name": "Microsoft Todos",
+                "publisher": "Microsoft Corporation",
+                "system_category": "store",
+                "version": "2.114.7122.0"
+            },
+            {
+                "arch": "x64",
+                "comments": "Microsoft Visual C++ 2015 UWP Runtime support for native applications",
+                "folder": "C:\\Program Files\\WindowsApps\\Microsoft.VCLibs.140.00_14.0.33321.0_x64__8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2024-01-24",
+                "name": "Microsoft Visual C++ 2015 UWP Runtime Package",
+                "publisher": "Microsoft Corporation",
+                "system_category": "store",
+                "version": "14.0.33321.0"
+            },
+            {
+                "arch": "x64",
+                "comments": "Microsoft Visual C++ 2015 UWP Desktop Runtime support for native applications",
+                "folder": "C:\\Program Files\\WindowsApps\\Microsoft.VCLibs.140.00.UWPDesktop_14.0.33519.0_x64__8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2024-02-05",
+                "name": "Microsoft Visual C++ 2015 UWP Desktop Runtime Package",
+                "publisher": "Microsoft Corporation",
+                "system_category": "store",
+                "version": "14.0.33519.0"
+            },
+            {
+                "arch": "x86",
+                "comments": "Microsoft Visual C++ 2015 UWP Desktop Runtime support for native applications",
+                "folder": "C:\\Program Files\\WindowsApps\\Microsoft.VCLibs.140.00.UWPDesktop_14.0.33519.0_x86__8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2024-02-05",
+                "name": "Microsoft Visual C++ 2015 UWP Desktop Runtime Package",
+                "publisher": "Microsoft Corporation",
+                "system_category": "store",
+                "version": "14.0.33519.0"
+            },
+            {
+                "arch": "x86",
+                "comments": "Microsoft Visual C++ 2015 UWP Runtime support for native applications",
+                "folder": "C:\\Program Files\\WindowsApps\\Microsoft.VCLibs.140.00_14.0.33519.0_x86__8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2024-02-05",
+                "name": "Microsoft Visual C++ 2015 UWP Runtime Package",
+                "publisher": "Microsoft Corporation",
+                "system_category": "store",
+                "version": "14.0.33519.0"
+            },
+            {
+                "arch": "x64",
+                "comments": "Microsoft Visual C++ 2015 UWP Runtime support for native applications",
+                "folder": "C:\\Program Files\\WindowsApps\\Microsoft.VCLibs.140.00_14.0.33519.0_x64__8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2024-02-05",
+                "name": "Microsoft Visual C++ 2015 UWP Runtime Package",
+                "publisher": "Microsoft Corporation",
+                "system_category": "store",
+                "version": "14.0.33519.0"
+            },
+            {
+                "arch": "x64",
+                "comments": "Microsoft Windows App Runtime 1.4 (4000.1136.2333.0 x64 )",
+                "folder": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsAppRuntime.1.4_4000.1136.2333.0_x64__8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2024-02-15",
+                "name": "WindowsAppRuntime.1.4",
+                "publisher": "Microsoft Corporation",
+                "system_category": "store",
+                "version": "4000.1136.2333.0"
+            },
+            {
+                "arch": "neutral",
+                "folder": "C:\\Windows\\SystemApps\\Microsoft.ECApp_8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2022-05-07",
+                "name": "Control ocular",
+                "publisher": "Microsoft Corporation",
+                "system_category": "system",
+                "version": "10.0.22621.3085"
+            },
+            {
+                "arch": "neutral",
+                "folder": "C:\\Windows\\SystemApps\\ShellExperienceHost_cw5n1h2txyewy",
+                "from": "uwp",
+                "install_date": "2022-05-07",
+                "name": "Experiencia del shell de Windows",
+                "publisher": "Microsoft Corporation",
+                "system_category": "system",
+                "version": "10.0.22621.3085"
+            },
+            {
+                "arch": "x64",
+                "folder": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.FileExp_cw5n1h2txyewy",
+                "from": "uwp",
+                "install_date": "2023-08-24",
+                "name": "Paquete de experiencia de caracter\u00edsticas de Windows",
+                "publisher": "Microsoft Corporation",
+                "system_category": "system",
+                "version": "1000.22653.1000.0"
+            },
+            {
+                "arch": "x86",
+                "comments": "Microsoft Windows App Runtime 1.4 (4000.1136.2333.0 x86 )",
+                "folder": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsAppRuntime.1.4_4000.1136.2333.0_x86__8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2024-02-19",
+                "name": "WindowsAppRuntime.1.4",
+                "publisher": "Microsoft Corporation",
+                "system_category": "store",
+                "version": "4000.1136.2333.0"
+            },
+            {
+                "arch": "x64",
+                "folder": "C:\\Program Files\\WindowsApps\\AppUp.IntelOptaneMemoryandStorageManagement_18.1.1041.0_x64__8j3eq9eme6ctt",
+                "from": "uwp",
+                "install_date": "2024-03-06",
+                "name": "Intel\u00ae Optane\u2122 Memory and Storage Management",
+                "publisher": "INTEL CORP",
+                "system_category": "store",
+                "version": "18.1.1041.0"
+            },
+            {
+                "arch": "neutral",
+                "folder": "C:\\Windows\\SystemApps\\Microsoft.LockApp_cw5n1h2txyewy",
+                "from": "uwp",
+                "install_date": "2022-05-07",
+                "name": "Pantalla de bloqueo predeterminada de Windows",
+                "publisher": "Microsoft Corporation",
+                "system_category": "system",
+                "version": "10.0.22621.3235"
+            },
+            {
+                "arch": "x64",
+                "comments": "Microsoft Windows App Runtime CBS (4000.1309.2056.0 x64)",
+                "folder": "C:\\Windows\\SystemApps\\Microsoft.WindowsAppRuntime.CBS_8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2023-08-24",
+                "name": "Microsoft WindowsAppRuntime CBS",
+                "publisher": "Microsoft Corporation",
+                "system_category": "system",
+                "version": "4000.1054.1457.0"
+            },
+            {
+                "arch": "x64",
+                "folder": "C:\\Program Files\\WindowsApps\\Microsoft.People_10.2202.100.0_x64__8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2024-04-02",
+                "name": "Microsoft People",
+                "publisher": "Microsoft Corporation",
+                "system_category": "store",
+                "version": "10.2202.100.0"
+            },
+            {
+                "arch": "x64",
+                "folder": "C:\\Program Files\\WindowsApps\\Microsoft.MicrosoftOfficeHub_18.2311.1071.0_x64__8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2024-04-05",
+                "name": "Microsoft 365 (Office)",
+                "publisher": "Microsoft Corporation",
+                "system_category": "store",
+                "version": "18.2311.1071.0"
+            },
+            {
+                "arch": "neutral",
+                "comments": "Microsoft Edge Browser",
+                "folder": "C:\\Program Files\\WindowsApps\\Microsoft.MicrosoftEdge.Stable_123.0.2420.81_neutral__8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2024-04-08",
+                "name": "Microsoft Edge",
+                "publisher": "Microsoft Corporation",
+                "system_category": "developer",
+                "version": "123.0.2420.81"
+            },
+            {
+                "arch": "x64",
+                "folder": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy",
+                "from": "uwp",
+                "install_date": "2022-05-07",
+                "name": "Paquete de experiencia de caracter\u00edsticas de Windows",
+                "publisher": "Microsoft Corporation",
+                "system_category": "system",
+                "version": "1000.22688.1000.0"
+            },
+            {
+                "arch": "x64",
+                "comments": "Microsoft Windows App Runtime 1.5 (5001.119.156.0 x64 )",
+                "folder": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsAppRuntime.1.5_5001.119.156.0_x64__8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2024-05-02",
+                "name": "WindowsAppRuntime.1.5",
+                "publisher": "Microsoft Corporation",
+                "system_category": "store",
+                "version": "5001.119.156.0"
+            },
+            {
+                "arch": "x86",
+                "comments": "Microsoft Visual C++ 2015 UWP Desktop Runtime support for native applications",
+                "folder": "C:\\Program Files\\WindowsApps\\Microsoft.VCLibs.140.00.UWPDesktop_14.0.33728.0_x86__8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2024-05-21",
+                "name": "Microsoft Visual C++ 2015 UWP Desktop Runtime Package",
+                "publisher": "Microsoft Corporation",
+                "system_category": "store",
+                "version": "14.0.33728.0"
+            },
+            {
+                "arch": "x64",
+                "comments": "Microsoft Visual C++ 2015 UWP Desktop Runtime support for native applications",
+                "folder": "C:\\Program Files\\WindowsApps\\Microsoft.VCLibs.140.00.UWPDesktop_14.0.33728.0_x64__8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2024-05-21",
+                "name": "Microsoft Visual C++ 2015 UWP Desktop Runtime Package",
+                "publisher": "Microsoft Corporation",
+                "system_category": "store",
+                "version": "14.0.33728.0"
+            },
+            {
+                "arch": "x64",
+                "folder": "C:\\Program Files\\WindowsApps\\Microsoft.WebMediaExtensions_1.1.1295.0_x64__8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2024-05-23",
+                "name": "Microsoft WebMediaExtensions",
+                "publisher": "Microsoft Corporation",
+                "system_category": "store",
+                "version": "1.1.1295.0"
+            },
+            {
+                "arch": "x64",
+                "comments": "Microsoft Windows App Runtime 1.5 (5001.159.55.0 x64 )",
+                "folder": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsAppRuntime.1.5_5001.159.55.0_x64__8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2024-06-12",
+                "name": "WindowsAppRuntime.1.5",
+                "publisher": "Microsoft Corporation",
+                "system_category": "store",
+                "version": "5001.159.55.0"
+            },
+            {
+                "arch": "x64",
+                "comments": "Microsoft Windows App Runtime CBS (4000.1309.2056.0 x64)",
+                "folder": "C:\\Windows\\SystemApps\\Microsoft.WindowsAppRuntime.CBS_8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2023-08-24",
+                "name": "Microsoft WindowsAppRuntime CBS",
+                "publisher": "Microsoft Corporation",
+                "system_category": "system",
+                "version": "4000.1189.418.0"
+            },
+            {
+                "arch": "x64",
+                "folder": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.FileExp_cw5n1h2txyewy",
+                "from": "uwp",
+                "install_date": "2024-06-27",
+                "name": "Paquete de experiencia de caracter\u00edsticas de Windows",
+                "publisher": "Microsoft Corporation",
+                "system_category": "system",
+                "version": "1000.22700.1000.0"
+            },
+            {
+                "arch": "x64",
+                "folder": "C:\\Program Files\\WindowsApps\\Microsoft.WebpImageExtension_1.1.1711.0_x64__8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2024-07-04",
+                "name": "Microsoft WebpImageExtension",
+                "publisher": "Microsoft Corporation",
+                "system_category": "store",
+                "version": "1.1.1711.0"
+            },
+            {
+                "arch": "x64",
+                "comments": "Microsoft Windows App Runtime 1.5 (5001.178.1908.0 x64 )",
+                "folder": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsAppRuntime.1.5_5001.178.1908.0_x64__8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2024-07-10",
+                "name": "WindowsAppRuntime.1.5",
+                "publisher": "Microsoft Corporation",
+                "system_category": "store",
+                "version": "5001.178.1908.0"
+            },
+            {
+                "arch": "x64",
+                "folder": "C:\\Program Files\\WindowsApps\\Microsoft.XboxIdentityProvider_12.115.1001.0_x64__8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2024-07-17",
+                "name": "Microsoft XboxIdentityProvider",
+                "publisher": "Microsoft Corporation",
+                "system_category": "store",
+                "version": "12.115.1001.0"
+            },
+            {
+                "arch": "neutral",
+                "folder": "C:\\Windows\\SystemApps\\Microsoft.ECApp_8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2022-05-07",
+                "name": "Control ocular",
+                "publisher": "Microsoft Corporation",
+                "system_category": "system",
+                "version": "10.0.22621.3810"
+            },
+            {
+                "arch": "x64",
+                "comments": "Microsoft.UI.Xaml",
+                "folder": "C:\\Windows\\SystemApps\\Microsoft.UI.Xaml.CBS_8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2024-07-25",
+                "name": "Microsoft UI Xaml CBS",
+                "publisher": "Microsoft Corporation",
+                "system_category": "system",
+                "version": "8.2404.3001.0"
+            },
+            {
+                "arch": "x64",
+                "comments": "Microsoft.UI.Xaml",
+                "folder": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.LKG_cw5n1h2txyewy",
+                "from": "uwp",
+                "install_date": "2024-07-25",
+                "name": "Microsoft UI Xaml CBS",
+                "publisher": "Microsoft Corporation",
+                "system_category": "system",
+                "version": "1000.22621.3880.0"
+            },
+            {
+                "arch": "x64",
+                "comments": "Microsoft Windows App Runtime 1.4 (4000.1309.2056.0 x64 )",
+                "folder": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsAppRuntime.1.4_4000.1309.2056.0_x64__8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2024-08-14",
+                "name": "WindowsAppRuntime.1.4",
+                "publisher": "Microsoft Corporation",
+                "system_category": "store",
+                "version": "4000.1309.2056.0"
+            },
+            {
+                "arch": "x86",
+                "comments": "Microsoft Windows App Runtime 1.4 (4000.1309.2056.0 x86 )",
+                "folder": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsAppRuntime.1.4_4000.1309.2056.0_x86__8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2024-08-14",
+                "name": "WindowsAppRuntime.1.4",
+                "publisher": "Microsoft Corporation",
+                "system_category": "store",
+                "version": "4000.1309.2056.0"
+            },
+            {
+                "arch": "x64",
+                "comments": "Microsoft Windows App Runtime 1.5 (5001.214.1843.0 x64 )",
+                "folder": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsAppRuntime.1.5_5001.214.1843.0_x64__8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2024-08-14",
+                "name": "WindowsAppRuntime.1.5",
+                "publisher": "Microsoft Corporation",
+                "system_category": "store",
+                "version": "5001.214.1843.0"
+            },
+            {
+                "arch": "x64",
+                "comments": "Microsoft.UI.Xaml",
+                "folder": "C:\\Program Files\\WindowsApps\\Microsoft.UI.Xaml.2.7_7.2409.9001.0_x64__8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2024-09-11",
+                "name": "Microsoft UI Xaml 2.7",
+                "publisher": "Microsoft Corporation",
+                "system_category": "store",
+                "version": "7.2409.9001.0"
+            },
+            {
+                "arch": "x86",
+                "comments": "Microsoft.UI.Xaml",
+                "folder": "C:\\Program Files\\WindowsApps\\Microsoft.UI.Xaml.2.7_7.2409.9001.0_x86__8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2024-09-11",
+                "name": "Microsoft UI Xaml 2.7",
+                "publisher": "Microsoft Corporation",
+                "system_category": "store",
+                "version": "7.2409.9001.0"
+            },
+            {
+                "arch": "x64",
+                "folder": "C:\\Program Files\\WindowsApps\\MicrosoftCorporationII.QuickAssist_2.0.32.0_x64__8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2024-09-11",
+                "name": "MicrosoftCorporationII.QuickAssist",
+                "publisher": "Microsoft Corporation",
+                "system_category": "store",
+                "version": "2.0.32.0"
+            },
+            {
+                "arch": "x64",
+                "folder": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsSoundRecorder_1.0.80.0_x64__8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2024-09-25",
+                "name": "Microsoft WindowsSoundRecorder",
+                "publisher": "Microsoft Corporation",
+                "system_category": "store",
+                "version": "1.0.80.0"
+            },
+            {
+                "arch": "x64",
+                "comments": "Microsoft Windows App Runtime 1.5 (5001.275.500.0 x64 )",
+                "folder": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsAppRuntime.1.5_5001.275.500.0_x64__8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2024-10-08",
+                "name": "WindowsAppRuntime.1.5",
+                "publisher": "Microsoft Corporation",
+                "system_category": "store",
+                "version": "5001.275.500.0"
+            },
+            {
+                "arch": "neutral",
+                "folder": "C:\\Windows\\SystemApps\\ShellExperienceHost_cw5n1h2txyewy",
+                "from": "uwp",
+                "install_date": "2022-05-07",
+                "name": "Experiencia del shell de Windows",
+                "publisher": "Microsoft Corporation",
+                "system_category": "system",
+                "version": "10.0.22621.4249"
+            },
+            {
+                "arch": "neutral",
+                "folder": "C:\\Windows\\SystemApps\\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy",
+                "from": "uwp",
+                "install_date": "2022-05-07",
+                "name": "Microsoft Windows StartMenuExperienceHost",
+                "publisher": "Microsoft Corporation",
+                "system_category": "system",
+                "version": "10.0.22621.4249"
+            },
+            {
+                "arch": "x64",
+                "comments": "Microsoft Windows App Runtime CBS (6000.266.2025.0 x64)",
+                "folder": "C:\\Windows\\SystemApps\\Microsoft.WindowsAppRuntime.vNext.CBS_8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2024-10-25",
+                "name": "Microsoft WindowsAppRuntime CBS 1.6",
+                "publisher": "Microsoft Corporation",
+                "system_category": "system",
+                "version": "6000.211.1839.0"
+            },
+            {
+                "arch": "x64",
+                "folder": "C:\\Program Files\\WindowsApps\\Microsoft.HEVCVideoExtension_2.2.9.0_x64__8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2024-10-30",
+                "name": "Microsoft HEVCVideoExtension",
+                "publisher": "Microsoft Corporation",
+                "system_category": "store",
+                "version": "2.2.9.0"
+            },
+            {
+                "arch": "x64",
+                "folder": "C:\\Program Files\\WindowsApps\\Microsoft.GetHelp_10.2409.22951.0_x64__8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2024-10-31",
+                "name": "Microsoft GetHelp",
+                "publisher": "Microsoft Corporation",
+                "system_category": "store",
+                "version": "10.2409.22951.0"
+            },
+            {
+                "arch": "x64",
+                "folder": "C:\\Program Files\\WindowsApps\\Microsoft.ScreenSketch_11.2409.25.0_x64__8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2024-11-05",
+                "name": "Microsoft ScreenSketch",
+                "publisher": "Microsoft Corporation",
+                "system_category": "store",
+                "version": "11.2409.25.0"
+            },
+            {
+                "arch": "x64",
+                "folder": "C:\\Program Files\\WindowsApps\\Microsoft.HEIFImageExtension_1.2.3.0_x64__8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2024-11-06",
+                "name": "Microsoft HEIFImageExtension",
+                "publisher": "Microsoft Corporation",
+                "system_category": "store",
+                "version": "1.2.3.0"
+            },
+            {
+                "arch": "x64",
+                "folder": "C:\\Program Files\\WindowsApps\\Microsoft.MicrosoftStickyNotes_4.0.6104.0_x64__8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2024-11-06",
+                "name": "Microsoft MicrosoftStickyNotes",
+                "publisher": "Microsoft Corporation",
+                "system_category": "store",
+                "version": "4.0.6104.0"
+            },
+            {
+                "arch": "x64",
+                "folder": "C:\\Program Files\\WindowsApps\\Microsoft.RawImageExtension_2.5.3.0_x64__8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2024-11-12",
+                "name": "Microsoft RawImageExtension",
+                "publisher": "Microsoft Corporation",
+                "system_category": "store",
+                "version": "2.5.3.0"
+            },
+            {
+                "arch": "x64",
+                "folder": "C:\\Program Files\\WindowsApps\\AppUp.IntelGraphicsExperience_1.100.5688.0_x64__8j3eq9eme6ctt",
+                "from": "uwp",
+                "install_date": "2024-11-12",
+                "name": "AppUp.IntelGraphicsExperience",
+                "publisher": "INTEL CORP",
+                "system_category": "store",
+                "version": "1.100.5688.0"
+            },
+            {
+                "arch": "x64",
+                "comments": "Microsoft Windows App Runtime 1.5 (5001.311.2039.0 x64 )",
+                "folder": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsAppRuntime.1.5_5001.311.2039.0_x64__8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2024-11-13",
+                "name": "WindowsAppRuntime.1.5",
+                "publisher": "Microsoft Corporation",
+                "system_category": "store",
+                "version": "5001.311.2039.0"
+            },
+            {
+                "arch": "x64",
+                "folder": "C:\\Program Files\\WindowsApps\\Microsoft.OutlookForWindows_1.2024.1107.100_x64__8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2024-11-13",
+                "name": "Outlook for Windows",
+                "publisher": "Microsoft Corporation",
+                "system_category": "developer",
+                "version": "1.2024.1107.100"
+            },
+            {
+                "arch": "x64",
+                "folder": "C:\\Program Files\\WindowsApps\\Microsoft.DesktopAppInstaller_1.24.25200.0_x64__8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2024-11-18",
+                "name": "Microsoft DesktopAppInstaller",
+                "publisher": "Microsoft Corporation",
+                "system_category": "store",
+                "version": "1.24.25200.0"
+            },
+            {
+                "arch": "x64",
+                "folder": "C:\\Windows\\SystemApps\\Microsoft.WindowsAppRuntime.CBS_8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2024-11-20",
+                "name": "Microsoft WindowsAppRuntime CBS",
+                "publisher": "Microsoft Corporation",
+                "system_category": "system",
+                "version": "4000.1309.2056.0"
+            },
+            {
+                "arch": "x64",
+                "folder": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.Core_cw5n1h2txyewy",
+                "from": "uwp",
+                "install_date": "2024-11-20",
+                "name": "MicrosoftWindows.Client.Core",
+                "publisher": "Microsoft Corporation",
+                "system_category": "system",
+                "version": "1000.22700.1012.0"
+            },
+            {
+                "arch": "x64",
+                "folder": "C:\\Program Files\\WindowsApps\\Microsoft.VP9VideoExtensions_1.2.2.0_x64__8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2024-12-10",
+                "name": "Microsoft VP9VideoExtensions",
+                "publisher": "Microsoft Corporation",
+                "system_category": "store",
+                "version": "1.2.2.0"
+            },
+            {
+                "arch": "x64",
+                "folder": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsFeedbackHub_1.2411.17101.0_x64__8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2024-12-10",
+                "name": "Microsoft WindowsFeedbackHub",
+                "publisher": "Microsoft Corporation",
+                "system_category": "store",
+                "version": "1.2411.17101.0"
+            },
+            {
+                "arch": "x64",
+                "folder": "C:\\Program Files\\WindowsApps\\Microsoft.AV1VideoExtension_1.3.4.0_x64__8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2024-12-10",
+                "name": "Microsoft AV1VideoExtension",
+                "publisher": "Microsoft Corporation",
+                "system_category": "store",
+                "version": "1.3.4.0"
+            },
+            {
+                "arch": "x64",
+                "folder": "C:\\Program Files\\WindowsApps\\Microsoft.XboxGamingOverlay_7.224.11211.0_x64__8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2024-12-12",
+                "name": "Game Bar",
+                "publisher": "Microsoft Corporation",
+                "system_category": "store",
+                "version": "7.224.11211.0"
+            },
+            {
+                "arch": "x64",
+                "folder": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsCalculator_11.2411.1.0_x64__8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2024-12-13",
+                "name": "Microsoft WindowsCalculator",
+                "publisher": "Microsoft Corporation",
+                "system_category": "store",
+                "version": "11.2411.1.0"
+            },
+            {
+                "arch": "x64",
+                "folder": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsMaps_11.2411.7.0_x64__8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2024-12-13",
+                "name": "Microsoft WindowsMaps",
+                "publisher": "Microsoft Corporation",
+                "system_category": "store",
+                "version": "11.2411.7.0"
+            },
+            {
+                "arch": "x64",
+                "folder": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsAlarms_11.2411.2.0_x64__8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2024-12-13",
+                "name": "Microsoft WindowsAlarms",
+                "publisher": "Microsoft Corporation",
+                "system_category": "store",
+                "version": "11.2411.2.0"
+            },
+            {
+                "arch": "x64",
+                "folder": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsNotepad_11.2410.21.0_x64__8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2024-12-13",
+                "name": "Microsoft WindowsNotepad",
+                "publisher": "Microsoft Corporation",
+                "system_category": "store",
+                "version": "11.2410.21.0"
+            },
+            {
+                "arch": "x64",
+                "folder": "C:\\Windows\\SystemApps\\Microsoft.WindowsAppRuntime.vNext.CBS_8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2024-12-14",
+                "name": "Microsoft WindowsAppRuntime CBS 1.6",
+                "publisher": "Microsoft Corporation",
+                "system_category": "system",
+                "version": "6000.266.2025.0"
+            },
+            {
+                "arch": "x64",
+                "folder": "C:\\Windows\\SystemApps\\MicrosoftWindows.Client.CBS_cw5n1h2txyewy",
+                "from": "uwp",
+                "install_date": "2022-05-07",
+                "name": "Paquete de experiencia de caracter\u00edsticas de Windows",
+                "publisher": "Microsoft Corporation",
+                "system_category": "system",
+                "version": "1000.22700.1055.0"
+            },
+            {
+                "arch": "x64",
+                "folder": "C:\\Program Files\\WindowsApps\\Microsoft.Windows.Photos_2024.11120.5010.0_x64__8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2024-12-17",
+                "name": "Microsoft Windows Photos",
+                "publisher": "Microsoft Corporation",
+                "system_category": "store",
+                "version": "2024.11120.5010.0"
+            },
+            {
+                "arch": "x64",
+                "folder": "C:\\Program Files\\WindowsApps\\Microsoft.BingWeather_4.54.63007.0_x64__8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2024-12-30",
+                "name": "Microsoft BingWeather",
+                "publisher": "Microsoft Corporation",
+                "system_category": "store",
+                "version": "4.54.63007.0"
+            },
+            {
+                "arch": "x64",
+                "folder": "C:\\Program Files\\WindowsApps\\Microsoft.MicrosoftSolitaireCollection_4.21.12110.0_x64__8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2025-01-07",
+                "name": "Solitaire & Casual Games",
+                "publisher": "Microsoft Corporation",
+                "system_category": "store",
+                "version": "4.21.12110.0"
+            },
+            {
+                "arch": "x64",
+                "folder": "C:\\Program Files\\WindowsApps\\Microsoft.SecHealthUI_1000.27703.1006.0_x64__8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2025-01-08",
+                "name": "Microsoft SecHealthUI",
+                "publisher": "Microsoft Corporation",
+                "system_category": "store",
+                "version": "1000.27703.1006.0"
+            },
+            {
+                "arch": "x64",
+                "comments": "Microsoft Windows App Runtime 1.6 (6000.373.1641.0 x64 )",
+                "folder": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsAppRuntime.1.6_6000.373.1641.0_x64__8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2025-01-15",
+                "name": "WindowsAppRuntime.1.6",
+                "publisher": "Microsoft Corporation",
+                "system_category": "store",
+                "version": "6000.373.1641.0"
+            },
+            {
+                "arch": "x86",
+                "comments": "Microsoft Windows App Runtime 1.5 (5001.373.1736.0 x86 )",
+                "folder": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsAppRuntime.1.5_5001.373.1736.0_x86__8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2025-01-15",
+                "name": "WindowsAppRuntime.1.5",
+                "publisher": "Microsoft Corporation",
+                "system_category": "store",
+                "version": "5001.373.1736.0"
+            },
+            {
+                "arch": "x64",
+                "comments": "Microsoft Windows App Runtime 1.5 (5001.373.1736.0 x64 )",
+                "folder": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsAppRuntime.1.5_5001.373.1736.0_x64__8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2025-01-15",
+                "name": "WindowsAppRuntime.1.5",
+                "publisher": "Microsoft Corporation",
+                "system_category": "store",
+                "version": "5001.373.1736.0"
+            },
+            {
+                "arch": "x64",
+                "folder": "C:\\Windows\\SystemApps\\LKG\\MicrosoftWindows.LKG.AccountsService_cw5n1h2txyewy",
+                "from": "uwp",
+                "install_date": "2025-01-16",
+                "name": "Paquete de experiencia de caracter\u00edsticas de Windows",
+                "publisher": "Microsoft Corporation",
+                "system_category": "system",
+                "version": "1000.22621.4746.0"
+            },
+            {
+                "arch": "x64",
+                "folder": "C:\\Program Files\\WindowsApps\\Microsoft.Paint_11.2411.471.0_x64__8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2025-01-17",
+                "name": "Microsoft Paint",
+                "publisher": "Microsoft Corporation",
+                "system_category": "store",
+                "version": "11.2411.471.0"
+            },
+            {
+                "arch": "x64",
+                "folder": "C:\\Program Files\\WindowsApps\\Microsoft.PowerAutomateDesktop_1.0.1350.0_x64__8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2025-01-21",
+                "name": "Microsoft PowerAutomateDesktop",
+                "publisher": "Microsoft Corporation",
+                "system_category": "store",
+                "version": "1.0.1350.0"
+            },
+            {
+                "arch": "x64",
+                "folder": "C:\\Program Files\\WindowsApps\\Microsoft.StorePurchaseApp_22411.1401.1.0_x64__8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2025-01-23",
+                "name": "Microsoft StorePurchaseApp",
+                "publisher": "Microsoft Corporation",
+                "system_category": "store",
+                "version": "22411.1401.1.0"
+            },
+            {
+                "arch": "neutral",
+                "folder": "C:\\Program Files\\WindowsApps\\Microsoft.LanguageExperiencePackes-ES_22621.115.383.0_neutral__8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2025-01-27",
+                "name": "Paquete de experiencia local en espa\u00f1ol (Espa\u00f1a)",
+                "publisher": "Microsoft Corporation",
+                "system_category": "store",
+                "version": "22621.115.383.0"
+            },
+            {
+                "arch": "x64",
+                "folder": "C:\\Program Files\\WindowsApps\\Microsoft.GamingApp_2501.1001.3.0_x64__8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2025-01-28",
+                "name": "Xbox",
+                "publisher": "Microsoft Corporation",
+                "system_category": "store",
+                "version": "2501.1001.3.0"
+            },
+            {
+                "arch": "x64",
+                "folder": "C:\\Program Files\\WindowsApps\\Microsoft.Windows.DevHome_0.2000.758.0_x64__8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2025-01-29",
+                "name": "Microsoft Windows DevHome",
+                "publisher": "Microsoft Corporation",
+                "system_category": "store",
+                "version": "0.2000.758.0"
+            },
+            {
+                "arch": "x64",
+                "folder": "C:\\Program Files\\WindowsApps\\Microsoft.ZuneMusic_11.2412.6.0_x64__8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2025-01-29",
+                "name": "Microsoft ZuneMusic",
+                "publisher": "Microsoft Corporation",
+                "system_category": "store",
+                "version": "11.2412.6.0"
+            },
+            {
+                "arch": "x64",
+                "comments": "Microsoft Windows App Runtime Singleton 1.6 (6000.373.1641.0 x64 )",
+                "folder": "C:\\Program Files\\WindowsApps\\MicrosoftCorporationII.WinAppRuntime.Singleton_6000.373.1641.0_x64__8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2025-01-29",
+                "name": "WinAppRuntime.Singleton",
+                "publisher": "Microsoft Corporation",
+                "system_category": "store",
+                "version": "6000.373.1641.0"
+            },
+            {
+                "arch": "x64",
+                "comments": "Microsoft Windows App Runtime Main 1.5 (5001.373.1736.0 x64 )",
+                "folder": "C:\\Program Files\\WindowsApps\\MicrosoftCorporationII.WinAppRuntime.Main.1.5_5001.373.1736.0_x64__8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2025-01-29",
+                "name": "WinAppRuntime.Main.1.5",
+                "publisher": "Microsoft Corporation",
+                "system_category": "store",
+                "version": "5001.373.1736.0"
+            },
+            {
+                "arch": "neutral",
+                "folder": "C:\\Program Files\\WindowsApps\\Clipchamp.Clipchamp_3.1.12020.0_neutral__yxz26nhyzhsrt",
+                "from": "uwp",
+                "install_date": "2025-01-31",
+                "name": "Clipchamp.Clipchamp",
+                "publisher": "Microsoft Corp.",
+                "system_category": "store",
+                "version": "3.1.12020.0"
+            },
+            {
+                "arch": "x86",
+                "comments": "Microsoft.UI.Xaml",
+                "folder": "C:\\Program Files\\WindowsApps\\Microsoft.UI.Xaml.2.8_8.2501.31001.0_x86__8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2025-02-06",
+                "name": "Microsoft UI Xaml 2.8",
+                "publisher": "Microsoft Corporation",
+                "system_category": "store",
+                "version": "8.2501.31001.0"
+            },
+            {
+                "arch": "x64",
+                "comments": "Microsoft.UI.Xaml",
+                "folder": "C:\\Program Files\\WindowsApps\\Microsoft.UI.Xaml.2.8_8.2501.31001.0_x64__8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2025-02-06",
+                "name": "Microsoft UI Xaml 2.8",
+                "publisher": "Microsoft Corporation",
+                "system_category": "store",
+                "version": "8.2501.31001.0"
+            },
+            {
+                "arch": "x64",
+                "folder": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.21.10351.0_x64__8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2025-02-06",
+                "name": "Microsoft WindowsTerminal",
+                "publisher": "Microsoft Corporation",
+                "system_category": "store",
+                "version": "1.21.10351.0"
+            },
+            {
+                "arch": "x64",
+                "folder": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.Client.WebExperience_525.1301.30.0_x64__cw5n1h2txyewy",
+                "from": "uwp",
+                "install_date": "2025-02-06",
+                "name": "Windows Web Experience Pack",
+                "publisher": "Microsoft Corporation",
+                "system_category": "store",
+                "version": "525.1301.30.0"
+            },
+            {
+                "arch": "neutral",
+                "folder": "C:\\Program Files\\WindowsApps\\wsscanwizard_1.1.0.0_neutral__0jt5dwegdy2yt",
+                "from": "uwp",
+                "install_date": "2025-02-10",
+                "name": "wsscanwizard package",
+                "publisher": "WithSecure Oyj",
+                "system_category": "developer",
+                "version": "1.1.0.0"
+            },
+            {
+                "arch": "x64",
+                "folder": "C:\\Program Files\\WindowsApps\\microsoft.windowscommunicationsapps_16005.14326.22301.0_x64__8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2025-02-10",
+                "name": "microsoft windowscommunicationsapps",
+                "publisher": "Microsoft Corporation",
+                "system_category": "store",
+                "version": "16005.14326.22301.0"
+            },
+            {
+                "arch": "x64",
+                "folder": "C:\\Program Files\\WindowsApps\\Microsoft.YourPhone_1.25011.56.0_x64__8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2025-02-11",
+                "name": "Microsoft YourPhone",
+                "publisher": "Microsoft Corporation",
+                "system_category": "store",
+                "version": "1.25011.56.0"
+            },
+            {
+                "arch": "x64",
+                "comments": "Microsoft Windows App Runtime 1.6 (6000.401.2352.0 x64 )",
+                "folder": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsAppRuntime.1.6_6000.401.2352.0_x64__8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2025-02-13",
+                "name": "WindowsAppRuntime.1.6",
+                "publisher": "Microsoft Corporation",
+                "system_category": "store",
+                "version": "6000.401.2352.0"
+            },
+            {
+                "arch": "x86",
+                "comments": "Microsoft Windows App Runtime 1.6 (6000.401.2352.0 x86 )",
+                "folder": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsAppRuntime.1.6_6000.401.2352.0_x86__8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2025-02-13",
+                "name": "WindowsAppRuntime.1.6",
+                "publisher": "Microsoft Corporation",
+                "system_category": "store",
+                "version": "6000.401.2352.0"
+            },
+            {
+                "arch": "neutral",
+                "folder": "C:\\Program Files\\WindowsApps\\Microsoft.OneDriveSync_25010.119.2.0_neutral__8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2025-02-13",
+                "name": "OneDrive",
+                "publisher": "Microsoft Corporation",
+                "system_category": "developer",
+                "version": "25010.119.2.0"
+            },
+            {
+                "arch": "x64",
+                "folder": "C:\\Program Files\\WindowsApps\\Microsoft.Copilot_1.25013.74.0_x64__8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2025-02-14",
+                "name": "Copilot",
+                "publisher": "Microsoft Corporation",
+                "system_category": "store",
+                "version": "1.25013.74.0"
+            },
+            {
+                "arch": "neutral",
+                "comments": "Microsoft Edge Browser",
+                "folder": "C:\\Program Files\\WindowsApps\\Microsoft.MicrosoftEdge.Stable_133.0.3065.69_neutral__8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2025-02-17",
+                "name": "Microsoft Edge",
+                "publisher": "Microsoft Corporation",
+                "system_category": "developer",
+                "version": "133.0.3065.69"
+            },
+            {
+                "arch": "x64",
+                "comments": "Microsoft Corporation",
+                "folder": "C:\\Program Files\\WindowsApps\\MSTeams_25017.203.3370.1174_x64__8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2025-02-17",
+                "name": "Microsoft Teams",
+                "publisher": "Microsoft Corporation",
+                "system_category": "developer",
+                "version": "25017.203.3370.1174"
+            },
+            {
+                "arch": "x64",
+                "folder": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsStore_22501.1401.4.0_x64__8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2025-02-19",
+                "name": "Microsoft Store",
+                "publisher": "Microsoft Corporation",
+                "system_category": "store",
+                "version": "22501.1401.4.0"
+            },
+            {
+                "arch": "x64",
+                "folder": "C:\\Program Files\\WindowsApps\\MicrosoftWindows.CrossDevice_1.25012.50.0_x64__cw5n1h2txyewy",
+                "from": "uwp",
+                "install_date": "2025-02-19",
+                "name": "MicrosoftWindows.CrossDevice",
+                "publisher": "Microsoft Corporation",
+                "system_category": "store",
+                "version": "1.25012.50.0"
+            },
+            {
+                "arch": "x64",
+                "folder": "C:\\Program Files\\WindowsApps\\Microsoft.WidgetsPlatformRuntime_1.6.2.0_x64__8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2025-02-19",
+                "name": "Widgets Platform Runtime",
+                "publisher": "Microsoft Corporation",
+                "system_category": "store",
+                "version": "1.6.2.0"
+            },
+            {
+                "arch": "x64",
+                "folder": "C:\\Program Files\\WindowsApps\\Microsoft.ZuneVideo_10.25011.10061.0_x64__8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2025-02-19",
+                "name": "Microsoft ZuneVideo",
+                "publisher": "Microsoft Corporation",
+                "system_category": "store",
+                "version": "10.25011.10061.0"
+            },
+            {
+                "arch": "x64",
+                "folder": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsCamera_2025.2501.1.0_x64__8wekyb3d8bbwe",
+                "from": "uwp",
+                "install_date": "2025-02-19",
+                "name": "Microsoft WindowsCamera",
+                "publisher": "Microsoft Corporation",
+                "system_category": "store",
+                "version": "2025.2501.1.0"
+            }
+        ],
+        "sounds": [
+            {
+                "caption": "Sonido Intel(R) para pantallas",
+                "description": "Sonido Intel(R) para pantallas",
+                "manufacturer": "Intel(R) Corporation",
+                "name": "Sonido Intel(R) para pantallas"
+            },
+            {
+                "caption": "Realtek High Definition Audio",
+                "description": "Realtek High Definition Audio",
+                "manufacturer": "Microsoft",
+                "name": "Realtek High Definition Audio"
+            },
+            {
+                "caption": "Tecnolog\u00eda Intel\u00ae Smart Sound",
+                "description": "Tecnolog\u00eda Intel\u00ae Smart Sound",
+                "manufacturer": "Intel(R) Corporation",
+                "name": "Tecnolog\u00eda Intel\u00ae Smart Sound"
+            }
+        ],
+        "storages": [
+            {
+                "description": "Integrated : Bus 4 : Device 0 : Function 0 : Adapter 1",
+                "disksize": 250059,
+                "firmware": "ELFK0S.6",
+                "interface": "NVME",
+                "model": "KINGSTON SNV2S250G",
+                "name": "PhysicalDisk0",
+                "serial": "0000_0000_0000_0000_0026_B768_640A_23D5.",
+                "type": "SSD"
+            }
+        ],
+        "usbdevices": [
+            {
+                "caption": "HP TrueVision HD Camera",
+                "manufacturer": "Cheng Uei Precision Industry Co., Ltd (Foxlink)",
+                "name": "HP TrueVision HD Camera",
+                "productid": "03D2",
+                "vendorid": "05C8"
+            },
+            {
+                "caption": "Realtek Bluetooth 4.2 Adapter",
+                "manufacturer": "Realtek Semiconductor Corp.",
+                "name": "Realtek Bluetooth 4.2 Adapter",
+                "productid": "B00A",
+                "serial": "00E04C000001",
+                "vendorid": "0BDA"
+            },
+            {
+                "caption": "USB Input Device",
+                "manufacturer": "Primax Electronics, Ltd",
+                "name": "USB Input Device",
+                "productid": "574A",
+                "vendorid": "0461"
+            },
+            {
+                "caption": "USB Composite Device",
+                "manufacturer": "Chicony Electronics Co., Ltd",
+                "name": "USB Composite Device",
+                "productid": "3F41",
+                "vendorid": "04F2"
+            }
+        ],
+        "users": [
+            {
+                "domain": "DISSQL",
+                "login": "COORD.VTASOFI"
+            }
+        ],
+        "versionclient": "GLPI-Agent_v1.7.1",
+        "versionprovider": {
+            "comments": [
+                "Provided by Teclib Edition",
+                "Installer built on Fri Dec 22 15:25:22 2023 UTC",
+                "Built with Strawberry Perl 5.36.0",
+                "Built on github actions windows image for glpi-project\/glpi-agent repository"
+            ],
+            "etime": 31,
+            "name": "GLPI",
+            "perl_exe": "C:\\Program Files\\GLPI-Agent\\perl\\bin\\glpi-agent.exe",
+            "perl_version": "v5.36.0",
+            "program": "C:\\Program Files\\GLPI-Agent\\perl\\bin\\glpi-win32-service",
+            "version": "1.7.1"
+        },
+        "videos": [
+            {
+                "chipset": "Intel(R) UHD Graphics Family",
+                "memory": 1024,
+                "name": "Intel(R) UHD Graphics",
+                "resolution": "1366x768"
+            }
+        ]
+    },
+    "deviceid": "COORDVTASMED-2024-12-13-11-47-53",
+    "itemtype": "Computer"
+}

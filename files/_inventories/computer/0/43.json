@@ -1,0 +1,751 @@
+{
+    "action": "inventory",
+    "content": {
+        "accesslog": {
+            "logdate": "2025-02-20 07:26:35"
+        },
+        "antivirus": [
+            {
+                "base_version": "1.421.1992.0",
+                "company": "Microsoft Corporation",
+                "enabled": true,
+                "guid": "{D68DDC3A-831F-4fae-9E44-DA132C1ACF46}",
+                "name": "Windows Defender",
+                "uptodate": true,
+                "version": "4.18.24090.11"
+            }
+        ],
+        "batteries": [
+            {
+                "capacity": 41440,
+                "chemistry": "LION",
+                "date": "2020-06-11",
+                "manufacturer": "LGC",
+                "name": "DELL VN3N047E000",
+                "real_capacity": 1672,
+                "serial": "397",
+                "voltage": 14800
+            }
+        ],
+        "bios": {
+            "bdate": "2016-11-22",
+            "bmanufacturer": "Dell Inc.",
+            "bversion": "A11",
+            "mmanufacturer": "Dell Inc.",
+            "mmodel": "0T6F0H",
+            "msn": "\/C3J2VF2\/CN1296371O01EF\/",
+            "skunumber": "Vostro 3458",
+            "smanufacturer": "Dell Inc.",
+            "smodel": "Vostro 3458",
+            "ssn": "C3J2VF2"
+        },
+        "firewalls": [
+            {
+                "profile": "StandardProfile",
+                "status": "on"
+            },
+            {
+                "profile": "DomainProfile",
+                "status": "on"
+            },
+            {
+                "profile": "PublicProfile",
+                "status": "on"
+            }
+        ],
+        "hardware": {
+            "chassis_type": "Laptop",
+            "description": "Analista de Calidad Jorge Sanchez",
+            "lastloggeduser": "LIDERES.PLANTA",
+            "name": "PAnalistaCalid",
+            "uuid": "4c4c4544-0033-4a10-8032-c3c04f564632",
+            "vmsystem": "Physical",
+            "winprodkey": "W269N-WFGWX-YVC9B-4J6C9-T83GX"
+        },
+        "licenseinfos": [
+            {
+                "components": "Access\/AccessRuntime\/Excel\/Groove\/InfoPath\/Lync\/LyncEntry\/LyncVdi\/OneNote\/Outlook\/OutlookStandard\/PowerPoint\/Project\/ProjectPro\/ProjectStd\/Publisher\/SharePointDesigner\/Visio\/VisioPro\/VisioSDK\/VisioStd\/Word",
+                "fullname": "Microsoft Office Profesional 2016",
+                "key": "XQNVK-8JYDB-WJ9W3-YJ8YR-WFG99",
+                "name": "Microsoft Office 2016",
+                "productid": "00339-10000-00000-AA391",
+                "trial": false
+            },
+            {
+                "fullname": "Office 15, RETAIL(Grace) channel",
+                "key": "XXXXX-XXXXX-XXXXX-XXXXX-DV3TM",
+                "name": "Office 15, OfficeHomeBusinessR_Grace edition",
+                "productid": "00196-00000-00000-AA604"
+            },
+            {
+                "fullname": "Office 15, RETAIL channel",
+                "key": "XXXXX-XXXXX-XXXXX-XXXXX-MBFP3",
+                "name": "Office 15, OfficeHomeBusinessR_Retail edition",
+                "productid": "00196-26302-01017-AA867"
+            }
+        ],
+        "memories": [
+            {
+                "capacity": 4096,
+                "caption": "DIMM A",
+                "description": "SODIMM",
+                "manufacturer": "Hynix",
+                "model": "HMT451S6DFR8A-PB",
+                "numslots": 1,
+                "serialnumber": "A3E8A68A",
+                "speed": "1600",
+                "type": "DDR3"
+            },
+            {
+                "capacity": 4096,
+                "caption": "DIMM B",
+                "description": "SODIMM",
+                "manufacturer": "Samsung",
+                "model": "M471B5173DB0-YK0",
+                "numslots": 2,
+                "serialnumber": "9FD8D7E1",
+                "speed": "1600",
+                "type": "DDR3"
+            }
+        ],
+        "monitors": [
+            {
+                "base64": "AP\/\/\/\/\/\/\/wAGrzwtAAAAAAAXAQSVHxF4Arv1lFVUkCcjUFQAAAABAQEBAQEBAQEBAQEBAQEB7B1W6FAAHjAmFjYANa0QAAAYAAAADwAAAAAAAAAAAAAAAAAgAAAA\/gBBVU8KICAgICAgICAgAAAA\/gBCMTQwWFROMDIuRCAKAKg=",
+                "caption": "AUO B140XTN02.D",
+                "description": "0\/2013",
+                "manufacturer": "AU Optronics",
+                "serial": "00000000"
+            }
+        ],
+        "operatingsystem": {
+            "arch": "32-bit",
+            "dns_domain": "corsan.com.co",
+            "fqdn": "panalistacalid.corsan.com.co",
+            "install_date": "2021-06-28 17:12:13",
+            "kernel_name": "MSWin32",
+            "name": "Windows",
+            "service_pack": "5371",
+            "timezone": {
+                "name": "America\/Bogota",
+                "offset": "-0500"
+            },
+            "version": "22H2"
+        },
+        "ports": [
+            {
+                "caption": "VGA",
+                "description": "Other",
+                "name": "JVGA",
+                "type": "Video Port"
+            },
+            {
+                "caption": "Cardreader",
+                "description": "Other",
+                "name": "JSD1",
+                "type": "Other"
+            },
+            {
+                "caption": "Network",
+                "description": "RJ-45",
+                "name": "JLOM1",
+                "type": "Network Port"
+            },
+            {
+                "caption": "USB1",
+                "description": "Access Bus (USB)",
+                "name": "JUSB1",
+                "type": "USB"
+            },
+            {
+                "caption": "USB2",
+                "description": "Access Bus (USB)",
+                "name": "JUSB2",
+                "type": "USB"
+            },
+            {
+                "caption": "USB3",
+                "description": "Access Bus (USB)",
+                "name": "JUSB3",
+                "type": "USB"
+            },
+            {
+                "caption": "Audio Jack",
+                "description": "Mini Jack (headphones)",
+                "name": "JHP1",
+                "type": "Audio Port"
+            },
+            {
+                "description": "Other",
+                "name": "JeDP",
+                "type": "Other"
+            },
+            {
+                "description": "Other",
+                "name": "JNGFF1 - WLAN\/BT\/WiGig CONN",
+                "type": "Other"
+            },
+            {
+                "description": "Other",
+                "name": "JKBTP1 - Keyboard",
+                "type": "Keyboard Port"
+            },
+            {
+                "description": "Other",
+                "name": "JFAN1 - CPU FAN",
+                "type": "Other"
+            },
+            {
+                "description": "SAS\/SATA Plug Receptacle",
+                "name": "JSATA1 - SATA3 CONN",
+                "type": "SATA"
+            },
+            {
+                "description": "Other",
+                "name": "JXDP1 - CPU XDP Port",
+                "type": "Other"
+            },
+            {
+                "description": "Other",
+                "name": "JAPS1 - Automatic Power Switch(APS)",
+                "type": "Other"
+            }
+        ],
+        "remote_mgmt": [
+            {
+                "id": "1296616182",
+                "type": "anydesk"
+            }
+        ],
+        "slots": [
+            {
+                "description": "x16 PCI Express",
+                "designation": "0",
+                "name": "J6B2",
+                "status": "used"
+            },
+            {
+                "description": "x1 PCI Express",
+                "designation": "1",
+                "name": "J6B1",
+                "status": "used"
+            },
+            {
+                "description": "x1 PCI Express",
+                "designation": "2",
+                "name": "J6D1",
+                "status": "used"
+            },
+            {
+                "description": "x1 PCI Express",
+                "designation": "3",
+                "name": "J7B1",
+                "status": "used"
+            },
+            {
+                "description": "x1 PCI Express",
+                "designation": "4",
+                "name": "J8B4",
+                "status": "used"
+            }
+        ],
+        "softwares": [
+            {
+                "arch": "i586",
+                "from": "registry",
+                "guid": "CCleaner",
+                "install_date": "2024-08-21",
+                "name": "CCleaner",
+                "publisher": "Piriform",
+                "system_category": "application",
+                "uninstall_string": "\"C:\\Program Files\\CCleaner\\uninst.exe\"",
+                "version": "6.27"
+            },
+            {
+                "arch": "i586",
+                "from": "registry",
+                "guid": "HomeBusinessRetail - es-es",
+                "install_date": "2023-11-08",
+                "name": "Microsoft Office Hogar y Empresas 2013 - es-es",
+                "no_remove": false,
+                "publisher": "Microsoft Corporation",
+                "system_category": "application",
+                "uninstall_string": "\"C:\\Program Files\\Microsoft Office 15\\ClientX64\\OfficeClickToRun.exe\" scenario=install scenariosubtype=uninstall baseurl=\"C:\\Program Files\\Microsoft Office 15\" platform=x86 version=15.0.5603.1000 culture=es-es productstoremove=HomeBusinessRetail_es-es_x-none ",
+                "version": "15.0.5603.1000"
+            },
+            {
+                "arch": "i586",
+                "from": "registry",
+                "guid": "mspaint-b330ad9e-f80b-4c96-9949-4b4228be9a6e",
+                "install_date": "2023-12-14",
+                "name": "mspaint-b330ad9e-f80b-4c96-9949-4b4228be9a6e",
+                "publisher": "Microsoft Corporation",
+                "system_category": "application",
+                "uninstall_string": "\"C:\\WINDOWS\\System32\\mspaint.exe\" \/uninstall"
+            },
+            {
+                "arch": "i586",
+                "from": "registry",
+                "guid": "mstsc-4b0a31aa-df6a-4307-9b47-d5cc50009643",
+                "install_date": "2023-11-15",
+                "name": "mstsc-4b0a31aa-df6a-4307-9b47-d5cc50009643",
+                "publisher": "Microsoft Corporation",
+                "system_category": "application",
+                "uninstall_string": "\"C:\\WINDOWS\\System32\\mstsc.exe\" \/uninstall"
+            },
+            {
+                "arch": "i586",
+                "from": "registry",
+                "guid": "SnippingTool-ee6eb196-db28-4d99-816d-fa9a63b4a377",
+                "install_date": "2023-12-14",
+                "name": "SnippingTool-ee6eb196-db28-4d99-816d-fa9a63b4a377",
+                "publisher": "Microsoft Corporation",
+                "system_category": "application",
+                "uninstall_string": "\"C:\\WINDOWS\\System32\\SnippingTool.exe\" \/uninstall"
+            },
+            {
+                "arch": "i586",
+                "from": "registry",
+                "guid": "SynTPDeinstKey",
+                "install_date": "2024-03-21",
+                "name": "Dell Touchpad",
+                "publisher": "Synaptics Incorporated",
+                "system_category": "application",
+                "uninstall_string": "rundll32.exe \"C:\\Program Files\\Synaptics\\SynTP\\SynISDLL.dll\",standAloneUninstall",
+                "url_info_about": "www.synaptics.com",
+                "version": "19.2.17.70"
+            },
+            {
+                "arch": "i586",
+                "from": "registry",
+                "guid": "VLC media player",
+                "install_date": "2021-06-28",
+                "name": "VLC media player",
+                "publisher": "VideoLAN",
+                "system_category": "application",
+                "uninstall_string": "\"C:\\Program Files\\VideoLAN\\VLC\\uninstall.exe\"",
+                "url_info_about": "https:\/\/www.videolan.org\/",
+                "version": "3.0.14"
+            },
+            {
+                "arch": "i586",
+                "comments": "Caution. Removing this product might prevent some applications from running.",
+                "from": "registry",
+                "guid": "{010792BA-551A-3AC0-A7EF-0FAB4156C382}",
+                "helplink": "http:\/\/go.microsoft.com\/fwlink\/?LinkId=133405",
+                "install_date": "2023-09-06",
+                "name": "Microsoft Visual C++ 2013 x64 Additional Runtime - 12.0.40664",
+                "publisher": "Microsoft Corporation",
+                "system_category": "system_component",
+                "uninstall_string": "MsiExec.exe \/X{010792BA-551A-3AC0-A7EF-0FAB4156C382}",
+                "version": "12.0.40664"
+            },
+            {
+                "arch": "i586",
+                "from": "registry",
+                "guid": "{0746492E-47B6-4251-940C-44462DFD74BB}",
+                "helplink": "http:\/\/support.microsoft.com\/kb\/4480730",
+                "install_date": "2021-06-28",
+                "name": "Update for Windows 10 for x64-based Systems (KB4480730)",
+                "publisher": "Microsoft Corporation",
+                "system_category": "application",
+                "uninstall_string": "MsiExec.exe \/X{0746492E-47B6-4251-940C-44462DFD74BB}",
+                "url_info_about": "http:\/\/support.microsoft.com\/kb\/4480730",
+                "version": "2.55.0.0"
+            },
+            {
+                "arch": "i586",
+                "from": "registry",
+                "guid": "{0B884FA0-BBEE-4573-B696-426AA39ED913}",
+                "install_date": "2023-10-17",
+                "name": "Dell SupportAssist OS Recovery Plugin for Dell Update",
+                "publisher": "Dell Inc.",
+                "system_category": "system_component",
+                "uninstall_string": "MsiExec.exe \/I{0B884FA0-BBEE-4573-B696-426AA39ED913}",
+                "version": "5.5.7.18773"
+            },
+            {
+                "arch": "i586",
+                "from": "registry",
+                "guid": "{0DC51760-4FB7-41F3-8967-D3DEC9D320EB}",
+                "install_date": "2024-07-26",
+                "name": "FortiClient VPN",
+                "publisher": "Fortinet Technologies Inc",
+                "system_category": "application",
+                "uninstall_string": "MsiExec.exe \/I{0DC51760-4FB7-41F3-8967-D3DEC9D320EB}",
+                "version": "7.4.0.1658"
+            },
+            {
+                "arch": "i586",
+                "from": "registry",
+                "guid": "{19AFE054-CA83-45D5-A9DB-4108EF4BD391}",
+                "install_date": "2024-07-26",
+                "name": "Microsoft Visual C++ 2022 X64 Additional Runtime - 14.38.33135",
+                "publisher": "Microsoft Corporation",
+                "system_category": "system_component",
+                "uninstall_string": "MsiExec.exe \/I{19AFE054-CA83-45D5-A9DB-4108EF4BD391}",
+                "version": "14.38.33135"
+            },
+            {
+                "arch": "i586",
+                "comments": "Caution. Removing this product might prevent some applications from running.",
+                "from": "registry",
+                "guid": "{1D8E6291-B0D5-35EC-8441-6616F567A0F7}",
+                "helplink": "http:\/\/go.microsoft.com\/fwlink\/?LinkId=146008",
+                "install_date": "2023-09-06",
+                "name": "Microsoft Visual C++ 2010  x64 Redistributable - 10.0.40219",
+                "publisher": "Microsoft Corporation",
+                "system_category": "application",
+                "uninstall_string": "MsiExec.exe \/X{1D8E6291-B0D5-35EC-8441-6616F567A0F7}",
+                "version": "10.0.40219"
+            },
+            {
+                "arch": "i586",
+                "from": "registry",
+                "guid": "{1FC1A6C2-576E-489A-9B4A-92D21F542136}",
+                "install_date": "2023-11-10",
+                "name": "Microsoft Update Health Tools",
+                "publisher": "Microsoft Corporation",
+                "system_category": "application",
+                "uninstall_string": "MsiExec.exe \/X{1FC1A6C2-576E-489A-9B4A-92D21F542136}",
+                "version": "3.74.0.0"
+            },
+            {
+                "arch": "i586",
+                "from": "registry",
+                "guid": "{205AE40D-8AD7-4F29-A430-DD2168DA562D}",
+                "install_date": "2022-07-19",
+                "name": "Intel(R) Rapid Storage Technology",
+                "publisher": "Intel Corporation",
+                "system_category": "system_component",
+                "uninstall_string": "MsiExec.exe \/I{205AE40D-8AD7-4F29-A430-DD2168DA562D}",
+                "version": "14.5.0.1081"
+            },
+            {
+                "arch": "i586",
+                "from": "registry",
+                "guid": "{217B2755-3BAD-486B-9606-CCD0E6CF3BE8}",
+                "install_date": "2023-10-17",
+                "name": "Microsoft .NET Host - 6.0.20 (x64)",
+                "publisher": "Microsoft Corporation",
+                "system_category": "system_component",
+                "uninstall_string": "MsiExec.exe \/X{217B2755-3BAD-486B-9606-CCD0E6CF3BE8}",
+                "version": "48.83.63169"
+            },
+            {
+                "arch": "i586",
+                "from": "registry",
+                "guid": "{307032B2-6AF2-46D7-B933-62438DEB2B9A}",
+                "install_date": "2024-03-21",
+                "name": "Maxx Audio Installer (x64)",
+                "publisher": "Waves Audio Ltd.",
+                "system_category": "system_component",
+                "uninstall_string": "MsiExec.exe \/X{307032B2-6AF2-46D7-B933-62438DEB2B9A}",
+                "url_info_about": "http:\/\/www.WavesAudioLtd..com",
+                "version": "2.6.6570.1"
+            },
+            {
+                "arch": "i586",
+                "comments": "Caution. Removing this product might prevent some applications from running.",
+                "from": "registry",
+                "guid": "{37B8F9C7-03FB-3253-8781-2517C99D7C00}",
+                "helplink": "http:\/\/go.microsoft.com\/fwlink\/?LinkId=133405",
+                "install_date": "2023-09-06",
+                "name": "Microsoft Visual C++ 2012 x64 Additional Runtime - 11.0.61030",
+                "publisher": "Microsoft Corporation",
+                "system_category": "system_component",
+                "uninstall_string": "MsiExec.exe \/X{37B8F9C7-03FB-3253-8781-2517C99D7C00}",
+                "version": "11.0.61030"
+            },
+            {
+                "arch": "i586",
+                "comments": "Scan your system, download, and apply the latest device driver and system bios updates.",
+                "from": "registry",
+                "guid": "{41D2D254-D869-4CD8-B440-5DF49083C4BA}",
+                "helplink": "https:\/\/support.dell.com",
+                "install_date": "2022-07-19",
+                "name": "Dell Update for Windows 10",
+                "publisher": "Dell Inc.",
+                "system_category": "application",
+                "uninstall_string": "MsiExec.exe \/X{41D2D254-D869-4CD8-B440-5DF49083C4BA}",
+                "url_info_about": "https:\/\/www.dell.com",
+                "version": "4.2.1"
+            },
+            {
+                "arch": "i586",
+                "from": "registry",
+                "guid": "{44165136-E1FC-40DB-A65D-EBAC5594028C}",
+                "install_date": "2023-10-19",
+                "name": "SharpCap 4.1 (64 bit)",
+                "publisher": "AstroSharp Limited",
+                "system_category": "system_component",
+                "uninstall_string": "MsiExec.exe \/I{44165136-E1FC-40DB-A65D-EBAC5594028C}",
+                "version": "4.1.11126"
+            },
+            {
+                "arch": "i586",
+                "comments": "Caution. Removing this product might prevent some applications from running.",
+                "from": "registry",
+                "guid": "{53CF6934-A98D-3D84-9146-FC4EDF3D5641}",
+                "helplink": "http:\/\/go.microsoft.com\/fwlink\/?LinkId=133405",
+                "install_date": "2023-09-06",
+                "name": "Microsoft Visual C++ 2013 x64 Minimum Runtime - 12.0.40664",
+                "publisher": "Microsoft Corporation",
+                "system_category": "system_component",
+                "uninstall_string": "MsiExec.exe \/X{53CF6934-A98D-3D84-9146-FC4EDF3D5641}",
+                "version": "12.0.40664"
+            },
+            {
+                "arch": "i586",
+                "from": "registry",
+                "guid": "{5A66E598-37BD-4C8A-A7CB-A71C32ABCD78}",
+                "install_date": "2022-07-19",
+                "name": "Microsoft .NET Runtime - 5.0.17 (x64)",
+                "publisher": "Microsoft Corporation",
+                "system_category": "system_component",
+                "uninstall_string": "MsiExec.exe \/X{5A66E598-37BD-4C8A-A7CB-A71C32ABCD78}",
+                "version": "40.68.31213"
+            },
+            {
+                "arch": "i586",
+                "from": "registry",
+                "guid": "{6CE8AD8C-E6D5-4BF7-91C3-7F8106A5CD93}",
+                "install_date": "2023-10-17",
+                "name": "Microsoft .NET Runtime - 6.0.20 (x64)",
+                "publisher": "Microsoft Corporation",
+                "system_category": "system_component",
+                "uninstall_string": "MsiExec.exe \/X{6CE8AD8C-E6D5-4BF7-91C3-7F8106A5CD93}",
+                "version": "48.83.63169"
+            },
+            {
+                "arch": "i586",
+                "from": "registry",
+                "guid": "{76A22428-2400-4521-96AF-7AC4A6174CA5}",
+                "install_date": "2021-06-28",
+                "name": "UpdateAssistant",
+                "publisher": "Microsoft Corporation",
+                "system_category": "system_component",
+                "uninstall_string": "MsiExec.exe \/I{76A22428-2400-4521-96AF-7AC4A6174CA5}",
+                "version": "1.25.0.0"
+            },
+            {
+                "arch": "i586",
+                "from": "registry",
+                "guid": "{76FA02FF-603F-48BB-9E3F-17ED5DB861E8}",
+                "install_date": "2023-10-17",
+                "name": "Microsoft .NET Host FX Resolver - 6.0.20 (x64)",
+                "publisher": "Microsoft Corporation",
+                "system_category": "system_component",
+                "uninstall_string": "MsiExec.exe \/X{76FA02FF-603F-48BB-9E3F-17ED5DB861E8}",
+                "version": "48.83.63169"
+            },
+            {
+                "arch": "i586",
+                "from": "registry",
+                "guid": "{78CA3586-0715-4862-B091-200565E3BC87}",
+                "install_date": "2024-12-24",
+                "name": "TightVNC",
+                "publisher": "GlavSoft LLC.",
+                "system_category": "application",
+                "uninstall_string": "MsiExec.exe \/I{78CA3586-0715-4862-B091-200565E3BC87}",
+                "version": "2.8.85.0"
+            },
+            {
+                "arch": "i586",
+                "from": "registry",
+                "guid": "{805626FF-2BC9-4567-A71E-A76A470D000A}",
+                "install_date": "2023-09-06",
+                "name": "Microsoft Windows Desktop Runtime - 6.0.16 (x64)",
+                "publisher": "Microsoft Corporation",
+                "system_category": "system_component",
+                "uninstall_string": "MsiExec.exe \/X{805626FF-2BC9-4567-A71E-A76A470D000A}",
+                "version": "48.67.58484"
+            },
+            {
+                "arch": "i586",
+                "from": "registry",
+                "guid": "{8BA25391-0BE6-443A-8EBF-86A29BAFC479}",
+                "install_date": "2022-07-19",
+                "name": "Microsoft .NET Host FX Resolver - 5.0.17 (x64)",
+                "publisher": "Microsoft Corporation",
+                "system_category": "system_component",
+                "uninstall_string": "MsiExec.exe \/X{8BA25391-0BE6-443A-8EBF-86A29BAFC479}",
+                "version": "40.68.31213"
+            },
+            {
+                "arch": "i586",
+                "from": "registry",
+                "guid": "{90150000-008F-0000-1000-0000000FF1CE}",
+                "install_date": "2023-11-08",
+                "name": "Office 15 Click-to-Run Licensing Component",
+                "publisher": "Microsoft Corporation",
+                "system_category": "system_component",
+                "uninstall_string": "MsiExec.exe \/I{90150000-008F-0000-1000-0000000FF1CE}",
+                "version": "15.0.5603.1000"
+            },
+            {
+                "arch": "i586",
+                "from": "registry",
+                "guid": "{AA0C8AB5-7297-4D46-A0D9-08096FE59E46}",
+                "install_date": "2024-07-26",
+                "name": "Microsoft Visual C++ 2022 X64 Minimum Runtime - 14.38.33135",
+                "publisher": "Microsoft Corporation",
+                "system_category": "system_component",
+                "uninstall_string": "MsiExec.exe \/I{AA0C8AB5-7297-4D46-A0D9-08096FE59E46}",
+                "version": "14.38.33135"
+            },
+            {
+                "arch": "i586",
+                "from": "registry",
+                "guid": "{AB8DE9BA-19E1-446A-BCFA-6B3DA9751E21}",
+                "helplink": "http:\/\/go.microsoft.com\/fwlink\/?LinkId=230480",
+                "install_date": "2023-09-06",
+                "name": "Microsoft SQL Server 2014 Express LocalDB ",
+                "publisher": "Microsoft Corporation",
+                "system_category": "application",
+                "uninstall_string": "MsiExec.exe \/I{AB8DE9BA-19E1-446A-BCFA-6B3DA9751E21}",
+                "version": "12.0.2000.8"
+            },
+            {
+                "arch": "i586",
+                "from": "registry",
+                "guid": "{B8537ACA-B210-4DF5-B928-E41CEB76723D}",
+                "install_date": "2023-09-06",
+                "name": "Microsoft .NET Host FX Resolver - 6.0.16 (x64)",
+                "publisher": "Microsoft Corporation",
+                "system_category": "system_component",
+                "uninstall_string": "MsiExec.exe \/X{B8537ACA-B210-4DF5-B928-E41CEB76723D}",
+                "version": "48.67.58427"
+            },
+            {
+                "arch": "i586",
+                "from": "registry",
+                "guid": "{BC741628-0AFC-405C-8946-DD46D1005A0A}",
+                "install_date": "2022-11-23",
+                "name": "64 Bit HP CIO Components Installer",
+                "publisher": "Hewlett-Packard",
+                "system_category": "system_component",
+                "uninstall_string": "MsiExec.exe \/I{BC741628-0AFC-405C-8946-DD46D1005A0A}",
+                "version": "8.2.4"
+            },
+            {
+                "arch": "i586",
+                "from": "registry",
+                "guid": "{C71E93D2-B8B4-4858-B2A1-4C967DBC1C5F}",
+                "install_date": "2023-09-06",
+                "name": "Microsoft .NET Runtime - 6.0.16 (x64)",
+                "publisher": "Microsoft Corporation",
+                "system_category": "system_component",
+                "uninstall_string": "MsiExec.exe \/X{C71E93D2-B8B4-4858-B2A1-4C967DBC1C5F}",
+                "version": "48.67.58427"
+            },
+            {
+                "arch": "i586",
+                "comments": "Caution. Removing this product might prevent some applications from running.",
+                "from": "registry",
+                "guid": "{CF2BEA3C-26EA-32F8-AA9B-331F7E34BA97}",
+                "helplink": "http:\/\/go.microsoft.com\/fwlink\/?LinkId=133405",
+                "install_date": "2023-09-06",
+                "name": "Microsoft Visual C++ 2012 x64 Minimum Runtime - 11.0.61030",
+                "publisher": "Microsoft Corporation",
+                "system_category": "system_component",
+                "uninstall_string": "MsiExec.exe \/X{CF2BEA3C-26EA-32F8-AA9B-331F7E34BA97}",
+                "version": "11.0.61030"
+            },
+            {
+                "arch": "i586",
+                "comments": "GLPI Agent 1.7.1",
+                "from": "registry",
+                "guid": "{CF9A3F4C-6BF4-1014-BBBD-E6E599B62783}",
+                "helplink": "https:\/\/glpi-project.org\/discussions\/",
+                "install_date": "2024-12-24",
+                "name": "GLPI Agent 1.7.1",
+                "publisher": "Teclib'",
+                "system_category": "application",
+                "uninstall_string": "MsiExec.exe \/I{CF9A3F4C-6BF4-1014-BBBD-E6E599B62783}",
+                "url_info_about": "https:\/\/glpi-project.org\/",
+                "version": "1.7.1"
+            },
+            {
+                "arch": "i586",
+                "from": "registry",
+                "guid": "{DA80A019-4C3B-4DAA-ACA1-6937D7CAAF9E}",
+                "helplink": "http:\/\/support.microsoft.com\/kb\/5001716",
+                "install_date": "2024-10-15",
+                "name": "Update for x64-based Windows Systems (KB5001716)",
+                "publisher": "Microsoft Corporation",
+                "system_category": "application",
+                "uninstall_string": "MsiExec.exe \/X{DA80A019-4C3B-4DAA-ACA1-6937D7CAAF9E}",
+                "url_info_about": "http:\/\/support.microsoft.com\/kb\/5001716",
+                "version": "8.94.0.0"
+            },
+            {
+                "arch": "i586",
+                "comments": "Dell SupportAssist keeps your PC up to date and running at its best with recommended software and driver updates. It also helps resolve issues quickly by detecting common problems and sending issue details to Dell Technical Support agents on your behalf.",
+                "from": "registry",
+                "guid": "{DB6164FC-CD98-471C-BD5B-5B14CAFA3186}",
+                "helplink": "https:\/\/www.dell.com\/support\/home\/en-in\/product-support\/product\/dell-supportassist-pcs-tablets\/docs",
+                "install_date": "2023-10-17",
+                "name": "Dell SupportAssist",
+                "publisher": "Dell Inc.",
+                "system_category": "application",
+                "uninstall_string": "MsiExec.exe \/X{DB6164FC-CD98-471C-BD5B-5B14CAFA3186}",
+                "url_info_about": "http:\/\/dell.com\/Support\/SupportAssist",
+                "version": "3.14.2.45116"
+            },
+            {
+                "arch": "i586",
+                "from": "registry",
+                "guid": "{E663ED1E-899C-40E8-91D0-8D37B95E3C69}",
+                "install_date": "2022-07-19",
+                "name": "Microsoft .NET Host - 5.0.17 (x64)",
+                "publisher": "Microsoft Corporation",
+                "system_category": "system_component",
+                "uninstall_string": "MsiExec.exe \/X{E663ED1E-899C-40E8-91D0-8D37B95E3C69}",
+                "version": "40.68.31213"
+            },
+            {
+                "arch": "i586",
+                "from": "registry",
+                "install_date": "2023-11-15",
+                "name": "Internet Explorer",
+                "publisher": "Microsoft Corporation",
+                "version": "11.3636.19041.0"
+            }
+        ],
+        "storages": [
+            {
+                "description": "Integrated : Bus 0 : Device 31 : Function 2 : Adapter 0 : Port 0",
+                "disksize": 250059,
+                "firmware": "M3CR023",
+                "interface": "SATA",
+                "model": "CT250MX500SSD1",
+                "name": "PhysicalDisk0",
+                "serial": "2111E589F9A1",
+                "type": "SSD"
+            }
+        ],
+        "users": [
+            {
+                "domain": "DISSQL",
+                "login": "LIDERES.PLANTA"
+            }
+        ],
+        "versionclient": "GLPI-Agent_v1.7.1",
+        "versionprovider": {
+            "comments": [
+                "Provided by Teclib Edition",
+                "Installer built on Fri Dec 22 15:25:22 2023 UTC",
+                "Built with Strawberry Perl 5.36.0",
+                "Built on github actions windows image for glpi-project\/glpi-agent repository"
+            ],
+            "etime": 68,
+            "name": "GLPI",
+            "perl_exe": "C:\\Program Files\\GLPI-Agent\\perl\\bin\\glpi-agent.exe",
+            "perl_version": "v5.36.0",
+            "program": "C:\\Program Files\\GLPI-Agent\\perl\\bin\\glpi-win32-service",
+            "version": "1.7.1"
+        }
+    },
+    "deviceid": "PAnalistaCalid-2024-12-24-09-07-17",
+    "itemtype": "Computer"
+}

@@ -1,0 +1,32 @@
+CREATE TABLE Trabajos (
+    TrabajoID INT PRIMARY KEY IDENTITY(1,1),
+    FechaHoraInicio DATETIME NOT NULL,
+    FechaHoraFinal DATETIME NOT NULL,
+    ZonaReparacion NVARCHAR(100) NOT NULL,
+    MaquinaReparada NVARCHAR(100) NOT NULL,
+    TipoTrabajoID INT NOT NULL,
+    Observaciones NVARCHAR(MAX),
+    PersonaDiligencia NVARCHAR(100) NOT NULL,
+    PersonaRecibe NVARCHAR(100) NOT NULL,
+    LiderRecibe NVARCHAR(100) NOT NULL,
+    CONSTRAINT FK_TipoTrabajo FOREIGN KEY (TipoTrabajoID) REFERENCES Tipos_Trabajo(TipoTrabajoID)
+);
+
+CREATE TABLE Mecanicos (
+    MecanicoID INT PRIMARY KEY IDENTITY(1,1),
+    Nombre NVARCHAR(100) NOT NULL
+);
+
+CREATE TABLE Mecanicos_Trabajos (
+    TrabajoID INT NOT NULL,
+    MecanicoID INT NOT NULL,
+    TiempoTrabajado DECIMAL(5,2) NOT NULL,  -- Tiempo en horas
+    PRIMARY KEY (TrabajoID, MecanicoID),
+    CONSTRAINT FK_TrabajoID FOREIGN KEY (TrabajoID) REFERENCES Trabajos(TrabajoID),
+    CONSTRAINT FK_MecanicoID FOREIGN KEY (MecanicoID) REFERENCES Mecanicos(MecanicoID)
+);
+
+CREATE TABLE Tipos_Trabajo (
+    TipoTrabajoID INT PRIMARY KEY IDENTITY(1,1),
+    Descripcion NVARCHAR(50) NOT NULL
+);

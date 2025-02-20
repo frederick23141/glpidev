@@ -1,0 +1,30 @@
+2024-09-30 16:43:07 [7@SISTEMAS2]
+1 segundos for "Installing glpi_plugin_fields_containers"
+2024-09-30 16:43:08 [7@SISTEMAS2]
+1 segundos for "Installing glpi_plugin_fields_containerdisplayconditions"
+2024-09-30 16:43:09 [7@SISTEMAS2]
+1 segundos for "Installing glpi_plugin_fields_fields"
+2024-09-30 16:43:09 [7@SISTEMAS2]
+0 seconds for "Updating glpi_plugin_fields_fields"
+2024-09-30 16:43:10 [7@SISTEMAS2]
+1 segundos for "Installing glpi_plugin_fields_labeltranslations"
+2024-09-30 16:43:11 [7@SISTEMAS2]
+1 segundos for "Installing glpi_plugin_fields_profiles"
+2024-09-30 16:43:11 [7@SISTEMAS2]
+0 seconds for "Installing glpi_plugin_fields_statusoverrides"
+2024-09-30 16:43:12 [7@SISTEMAS2]
+1 segundos for "Cambio del diseño de la Base de datos - glpi_plugin_fields_fields"
+2024-09-30 16:43:12 [7@SISTEMAS2]
+0 seconds for "Valores de configuración agregados para stable_search_options (plugin:fields)."
+2024-09-30 16:43:12 [7@SISTEMAS2]
+0 seconds for "Tarea finalizada."
+2024-09-30 16:43:12 [7@SISTEMAS2]
+0 seconds for "Regenerate containers files"
+2024-09-30 16:43:12 [7@SISTEMAS2]
+0 seconds for "Tarea finalizada."
+2024-09-30 16:43:12 [7@SISTEMAS2]
+0 seconds for "Updating generated containers files"
+2024-09-30 16:43:12 [7@SISTEMAS2]
+0 seconds for "Tarea finalizada."
+2024-09-30 16:43:12 [7@SISTEMAS2]
+0 seconds for "Updating generated dropdown files"

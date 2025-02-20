@@ -1,0 +1,959 @@
+[2024-09-25 22:04:49] glpiphplog.WARNING: Test logger  
+[2024-09-25 22:16:28] glpiphplog.DEBUG: Html::compileScss() in C:\xampp\htdocs\glpi\src\Html.php line 6935
+Compile css/palettes/auror.scss  {"user":"@SISTEMAS2"} 
+[2024-09-26 20:20:41] glpiphplog.WARNING:   *** PHP User Warning (512): Usage of signed integers in primary or foreign keys is discouraged, please use unsigned integers instead in `glpi_plugin_barcode_configs`.`id`. in C:\xampp\htdocs\glpi\src\DBmysql.php at line 2174
+  Backtrace :
+  src\DBmysql.php:2174                               trigger_error()
+  src\DBmysql.php:394                                DBmysql->checkForDeprecatedTableOptions()
+  src\DBmysql.php:352                                DBmysql->doQuery()
+  marketplace\barcode\hook.php:98                    DBmysql->query()
+  src\Plugin.php:955                                 plugin_barcode_install()
+  :                                                  Plugin->install()
+  src\Marketplace\Controller.php:546                 call_user_func()
+  src\Marketplace\Controller.php:436                 Glpi\Marketplace\Controller->setPluginState()
+  src\Marketplace\Controller.php:179                 Glpi\Marketplace\Controller->installPlugin()
+  ajax\marketplace.php:75                            Glpi\Marketplace\Controller->downloadPlugin()
+  
+[2024-09-26 20:20:42] glpiphplog.WARNING:   *** PHP User Warning (512): Usage of signed integers in primary or foreign keys is discouraged, please use unsigned integers instead in `glpi_plugin_barcode_configs_types`.`id`. in C:\xampp\htdocs\glpi\src\DBmysql.php at line 2174
+  Backtrace :
+  src\DBmysql.php:2174                               trigger_error()
+  src\DBmysql.php:394                                DBmysql->checkForDeprecatedTableOptions()
+  src\DBmysql.php:352                                DBmysql->doQuery()
+  marketplace\barcode\hook.php:127                   DBmysql->query()
+  src\Plugin.php:955                                 plugin_barcode_install()
+  :                                                  Plugin->install()
+  src\Marketplace\Controller.php:546                 call_user_func()
+  src\Marketplace\Controller.php:436                 Glpi\Marketplace\Controller->setPluginState()
+  src\Marketplace\Controller.php:179                 Glpi\Marketplace\Controller->installPlugin()
+  ajax\marketplace.php:75                            Glpi\Marketplace\Controller->downloadPlugin()
+  
+[2024-09-26 20:35:39] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "labels2" in C:\xampp\htdocs\glpi\marketplace\mreporting\inc\graph.class.php at line 842
+  Backtrace :
+  marketplace\mreporting\inc\common.class.php:685    PluginMreportingGraph->showHgbar()
+  marketplace\mreporting\front\graph.php:43          PluginMreportingCommon->showGraph()
+  
+[2024-09-26 20:35:39] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: array_keys(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\glpi\marketplace\mreporting\inc\graph.class.php at line 1839
+  Backtrace :
+  marketplace\mreporting\inc\graph.class.php:1839    array_keys()
+  marketplace\mreporting\inc\graph.class.php:843     PluginMreportingGraph->initDatasMultiple()
+  marketplace\mreporting\inc\common.class.php:685    PluginMreportingGraph->showHgbar()
+  marketplace\mreporting\front\graph.php:43          PluginMreportingCommon->showGraph()
+  
+[2024-09-26 20:35:41] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "labels2" in C:\xampp\htdocs\glpi\marketplace\mreporting\inc\graph.class.php at line 842
+  Backtrace :
+  marketplace\mreporting\inc\common.class.php:685    PluginMreportingGraph->showHgbar()
+  marketplace\mreporting\front\graph.php:43          PluginMreportingCommon->showGraph()
+  
+[2024-09-26 20:35:41] glpiphplog.CRITICAL:   *** Uncaught Exception TypeError: array_keys(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\glpi\marketplace\mreporting\inc\graph.class.php at line 1839
+  Backtrace :
+  marketplace\mreporting\inc\graph.class.php:1839    array_keys()
+  marketplace\mreporting\inc\graph.class.php:843     PluginMreportingGraph->initDatasMultiple()
+  marketplace\mreporting\inc\common.class.php:685    PluginMreportingGraph->showHgbar()
+  marketplace\mreporting\front\graph.php:43          PluginMreportingCommon->showGraph()
+  
+[2024-09-26 23:29:42] glpiphplog.WARNING: Test logger  
+[2024-09-26 23:30:09] glpiphplog.WARNING: Test logger  
+[2024-09-30 16:39:41] glpiphplog.WARNING:   *** PHP User Warning (512): Usage of "DATETIME" fields is discouraged, please use "TIMESTAMP" fields instead. in C:\xampp\htdocs\glpi\src\DBmysql.php at line 2162
+  Backtrace :
+  src\DBmysql.php:2162                               trigger_error()
+  src\DBmysql.php:394                                DBmysql->checkForDeprecatedTableOptions()
+  src\DBmysql.php:1080                               DBmysql->doQuery()
+  marketplace\archimap\hook.php:40                   DBmysql->runFile()
+  src\Plugin.php:955                                 plugin_archimap_install()
+  :                                                  Plugin->install()
+  src\Marketplace\Controller.php:546                 call_user_func()
+  src\Marketplace\Controller.php:436                 Glpi\Marketplace\Controller->setPluginState()
+  src\Marketplace\Controller.php:179                 Glpi\Marketplace\Controller->installPlugin()
+  ajax\marketplace.php:75                            Glpi\Marketplace\Controller->downloadPlugin()
+  
+[2024-09-30 16:39:41] glpiphplog.WARNING:   *** PHP User Warning (512): Usage of signed integers in primary or foreign keys is discouraged, please use unsigned integers instead in `glpi_plugin_archimap_graphs`.`id`. in C:\xampp\htdocs\glpi\src\DBmysql.php at line 2174
+  Backtrace :
+  src\DBmysql.php:2174                               trigger_error()
+  src\DBmysql.php:394                                DBmysql->checkForDeprecatedTableOptions()
+  src\DBmysql.php:1080                               DBmysql->doQuery()
+  marketplace\archimap\hook.php:40                   DBmysql->runFile()
+  src\Plugin.php:955                                 plugin_archimap_install()
+  :                                                  Plugin->install()
+  src\Marketplace\Controller.php:546                 call_user_func()
+  src\Marketplace\Controller.php:436                 Glpi\Marketplace\Controller->setPluginState()
+  src\Marketplace\Controller.php:179                 Glpi\Marketplace\Controller->installPlugin()
+  ajax\marketplace.php:75                            Glpi\Marketplace\Controller->downloadPlugin()
+  
+[2024-09-30 16:39:43] glpiphplog.WARNING:   *** PHP User Warning (512): Usage of signed integers in primary or foreign keys is discouraged, please use unsigned integers instead in `glpi_plugin_archimap_graphs_items`.`id`. in C:\xampp\htdocs\glpi\src\DBmysql.php at line 2174
+  Backtrace :
+  src\DBmysql.php:2174                               trigger_error()
+  src\DBmysql.php:394                                DBmysql->checkForDeprecatedTableOptions()
+  src\DBmysql.php:1080                               DBmysql->doQuery()
+  marketplace\archimap\hook.php:40                   DBmysql->runFile()
+  src\Plugin.php:955                                 plugin_archimap_install()
+  :                                                  Plugin->install()
+  src\Marketplace\Controller.php:546                 call_user_func()
+  src\Marketplace\Controller.php:436                 Glpi\Marketplace\Controller->setPluginState()
+  src\Marketplace\Controller.php:179                 Glpi\Marketplace\Controller->installPlugin()
+  ajax\marketplace.php:75                            Glpi\Marketplace\Controller->downloadPlugin()
+  
+[2024-09-30 16:39:43] glpiphplog.WARNING:   *** PHP User Warning (512): Usage of signed integers in primary or foreign keys is discouraged, please use unsigned integers instead in `glpi_plugin_archimap_profiles`.`id`. in C:\xampp\htdocs\glpi\src\DBmysql.php at line 2174
+  Backtrace :
+  src\DBmysql.php:2174                               trigger_error()
+  src\DBmysql.php:394                                DBmysql->checkForDeprecatedTableOptions()
+  src\DBmysql.php:1080                               DBmysql->doQuery()
+  marketplace\archimap\hook.php:40                   DBmysql->runFile()
+  src\Plugin.php:955                                 plugin_archimap_install()
+  :                                                  Plugin->install()
+  src\Marketplace\Controller.php:546                 call_user_func()
+  src\Marketplace\Controller.php:436                 Glpi\Marketplace\Controller->setPluginState()
+  src\Marketplace\Controller.php:179                 Glpi\Marketplace\Controller->installPlugin()
+  ajax\marketplace.php:75                            Glpi\Marketplace\Controller->downloadPlugin()
+  
+[2024-09-30 16:39:44] glpiphplog.WARNING:   *** PHP User Warning (512): Usage of signed integers in primary or foreign keys is discouraged, please use unsigned integers instead in `glpi_plugin_archimap_graphtypes`.`id`. in C:\xampp\htdocs\glpi\src\DBmysql.php at line 2174
+  Backtrace :
+  src\DBmysql.php:2174                               trigger_error()
+  src\DBmysql.php:394                                DBmysql->checkForDeprecatedTableOptions()
+  src\DBmysql.php:1080                               DBmysql->doQuery()
+  marketplace\archimap\hook.php:40                   DBmysql->runFile()
+  src\Plugin.php:955                                 plugin_archimap_install()
+  :                                                  Plugin->install()
+  src\Marketplace\Controller.php:546                 call_user_func()
+  src\Marketplace\Controller.php:436                 Glpi\Marketplace\Controller->setPluginState()
+  src\Marketplace\Controller.php:179                 Glpi\Marketplace\Controller->installPlugin()
+  ajax\marketplace.php:75                            Glpi\Marketplace\Controller->downloadPlugin()
+  
+[2024-09-30 16:39:44] glpiphplog.WARNING:   *** PHP User Warning (512): Usage of signed integers in primary or foreign keys is discouraged, please use unsigned integers instead in `glpi_plugin_archimap_graphstates`.`id`. in C:\xampp\htdocs\glpi\src\DBmysql.php at line 2174
+  Backtrace :
+  src\DBmysql.php:2174                               trigger_error()
+  src\DBmysql.php:394                                DBmysql->checkForDeprecatedTableOptions()
+  src\DBmysql.php:1080                               DBmysql->doQuery()
+  marketplace\archimap\hook.php:40                   DBmysql->runFile()
+  src\Plugin.php:955                                 plugin_archimap_install()
+  :                                                  Plugin->install()
+  src\Marketplace\Controller.php:546                 call_user_func()
+  src\Marketplace\Controller.php:436                 Glpi\Marketplace\Controller->setPluginState()
+  src\Marketplace\Controller.php:179                 Glpi\Marketplace\Controller->installPlugin()
+  ajax\marketplace.php:75                            Glpi\Marketplace\Controller->downloadPlugin()
+  
+[2024-09-30 16:39:45] glpiphplog.WARNING:   *** PHP User Warning (512): Usage of signed integers in primary or foreign keys is discouraged, please use unsigned integers instead in `glpi_plugin_archimap_graphlevels`.`id`. in C:\xampp\htdocs\glpi\src\DBmysql.php at line 2174
+  Backtrace :
+  src\DBmysql.php:2174                               trigger_error()
+  src\DBmysql.php:394                                DBmysql->checkForDeprecatedTableOptions()
+  src\DBmysql.php:1080                               DBmysql->doQuery()
+  marketplace\archimap\hook.php:40                   DBmysql->runFile()
+  src\Plugin.php:955                                 plugin_archimap_install()
+  :                                                  Plugin->install()
+  src\Marketplace\Controller.php:546                 call_user_func()
+  src\Marketplace\Controller.php:436                 Glpi\Marketplace\Controller->setPluginState()
+  src\Marketplace\Controller.php:179                 Glpi\Marketplace\Controller->installPlugin()
+  ajax\marketplace.php:75                            Glpi\Marketplace\Controller->downloadPlugin()
+  
+[2024-09-30 16:39:47] glpiphplog.WARNING:   *** PHP User Warning (512): Usage of signed integers in primary or foreign keys is discouraged, please use unsigned integers instead in `glpi_plugin_archimap_configs`.`id`. in C:\xampp\htdocs\glpi\src\DBmysql.php at line 2174
+  Backtrace :
+  src\DBmysql.php:2174                               trigger_error()
+  src\DBmysql.php:394                                DBmysql->checkForDeprecatedTableOptions()
+  src\DBmysql.php:1080                               DBmysql->doQuery()
+  marketplace\archimap\hook.php:40                   DBmysql->runFile()
+  src\Plugin.php:955                                 plugin_archimap_install()
+  :                                                  Plugin->install()
+  src\Marketplace\Controller.php:546                 call_user_func()
+  src\Marketplace\Controller.php:436                 Glpi\Marketplace\Controller->setPluginState()
+  src\Marketplace\Controller.php:179                 Glpi\Marketplace\Controller->installPlugin()
+  ajax\marketplace.php:75                            Glpi\Marketplace\Controller->downloadPlugin()
+  
+[2024-09-30 16:44:41] glpiphplog.WARNING:   *** PHP User Warning (512): Invalid relations declared between "glpi_documents" and "glpi_plugin_manageentities_companies" table. Target field "logo_id" is not a foreign key field. in C:\xampp\htdocs\glpi\src\DbUtils.php at line 2200
+  Backtrace :
+  src\DbUtils.php:2200                               trigger_error()
+  inc\db.function.php:585                            DbUtils->getDbRelations()
+  src\CommonDBTM.php:877                             getDbRelations()
+  src\CommonDBTM.php:797                             CommonDBTM->cleanRelationData()
+  src\CommonDBTM.php:2100                            CommonDBTM->deleteFromDB()
+  src\CommonDBTM.php:4675                            CommonDBTM->delete()
+  marketplace\satisfaction\inc\profile.class.php:99  CommonDBTM->deleteByCriteria()
+  marketplace\satisfaction\inc\profile.class.php:80  PluginSatisfactionProfile::addDefaultProfileInfos()
+  marketplace\satisfaction\hook.php:68               PluginSatisfactionProfile::createFirstAccess()
+  src\Plugin.php:955                                 plugin_satisfaction_install()
+  :                                                  Plugin->install()
+  src\Marketplace\Controller.php:546                 call_user_func()
+  src\Marketplace\Controller.php:436                 Glpi\Marketplace\Controller->setPluginState()
+  src\Marketplace\Controller.php:179                 Glpi\Marketplace\Controller->installPlugin()
+  ajax\marketplace.php:75                            Glpi\Marketplace\Controller->downloadPlugin()
+  
+[2024-09-30 16:45:05] glpiphplog.CRITICAL:   *** Uncaught Exception GuzzleHttp\Exception\ConnectException: cURL error 28: Connection time-out (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for https://github.com/pluginsGLPI/news/releases/download/1.12.3/glpi-news-1.12.3.tar.bz2 in C:\xampp\htdocs\glpi\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php at line 210
+  Backtrace :
+  ...zzlehttp\guzzle\src\Handler\CurlFactory.php:158 GuzzleHttp\Handler\CurlFactory::createRejection()
+  ...zzlehttp\guzzle\src\Handler\CurlFactory.php:110 GuzzleHttp\Handler\CurlFactory::finishError()
+  ...uzzlehttp\guzzle\src\Handler\CurlHandler.php:47 GuzzleHttp\Handler\CurlFactory::finish()
+  vendor\guzzlehttp\guzzle\src\Handler\Proxy.php:28  GuzzleHttp\Handler\CurlHandler->__invoke()
+  vendor\guzzlehttp\guzzle\src\Handler\Proxy.php:48  GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}()
+  ...zlehttp\guzzle\src\PrepareBodyMiddleware.php:35 GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}()
+  vendor\guzzlehttp\guzzle\src\Middleware.php:31     GuzzleHttp\PrepareBodyMiddleware->__invoke()
+  ...guzzlehttp\guzzle\src\RedirectMiddleware.php:71 GuzzleHttp\Middleware::GuzzleHttp\{closure}()
+  vendor\guzzlehttp\guzzle\src\Middleware.php:63     GuzzleHttp\RedirectMiddleware->__invoke()
+  vendor\guzzlehttp\guzzle\src\HandlerStack.php:75   GuzzleHttp\Middleware::GuzzleHttp\{closure}()
+  vendor\guzzlehttp\guzzle\src\Client.php:309        GuzzleHttp\HandlerStack->__invoke()
+  vendor\guzzlehttp\guzzle\src\Client.php:146        GuzzleHttp\Client->transfer()
+  vendor\guzzlehttp\guzzle\src\Client.php:165        GuzzleHttp\Client->requestAsync()
+  src\Marketplace\Api\Plugins.php:124                GuzzleHttp\Client->request()
+  src\Marketplace\Api\Plugins.php:490                Glpi\Marketplace\Api\Plugins->request()
+  src\Marketplace\Controller.php:104                 Glpi\Marketplace\Api\Plugins->downloadArchive()
+  ajax\marketplace.php:75                            Glpi\Marketplace\Controller->downloadPlugin()
+  
+[2024-09-30 16:45:19] glpiphplog.WARNING:   *** PHP User Warning (512): Invalid relations declared between "glpi_documents" and "glpi_plugin_manageentities_companies" table. Target field "logo_id" is not a foreign key field. in C:\xampp\htdocs\glpi\src\DbUtils.php at line 2200
+  Backtrace :
+  src\DbUtils.php:2200                               trigger_error()
+  inc\db.function.php:585                            DbUtils->getDbRelations()
+  src\CommonDBTM.php:877                             getDbRelations()
+  src\CommonDBTM.php:797                             CommonDBTM->cleanRelationData()
+  src\CommonDBTM.php:2100                            CommonDBTM->deleteFromDB()
+  src\CommonDBTM.php:4675                            CommonDBTM->delete()
+  marketplace\pdf\inc\profile.class.php:123          CommonDBTM->deleteByCriteria()
+  marketplace\pdf\inc\profile.class.php:143          PluginPdfProfile::addDefaultProfileInfos()
+  marketplace\pdf\inc\profile.class.php:197          PluginPdfProfile::createFirstAccess()
+  marketplace\pdf\hook.php:61                        PluginPdfProfile::install()
+  src\Plugin.php:955                                 plugin_pdf_install()
+  :                                                  Plugin->install()
+  src\Marketplace\Controller.php:546                 call_user_func()
+  src\Marketplace\Controller.php:436                 Glpi\Marketplace\Controller->setPluginState()
+  src\Marketplace\Controller.php:179                 Glpi\Marketplace\Controller->installPlugin()
+  ajax\marketplace.php:75                            Glpi\Marketplace\Controller->downloadPlugin()
+  
+[2024-09-30 16:46:01] glpiphplog.WARNING:   *** PHP User Warning (512): Invalid relations declared between "glpi_documents" and "glpi_plugin_manageentities_companies" table. Target field "logo_id" is not a foreign key field. in C:\xampp\htdocs\glpi\src\DbUtils.php at line 2200
+  Backtrace :
+  src\DbUtils.php:2200                               trigger_error()
+  inc\db.function.php:585                            DbUtils->getDbRelations()
+  src\CommonDBTM.php:877                             getDbRelations()
+  src\CommonDBTM.php:797                             CommonDBTM->cleanRelationData()
+  src\CommonDBTM.php:2100                            CommonDBTM->deleteFromDB()
+  src\CommonDBTM.php:4675                            CommonDBTM->delete()
+  ...place\purchaserequest\inc\profile.class.php:300 CommonDBTM->deleteByCriteria()
+  ...place\purchaserequest\inc\profile.class.php:285 PluginPurchaserequestProfile::addDefaultProfileInfos()
+  marketplace\purchaserequest\hook.php:76            PluginPurchaserequestProfile::createFirstAccess()
+  src\Plugin.php:955                                 plugin_purchaserequest_install()
+  :                                                  Plugin->install()
+  src\Marketplace\Controller.php:546                 call_user_func()
+  src\Marketplace\Controller.php:436                 Glpi\Marketplace\Controller->setPluginState()
+  src\Marketplace\Controller.php:179                 Glpi\Marketplace\Controller->installPlugin()
+  ajax\marketplace.php:75                            Glpi\Marketplace\Controller->downloadPlugin()
+  
+[2024-09-30 16:46:04] glpiphplog.WARNING:   *** PHP User Warning (512): Invalid relations declared between "glpi_documents" and "glpi_plugin_manageentities_companies" table. Target field "logo_id" is not a foreign key field. in C:\xampp\htdocs\glpi\src\DbUtils.php at line 2200
+  Backtrace :
+  src\DbUtils.php:2200                               trigger_error()
+  inc\db.function.php:585                            DbUtils->getDbRelations()
+  src\CommonDBTM.php:877                             getDbRelations()
+  src\CommonDBTM.php:797                             CommonDBTM->cleanRelationData()
+  src\CommonDBTM.php:2100                            CommonDBTM->deleteFromDB()
+  src\CommonDBTM.php:4675                            CommonDBTM->delete()
+  ...place\purchaserequest\inc\profile.class.php:300 CommonDBTM->deleteByCriteria()
+  ...place\purchaserequest\inc\profile.class.php:285 PluginPurchaserequestProfile::addDefaultProfileInfos()
+  marketplace\purchaserequest\hook.php:76            PluginPurchaserequestProfile::createFirstAccess()
+  src\Plugin.php:955                                 plugin_purchaserequest_install()
+  :                                                  Plugin->install()
+  src\Marketplace\Controller.php:546                 call_user_func()
+  src\Marketplace\Controller.php:436                 Glpi\Marketplace\Controller->setPluginState()
+  src\Marketplace\Controller.php:179                 Glpi\Marketplace\Controller->installPlugin()
+  ajax\marketplace.php:75                            Glpi\Marketplace\Controller->downloadPlugin()
+  
+[2024-09-30 16:46:05] glpiphplog.WARNING:   *** PHP User Warning (512): Invalid relations declared between "glpi_documents" and "glpi_plugin_manageentities_companies" table. Target field "logo_id" is not a foreign key field. in C:\xampp\htdocs\glpi\src\DbUtils.php at line 2200
+  Backtrace :
+  src\DbUtils.php:2200                               trigger_error()
+  inc\db.function.php:585                            DbUtils->getDbRelations()
+  src\CommonDBTM.php:877                             getDbRelations()
+  src\CommonDBTM.php:797                             CommonDBTM->cleanRelationData()
+  src\CommonDBTM.php:2100                            CommonDBTM->deleteFromDB()
+  src\CommonDBTM.php:4675                            CommonDBTM->delete()
+  ...place\purchaserequest\inc\profile.class.php:300 CommonDBTM->deleteByCriteria()
+  ...place\purchaserequest\inc\profile.class.php:285 PluginPurchaserequestProfile::addDefaultProfileInfos()
+  marketplace\purchaserequest\hook.php:76            PluginPurchaserequestProfile::createFirstAccess()
+  src\Plugin.php:955                                 plugin_purchaserequest_install()
+  :                                                  Plugin->install()
+  src\Marketplace\Controller.php:546                 call_user_func()
+  src\Marketplace\Controller.php:436                 Glpi\Marketplace\Controller->setPluginState()
+  src\Marketplace\Controller.php:179                 Glpi\Marketplace\Controller->installPlugin()
+  ajax\marketplace.php:75                            Glpi\Marketplace\Controller->downloadPlugin()
+  
+[2024-09-30 16:46:36] glpiphplog.WARNING:   *** PHP User Warning (512): Invalid relations declared between "glpi_documents" and "glpi_plugin_manageentities_companies" table. Target field "logo_id" is not a foreign key field. in C:\xampp\htdocs\glpi\src\DbUtils.php at line 2200
+  Backtrace :
+  src\DbUtils.php:2200                               trigger_error()
+  inc\db.function.php:585                            DbUtils->getDbRelations()
+  src\CommonDBTM.php:877                             getDbRelations()
+  src\CommonDBTM.php:797                             CommonDBTM->cleanRelationData()
+  src\CommonDBTM.php:2100                            CommonDBTM->deleteFromDB()
+  src\CommonDBTM.php:4675                            CommonDBTM->delete()
+  marketplace\order\inc\profile.class.php:65         CommonDBTM->deleteByCriteria()
+  marketplace\order\inc\profile.class.php:42         PluginOrderProfile::addDefaultProfileInfos()
+  marketplace\order\inc\profile.class.php:142        PluginOrderProfile::createFirstAccess()
+  marketplace\order\hook.php:71                      PluginOrderProfile::install()
+  src\Plugin.php:955                                 plugin_order_install()
+  :                                                  Plugin->install()
+  src\Marketplace\Controller.php:546                 call_user_func()
+  src\Marketplace\Controller.php:436                 Glpi\Marketplace\Controller->setPluginState()
+  src\Marketplace\Controller.php:179                 Glpi\Marketplace\Controller->installPlugin()
+  ajax\marketplace.php:75                            Glpi\Marketplace\Controller->downloadPlugin()
+  
+[2024-09-30 16:46:38] glpiphplog.WARNING:   *** PHP User Warning (512): Invalid relations declared between "glpi_documents" and "glpi_plugin_manageentities_companies" table. Target field "logo_id" is not a foreign key field. in C:\xampp\htdocs\glpi\src\DbUtils.php at line 2200
+  Backtrace :
+  src\DbUtils.php:2200                               trigger_error()
+  inc\db.function.php:585                            DbUtils->getDbRelations()
+  src\CommonDBTM.php:877                             getDbRelations()
+  src\CommonDBTM.php:797                             CommonDBTM->cleanRelationData()
+  src\CommonDBTM.php:2100                            CommonDBTM->deleteFromDB()
+  src\CommonDBTM.php:4675                            CommonDBTM->delete()
+  marketplace\order\inc\profile.class.php:65         CommonDBTM->deleteByCriteria()
+  marketplace\order\inc\profile.class.php:42         PluginOrderProfile::addDefaultProfileInfos()
+  marketplace\order\inc\profile.class.php:142        PluginOrderProfile::createFirstAccess()
+  marketplace\order\hook.php:71                      PluginOrderProfile::install()
+  src\Plugin.php:955                                 plugin_order_install()
+  :                                                  Plugin->install()
+  src\Marketplace\Controller.php:546                 call_user_func()
+  src\Marketplace\Controller.php:436                 Glpi\Marketplace\Controller->setPluginState()
+  src\Marketplace\Controller.php:179                 Glpi\Marketplace\Controller->installPlugin()
+  ajax\marketplace.php:75                            Glpi\Marketplace\Controller->downloadPlugin()
+  
+[2024-09-30 16:46:38] glpiphplog.WARNING:   *** PHP User Warning (512): Invalid relations declared between "glpi_documents" and "glpi_plugin_manageentities_companies" table. Target field "logo_id" is not a foreign key field. in C:\xampp\htdocs\glpi\src\DbUtils.php at line 2200
+  Backtrace :
+  src\DbUtils.php:2200                               trigger_error()
+  inc\db.function.php:585                            DbUtils->getDbRelations()
+  src\CommonDBTM.php:877                             getDbRelations()
+  src\CommonDBTM.php:797                             CommonDBTM->cleanRelationData()
+  src\CommonDBTM.php:2100                            CommonDBTM->deleteFromDB()
+  src\CommonDBTM.php:4675                            CommonDBTM->delete()
+  marketplace\order\inc\profile.class.php:65         CommonDBTM->deleteByCriteria()
+  marketplace\order\inc\profile.class.php:42         PluginOrderProfile::addDefaultProfileInfos()
+  marketplace\order\inc\profile.class.php:142        PluginOrderProfile::createFirstAccess()
+  marketplace\order\hook.php:71                      PluginOrderProfile::install()
+  src\Plugin.php:955                                 plugin_order_install()
+  :                                                  Plugin->install()
+  src\Marketplace\Controller.php:546                 call_user_func()
+  src\Marketplace\Controller.php:436                 Glpi\Marketplace\Controller->setPluginState()
+  src\Marketplace\Controller.php:179                 Glpi\Marketplace\Controller->installPlugin()
+  ajax\marketplace.php:75                            Glpi\Marketplace\Controller->downloadPlugin()
+  
+[2024-09-30 16:47:35] glpiphplog.WARNING:   *** PHP User Warning (512): Usage of "utf8" charset/collation detected, should be "utf8mb4" in C:\xampp\htdocs\glpi\src\DBmysql.php at line 2136
+  Backtrace :
+  src\DBmysql.php:2136                               trigger_error()
+  src\DBmysql.php:394                                DBmysql->checkForDeprecatedTableOptions()
+  src\DBmysql.php:493                                DBmysql->doQuery()
+  src\DBmysql.php:477                                DBmysql->doQueryOrDie()
+  marketplace\geststock\inc\config.class.php:62      DBmysql->queryOrDie()
+  marketplace\geststock\hook.php:39                  PluginGeststockConfig::install()
+  src\Plugin.php:955                                 plugin_geststock_install()
+  :                                                  Plugin->install()
+  src\Marketplace\Controller.php:546                 call_user_func()
+  src\Marketplace\Controller.php:436                 Glpi\Marketplace\Controller->setPluginState()
+  src\Marketplace\Controller.php:179                 Glpi\Marketplace\Controller->installPlugin()
+  ajax\marketplace.php:75                            Glpi\Marketplace\Controller->downloadPlugin()
+  
+[2024-09-30 16:47:35] glpiphplog.WARNING:   *** PHP User Warning (512): Usage of signed integers in primary or foreign keys is discouraged, please use unsigned integers instead in `glpi_plugin_geststock_configs`.`id`. in C:\xampp\htdocs\glpi\src\DBmysql.php at line 2174
+  Backtrace :
+  src\DBmysql.php:2174                               trigger_error()
+  src\DBmysql.php:394                                DBmysql->checkForDeprecatedTableOptions()
+  src\DBmysql.php:493                                DBmysql->doQuery()
+  src\DBmysql.php:477                                DBmysql->doQueryOrDie()
+  marketplace\geststock\inc\config.class.php:62      DBmysql->queryOrDie()
+  marketplace\geststock\hook.php:39                  PluginGeststockConfig::install()
+  src\Plugin.php:955                                 plugin_geststock_install()
+  :                                                  Plugin->install()
+  src\Marketplace\Controller.php:546                 call_user_func()
+  src\Marketplace\Controller.php:436                 Glpi\Marketplace\Controller->setPluginState()
+  src\Marketplace\Controller.php:179                 Glpi\Marketplace\Controller->installPlugin()
+  ajax\marketplace.php:75                            Glpi\Marketplace\Controller->downloadPlugin()
+  
+[2024-09-30 16:47:36] glpiphplog.WARNING:   *** PHP User Warning (512): Usage of "utf8" charset/collation detected, should be "utf8mb4" in C:\xampp\htdocs\glpi\src\DBmysql.php at line 2136
+  Backtrace :
+  src\DBmysql.php:2136                               trigger_error()
+  src\DBmysql.php:394                                DBmysql->checkForDeprecatedTableOptions()
+  src\DBmysql.php:493                                DBmysql->doQuery()
+  src\DBmysql.php:477                                DBmysql->doQueryOrDie()
+  marketplace\geststock\inc\followup.class.php:55    DBmysql->queryOrDie()
+  marketplace\geststock\hook.php:42                  PluginGeststockFollowup::install()
+  src\Plugin.php:955                                 plugin_geststock_install()
+  :                                                  Plugin->install()
+  src\Marketplace\Controller.php:546                 call_user_func()
+  src\Marketplace\Controller.php:436                 Glpi\Marketplace\Controller->setPluginState()
+  src\Marketplace\Controller.php:179                 Glpi\Marketplace\Controller->installPlugin()
+  ajax\marketplace.php:75                            Glpi\Marketplace\Controller->downloadPlugin()
+  
+[2024-09-30 16:47:36] glpiphplog.WARNING:   *** PHP User Warning (512): Usage of signed integers in primary or foreign keys is discouraged, please use unsigned integers instead in `glpi_plugin_geststock_followups`.`id`. in C:\xampp\htdocs\glpi\src\DBmysql.php at line 2174
+  Backtrace :
+  src\DBmysql.php:2174                               trigger_error()
+  src\DBmysql.php:394                                DBmysql->checkForDeprecatedTableOptions()
+  src\DBmysql.php:493                                DBmysql->doQuery()
+  src\DBmysql.php:477                                DBmysql->doQueryOrDie()
+  marketplace\geststock\inc\followup.class.php:55    DBmysql->queryOrDie()
+  marketplace\geststock\hook.php:42                  PluginGeststockFollowup::install()
+  src\Plugin.php:955                                 plugin_geststock_install()
+  :                                                  Plugin->install()
+  src\Marketplace\Controller.php:546                 call_user_func()
+  src\Marketplace\Controller.php:436                 Glpi\Marketplace\Controller->setPluginState()
+  src\Marketplace\Controller.php:179                 Glpi\Marketplace\Controller->installPlugin()
+  ajax\marketplace.php:75                            Glpi\Marketplace\Controller->downloadPlugin()
+  
+[2024-09-30 16:47:36] glpiphplog.WARNING:   *** PHP User Warning (512): Usage of "utf8_unicode_ci," charset/collation detected, should be "utf8mb4_unicode_ci," in C:\xampp\htdocs\glpi\src\DBmysql.php at line 2136
+  Backtrace :
+  src\DBmysql.php:2136                               trigger_error()
+  src\DBmysql.php:394                                DBmysql->checkForDeprecatedTableOptions()
+  src\DBmysql.php:493                                DBmysql->doQuery()
+  src\DBmysql.php:477                                DBmysql->doQueryOrDie()
+  ...etplace\geststock\inc\reservation.class.php:444 DBmysql->queryOrDie()
+  marketplace\geststock\hook.php:45                  PluginGeststockReservation::install()
+  src\Plugin.php:955                                 plugin_geststock_install()
+  :                                                  Plugin->install()
+  src\Marketplace\Controller.php:546                 call_user_func()
+  src\Marketplace\Controller.php:436                 Glpi\Marketplace\Controller->setPluginState()
+  src\Marketplace\Controller.php:179                 Glpi\Marketplace\Controller->installPlugin()
+  ajax\marketplace.php:75                            Glpi\Marketplace\Controller->downloadPlugin()
+  
+[2024-09-30 16:47:36] glpiphplog.WARNING:   *** PHP User Warning (512): Usage of signed integers in primary or foreign keys is discouraged, please use unsigned integers instead in `glpi_plugin_geststock_reservations`.`id`. in C:\xampp\htdocs\glpi\src\DBmysql.php at line 2174
+  Backtrace :
+  src\DBmysql.php:2174                               trigger_error()
+  src\DBmysql.php:394                                DBmysql->checkForDeprecatedTableOptions()
+  src\DBmysql.php:493                                DBmysql->doQuery()
+  src\DBmysql.php:477                                DBmysql->doQueryOrDie()
+  ...etplace\geststock\inc\reservation.class.php:444 DBmysql->queryOrDie()
+  marketplace\geststock\hook.php:45                  PluginGeststockReservation::install()
+  src\Plugin.php:955                                 plugin_geststock_install()
+  :                                                  Plugin->install()
+  src\Marketplace\Controller.php:546                 call_user_func()
+  src\Marketplace\Controller.php:436                 Glpi\Marketplace\Controller->setPluginState()
+  src\Marketplace\Controller.php:179                 Glpi\Marketplace\Controller->installPlugin()
+  ajax\marketplace.php:75                            Glpi\Marketplace\Controller->downloadPlugin()
+  
+[2024-09-30 16:47:37] glpiphplog.WARNING:   *** PHP User Warning (512): Usage of "utf8_unicode_ci" charset/collation detected, should be "utf8mb4_unicode_ci" in C:\xampp\htdocs\glpi\src\DBmysql.php at line 2136
+  Backtrace :
+  src\DBmysql.php:2136                               trigger_error()
+  src\DBmysql.php:394                                DBmysql->checkForDeprecatedTableOptions()
+  src\DBmysql.php:493                                DBmysql->doQuery()
+  src\DBmysql.php:477                                DBmysql->doQueryOrDie()
+  ...ce\geststock\inc\reservation_item.class.php:647 DBmysql->queryOrDie()
+  marketplace\geststock\hook.php:48                  PluginGeststockReservation_Item::install()
+  src\Plugin.php:955                                 plugin_geststock_install()
+  :                                                  Plugin->install()
+  src\Marketplace\Controller.php:546                 call_user_func()
+  src\Marketplace\Controller.php:436                 Glpi\Marketplace\Controller->setPluginState()
+  src\Marketplace\Controller.php:179                 Glpi\Marketplace\Controller->installPlugin()
+  ajax\marketplace.php:75                            Glpi\Marketplace\Controller->downloadPlugin()
+  
+[2024-09-30 16:47:37] glpiphplog.WARNING:   *** PHP User Warning (512): Usage of signed integers in primary or foreign keys is discouraged, please use unsigned integers instead in `glpi_plugin_geststock_reservations_items`.`id`. in C:\xampp\htdocs\glpi\src\DBmysql.php at line 2174
+  Backtrace :
+  src\DBmysql.php:2174                               trigger_error()
+  src\DBmysql.php:394                                DBmysql->checkForDeprecatedTableOptions()
+  src\DBmysql.php:493                                DBmysql->doQuery()
+  src\DBmysql.php:477                                DBmysql->doQueryOrDie()
+  ...ce\geststock\inc\reservation_item.class.php:647 DBmysql->queryOrDie()
+  marketplace\geststock\hook.php:48                  PluginGeststockReservation_Item::install()
+  src\Plugin.php:955                                 plugin_geststock_install()
+  :                                                  Plugin->install()
+  src\Marketplace\Controller.php:546                 call_user_func()
+  src\Marketplace\Controller.php:436                 Glpi\Marketplace\Controller->setPluginState()
+  src\Marketplace\Controller.php:179                 Glpi\Marketplace\Controller->installPlugin()
+  ajax\marketplace.php:75                            Glpi\Marketplace\Controller->downloadPlugin()
+  
+[2024-09-30 16:47:38] glpiphplog.WARNING:   *** PHP User Warning (512): Invalid relations declared between "glpi_documents" and "glpi_plugin_manageentities_companies" table. Target field "logo_id" is not a foreign key field. in C:\xampp\htdocs\glpi\src\DbUtils.php at line 2200
+  Backtrace :
+  src\DbUtils.php:2200                               trigger_error()
+  inc\db.function.php:585                            DbUtils->getDbRelations()
+  src\CommonDBTM.php:877                             getDbRelations()
+  src\CommonDBTM.php:797                             CommonDBTM->cleanRelationData()
+  src\CommonDBTM.php:2100                            CommonDBTM->deleteFromDB()
+  src\CommonDBTM.php:4675                            CommonDBTM->delete()
+  marketplace\geststock\inc\profile.class.php:82     CommonDBTM->deleteByCriteria()
+  marketplace\geststock\inc\profile.class.php:68     PluginGeststockProfile::addDefaultProfileInfos()
+  marketplace\geststock\inc\profile.class.php:182    PluginGeststockProfile::createFirstAccess()
+  marketplace\geststock\hook.php:51                  PluginGeststockProfile::install()
+  src\Plugin.php:955                                 plugin_geststock_install()
+  :                                                  Plugin->install()
+  src\Marketplace\Controller.php:546                 call_user_func()
+  src\Marketplace\Controller.php:436                 Glpi\Marketplace\Controller->setPluginState()
+  src\Marketplace\Controller.php:179                 Glpi\Marketplace\Controller->installPlugin()
+  ajax\marketplace.php:75                            Glpi\Marketplace\Controller->downloadPlugin()
+  
+[2024-09-30 16:47:39] glpiphplog.WARNING:   *** PHP User Warning (512): Usage of "utf8_unicode_ci" charset/collation detected, should be "utf8mb4_unicode_ci" in C:\xampp\htdocs\glpi\src\DBmysql.php at line 2136
+  Backtrace :
+  src\DBmysql.php:2136                               trigger_error()
+  src\DBmysql.php:394                                DBmysql->checkForDeprecatedTableOptions()
+  src\DBmysql.php:493                                DBmysql->doQuery()
+  src\DBmysql.php:477                                DBmysql->doQueryOrDie()
+  ...place\geststock\inc\specification.class.php:151 DBmysql->queryOrDie()
+  marketplace\geststock\hook.php:54                  PluginGeststockSpecification::install()
+  src\Plugin.php:955                                 plugin_geststock_install()
+  :                                                  Plugin->install()
+  src\Marketplace\Controller.php:546                 call_user_func()
+  src\Marketplace\Controller.php:436                 Glpi\Marketplace\Controller->setPluginState()
+  src\Marketplace\Controller.php:179                 Glpi\Marketplace\Controller->installPlugin()
+  ajax\marketplace.php:75                            Glpi\Marketplace\Controller->downloadPlugin()
+  
+[2024-09-30 16:47:39] glpiphplog.WARNING:   *** PHP User Warning (512): Usage of signed integers in primary or foreign keys is discouraged, please use unsigned integers instead in `glpi_plugin_geststock_specifications`.`id`. in C:\xampp\htdocs\glpi\src\DBmysql.php at line 2174
+  Backtrace :
+  src\DBmysql.php:2174                               trigger_error()
+  src\DBmysql.php:394                                DBmysql->checkForDeprecatedTableOptions()
+  src\DBmysql.php:493                                DBmysql->doQuery()
+  src\DBmysql.php:477                                DBmysql->doQueryOrDie()
+  ...place\geststock\inc\specification.class.php:151 DBmysql->queryOrDie()
+  marketplace\geststock\hook.php:54                  PluginGeststockSpecification::install()
+  src\Plugin.php:955                                 plugin_geststock_install()
+  :                                                  Plugin->install()
+  src\Marketplace\Controller.php:546                 call_user_func()
+  src\Marketplace\Controller.php:436                 Glpi\Marketplace\Controller->setPluginState()
+  src\Marketplace\Controller.php:179                 Glpi\Marketplace\Controller->installPlugin()
+  ajax\marketplace.php:75                            Glpi\Marketplace\Controller->downloadPlugin()
+  
+[2024-09-30 16:47:39] glpiphplog.WARNING:   *** PHP User Warning (512): Usage of "utf8_unicode_ci" charset/collation detected, should be "utf8mb4_unicode_ci" in C:\xampp\htdocs\glpi\src\DBmysql.php at line 2136
+  Backtrace :
+  src\DBmysql.php:2136                               trigger_error()
+  src\DBmysql.php:394                                DBmysql->checkForDeprecatedTableOptions()
+  src\DBmysql.php:493                                DBmysql->doQuery()
+  src\DBmysql.php:477                                DBmysql->doQueryOrDie()
+  ...tstock\inc\reservation_item_number.class.php:91 DBmysql->queryOrDie()
+  marketplace\geststock\hook.php:57                  PluginGeststockReservation_Item_Number::install()
+  src\Plugin.php:955                                 plugin_geststock_install()
+  :                                                  Plugin->install()
+  src\Marketplace\Controller.php:546                 call_user_func()
+  src\Marketplace\Controller.php:436                 Glpi\Marketplace\Controller->setPluginState()
+  src\Marketplace\Controller.php:179                 Glpi\Marketplace\Controller->installPlugin()
+  ajax\marketplace.php:75                            Glpi\Marketplace\Controller->downloadPlugin()
+  
+[2024-09-30 16:47:39] glpiphplog.WARNING:   *** PHP User Warning (512): Usage of signed integers in primary or foreign keys is discouraged, please use unsigned integers instead in `glpi_plugin_geststock_reservations_items_numbers`.`id`. in C:\xampp\htdocs\glpi\src\DBmysql.php at line 2174
+  Backtrace :
+  src\DBmysql.php:2174                               trigger_error()
+  src\DBmysql.php:394                                DBmysql->checkForDeprecatedTableOptions()
+  src\DBmysql.php:493                                DBmysql->doQuery()
+  src\DBmysql.php:477                                DBmysql->doQueryOrDie()
+  ...tstock\inc\reservation_item_number.class.php:91 DBmysql->queryOrDie()
+  marketplace\geststock\hook.php:57                  PluginGeststockReservation_Item_Number::install()
+  src\Plugin.php:955                                 plugin_geststock_install()
+  :                                                  Plugin->install()
+  src\Marketplace\Controller.php:546                 call_user_func()
+  src\Marketplace\Controller.php:436                 Glpi\Marketplace\Controller->setPluginState()
+  src\Marketplace\Controller.php:179                 Glpi\Marketplace\Controller->installPlugin()
+  ajax\marketplace.php:75                            Glpi\Marketplace\Controller->downloadPlugin()
+  
+[2024-09-30 16:47:50] glpiphplog.CRITICAL:   *** Uncaught Exception GuzzleHttp\Exception\ConnectException: cURL error 28: SSL connection timeout (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for https://github.com/pluginsGLPI/tag/releases/download/2.11.7/glpi-tag-2.11.7.tar.bz2 in C:\xampp\htdocs\glpi\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php at line 210
+  Backtrace :
+  ...zzlehttp\guzzle\src\Handler\CurlFactory.php:158 GuzzleHttp\Handler\CurlFactory::createRejection()
+  ...zzlehttp\guzzle\src\Handler\CurlFactory.php:110 GuzzleHttp\Handler\CurlFactory::finishError()
+  ...uzzlehttp\guzzle\src\Handler\CurlHandler.php:47 GuzzleHttp\Handler\CurlFactory::finish()
+  vendor\guzzlehttp\guzzle\src\Handler\Proxy.php:28  GuzzleHttp\Handler\CurlHandler->__invoke()
+  vendor\guzzlehttp\guzzle\src\Handler\Proxy.php:48  GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}()
+  ...zlehttp\guzzle\src\PrepareBodyMiddleware.php:35 GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}()
+  vendor\guzzlehttp\guzzle\src\Middleware.php:31     GuzzleHttp\PrepareBodyMiddleware->__invoke()
+  ...guzzlehttp\guzzle\src\RedirectMiddleware.php:71 GuzzleHttp\Middleware::GuzzleHttp\{closure}()
+  vendor\guzzlehttp\guzzle\src\Middleware.php:63     GuzzleHttp\RedirectMiddleware->__invoke()
+  vendor\guzzlehttp\guzzle\src\HandlerStack.php:75   GuzzleHttp\Middleware::GuzzleHttp\{closure}()
+  vendor\guzzlehttp\guzzle\src\Client.php:309        GuzzleHttp\HandlerStack->__invoke()
+  vendor\guzzlehttp\guzzle\src\Client.php:146        GuzzleHttp\Client->transfer()
+  vendor\guzzlehttp\guzzle\src\Client.php:165        GuzzleHttp\Client->requestAsync()
+  src\Marketplace\Api\Plugins.php:124                GuzzleHttp\Client->request()
+  src\Marketplace\Api\Plugins.php:490                Glpi\Marketplace\Api\Plugins->request()
+  src\Marketplace\Controller.php:104                 Glpi\Marketplace\Api\Plugins->downloadArchive()
+  ajax\marketplace.php:75                            Glpi\Marketplace\Controller->downloadPlugin()
+  
+[2024-09-30 16:48:00] glpiphplog.CRITICAL:   *** Uncaught Exception GuzzleHttp\Exception\ConnectException: cURL error 28: Connection time-out (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for https://objects.githubusercontent.com/github-production-release-asset-2e65be/98504657/cd016045-6113-4893-8877-b59223a5f4c3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20240930%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240930T144751Z&X-Amz-Expires=300&X-Amz-Signature=704171fec0aa62bf6436076b59851e2fb4fa8eee171311e40676e3692ff7383c&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3Dglpi-treeview-1.10.2.tar.bz2&response-content-type=application%2Foctet-stream in C:\xampp\htdocs\glpi\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php at line 210
+  Backtrace :
+  ...zzlehttp\guzzle\src\Handler\CurlFactory.php:158 GuzzleHttp\Handler\CurlFactory::createRejection()
+  ...zzlehttp\guzzle\src\Handler\CurlFactory.php:110 GuzzleHttp\Handler\CurlFactory::finishError()
+  ...uzzlehttp\guzzle\src\Handler\CurlHandler.php:47 GuzzleHttp\Handler\CurlFactory::finish()
+  vendor\guzzlehttp\guzzle\src\Handler\Proxy.php:28  GuzzleHttp\Handler\CurlHandler->__invoke()
+  vendor\guzzlehttp\guzzle\src\Handler\Proxy.php:48  GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}()
+  ...zlehttp\guzzle\src\PrepareBodyMiddleware.php:35 GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}()
+  vendor\guzzlehttp\guzzle\src\Middleware.php:31     GuzzleHttp\PrepareBodyMiddleware->__invoke()
+  ...guzzlehttp\guzzle\src\RedirectMiddleware.php:71 GuzzleHttp\Middleware::GuzzleHttp\{closure}()
+  ...uzzlehttp\guzzle\src\RedirectMiddleware.php:107 GuzzleHttp\RedirectMiddleware->__invoke()
+  ...guzzlehttp\guzzle\src\RedirectMiddleware.php:73 GuzzleHttp\RedirectMiddleware->checkRedirect()
+  ...guzzlehttp\promises\src\FulfilledPromise.php:41 GuzzleHttp\RedirectMiddleware->GuzzleHttp\{closure}()
+  vendor\guzzlehttp\promises\src\TaskQueue.php:48    GuzzleHttp\Promise\FulfilledPromise::GuzzleHttp\Promise\{closure}()
+  vendor\guzzlehttp\promises\src\Promise.php:248     GuzzleHttp\Promise\TaskQueue->run()
+  vendor\guzzlehttp\promises\src\Promise.php:224     GuzzleHttp\Promise\Promise->invokeWaitFn()
+  vendor\guzzlehttp\promises\src\Promise.php:269     GuzzleHttp\Promise\Promise->waitIfPending()
+  vendor\guzzlehttp\promises\src\Promise.php:226     GuzzleHttp\Promise\Promise->invokeWaitList()
+  vendor\guzzlehttp\promises\src\Promise.php:62      GuzzleHttp\Promise\Promise->waitIfPending()
+  vendor\guzzlehttp\guzzle\src\Client.php:165        GuzzleHttp\Promise\Promise->wait()
+  src\Marketplace\Api\Plugins.php:124                GuzzleHttp\Client->request()
+  src\Marketplace\Api\Plugins.php:490                Glpi\Marketplace\Api\Plugins->request()
+  src\Marketplace\Controller.php:104                 Glpi\Marketplace\Api\Plugins->downloadArchive()
+  ajax\marketplace.php:75                            Glpi\Marketplace\Controller->downloadPlugin()
+  
+[2024-09-30 19:00:23] glpiphplog.WARNING:   *** PHP User Warning (512): TicketFilter: PregMatch failed! please review the pattern /.*?(?<match>(JIRA-[0-9]{1,4})).*/ and correct it in C:\xampp\htdocs\glpi\marketplace\ticketfilter\src\Filter.php at line 149
+  Backtrace :
+  marketplace\ticketfilter\src\Filter.php:149        trigger_error()
+  marketplace\ticketfilter\src\Filter.php:68         GlpiPlugin\Ticketfilter\Filter::searchForMatches()
+  src\Plugin.php:1713                                GlpiPlugin\Ticketfilter\Filter::preItemAdd()
+  src\CommonDBTM.php:1294                            Plugin::doHook()
+  front\tracking.injector.php:88                     CommonDBTM->add()
+  
+[2024-09-30 19:00:24] glpiphplog.CRITICAL:   *** Uncaught Exception ParseError: Unclosed '{' on line 62 does not match ')' in C:\xampp\htdocs\glpi\marketplace\geststock\inc\ticket.class.php at line 68
+  Backtrace :
+  :                                                  glpi_autoload()
+  src\Plugin.php:1712                                is_callable()
+  src\CommonDBTM.php:1610                            Plugin::doHook()
+  src\Document_Item.php:228                          CommonDBTM->update()
+  src\CommonDBTM.php:1343                            Document_Item->post_addItem()
+  src\CommonDBTM.php:5647                            CommonDBTM->add()
+  src\CommonITILObject.php:2849                      CommonDBTM->addFiles()
+  src\Ticket.php:2225                                CommonITILObject->post_addItem()
+  src\CommonDBTM.php:1343                            Ticket->post_addItem()
+  front\tracking.injector.php:88                     CommonDBTM->add()
+  
+[2024-09-30 19:02:06] glpiphplog.CRITICAL:   *** Uncaught Exception ParseError: Unclosed '{' on line 62 does not match ')' in C:\xampp\htdocs\glpi\marketplace\geststock\inc\ticket.class.php at line 68
+  Backtrace :
+  :                                                  glpi_autoload()
+  src\Plugin.php:1712                                is_callable()
+  src\CommonDBTM.php:1610                            Plugin::doHook()
+  front\ticket.form.php:90                           CommonDBTM->update()
+  
+[2024-09-30 19:02:39] glpiphplog.CRITICAL:   *** Uncaught Exception ParseError: Unclosed '{' on line 62 does not match ')' in C:\xampp\htdocs\glpi\marketplace\geststock\inc\ticket.class.php at line 68
+  Backtrace :
+  :                                                  glpi_autoload()
+  src\Plugin.php:1712                                is_callable()
+  src\CommonDBTM.php:1610                            Plugin::doHook()
+  front\ticket.form.php:90                           CommonDBTM->update()
+  
+[2024-09-30 19:04:27] glpiphplog.CRITICAL:   *** Uncaught Exception ParseError: Unclosed '{' on line 62 does not match ')' in C:\xampp\htdocs\glpi\marketplace\geststock\inc\ticket.class.php at line 68
+  Backtrace :
+  :                                                  glpi_autoload()
+  src\Plugin.php:1712                                is_callable()
+  src\CommonDBTM.php:1610                            Plugin::doHook()
+  src\Ticket.php:2440                                CommonDBTM->update()
+  src\ITILFollowup.php:271                           Ticket->updateDateMod()
+  src\CommonDBTM.php:1343                            ITILFollowup->post_addItem()
+  front\itilfollowup.form.php:58                     CommonDBTM->add()
+  
+[2024-09-30 19:06:27] glpiphplog.CRITICAL:   *** Uncaught Exception ParseError: Unclosed '{' on line 62 does not match ')' in C:\xampp\htdocs\glpi\marketplace\geststock\inc\ticket.class.php at line 68
+  Backtrace :
+  :                                                  glpi_autoload()
+  src\Plugin.php:1712                                is_callable()
+  src\CommonDBTM.php:1610                            Plugin::doHook()
+  front\ticket.form.php:90                           CommonDBTM->update()
+  
+[2024-09-30 19:07:39] glpiphplog.CRITICAL:   *** Uncaught Exception ParseError: Unclosed '{' on line 62 does not match ')' in C:\xampp\htdocs\glpi\marketplace\geststock\inc\ticket.class.php at line 68
+  Backtrace :
+  :                                                  glpi_autoload()
+  src\Plugin.php:1712                                is_callable()
+  src\CommonDBTM.php:1610                            Plugin::doHook()
+  front\ticket.form.php:90                           CommonDBTM->update()
+  
+[2024-09-30 19:08:50] glpiphplog.CRITICAL:   *** Uncaught Exception ParseError: Unclosed '{' on line 62 does not match ')' in C:\xampp\htdocs\glpi\marketplace\geststock\inc\ticket.class.php at line 68
+  Backtrace :
+  :                                                  glpi_autoload()
+  src\Plugin.php:1712                                is_callable()
+  src\CommonDBTM.php:1610                            Plugin::doHook()
+  front\ticket.form.php:90                           CommonDBTM->update()
+  
+[2024-09-30 19:10:33] glpiphplog.CRITICAL:   *** Uncaught Exception ParseError: Unclosed '{' on line 62 does not match ')' in C:\xampp\htdocs\glpi\marketplace\geststock\inc\ticket.class.php at line 68
+  Backtrace :
+  :                                                  glpi_autoload()
+  src\Plugin.php:1712                                is_callable()
+  src\CommonDBTM.php:1610                            Plugin::doHook()
+  front\ticket.form.php:90                           CommonDBTM->update()
+  
+[2024-09-30 19:16:07] glpiphplog.WARNING:   *** PHP User Warning (512): TicketFilter: PregMatch failed! please review the pattern /.*?(?<match>(JIRA-[0-9]{1,4})).*/ and correct it in C:\xampp\htdocs\glpi\marketplace\ticketfilter\src\Filter.php at line 149
+  Backtrace :
+  marketplace\ticketfilter\src\Filter.php:149        trigger_error()
+  marketplace\ticketfilter\src\Filter.php:68         GlpiPlugin\Ticketfilter\Filter::searchForMatches()
+  src\Plugin.php:1713                                GlpiPlugin\Ticketfilter\Filter::preItemAdd()
+  src\CommonDBTM.php:1294                            Plugin::doHook()
+  front\ticket.form.php:80                           CommonDBTM->add()
+  
+[2024-09-30 19:16:09] glpiphplog.CRITICAL:   *** Uncaught Exception ParseError: Unclosed '{' on line 62 does not match ')' in C:\xampp\htdocs\glpi\marketplace\geststock\inc\ticket.class.php at line 68
+  Backtrace :
+  :                                                  glpi_autoload()
+  src\Plugin.php:1712                                is_callable()
+  src\CommonDBTM.php:1610                            Plugin::doHook()
+  src\Ticket.php:2440                                CommonDBTM->update()
+  src\CommonITILActor.php:434                        Ticket->updateDateMod()
+  src\Ticket_User.php:59                             CommonITILActor->post_addItem()
+  src\CommonDBTM.php:1343                            Ticket_User->post_addItem()
+  src\CommonITILObject.php:8698                      CommonDBTM->add()
+  src\CommonITILObject.php:2868                      CommonITILObject->updateActors()
+  src\Ticket.php:2225                                CommonITILObject->post_addItem()
+  src\CommonDBTM.php:1343                            Ticket->post_addItem()
+  front\ticket.form.php:80                           CommonDBTM->add()
+  
+[2024-09-30 19:23:51] glpiphplog.WARNING:   *** PHP User Warning (512): TicketFilter: PregMatch failed! please review the pattern /.*?(?<match>(JIRA-[0-9]{1,4})).*/ and correct it in C:\xampp\htdocs\glpi\marketplace\ticketfilter\src\Filter.php at line 149
+  Backtrace :
+  marketplace\ticketfilter\src\Filter.php:149        trigger_error()
+  marketplace\ticketfilter\src\Filter.php:68         GlpiPlugin\Ticketfilter\Filter::searchForMatches()
+  src\Plugin.php:1713                                GlpiPlugin\Ticketfilter\Filter::preItemAdd()
+  src\CommonDBTM.php:1294                            Plugin::doHook()
+  front\ticket.form.php:80                           CommonDBTM->add()
+  
+[2024-09-30 19:24:39] glpiphplog.CRITICAL:   *** Uncaught Exception ParseError: Unclosed '{' on line 62 does not match ')' in C:\xampp\htdocs\glpi\marketplace\geststock\inc\ticket.class.php at line 68
+  Backtrace :
+  :                                                  glpi_autoload()
+  src\Plugin.php:1712                                is_callable()
+  src\CommonDBTM.php:1610                            Plugin::doHook()
+  front\ticket.form.php:90                           CommonDBTM->update()
+  
+[2024-09-30 19:25:23] glpiphplog.CRITICAL:   *** Uncaught Exception ParseError: Unclosed '{' on line 62 does not match ')' in C:\xampp\htdocs\glpi\marketplace\geststock\inc\ticket.class.php at line 68
+  Backtrace :
+  :                                                  glpi_autoload()
+  src\Plugin.php:1712                                is_callable()
+  src\CommonDBTM.php:1610                            Plugin::doHook()
+  front\ticket.form.php:90                           CommonDBTM->update()
+  
+[2024-09-30 19:26:33] glpiphplog.WARNING:   *** PHP User Warning (512): TicketFilter: PregMatch failed! please review the pattern /.*?(?<match>(JIRA-[0-9]{1,4})).*/ and correct it in C:\xampp\htdocs\glpi\marketplace\ticketfilter\src\Filter.php at line 149
+  Backtrace :
+  marketplace\ticketfilter\src\Filter.php:149        trigger_error()
+  marketplace\ticketfilter\src\Filter.php:68         GlpiPlugin\Ticketfilter\Filter::searchForMatches()
+  src\Plugin.php:1713                                GlpiPlugin\Ticketfilter\Filter::preItemAdd()
+  src\CommonDBTM.php:1294                            Plugin::doHook()
+  front\tracking.injector.php:88                     CommonDBTM->add()
+  
+[2024-09-30 19:30:02] glpiphplog.CRITICAL:   *** Uncaught Exception ParseError: Unclosed '{' on line 62 does not match ')' in C:\xampp\htdocs\glpi\marketplace\geststock\inc\ticket.class.php at line 68
+  Backtrace :
+  :                                                  glpi_autoload()
+  src\Plugin.php:1712                                is_callable()
+  src\CommonDBTM.php:1610                            Plugin::doHook()
+  front\ticket.form.php:90                           CommonDBTM->update()
+  
+[2024-09-30 19:31:17] glpiphplog.CRITICAL:   *** Uncaught Exception ParseError: Unclosed '{' on line 62 does not match ')' in C:\xampp\htdocs\glpi\marketplace\geststock\inc\ticket.class.php at line 68
+  Backtrace :
+  :                                                  glpi_autoload()
+  src\Plugin.php:1712                                is_callable()
+  src\CommonDBTM.php:1610                            Plugin::doHook()
+  front\ticket.form.php:90                           CommonDBTM->update()
+  
+[2024-09-30 19:31:57] glpiphplog.CRITICAL:   *** Uncaught Exception ParseError: Unclosed '{' on line 62 does not match ')' in C:\xampp\htdocs\glpi\marketplace\geststock\inc\ticket.class.php at line 68
+  Backtrace :
+  :                                                  glpi_autoload()
+  src\Plugin.php:1712                                is_callable()
+  src\CommonDBTM.php:1610                            Plugin::doHook()
+  front\ticket.form.php:90                           CommonDBTM->update()
+  
+[2024-09-30 23:17:48] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "host" in C:\xampp\htdocs\glpi\src\MailCollector.php at line 1408
+  Backtrace :
+  src\MailCollector.php:388                          MailCollector->connect()
+  ajax\mailcollector.php:84                          MailCollector->displayFoldersList()
+  
+[2024-09-30 23:17:48] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "passwd" in C:\xampp\htdocs\glpi\src\MailCollector.php at line 1413
+  Backtrace :
+  src\MailCollector.php:388                          MailCollector->connect()
+  ajax\mailcollector.php:84                          MailCollector->displayFoldersList()
+  
+[2024-09-30 23:17:48] glpiphplog.CRITICAL:   *** Uncaught Exception Exception: Tipo de servidor de correo no compatible: . in C:\xampp\htdocs\glpi\src\MailCollector.php at line 1436
+  Backtrace :
+  src\MailCollector.php:388                          MailCollector->connect()
+  ajax\mailcollector.php:84                          MailCollector->displayFoldersList()
+  
+[2024-10-02 16:45:08] glpiphplog.WARNING:   *** PHP User Warning (512): Failed to find a single user for 'federcio.toro@corsan.com.co', 0 user(s) found. in C:\xampp\htdocs\glpi\src\User.php at line 5723
+  Backtrace :
+  src\User.php:5723                                  trigger_error()
+  src\User.php:5677                                  User->forgetPassword()
+  front\lostpassword.php:65                          User->showForgetPassword()
+  
+[2024-10-02 17:34:50] glpiphplog.CRITICAL:   *** Uncaught Exception Laminas\Mail\Storage\Exception\RuntimeException: cannot login, user or password wrong in C:\xampp\htdocs\glpi\vendor\laminas\laminas-mail\src\Storage\Imap.php at line 225
+  Backtrace :
+  src\Toolbox.php:2235                               Laminas\Mail\Storage\Imap->__construct()
+  src\MailCollector.php:1434                         Toolbox::getMailServerStorageInstance()
+  src\MailCollector.php:388                          MailCollector->connect()
+  ajax\mailcollector.php:84                          MailCollector->displayFoldersList()
+  
+[2024-10-02 17:34:51] glpiphplog.CRITICAL:   *** Uncaught Exception Laminas\Mail\Storage\Exception\RuntimeException: cannot login, user or password wrong in C:\xampp\htdocs\glpi\vendor\laminas\laminas-mail\src\Storage\Imap.php at line 225
+  Backtrace :
+  src\Toolbox.php:2235                               Laminas\Mail\Storage\Imap->__construct()
+  src\MailCollector.php:1434                         Toolbox::getMailServerStorageInstance()
+  src\MailCollector.php:388                          MailCollector->connect()
+  ajax\mailcollector.php:84                          MailCollector->displayFoldersList()
+  
+[2024-10-02 17:38:43] glpiphplog.CRITICAL:   *** Uncaught Exception Laminas\Mail\Storage\Exception\RuntimeException: cannot login, user or password wrong in C:\xampp\htdocs\glpi\vendor\laminas\laminas-mail\src\Storage\Imap.php at line 225
+  Backtrace :
+  src\Toolbox.php:2235                               Laminas\Mail\Storage\Imap->__construct()
+  src\MailCollector.php:1434                         Toolbox::getMailServerStorageInstance()
+  src\MailCollector.php:388                          MailCollector->connect()
+  ajax\mailcollector.php:84                          MailCollector->displayFoldersList()
+  
+[2024-10-02 17:44:21] glpiphplog.CRITICAL:   *** Uncaught Exception Laminas\Mail\Protocol\Exception\RuntimeException: cannot connect to host; error = stream_socket_client(): Unable to connect to ssl://smtp.office365.com:587 (Unknown error) (errno = 0 ) in C:\xampp\htdocs\glpi\vendor\laminas\laminas-mail\src\Protocol\ProtocolTrait.php at line 100
+  Backtrace :
+  ...r\laminas\laminas-mail\src\Protocol\Imap.php:85 Laminas\Mail\Protocol\Imap->setupSocket()
+  ...r\laminas\laminas-mail\src\Storage\Imap.php:223 Laminas\Mail\Protocol\Imap->connect()
+  src\Toolbox.php:2235                               Laminas\Mail\Storage\Imap->__construct()
+  src\MailCollector.php:1434                         Toolbox::getMailServerStorageInstance()
+  src\MailCollector.php:388                          MailCollector->connect()
+  ajax\mailcollector.php:84                          MailCollector->displayFoldersList()
+  
+[2024-10-02 17:44:23] glpiphplog.CRITICAL:   *** Uncaught Exception Laminas\Mail\Protocol\Exception\RuntimeException: cannot connect to host; error = stream_socket_client(): Unable to connect to ssl://smtp.office365.com:587 (Unknown error) (errno = 0 ) in C:\xampp\htdocs\glpi\vendor\laminas\laminas-mail\src\Protocol\ProtocolTrait.php at line 100
+  Backtrace :
+  ...r\laminas\laminas-mail\src\Protocol\Imap.php:85 Laminas\Mail\Protocol\Imap->setupSocket()
+  ...r\laminas\laminas-mail\src\Storage\Imap.php:223 Laminas\Mail\Protocol\Imap->connect()
+  src\Toolbox.php:2235                               Laminas\Mail\Storage\Imap->__construct()
+  src\MailCollector.php:1434                         Toolbox::getMailServerStorageInstance()
+  src\MailCollector.php:388                          MailCollector->connect()
+  ajax\mailcollector.php:84                          MailCollector->displayFoldersList()
+  
+[2024-10-02 18:17:10] glpiphplog.CRITICAL:   *** Uncaught Exception Laminas\Mail\Storage\Exception\RuntimeException: cannot login, user or password wrong in C:\xampp\htdocs\glpi\vendor\laminas\laminas-mail\src\Storage\Imap.php at line 225
+  Backtrace :
+  src\Toolbox.php:2235                               Laminas\Mail\Storage\Imap->__construct()
+  src\MailCollector.php:1434                         Toolbox::getMailServerStorageInstance()
+  src\MailCollector.php:388                          MailCollector->connect()
+  ajax\mailcollector.php:84                          MailCollector->displayFoldersList()
+  
+[2024-10-02 18:17:14] glpiphplog.CRITICAL:   *** Uncaught Exception Laminas\Mail\Storage\Exception\RuntimeException: cannot login, user or password wrong in C:\xampp\htdocs\glpi\vendor\laminas\laminas-mail\src\Storage\Imap.php at line 225
+  Backtrace :
+  src\Toolbox.php:2235                               Laminas\Mail\Storage\Imap->__construct()
+  src\MailCollector.php:1434                         Toolbox::getMailServerStorageInstance()
+  src\MailCollector.php:388                          MailCollector->connect()
+  ajax\mailcollector.php:84                          MailCollector->displayFoldersList()
+  
+[2024-10-02 18:24:35] glpiphplog.CRITICAL:   *** Uncaught Exception Laminas\Mail\Protocol\Exception\RuntimeException: cannot connect to host; error = stream_socket_client(): Unable to connect to ssl://smtp.gmail.com:587 (Unknown error) (errno = 0 ) in C:\xampp\htdocs\glpi\vendor\laminas\laminas-mail\src\Protocol\ProtocolTrait.php at line 100
+  Backtrace :
+  ...r\laminas\laminas-mail\src\Protocol\Imap.php:85 Laminas\Mail\Protocol\Imap->setupSocket()
+  ...r\laminas\laminas-mail\src\Storage\Imap.php:223 Laminas\Mail\Protocol\Imap->connect()
+  src\Toolbox.php:2235                               Laminas\Mail\Storage\Imap->__construct()
+  src\MailCollector.php:1434                         Toolbox::getMailServerStorageInstance()
+  src\MailCollector.php:388                          MailCollector->connect()
+  ajax\mailcollector.php:84                          MailCollector->displayFoldersList()
+  
+[2024-10-02 18:25:16] glpiphplog.CRITICAL:   *** Uncaught Exception Laminas\Mail\Protocol\Exception\RuntimeException: host doesn't allow connection in C:\xampp\htdocs\glpi\vendor\laminas\laminas-mail\src\Protocol\Imap.php at line 88
+  Backtrace :
+  ...r\laminas\laminas-mail\src\Storage\Imap.php:223 Laminas\Mail\Protocol\Imap->connect()
+  src\Toolbox.php:2235                               Laminas\Mail\Storage\Imap->__construct()
+  src\MailCollector.php:1434                         Toolbox::getMailServerStorageInstance()
+  src\MailCollector.php:388                          MailCollector->connect()
+  ajax\mailcollector.php:84                          MailCollector->displayFoldersList()
+  
+[2024-10-02 18:25:47] glpiphplog.CRITICAL:   *** Uncaught Exception Laminas\Mail\Protocol\Exception\RuntimeException: host doesn't allow connection in C:\xampp\htdocs\glpi\vendor\laminas\laminas-mail\src\Protocol\Imap.php at line 88
+  Backtrace :
+  ...r\laminas\laminas-mail\src\Storage\Imap.php:223 Laminas\Mail\Protocol\Imap->connect()
+  src\Toolbox.php:2235                               Laminas\Mail\Storage\Imap->__construct()
+  src\MailCollector.php:1434                         Toolbox::getMailServerStorageInstance()
+  src\MailCollector.php:388                          MailCollector->connect()
+  ajax\mailcollector.php:84                          MailCollector->displayFoldersList()
+  
+[2024-10-02 18:26:17] glpiphplog.CRITICAL:   *** Uncaught Exception Laminas\Mail\Protocol\Exception\RuntimeException: host doesn't allow connection in C:\xampp\htdocs\glpi\vendor\laminas\laminas-mail\src\Protocol\Imap.php at line 88
+  Backtrace :
+  ...r\laminas\laminas-mail\src\Storage\Imap.php:223 Laminas\Mail\Protocol\Imap->connect()
+  src\Toolbox.php:2235                               Laminas\Mail\Storage\Imap->__construct()
+  src\MailCollector.php:1434                         Toolbox::getMailServerStorageInstance()
+  src\MailCollector.php:388                          MailCollector->connect()
+  ajax\mailcollector.php:84                          MailCollector->displayFoldersList()
+  
+[2024-10-02 18:27:00] glpiphplog.CRITICAL:   *** Uncaught Exception Laminas\Mail\Protocol\Exception\RuntimeException: host doesn't allow connection in C:\xampp\htdocs\glpi\vendor\laminas\laminas-mail\src\Protocol\Imap.php at line 88
+  Backtrace :
+  ...r\laminas\laminas-mail\src\Storage\Imap.php:223 Laminas\Mail\Protocol\Imap->connect()
+  src\Toolbox.php:2235                               Laminas\Mail\Storage\Imap->__construct()
+  src\MailCollector.php:1434                         Toolbox::getMailServerStorageInstance()
+  src\MailCollector.php:388                          MailCollector->connect()
+  ajax\mailcollector.php:84                          MailCollector->displayFoldersList()
+  
+[2024-10-02 18:27:33] glpiphplog.CRITICAL:   *** Uncaught Exception Laminas\Mail\Protocol\Exception\RuntimeException: host doesn't allow connection in C:\xampp\htdocs\glpi\vendor\laminas\laminas-mail\src\Protocol\Imap.php at line 88
+  Backtrace :
+  ...r\laminas\laminas-mail\src\Storage\Imap.php:223 Laminas\Mail\Protocol\Imap->connect()
+  src\Toolbox.php:2235                               Laminas\Mail\Storage\Imap->__construct()
+  src\MailCollector.php:1434                         Toolbox::getMailServerStorageInstance()
+  src\MailCollector.php:708                          MailCollector->connect()
+  src\MailCollector.php:1923                         MailCollector->collect()
+  src\CronTask.php:1027                              MailCollector::cronMailgate()
+  front\cron.php:67                                  CronTask::launch()
+  
+[2024-10-02 18:51:31] glpiphplog.CRITICAL:   *** Uncaught Exception Laminas\Mail\Protocol\Exception\RuntimeException: the single id was not found in response in C:\xampp\htdocs\glpi\vendor\laminas\laminas-mail\src\Protocol\Imap.php at line 604
+  Backtrace :
+  ...r\laminas\laminas-mail\src\Storage\Imap.php:113 Laminas\Mail\Protocol\Imap->fetch()
+  ...aminas-mail\src\Storage\AbstractStorage.php:270 Laminas\Mail\Storage\Imap->getMessage()
+  src\MailCollector.php:616                          Laminas\Mail\Storage\AbstractStorage->current()
+  src\NotImportedEmail.php:125                       MailCollector->deleteOrImportSeveralEmails()
+  src\MassiveAction.php:1420                         NotImportedEmail::processMassiveActionsForOneItemtype()
+  src\MassiveAction.php:1398                         MassiveAction->processForSeveralItemtypes()
+  front\massiveaction.php:62                         MassiveAction->process()
+  
+[2024-10-02 19:08:25] glpiphplog.CRITICAL:   *** Uncaught Exception Laminas\Mail\Storage\Exception\RuntimeException: cannot login, user or password wrong in C:\xampp\htdocs\glpi\vendor\laminas\laminas-mail\src\Storage\Imap.php at line 225
+  Backtrace :
+  src\Toolbox.php:2235                               Laminas\Mail\Storage\Imap->__construct()
+  src\MailCollector.php:1434                         Toolbox::getMailServerStorageInstance()
+  src\MailCollector.php:388                          MailCollector->connect()
+  ajax\mailcollector.php:84                          MailCollector->displayFoldersList()
+  
+[2024-10-02 19:13:29] glpiphplog.CRITICAL:   *** Uncaught Exception Laminas\Mail\Storage\Exception\RuntimeException: cannot login, user or password wrong in C:\xampp\htdocs\glpi\vendor\laminas\laminas-mail\src\Storage\Imap.php at line 225
+  Backtrace :
+  src\Toolbox.php:2235                               Laminas\Mail\Storage\Imap->__construct()
+  src\MailCollector.php:1434                         Toolbox::getMailServerStorageInstance()
+  src\MailCollector.php:388                          MailCollector->connect()
+  ajax\mailcollector.php:84                          MailCollector->displayFoldersList()
+  
+[2024-10-02 19:31:18] glpiphplog.CRITICAL:   *** Uncaught Exception Laminas\Mail\Storage\Exception\RuntimeException: cannot login, user or password wrong in C:\xampp\htdocs\glpi\vendor\laminas\laminas-mail\src\Storage\Imap.php at line 225
+  Backtrace :
+  src\Toolbox.php:2235                               Laminas\Mail\Storage\Imap->__construct()
+  src\MailCollector.php:1434                         Toolbox::getMailServerStorageInstance()
+  src\MailCollector.php:388                          MailCollector->connect()
+  ajax\mailcollector.php:84                          MailCollector->displayFoldersList()
+  
+[2024-11-13 21:00:58] glpiphplog.WARNING:   *** PHP User Warning (512): Failed to find a single user for 'david.velez@corsan.com.co', 0 user(s) found. in C:\xampp\htdocs\glpi\src\User.php at line 5723
+  Backtrace :
+  src\User.php:5723                                  trigger_error()
+  src\User.php:5677                                  User->forgetPassword()
+  front\lostpassword.php:65                          User->showForgetPassword()
+  
+[2024-12-03 21:04:13] glpiphplog.WARNING:   *** PHP User Warning (512): Fallo en la conexión. Si usted utiliza proxy, por favor configúrelo. (SSL connection timeout) in C:\xampp\htdocs\glpi\src\Toolbox.php at line 1555
+  Backtrace :
+  src\Toolbox.php:1555                               trigger_error()
+  src\GLPINetwork.php:322                            Toolbox::callCurl()
+  src\Marketplace\View.php:150                       GLPINetwork::isServicesAvailable()
+  src\Marketplace\View.php:220                       Glpi\Marketplace\View::checkRegistrationStatus()
+  src\Marketplace\View.php:124                       Glpi\Marketplace\View::installed()
+  src\CommonGLPI.php:694                             Glpi\Marketplace\View::displayTabContentForItem()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  
+[2024-12-11 16:49:07] glpiphplog.CRITICAL:   *** Uncaught Exception RuntimeException: Empty IN are not allowed in C:\xampp\htdocs\glpi\src\DBmysqlIterator.php at line 589
+  Backtrace :
+  src\DBmysqlIterator.php:560                        DBmysqlIterator->analyseCriterion()
+  src\DBmysqlIterator.php:315                        DBmysqlIterator->analyseCrit()
+  src\DBmysqlIterator.php:111                        DBmysqlIterator->buildQuery()
+  src\DBmysql.php:1109                               DBmysqlIterator->execute()
+  src\Dropdown.php:2901                              DBmysql->request()
+  ajax\getDropdownValue.php:50                       Dropdown::getDropdownValue()
+  
+[2024-12-12 16:29:30] glpiphplog.WARNING:   *** PHP User Warning (512): Fallo en la conexión. Si usted utiliza proxy, por favor configúrelo. (SSL connection timeout) in C:\xampp\htdocs\glpi\src\Toolbox.php at line 1555
+  Backtrace :
+  src\Toolbox.php:1555                               trigger_error()
+  src\GLPINetwork.php:322                            Toolbox::callCurl()
+  src\Marketplace\View.php:150                       GLPINetwork::isServicesAvailable()
+  src\Marketplace\View.php:277                       Glpi\Marketplace\View::checkRegistrationStatus()
+  ajax\marketplace.php:100                           Glpi\Marketplace\View::discover()
+  
+[2024-12-12 16:33:29] glpiphplog.WARNING:   *** PHP User Warning (512): Fallo en la conexión. Si usted utiliza proxy, por favor configúrelo. (SSL connection timeout) in C:\xampp\htdocs\glpi\src\Toolbox.php at line 1555
+  Backtrace :
+  src\Toolbox.php:1555                               trigger_error()
+  src\GLPINetwork.php:322                            Toolbox::callCurl()
+  src\Marketplace\View.php:150                       GLPINetwork::isServicesAvailable()
+  src\Marketplace\View.php:277                       Glpi\Marketplace\View::checkRegistrationStatus()
+  ajax\marketplace.php:100                           Glpi\Marketplace\View::discover()
+  
+[2024-12-12 17:26:12] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "identifier" in C:\xampp\htdocs\glpi\src\MassiveAction.php at line 390
+  Backtrace :
+  front\massiveaction.php:47                         MassiveAction->__construct()
+  
+[2024-12-16 08:25:26] glpiphplog.WARNING:   *** PHP Warning (2): Array to string conversion in C:\xampp\htdocs\glpi\files\_cache\templates\8c\8c6e8672e8f429ae8ca52def1ff6962f.php at line 435
+  Backtrace :
+  vendor\twig\twig\src\Template.php:394              __TwigTemplate_106d0cadeed8e629a1ba32be3b9ece41->doDisplay()
+  vendor\twig\twig\src\Template.php:367              Twig\Template->displayWithErrorHandling()
+  vendor\twig\twig\src\TemplateWrapper.php:45        Twig\Template->display()
+  src\Application\View\TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  src\Ticket.php:4052                                Glpi\Application\View\TemplateRenderer->display()
+  front\tracking.injector.php:113                    Ticket->showFormHelpdesk()
+  
+[2024-12-16 15:46:21] glpiphplog.WARNING:   *** PHP User Warning (512): Failed to find a single user for 'auxtiliar3.ti@corsan.com.co', 0 user(s) found. in C:\xampp\htdocs\glpi\src\User.php at line 5723
+  Backtrace :
+  src\User.php:5723                                  trigger_error()
+  src\User.php:5677                                  User->forgetPassword()
+  front\lostpassword.php:65                          User->showForgetPassword()
+  
+[2024-12-18 12:05:52] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "identifier" in C:\xampp\htdocs\glpi\src\MassiveAction.php at line 390
+  Backtrace :
+  front\massiveaction.php:47                         MassiveAction->__construct()
+  
+[2025-01-09 11:21:25] glpiphplog.WARNING: Test logger  
+[2025-01-09 11:22:26] glpiphplog.WARNING: Test logger  
+[2025-01-15 11:44:08] glpiphplog.WARNING:   *** PHP Warning (2): Array to string conversion in C:\xampp\htdocs\glpi\files\_cache\templates\8c\8c6e8672e8f429ae8ca52def1ff6962f.php at line 435
+  Backtrace :
+  vendor\twig\twig\src\Template.php:394              __TwigTemplate_106d0cadeed8e629a1ba32be3b9ece41->doDisplay()
+  vendor\twig\twig\src\Template.php:367              Twig\Template->displayWithErrorHandling()
+  vendor\twig\twig\src\TemplateWrapper.php:45        Twig\Template->display()
+  src\Application\View\TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  src\Ticket.php:4052                                Glpi\Application\View\TemplateRenderer->display()
+  front\tracking.injector.php:113                    Ticket->showFormHelpdesk()
+  
+[2025-01-15 12:30:12] glpiphplog.WARNING:   *** PHP Warning (2): Array to string conversion in C:\xampp\htdocs\glpi\files\_cache\templates\8c\8c6e8672e8f429ae8ca52def1ff6962f.php at line 435
+  Backtrace :
+  vendor\twig\twig\src\Template.php:394              __TwigTemplate_106d0cadeed8e629a1ba32be3b9ece41->doDisplay()
+  vendor\twig\twig\src\Template.php:367              Twig\Template->displayWithErrorHandling()
+  vendor\twig\twig\src\TemplateWrapper.php:45        Twig\Template->display()
+  src\Application\View\TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  src\Ticket.php:4052                                Glpi\Application\View\TemplateRenderer->display()
+  front\tracking.injector.php:113                    Ticket->showFormHelpdesk()
+  
+[2025-02-20 09:28:03] glpiphplog.WARNING: Failed to save key "{key}" of type int: rename(C:\xampp\htdocs\glpi\files\_cache\core\2919d443bf6e,C:\xampp\htdocs\glpi\files\_cache\core\T\B\pVIg6X1gOf0UC2JeLpIw): Acceso denegado (code: 5) {"key":"2d03bd78927f28fc033adce8927dbc91f9026652","exception":"[object] (ErrorException(code: 0): rename(C:\\xampp\\htdocs\\glpi\\files\\_cache\\core\\2919d443bf6e,C:\\xampp\\htdocs\\glpi\\files\\_cache\\core\\T\\B\\pVIg6X1gOf0UC2JeLpIw): Acceso denegado (code: 5) at C:\\xampp\\htdocs\\glpi\\vendor\\symfony\\cache\\Traits\\FilesystemCommonTrait.php:117)","cache-adapter":"Symfony\\Component\\Cache\\Adapter\\FilesystemAdapter"} 

@@ -1,0 +1,3246 @@
+2024-09-25 22:16:35 [@SISTEMAS2]
+Interno #1: Lanzar contract
+2024-09-25 22:43:09 [@SISTEMAS2]
+Interno #1: Ejecutar infocom
+2024-09-25 23:05:13 [@SISTEMAS2]
+Interno #1: Ejecutar mailgate
+2024-09-25 23:09:30 [@SISTEMAS2]
+Interno #1: Ejecutar session
+2024-09-25 23:09:32 [@SISTEMAS2]
+Interno #1: Ejecutar graph
+2024-09-25 23:09:45 [@SISTEMAS2]
+Interno #1: Lanzar reservation
+2024-09-25 23:09:49 [@SISTEMAS2]
+Interno #1: Lanzar closeticket
+2024-09-25 23:09:53 [@SISTEMAS2]
+Interno #1: Lanzar alertnotclosed
+2024-09-25 23:10:03 [@SISTEMAS2]
+Interno #1: Lanzar slaticket
+2024-09-25 23:11:54 [@SISTEMAS2]
+Interno #1: Ejecutar createinquest
+2024-09-25 23:12:37 [@SISTEMAS2]
+Interno #1: Ejecutar watcher
+2024-09-25 23:12:39 [@SISTEMAS2]
+Interno #1: Ejecutar RecurrentItems
+2024-09-25 23:13:16 [@SISTEMAS2]
+No se puede obtener el lock de la BD
+2024-09-25 23:13:16 [@SISTEMAS2]
+Interno #1: Ejecutar planningrecall
+2024-09-25 23:13:20 [@SISTEMAS2]
+Interno #1: Lanzar queuednotification
+2024-09-25 23:13:58 [@SISTEMAS2]
+Interno #1: Lanzar queuednotificationclean
+2024-09-25 23:14:04 [@SISTEMAS2]
+Interno #1: Lanzar temp
+2024-09-25 23:14:12 [@SISTEMAS2]
+Interno #1: Lanzar mailgateerror
+2024-09-25 23:14:15 [@SISTEMAS2]
+Interno #1: Lanzar certificate
+2024-09-25 23:14:18 [@SISTEMAS2]
+Interno #1: Lanzar olaticket
+2024-09-25 23:14:20 [@SISTEMAS2]
+Interno #1: Lanzar queuednotification
+2024-09-25 23:14:21 [@SISTEMAS2]
+Interno #1: Nada que ejecutar
+2024-09-25 23:14:38 [@SISTEMAS2]
+Interno #1: Nada que lanzar
+2024-09-25 23:16:47 [@SISTEMAS2]
+Interno #1: Lanzar mailgate
+2024-09-25 23:16:49 [@SISTEMAS2]
+Interno #1: Lanzar slaticket
+2024-09-25 23:16:53 [@SISTEMAS2]
+Interno #1: Lanzar queuednotification
+2024-09-25 23:16:57 [@SISTEMAS2]
+Interno #1: Nada que lanzar
+2024-09-25 23:19:50 [@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2024-09-25 23:19:51 [@SISTEMAS2]
+Interno #1: Ejecutar planningrecall
+2024-09-25 23:21:19 [@SISTEMAS2]
+Interno #1: Lanzar olaticket
+2024-09-25 23:21:23 [@SISTEMAS2]
+Interno #1: Lanzar queuednotification
+2024-09-25 23:21:25 [@SISTEMAS2]
+Interno #1: Lanzar slaticket
+2024-09-25 23:21:27 [@SISTEMAS2]
+Interno #1: Nada que lanzar
+2024-09-25 23:21:28 [@SISTEMAS2]
+Interno #1: Nada que lanzar
+2024-09-25 23:21:29 [@SISTEMAS2]
+Interno #1: Nada que lanzar
+2024-09-25 23:21:59 [@SISTEMAS2]
+Interno #1: Nada que ejecutar
+2024-09-25 23:22:03 [@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2024-09-25 23:22:08 [@SISTEMAS2]
+Interno #1: Nada que lanzar
+2024-09-25 23:22:10 [@SISTEMAS2]
+Interno #1: Nada que lanzar
+2024-09-25 23:22:12 [@SISTEMAS2]
+Interno #1: Nada que lanzar
+2024-09-25 23:23:44 [@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2024-09-25 23:23:49 [@SISTEMAS2]
+Interno #1: Nada que lanzar
+2024-09-25 23:23:52 [@SISTEMAS2]
+Interno #1: Nada que lanzar
+2024-09-25 23:25:35 [@SISTEMAS2]
+Interno #1: Lanzar planningrecall
+2024-09-25 23:25:40 [@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2024-09-25 23:25:41 [@SISTEMAS2]
+Interno #1: Nada que lanzar
+2024-09-25 23:25:45 [@SISTEMAS2]
+Interno #1: Nada que lanzar
+2024-09-25 23:25:47 [@SISTEMAS2]
+Interno #1: Nada que lanzar
+2024-09-25 23:26:25 [@SISTEMAS2]
+Interno #1: Lanzar mailgate
+2024-09-25 23:26:29 [@SISTEMAS2]
+Interno #1: Lanzar slaticket
+2024-09-25 23:26:32 [@SISTEMAS2]
+Interno #1: Lanzar queuednotification
+2024-09-25 23:26:35 [@SISTEMAS2]
+Interno #1: Lanzar olaticket
+2024-09-25 23:26:37 [@SISTEMAS2]
+Interno #1: Nada que ejecutar
+2024-09-25 23:26:38 [@SISTEMAS2]
+Interno #1: Nada que lanzar
+2024-09-25 23:26:41 [@SISTEMAS2]
+Interno #1: Nada que lanzar
+2024-09-25 23:26:59 [@SISTEMAS2]
+Interno #1: Nada que lanzar
+2024-09-25 23:27:10 [@SISTEMAS2]
+Interno #1: Lanzar queuednotification
+2024-09-25 23:27:12 [@SISTEMAS2]
+Interno #1: Nada que ejecutar
+2024-09-25 23:27:13 [@SISTEMAS2]
+Interno #1: Nada que lanzar
+2024-09-25 23:27:18 [@SISTEMAS2]
+Interno #1: Nada que lanzar
+2024-09-25 23:27:22 [@SISTEMAS2]
+Interno #1: Nada que lanzar
+2024-09-25 23:27:23 [@SISTEMAS2]
+Interno #1: Nada que lanzar
+2024-09-25 23:27:26 [@SISTEMAS2]
+Interno #1: Nada que lanzar
+2024-09-25 23:27:30 [@SISTEMAS2]
+Interno #1: Nada que ejecutar
+2024-09-25 23:27:55 [@SISTEMAS2]
+Interno #1: Nada que ejecutar
+2024-09-25 23:27:58 [@SISTEMAS2]
+Interno #1: Nada que lanzar
+2024-09-25 23:27:58 [@SISTEMAS2]
+Interno #1: Nada que ejecutar
+2024-09-25 23:28:00 [@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2024-09-25 23:28:05 [@SISTEMAS2]
+Interno #1: Nada que lanzar
+2024-09-25 23:28:51 [@SISTEMAS2]
+Interno #1: Nada que lanzar
+2024-09-25 23:28:53 [@SISTEMAS2]
+Interno #1: Nada que lanzar
+2024-09-25 23:28:59 [@SISTEMAS2]
+Interno #1: Nada que lanzar
+2024-09-25 23:29:13 [@SISTEMAS2]
+Interno #1: Lanzar queuednotification
+2024-09-25 23:29:16 [@SISTEMAS2]
+Interno #1: Nada que ejecutar
+2024-09-25 23:29:20 [@SISTEMAS2]
+Interno #1: Nada que ejecutar
+2024-09-25 23:29:30 [@SISTEMAS2]
+Interno #1: Nada que ejecutar
+2024-09-25 23:29:36 [@SISTEMAS2]
+Interno #1: Nada que ejecutar
+2024-09-25 23:29:39 [@SISTEMAS2]
+Interno #1: Nada que ejecutar
+2024-09-25 23:29:42 [@SISTEMAS2]
+Interno #1: Nada que ejecutar
+2024-09-25 23:29:46 [@SISTEMAS2]
+Interno #1: Nada que ejecutar
+2024-09-25 23:29:55 [@SISTEMAS2]
+Interno #1: Nada que ejecutar
+2024-09-25 23:30:02 [@SISTEMAS2]
+Interno #1: Ejecutar planningrecall
+2024-09-25 23:30:09 [@SISTEMAS2]
+Interno #1: Lanzar queuednotification
+2024-09-25 23:30:14 [@SISTEMAS2]
+Interno #1: Nada que ejecutar
+2024-09-25 23:30:19 [@SISTEMAS2]
+Interno #1: Nada que ejecutar
+2024-09-25 23:31:11 [@SISTEMAS2]
+Interno #1: Lanzar slaticket
+2024-09-25 23:31:15 [@SISTEMAS2]
+Interno #1: Lanzar queuednotification
+2024-09-25 23:31:25 [@SISTEMAS2]
+Interno #1: Lanzar olaticket
+2024-09-25 23:31:28 [@SISTEMAS2]
+Interno #1: Nada que lanzar
+2024-09-25 23:31:40 [@SISTEMAS2]
+Interno #1: Nada que lanzar
+2024-09-25 23:31:46 [@SISTEMAS2]
+Interno #1: Nada que lanzar
+2024-09-25 23:31:49 [@SISTEMAS2]
+Interno #1: Nada que lanzar
+2024-09-25 23:31:52 [@SISTEMAS2]
+Interno #1: Nada que lanzar
+2024-09-25 23:31:54 [@SISTEMAS2]
+Interno #1: Nada que lanzar
+2024-09-25 23:32:01 [@SISTEMAS2]
+Interno #1: Lanzar queuednotification
+2024-09-25 23:32:14 [@SISTEMAS2]
+Interno #1: Nada que lanzar
+2024-09-25 23:32:19 [@SISTEMAS2]
+Interno #1: Nada que lanzar
+2024-09-25 23:32:38 [@SISTEMAS2]
+Interno #1: Nada que lanzar
+2024-09-25 23:32:47 [@SISTEMAS2]
+Interno #1: Nada que lanzar
+2024-09-25 23:33:06 [@SISTEMAS2]
+Interno #1: Lanzar queuednotification
+2024-09-25 23:33:07 [@SISTEMAS2]
+Interno #1: Nada que lanzar
+2024-09-25 23:33:11 [@SISTEMAS2]
+Interno #1: Nada que lanzar
+2024-09-25 23:33:14 [@SISTEMAS2]
+Interno #1: Nada que lanzar
+2024-09-25 23:33:15 [@SISTEMAS2]
+Interno #1: Nada que lanzar
+2024-09-25 23:33:17 [@SISTEMAS2]
+Interno #1: Nada que lanzar
+2024-09-25 23:40:06 [@SISTEMAS2]
+Interno #1: Lanzar queuednotification
+2024-09-25 23:40:09 [@SISTEMAS2]
+Interno #1: Ejecutar planningrecall
+2024-09-25 23:40:12 [@SISTEMAS2]
+Interno #1: Ejecutar mailgate
+2024-09-25 23:41:01 [@SISTEMAS2]
+Interno #1: Lanzar slaticket
+2024-09-25 23:41:11 [@SISTEMAS2]
+Interno #1: Lanzar olaticket
+2024-09-25 23:41:14 [@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2024-09-25 23:41:32 [@SISTEMAS2]
+Interno #1: Nada que ejecutar
+2024-09-25 23:41:41 [@SISTEMAS2]
+Interno #1: Nada que ejecutar
+2024-09-25 23:41:51 [@SISTEMAS2]
+Interno #1: Nada que lanzar
+2024-09-25 23:42:38 [@SISTEMAS2]
+Interno #1: Lanzar queuednotification
+2024-09-25 23:42:40 [@SISTEMAS2]
+Interno #1: Nada que lanzar
+2024-09-25 23:42:41 [@SISTEMAS2]
+Interno #1: Nada que lanzar
+2024-09-25 23:42:42 [@SISTEMAS2]
+Interno #1: Nada que ejecutar
+2024-09-25 23:43:04 [@SISTEMAS2]
+Interno #1: Lanzar queuednotification
+2024-09-25 23:43:44 [@SISTEMAS2]
+Interno #1: Nada que lanzar
+2024-09-25 23:43:50 [@SISTEMAS2]
+Interno #1: Nada que lanzar
+2024-09-25 23:49:41 [2@SISTEMAS2]
+Interno #1: Lanzar queuednotification
+2024-09-25 23:51:07 [@SISTEMAS2]
+Interno #1: Ejecutar planningrecall
+2024-09-25 23:52:18 [@SISTEMAS2]
+Interno #1: Ejecutar slaticket
+2024-09-25 23:52:22 [@SISTEMAS2]
+Interno #1: Lanzar olaticket
+2024-09-25 23:57:32 [2@SISTEMAS2]
+Interno #1: Lanzar mailgate
+2024-09-26 00:03:18 [2@SISTEMAS2]
+Interno #1: Lanzar queuednotification
+2024-09-26 00:17:31 [2@SISTEMAS2]
+Interno #1: Lanzar planningrecall
+2024-09-26 00:17:40 [@SISTEMAS2]
+Interno #1: Ejecutar slaticket
+2024-09-26 00:17:50 [@SISTEMAS2]
+Interno #1: Ejecutar olaticket
+2024-09-26 00:30:25 [7@SISTEMAS2]
+Interno #1: Lanzar queuednotification
+2024-09-26 00:30:31 [@SISTEMAS2]
+Interno #1: Ejecutar mailgate
+2024-09-26 00:30:34 [@SISTEMAS2]
+Interno #1: Ejecutar graph
+2024-09-26 17:31:33 [@SISTEMAS2]
+Interno #1: Ejecutar reservation
+2024-09-26 17:41:59 [@SISTEMAS2]
+Interno #1: Lanzar RecurrentItems
+2024-09-26 17:42:10 [@SISTEMAS2]
+Interno #1: Lanzar temp
+2024-09-26 17:46:32 [@SISTEMAS2]
+Interno #1: Lanzar slaticket
+2024-09-26 18:05:59 [@SISTEMAS2]
+Interno #1: Ejecutar planningrecall
+2024-09-26 18:10:18 [@SISTEMAS2]
+Interno #1: Lanzar olaticket
+2024-09-26 18:10:46 [@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2024-09-26 18:10:51 [@SISTEMAS2]
+Interno #1: Lanzar mailgate
+2024-09-26 18:11:38 [@SISTEMAS2]
+Interno #1: Lanzar graph
+2024-09-26 18:15:12 [@SISTEMAS2]
+Interno #1: Ejecutar closeticket
+2024-09-26 18:15:57 [@SISTEMAS2]
+Interno #1: Ejecutar alertnotclosed
+2024-09-26 18:21:54 [7@SISTEMAS2]
+Interno #1: Ejecutar slaticket
+2024-09-26 18:26:33 [@SISTEMAS2]
+Interno #1: Lanzar planningrecall
+2024-09-26 18:28:44 [7@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2024-09-26 18:33:52 [7@SISTEMAS2]
+Interno #1: Ejecutar olaticket
+2024-09-26 18:38:53 [7@SISTEMAS2]
+Interno #1: Ejecutar mailgate
+2024-09-26 18:46:38 [7@SISTEMAS2]
+Interno #1: Ejecutar slaticket
+2024-09-26 18:51:39 [7@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2024-09-26 18:57:30 [7@SISTEMAS2]
+Interno #1: Ejecutar reservation
+2024-09-26 19:03:03 [7@SISTEMAS2]
+Interno #1: Ejecutar planningrecall
+2024-09-26 19:39:57 [7@SISTEMAS2]
+Interno #1: Ejecutar olaticket
+2024-09-26 19:53:21 [7@SISTEMAS2]
+Interno #1: Ejecutar RecurrentItems
+2024-09-26 19:56:16 [@SISTEMAS2]
+Interno #1: Lanzar temp
+2024-09-26 19:58:25 [7@SISTEMAS2]
+Interno #1: Ejecutar mailgate
+2024-09-26 19:58:44 [@SISTEMAS2]
+Interno #1: Lanzar slaticket
+2024-09-26 20:07:09 [7@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2024-09-26 20:15:24 [7@SISTEMAS2]
+Interno #1: Ejecutar planningrecall
+2024-09-26 20:24:47 [@SISTEMAS2]
+Interno #1: Ejecutar graph
+2024-09-26 20:31:17 [@SISTEMAS2]
+Interno #1: Lanzar olaticket
+2024-09-26 20:33:14 [7@SISTEMAS2]
+Interno #1: Ejecutar reservation
+2024-09-26 21:21:13 [7@SISTEMAS2]
+Interno #1: Ejecutar slaticket
+2024-09-26 21:30:53 [7@SISTEMAS2]
+Interno #1: Ejecutar mailgate
+2024-09-26 21:38:15 [7@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2024-09-26 21:38:20 [@SISTEMAS2]
+Interno #1: Ejecutar planningrecall
+2024-09-26 21:39:52 [@SISTEMAS2]
+Interno #1: Ejecutar olaticket
+2024-09-26 21:53:47 [@SISTEMAS2]
+Interno #1: Lanzar RecurrentItems
+2024-09-26 21:55:52 [@SISTEMAS2]
+Interno #1: Lanzar temp
+2024-09-26 21:56:17 [7@SISTEMAS2]
+Interno #1: Ejecutar graph
+2024-09-26 21:59:21 [@SISTEMAS2]
+Interno #1: Ejecutar slaticket
+2024-09-26 22:02:29 [@SISTEMAS2]
+Interno #1: Ejecutar reservation
+2024-09-26 22:03:49 [@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2024-09-26 22:31:52 [7@SISTEMAS2]
+Interno #1: Ejecutar mailgate
+2024-09-26 22:56:10 [@SISTEMAS2]
+Interno #1: Lanzar planningrecall
+2024-09-26 22:56:31 [7@SISTEMAS2]
+Interno #1: Ejecutar olaticket
+2024-09-26 22:58:01 [@SISTEMAS2]
+Interno #1: Lanzar slaticket
+2024-09-26 22:58:08 [7@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2024-09-26 23:13:23 [7@SISTEMAS2]
+Interno #1: Ejecutar contract
+2024-09-26 23:14:29 [@SISTEMAS2]
+Interno #1: Lanzar mailgate
+2024-09-26 23:20:31 [7@SISTEMAS2]
+Interno #1: Ejecutar infocom
+2024-09-26 23:25:38 [7@SISTEMAS2]
+Interno #1: Ejecutar RecurrentItems
+2024-09-26 23:29:14 [7@SISTEMAS2]
+Interno #1: Ejecutar temp
+2024-09-26 23:31:29 [7@SISTEMAS2]
+Interno #1: Ejecutar graph
+2024-09-26 23:36:55 [7@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2024-09-26 23:42:00 [7@SISTEMAS2]
+Interno #1: Ejecutar planningrecall
+2024-09-26 23:47:02 [7@SISTEMAS2]
+Interno #1: Ejecutar olaticket
+2024-09-26 23:52:10 [7@SISTEMAS2]
+Interno #1: Ejecutar reservation
+2024-09-26 23:57:12 [7@SISTEMAS2]
+Interno #1: Ejecutar slaticket
+2024-09-26 23:58:42 [7@SISTEMAS2]
+Interno #1: Ejecutar session
+2024-09-27 00:10:13 [7@SISTEMAS2]
+Interno #1: Ejecutar createinquest
+2024-09-30 15:31:50 [@SISTEMAS2]
+Interno #1: Ejecutar watcher
+2024-09-30 15:55:30 [7@SISTEMAS2]
+Interno #1: Ejecutar queuednotificationclean
+2024-09-30 15:55:36 [7@SISTEMAS2]
+Interno #1: Ejecutar mailgateerror
+2024-09-30 16:01:26 [7@SISTEMAS2]
+Interno #1: Ejecutar certificate
+2024-09-30 16:02:40 [@SISTEMAS2]
+Interno #1: Lanzar mailgate
+2024-09-30 16:04:44 [@SISTEMAS2]
+Interno #1: Lanzar queuednotification
+2024-09-30 16:06:25 [@SISTEMAS2]
+Interno #1: Lanzar planningrecall
+2024-09-30 16:16:02 [@SISTEMAS2]
+Interno #1: Ejecutar olaticket
+2024-09-30 16:16:05 [@SISTEMAS2]
+Interno #1: Ejecutar slaticket
+2024-09-30 16:19:21 [@SISTEMAS2]
+Interno #1: Ejecutar RecurrentItems
+2024-09-30 16:22:10 [@SISTEMAS2]
+Interno #1: Ejecutar temp
+2024-09-30 16:33:35 [7@SISTEMAS2]
+Interno #1: Ejecutar graph
+2024-09-30 16:49:42 [7@SISTEMAS2]
+Interno #1: Ejecutar reservation
+2024-09-30 17:36:11 [7@SISTEMAS2]
+Interno #1: Ejecutar closeticket
+2024-09-30 17:43:09 [7@SISTEMAS2]
+Interno #1: Ejecutar alertnotclosed
+2024-09-30 18:02:48 [7@SISTEMAS2]
+Interno #1: Ejecutar contract
+2024-09-30 18:13:58 [7@SISTEMAS2]
+Interno #1: Ejecutar infocom
+2024-09-30 18:19:45 [7@SISTEMAS2]
+Interno #1: Ejecutar session
+2024-09-30 18:25:40 [7@SISTEMAS2]
+Interno #1: Ejecutar createinquest
+2024-09-30 18:36:54 [@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2024-09-30 18:37:25 [@SISTEMAS2]
+Interno #1: Ejecutar planningrecall
+2024-09-30 18:46:05 [@SISTEMAS2]
+Interno #1: Lanzar mailgate
+2024-09-30 18:54:27 [7@SISTEMAS2]
+Interno #1: Ejecutar slaticket
+2024-09-30 18:54:56 [17@SISTEMAS2]
+Interno #1: Lanzar olaticket
+2024-09-30 19:00:25 [17@SISTEMAS2]
+Interno #1: Lanzar RecurrentItems
+2024-09-30 19:00:41 [7@SISTEMAS2]
+Interno #1: Ejecutar temp
+2024-09-30 19:03:39 [@SISTEMAS2]
+Interno #1: Ejecutar graph
+2024-09-30 19:07:54 [17@SISTEMAS2]
+Interno #1: Lanzar reservation
+2024-09-30 19:09:34 [@SISTEMAS2]
+Interno #1: Lanzar queuednotification
+2024-09-30 19:13:14 [17@SISTEMAS2]
+Interno #1: Lanzar planningrecall
+2024-09-30 19:14:54 [7@SISTEMAS2]
+Interno #1: Ejecutar mailgate
+2024-09-30 19:22:44 [@SISTEMAS2]
+Interno #1: Ejecutar slaticket
+2024-09-30 19:25:34 [@SISTEMAS2]
+Interno #1: Ejecutar olaticket
+2024-09-30 19:28:23 [7@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2024-09-30 19:30:24 [@SISTEMAS2]
+Interno #1: Lanzar planningrecall
+2024-09-30 19:30:42 [@SISTEMAS2]
+Interno #1: Lanzar mailgate
+2024-09-30 19:34:23 [@SISTEMAS2]
+Interno #1: Lanzar slaticket
+2024-09-30 19:47:08 [7@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2024-09-30 20:54:21 [7@SISTEMAS2]
+Interno #1: Ejecutar olaticket
+2024-09-30 20:59:22 [7@SISTEMAS2]
+Interno #1: Ejecutar planningrecall
+2024-09-30 21:19:16 [7@SISTEMAS2]
+Interno #1: Ejecutar slaticket
+2024-09-30 21:51:36 [@SISTEMAS2]
+Interno #1: Ejecutar mailgate
+2024-09-30 21:52:28 [@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2024-09-30 21:57:51 [7@SISTEMAS2]
+Interno #1: Ejecutar RecurrentItems
+2024-09-30 22:00:41 [10@SISTEMAS2]
+Interno #1: Lanzar temp
+2024-09-30 22:28:45 [10@SISTEMAS2]
+Interno #1: Lanzar graph
+2024-09-30 22:30:15 [7@SISTEMAS2]
+Interno #1: Ejecutar reservation
+2024-09-30 22:35:19 [7@SISTEMAS2]
+Interno #1: Ejecutar olaticket
+2024-09-30 22:36:24 [10@SISTEMAS2]
+Interno #1: Lanzar planningrecall
+2024-09-30 22:41:54 [10@SISTEMAS2]
+Interno #1: Lanzar slaticket
+2024-09-30 22:49:19 [10@SISTEMAS2]
+Interno #1: Lanzar queuednotification
+2024-09-30 22:49:20 [7@SISTEMAS2]
+No se puede obtener el bloqueo de la base de datos
+2024-09-30 22:55:55 [7@SISTEMAS2]
+Interno #1: Ejecutar mailgate
+2024-09-30 23:00:12 [10@SISTEMAS2]
+Interno #1: Lanzar olaticket
+2024-09-30 23:01:06 [7@SISTEMAS2]
+Interno #1: Ejecutar planningrecall
+2024-09-30 23:05:23 [10@SISTEMAS2]
+Interno #1: Lanzar slaticket
+2024-09-30 23:07:02 [7@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2024-09-30 23:10:48 [10@SISTEMAS2]
+Interno #1: Lanzar RecurrentItems
+2024-09-30 23:16:25 [7@SISTEMAS2]
+Interno #1: Ejecutar temp
+2024-09-30 23:17:50 [10@SISTEMAS2]
+Interno #1: Lanzar mailgate
+2024-09-30 23:22:28 [7@SISTEMAS2]
+Interno #1: Ejecutar olaticket
+2024-09-30 23:31:11 [7@SISTEMAS2]
+Interno #1: Ejecutar planningrecall
+2024-09-30 23:36:26 [7@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2024-09-30 23:42:03 [7@SISTEMAS2]
+Interno #1: Ejecutar slaticket
+2024-09-30 23:42:30 [10@SISTEMAS2]
+Interno #1: Lanzar mailgate
+2024-09-30 23:48:39 [@SISTEMAS2]
+Interno #1: Ejecutar olaticket
+2024-09-30 23:59:17 [7@SISTEMAS2]
+Interno #1: Ejecutar graph
+2024-10-01 00:35:01 [@SISTEMAS2]
+Interno #1: Ejecutar reservation
+2024-10-01 00:54:36 [@SISTEMAS2]
+Interno #1: Lanzar planningrecall
+2024-10-01 13:05:39 [@SISTEMAS2]
+Interno #1: Lanzar queuednotification
+2024-10-01 13:32:40 [@SISTEMAS2]
+Interno #1: Lanzar slaticket
+2024-10-01 14:46:26 [@SISTEMAS2]
+Interno #1: Ejecutar mailgate
+2024-10-02 14:32:03 [@SISTEMAS2]
+Interno #1: Lanzar olaticket
+2024-10-02 14:53:49 [@SISTEMAS2]
+Interno #1: Ejecutar RecurrentItems
+2024-10-02 16:44:16 [@SISTEMAS2]
+Interno #1: Ejecutar temp
+2024-10-02 16:44:38 [@SISTEMAS2]
+Interno #1: Ejecutar graph
+2024-10-02 16:44:57 [@SISTEMAS2]
+Interno #1: Ejecutar planningrecall
+2024-10-02 16:46:01 [@SISTEMAS2]
+Interno #1: Ejecutar reservation
+2024-10-02 16:52:02 [7@SISTEMAS2]
+Interno #1: Ejecutar closeticket
+2024-10-02 16:52:48 [@SISTEMAS2]
+Interno #1: Ejecutar alertnotclosed
+2024-10-02 16:54:55 [@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2024-10-02 16:55:25 [@SISTEMAS2]
+Interno #1: Lanzar slaticket
+2024-10-02 17:00:42 [7@SISTEMAS2]
+Interno #1: Ejecutar mailgate
+2024-10-02 17:01:15 [@SISTEMAS2]
+Interno #1: Lanzar watcher
+2024-10-02 17:02:54 [@SISTEMAS2]
+Interno #1: Lanzar queuednotificationclean
+2024-10-02 17:08:28 [7@SISTEMAS2]
+Interno #1: Ejecutar mailgateerror
+2024-10-02 17:09:31 [@SISTEMAS2]
+Interno #1: Ejecutar certificate
+2024-10-02 17:13:56 [7@SISTEMAS2]
+Interno #1: Ejecutar contract
+2024-10-02 17:19:19 [7@SISTEMAS2]
+Interno #1: Ejecutar infocom
+2024-10-02 17:33:38 [7@SISTEMAS2]
+Interno #1: Ejecutar session
+2024-10-02 17:37:23 [@SISTEMAS2]
+Interno #1: Lanzar createinquest
+2024-10-02 17:43:28 [7@SISTEMAS2]
+Interno #1: Ejecutar olaticket
+2024-10-02 17:54:25 [7@SISTEMAS2]
+Interno #1: Ejecutar RecurrentItems
+2024-10-02 18:09:10 [7@SISTEMAS2]
+Interno #1: Ejecutar planningrecall
+2024-10-02 18:16:09 [7@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2024-10-02 18:23:23 [7@SISTEMAS2]
+Interno #1: Ejecutar slaticket
+2024-10-02 18:27:02 [@SISTEMAS2]
+Interno #1: Lanzar mailgate
+2024-10-02 18:27:33 [@SISTEMAS2]
+Se produjo un error al intentar conectarse al recopilador.<br/>host doesn't allow connection
+2024-10-02 18:37:52 [7@SISTEMAS2]
+Interno #1: Ejecutar graph
+2024-10-02 18:38:38 [@SISTEMAS2]
+Interno #1: Lanzar temp
+2024-10-02 18:43:47 [7@SISTEMAS2]
+Interno #1: Ejecutar reservation
+2024-10-02 18:49:17 [7@SISTEMAS2]
+Interno #1: Ejecutar olaticket
+2024-10-02 18:51:03 [@SISTEMAS2]
+Interno #1: Ejecutar planningrecall
+2024-10-02 18:56:23 [7@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2024-10-02 19:01:53 [7@SISTEMAS2]
+Interno #1: Ejecutar slaticket
+2024-10-02 19:02:17 [7@SISTEMAS2]
+Interno #1: Ejecutar mailgate
+2024-10-02 19:07:36 [7@SISTEMAS2]
+Interno #1: Ejecutar RecurrentItems
+2024-10-02 19:12:52 [7@SISTEMAS2]
+Interno #1: Ejecutar olaticket
+2024-10-02 19:16:52 [7@SISTEMAS2]
+Interno #1: Ejecutar planningrecall
+2024-10-02 19:19:46 [7@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2024-10-02 19:31:08 [7@SISTEMAS2]
+Interno #1: Ejecutar slaticket
+2024-10-02 19:38:52 [7@SISTEMAS2]
+Interno #1: Ejecutar mailgate
+2024-10-02 19:46:54 [7@SISTEMAS2]
+Interno #1: Ejecutar olaticket
+2024-10-02 20:20:17 [7@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2024-10-02 20:26:36 [7@SISTEMAS2]
+Interno #1: Ejecutar planningrecall
+2024-10-02 20:29:38 [@SISTEMAS2]
+Interno #1: Ejecutar slaticket
+2024-10-02 20:29:48 [@SISTEMAS2]
+Interno #1: Ejecutar graph
+2024-10-02 20:29:57 [@SISTEMAS2]
+Interno #1: Ejecutar temp
+2024-10-02 20:30:07 [@SISTEMAS2]
+Interno #1: Ejecutar reservation
+2024-10-02 20:30:21 [@SISTEMAS2]
+Interno #1: Ejecutar mailgate
+2024-10-02 20:30:30 [@SISTEMAS2]
+Interno #1: Ejecutar olaticket
+2024-10-02 20:31:00 [@SISTEMAS2]
+Interno #1: Ejecutar RecurrentItems
+2024-10-02 20:31:50 [@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2024-10-02 20:36:08 [@SISTEMAS2]
+Interno #1: Ejecutar planningrecall
+2024-10-02 20:36:31 [@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2024-10-02 20:37:16 [@SISTEMAS2]
+Interno #1: Ejecutar slaticket
+2024-10-02 20:38:27 [@SISTEMAS2]
+Interno #1: Ejecutar olaticket
+2024-10-02 21:06:07 [7@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2024-10-02 21:11:15 [7@SISTEMAS2]
+Interno #1: Ejecutar mailgate
+2024-10-02 21:48:40 [7@SISTEMAS2]
+Interno #1: Ejecutar planningrecall
+2024-10-02 22:00:27 [7@SISTEMAS2]
+Interno #1: Ejecutar slaticket
+2024-10-02 22:05:30 [7@SISTEMAS2]
+Interno #1: Ejecutar olaticket
+2024-10-02 22:59:18 [10@SISTEMAS2]
+Interno #1: Lanzar queuednotification
+2024-10-02 23:04:36 [10@SISTEMAS2]
+Interno #1: Lanzar mailgate
+2024-10-02 23:09:38 [10@SISTEMAS2]
+Interno #1: Lanzar graph
+2024-10-02 23:47:02 [@SISTEMAS2]
+Interno #1: Ejecutar temp
+2024-10-03 00:10:49 [10@SISTEMAS2]
+Interno #1: Lanzar reservation
+2024-10-03 00:16:02 [10@SISTEMAS2]
+Interno #1: Lanzar RecurrentItems
+2024-10-03 00:21:05 [10@SISTEMAS2]
+Interno #1: Lanzar planningrecall
+2024-10-03 13:21:52 [@SISTEMAS2]
+Interno #1: Lanzar slaticket
+2024-10-03 14:38:48 [@SISTEMAS2]
+Interno #1: Ejecutar olaticket
+2024-10-03 21:09:29 [@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2024-10-03 21:10:23 [@SISTEMAS2]
+Interno #1: Ejecutar mailgate
+2024-10-03 21:10:48 [@SISTEMAS2]
+Interno #1: Ejecutar graph
+2024-10-03 21:18:34 [7@SISTEMAS2]
+Interno #1: Ejecutar planningrecall
+2024-10-03 21:43:08 [7@SISTEMAS2]
+Interno #1: Ejecutar temp
+2024-10-03 22:30:28 [7@SISTEMAS2]
+Interno #1: Ejecutar reservation
+2024-10-03 22:35:34 [7@SISTEMAS2]
+Interno #1: Ejecutar RecurrentItems
+2024-10-04 13:08:13 [@SISTEMAS2]
+Interno #1: Lanzar closeticket
+2024-10-04 14:48:01 [@SISTEMAS2]
+Interno #1: Ejecutar alertnotclosed
+2024-10-04 18:18:38 [10@SISTEMAS2]
+Interno #1: Lanzar slaticket
+2024-10-07 13:42:34 [@SISTEMAS2]
+Interno #1: Lanzar olaticket
+2024-10-07 14:40:22 [@SISTEMAS2]
+Interno #1: Ejecutar watcher
+2024-10-07 15:12:26 [@SISTEMAS2]
+Interno #1: Ejecutar queuednotificationclean
+2024-10-07 15:43:32 [7@SISTEMAS2]
+Interno #1: Ejecutar mailgateerror
+2024-10-07 15:49:02 [7@SISTEMAS2]
+Interno #1: Ejecutar certificate
+2024-10-07 18:27:24 [7@SISTEMAS2]
+Interno #1: Ejecutar contract
+2024-10-07 18:32:42 [7@SISTEMAS2]
+Interno #1: Ejecutar infocom
+2024-10-07 19:20:51 [7@SISTEMAS2]
+Interno #1: Ejecutar session
+2024-10-07 19:42:48 [7@SISTEMAS2]
+Interno #1: Ejecutar createinquest
+2024-10-07 19:49:53 [7@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2024-10-07 22:02:09 [@SISTEMAS2]
+Interno #1: Ejecutar mailgate
+2024-10-07 22:02:14 [@SISTEMAS2]
+Interno #1: Ejecutar planningrecall
+2024-10-07 23:02:52 [@SISTEMAS2]
+Interno #1: Ejecutar graph
+2024-10-07 23:21:08 [10@SISTEMAS2]
+Interno #1: Lanzar temp
+2024-10-07 23:33:18 [7@SISTEMAS2]
+Interno #1: Ejecutar reservation
+2024-10-08 12:59:12 [@SISTEMAS2]
+Interno #1: Lanzar RecurrentItems
+2024-10-08 14:40:35 [@SISTEMAS2]
+Interno #1: Ejecutar slaticket
+2024-10-08 15:09:38 [10@SISTEMAS2]
+Interno #1: Lanzar closeticket
+2024-10-09 15:41:05 [@SISTEMAS2]
+Interno #1: Ejecutar alertnotclosed
+2024-10-09 18:26:09 [10@SISTEMAS2]
+Interno #1: Lanzar olaticket
+2024-10-10 14:40:51 [@SISTEMAS2]
+Interno #1: Lanzar queuednotification
+2024-10-10 14:47:24 [@SISTEMAS2]
+Interno #1: Ejecutar planningrecall
+2024-10-10 18:29:44 [10@SISTEMAS2]
+Interno #1: Lanzar mailgate
+2024-10-10 18:34:54 [10@SISTEMAS2]
+Interno #1: Lanzar graph
+2024-10-10 19:29:13 [10@SISTEMAS2]
+Interno #1: Lanzar temp
+2024-10-11 14:52:03 [@SISTEMAS2]
+Interno #1: Ejecutar reservation
+2024-10-11 15:34:19 [10@SISTEMAS2]
+Interno #1: Lanzar RecurrentItems
+2024-10-11 15:41:39 [10@SISTEMAS2]
+Interno #1: Lanzar watcher
+2024-10-11 15:48:14 [10@SISTEMAS2]
+Interno #1: Lanzar slaticket
+2024-10-11 23:11:37 [10@SISTEMAS2]
+Interno #1: Lanzar queuednotificationclean
+2024-10-11 23:24:25 [10@SISTEMAS2]
+Interno #1: Lanzar mailgateerror
+2024-10-12 14:12:06 [@SISTEMAS2]
+Interno #1: Lanzar certificate
+2024-10-15 01:13:34 [@SISTEMAS2]
+Interno #1: Ejecutar contract
+2024-10-15 13:09:19 [@SISTEMAS2]
+Interno #1: Lanzar infocom
+2024-10-15 14:52:01 [@SISTEMAS2]
+Interno #1: Ejecutar session
+2024-10-15 14:57:21 [10@SISTEMAS2]
+Interno #1: Lanzar createinquest
+2024-10-15 14:59:56 [@SISTEMAS2]
+Interno #1: Ejecutar closeticket
+2024-10-15 15:04:54 [10@SISTEMAS2]
+Interno #1: Lanzar olaticket
+2024-10-15 15:19:30 [7@SISTEMAS2]
+Interno #1: Ejecutar alertnotclosed
+2024-10-15 15:32:46 [10@SISTEMAS2]
+Interno #1: Lanzar queuednotification
+2024-10-15 17:17:42 [10@SISTEMAS2]
+Interno #1: Lanzar planningrecall
+2024-10-16 12:59:09 [@SISTEMAS2]
+Interno #1: Lanzar mailgate
+2024-10-17 13:07:07 [@SISTEMAS2]
+Interno #1: Lanzar graph
+2024-10-17 15:01:25 [@SISTEMAS2]
+Interno #1: Ejecutar temp
+2024-10-18 13:11:56 [@SISTEMAS2]
+Interno #1: Lanzar reservation
+2024-10-18 14:57:23 [@SISTEMAS2]
+Interno #1: Ejecutar slaticket
+2024-10-19 18:44:47 [@SISTEMAS2]
+Interno #1: Lanzar RecurrentItems
+2024-10-21 13:11:00 [@SISTEMAS2]
+Interno #1: Lanzar watcher
+2024-10-21 14:48:44 [@SISTEMAS2]
+Interno #1: Ejecutar queuednotificationclean
+2024-10-21 15:09:52 [@SISTEMAS2]
+Interno #1: Ejecutar mailgateerror
+2024-10-21 20:54:32 [10@SISTEMAS2]
+Interno #1: Lanzar certificate
+2024-10-21 22:20:36 [10@SISTEMAS2]
+Interno #1: Lanzar olaticket
+2024-10-22 13:06:40 [@SISTEMAS2]
+Interno #1: Lanzar queuednotification
+2024-10-23 15:07:27 [@SISTEMAS2]
+No se puede obtener el lock de la BD
+2024-10-23 15:07:28 [@SISTEMAS2]
+Interno #1: Ejecutar planningrecall
+2024-10-23 15:16:57 [10@SISTEMAS2]
+Interno #1: Lanzar contract
+2024-10-23 15:21:58 [10@SISTEMAS2]
+Interno #1: Lanzar closeticket
+2024-10-23 15:27:21 [@SISTEMAS2]
+Interno #1: Lanzar alertnotclosed
+2024-10-23 15:31:13 [10@SISTEMAS2]
+Interno #1: Lanzar infocom
+2024-10-23 19:34:57 [10@SISTEMAS2]
+Interno #1: Lanzar mailgate
+2024-10-24 14:11:38 [@SISTEMAS2]
+Interno #1: Lanzar session
+2024-10-24 16:35:32 [@SISTEMAS2]
+Interno #1: Lanzar createinquest
+2024-10-24 17:22:31 [@SISTEMAS2]
+Interno #1: Lanzar graph
+2024-10-24 18:44:25 [@SISTEMAS2]
+Interno #1: Ejecutar temp
+2024-10-25 13:04:13 [@SISTEMAS2]
+Interno #1: Lanzar reservation
+2024-10-25 16:39:31 [@SISTEMAS2]
+Interno #1: Lanzar slaticket
+2024-10-29 12:12:26 [@SISTEMAS2]
+Interno #1: Lanzar RecurrentItems
+2024-10-29 22:16:25 [@SISTEMAS2]
+Interno #1: Lanzar olaticket
+2024-10-30 12:13:02 [@SISTEMAS2]
+Interno #1: Lanzar queuednotification
+2024-10-30 22:32:45 [@SISTEMAS2]
+Interno #1: Ejecutar watcher
+2024-10-30 22:32:55 [@SISTEMAS2]
+Interno #1: Ejecutar queuednotificationclean
+2024-10-30 22:33:19 [@SISTEMAS2]
+Interno #1: Ejecutar mailgateerror
+2024-10-30 22:34:04 [@SISTEMAS2]
+Interno #1: Ejecutar certificate
+2024-10-30 22:34:19 [@SISTEMAS2]
+Interno #1: Ejecutar planningrecall
+2024-10-31 12:32:06 [@SISTEMAS2]
+Interno #1: Lanzar mailgate
+2024-11-01 22:36:21 [@SISTEMAS2]
+Interno #1: Lanzar closeticket
+2024-11-05 13:07:16 [@SISTEMAS2]
+Interno #1: Lanzar alertnotclosed
+2024-11-05 18:24:24 [@SISTEMAS2]
+Interno #1: Ejecutar contract
+2024-11-06 12:55:51 [@SISTEMAS2]
+Interno #1: Lanzar infocom
+2024-11-06 23:13:04 [7@SISTEMAS2]
+Interno #1: Ejecutar graph
+2024-11-07 14:07:30 [@SISTEMAS2]
+Interno #1: Ejecutar temp
+2024-11-08 14:05:52 [@SISTEMAS2]
+Interno #1: Lanzar reservation
+2024-11-12 13:09:53 [@SISTEMAS2]
+Interno #1: Lanzar session
+2024-11-12 15:09:46 [@SISTEMAS2]
+Interno #1: Lanzar createinquest
+2024-11-12 22:58:59 [@SISTEMAS2]
+Interno #1: Lanzar slaticket
+2024-11-12 23:01:38 [@SISTEMAS2]
+Interno #1: Lanzar RecurrentItems
+2024-11-13 20:52:55 [@SISTEMAS2]
+Interno #1: Ejecutar olaticket
+2024-11-13 20:53:33 [@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2024-11-13 20:53:52 [@SISTEMAS2]
+Interno #1: Ejecutar planningrecall
+2024-11-13 20:54:05 [@SISTEMAS2]
+Interno #1: Ejecutar mailgate
+2024-11-13 20:55:01 [@SISTEMAS2]
+Interno #1: Ejecutar watcher
+2024-11-13 20:56:11 [@SISTEMAS2]
+Interno #1: Ejecutar queuednotificationclean
+2024-11-13 20:56:22 [@SISTEMAS2]
+Interno #1: Ejecutar mailgateerror
+2024-11-13 20:56:31 [@SISTEMAS2]
+Interno #1: Ejecutar certificate
+2024-11-13 20:56:50 [@SISTEMAS2]
+Interno #1: Ejecutar closeticket
+2024-11-13 20:56:58 [@SISTEMAS2]
+Interno #1: Ejecutar alertnotclosed
+2024-11-13 20:59:49 [@SISTEMAS2]
+Interno #1: Lanzar contract
+2024-11-13 21:01:35 [@SISTEMAS2]
+Interno #1: Lanzar graph
+2024-11-13 21:02:19 [7@SISTEMAS2]
+Interno #1: Ejecutar infocom
+2024-11-13 21:05:58 [@SISTEMAS2]
+Interno #1: Lanzar temp
+2024-11-13 21:08:55 [7@SISTEMAS2]
+Interno #1: Ejecutar reservation
+2024-11-13 21:11:24 [18@SISTEMAS2]
+Interno #1: Lanzar slaticket
+2024-11-13 21:16:41 [18@SISTEMAS2]
+Interno #1: Lanzar RecurrentItems
+2024-11-13 21:28:44 [18@SISTEMAS2]
+Interno #1: Lanzar session
+2024-11-13 21:34:33 [18@SISTEMAS2]
+Interno #1: Lanzar createinquest
+2024-11-13 21:42:26 [18@SISTEMAS2]
+Interno #1: Lanzar queuednotification
+2024-11-13 21:47:38 [18@SISTEMAS2]
+Interno #1: Lanzar olaticket
+2024-11-13 22:01:14 [18@SISTEMAS2]
+Interno #1: Lanzar planningrecall
+2024-11-13 22:21:20 [18@SISTEMAS2]
+Interno #1: Lanzar mailgate
+2024-11-13 22:22:40 [7@SISTEMAS2]
+Interno #1: Ejecutar slaticket
+2024-11-13 22:30:27 [7@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2024-11-13 22:30:40 [18@SISTEMAS2]
+Interno #1: Lanzar olaticket
+2024-11-13 22:35:50 [7@SISTEMAS2]
+Interno #1: Ejecutar graph
+2024-11-13 22:41:09 [7@SISTEMAS2]
+Interno #1: Ejecutar temp
+2024-11-13 22:45:00 [18@SISTEMAS2]
+Interno #1: Lanzar planningrecall
+2024-11-13 22:51:11 [18@SISTEMAS2]
+Interno #1: Lanzar reservation
+2024-11-14 13:04:11 [@SISTEMAS2]
+Interno #1: Lanzar RecurrentItems
+2024-11-14 14:44:47 [18@SISTEMAS2]
+Interno #1: Lanzar slaticket
+2024-11-14 14:50:53 [18@SISTEMAS2]
+Interno #1: Lanzar mailgate
+2024-11-14 16:03:48 [18@SISTEMAS2]
+Interno #1: Lanzar queuednotification
+2024-11-14 16:24:19 [@SISTEMAS2]
+Interno #1: Ejecutar olaticket
+2024-11-14 16:29:05 [@SISTEMAS2]
+Interno #1: Ejecutar planningrecall
+2024-11-14 16:35:12 [7@SISTEMAS2]
+Interno #1: Ejecutar graph
+2024-11-14 16:42:55 [7@SISTEMAS2]
+Interno #1: Ejecutar temp
+2024-11-14 16:48:10 [7@SISTEMAS2]
+Interno #1: Ejecutar reservation
+2024-11-14 16:53:13 [7@SISTEMAS2]
+Interno #1: Ejecutar closeticket
+2024-11-14 16:58:11 [@SISTEMAS2]
+Interno #1: Ejecutar alertnotclosed
+2024-11-14 18:01:16 [7@SISTEMAS2]
+Interno #1: Ejecutar RecurrentItems
+2024-11-14 18:06:32 [7@SISTEMAS2]
+Interno #1: Ejecutar slaticket
+2024-11-14 21:10:31 [18@SISTEMAS2]
+Interno #1: Lanzar mailgate
+2024-11-14 21:15:43 [18@SISTEMAS2]
+Interno #1: Lanzar queuednotification
+2024-11-14 21:43:41 [18@SISTEMAS2]
+Interno #1: Lanzar olaticket
+2024-11-14 22:47:58 [18@SISTEMAS2]
+Interno #1: Lanzar planningrecall
+2024-11-14 22:48:05 [@SISTEMAS2]
+Interno #1: Ejecutar graph
+2024-11-14 23:24:45 [7@SISTEMAS2]
+Interno #1: Ejecutar temp
+2024-11-14 23:31:50 [7@SISTEMAS2]
+Interno #1: Ejecutar reservation
+2024-11-15 21:50:21 [18@SISTEMAS2]
+Interno #1: Lanzar slaticket
+2024-11-15 21:55:19 [18@SISTEMAS2]
+Interno #1: Lanzar RecurrentItems
+2024-11-15 22:09:27 [18@SISTEMAS2]
+Interno #1: Lanzar watcher
+2024-11-18 14:29:08 [7@SISTEMAS2]
+Interno #1: Ejecutar queuednotificationclean
+2024-11-18 16:22:13 [18@SISTEMAS2]
+Interno #1: Lanzar mailgateerror
+2024-11-18 18:30:34 [18@SISTEMAS2]
+Interno #1: Lanzar certificate
+2024-11-18 20:09:40 [@SISTEMAS2]
+Interno #1: Lanzar contract
+2024-11-18 20:11:10 [@SISTEMAS2]
+Interno #1: Lanzar infocom
+2024-11-18 20:54:27 [7@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2024-11-18 20:55:42 [18@SISTEMAS2]
+Interno #1: Lanzar mailgate
+2024-11-18 21:08:04 [18@SISTEMAS2]
+Interno #1: Lanzar session
+2024-11-19 13:11:57 [@SISTEMAS2]
+Interno #1: Lanzar createinquest
+2024-11-19 13:45:06 [18@SISTEMAS2]
+Interno #1: Lanzar olaticket
+2024-11-19 17:35:28 [18@SISTEMAS2]
+Interno #1: Lanzar planningrecall
+2024-11-19 18:33:45 [18@SISTEMAS2]
+Interno #1: Lanzar graph
+2024-11-19 18:39:20 [18@SISTEMAS2]
+Interno #1: Lanzar temp
+2024-11-19 18:44:25 [18@SISTEMAS2]
+Interno #1: Lanzar reservation
+2024-11-20 13:09:34 [@SISTEMAS2]
+Interno #1: Lanzar closeticket
+2024-11-21 13:09:18 [@SISTEMAS2]
+Interno #1: Lanzar alertnotclosed
+2024-11-21 21:27:04 [@SISTEMAS2]
+Interno #1: Lanzar slaticket
+2024-11-21 21:28:58 [@SISTEMAS2]
+Interno #1: Lanzar RecurrentItems
+2024-11-25 13:50:51 [@SISTEMAS2]
+Interno #1: Ejecutar watcher
+2024-11-28 12:17:27 [@SISTEMAS2]
+Interno #1: Lanzar queuednotification
+2024-11-28 19:18:41 [@SISTEMAS2]
+Interno #1: Lanzar mailgate
+2024-11-28 19:20:33 [@SISTEMAS2]
+Interno #1: Lanzar olaticket
+2024-11-28 22:39:47 [@SISTEMAS2]
+Interno #1: Lanzar queuednotificationclean
+2024-11-28 22:54:23 [@SISTEMAS2]
+Interno #1: Lanzar mailgateerror
+2024-11-29 11:54:14 [@SISTEMAS2]
+Interno #1: Lanzar planningrecall
+2024-12-02 13:00:40 [@SISTEMAS2]
+Interno #1: Lanzar certificate
+2024-12-02 23:09:59 [@SISTEMAS2]
+Interno #1: Lanzar graph
+2024-12-02 23:15:12 [18@SISTEMAS2]
+Interno #1: Lanzar temp
+2024-12-02 23:20:28 [18@SISTEMAS2]
+Interno #1: Lanzar reservation
+2024-12-02 23:21:50 [@SISTEMAS2]
+Interno #1: Ejecutar contract
+2024-12-03 13:11:02 [@SISTEMAS2]
+Interno #1: Lanzar infocom
+2024-12-03 21:03:03 [@SISTEMAS2]
+Interno #1: Ejecutar session
+2024-12-03 21:03:20 [@SISTEMAS2]
+Interno #1: Ejecutar createinquest
+2024-12-03 21:03:29 [@SISTEMAS2]
+Interno #1: Ejecutar closeticket
+2024-12-03 21:03:38 [@SISTEMAS2]
+Interno #1: Ejecutar slaticket
+2024-12-03 21:13:46 [7@SISTEMAS2]
+Interno #1: Ejecutar RecurrentItems
+2024-12-03 21:18:01 [@SISTEMAS2]
+Interno #1: Ejecutar alertnotclosed
+2024-12-03 21:18:13 [@SISTEMAS2]
+Interno #1: Ejecutar watcher
+2024-12-03 23:24:27 [@SISTEMAS2]
+Interno #1: Lanzar queuednotification
+2024-12-03 23:24:41 [@SISTEMAS2]
+Interno #1: Lanzar olaticket
+2024-12-03 23:26:34 [7@SISTEMAS2]
+Interno #1: Ejecutar mailgate
+2024-12-04 15:42:49 [7@SISTEMAS2]
+Interno #1: Ejecutar planningrecall
+2024-12-04 15:50:38 [7@SISTEMAS2]
+Interno #1: Ejecutar queuednotificationclean
+2024-12-04 15:54:36 [@SISTEMAS2]
+Interno #1: Ejecutar mailgateerror
+2024-12-04 15:54:40 [@SISTEMAS2]
+Interno #1: Lanzar graph
+2024-12-04 15:59:49 [18@SISTEMAS2]
+Interno #1: Lanzar temp
+2024-12-04 16:00:46 [@SISTEMAS2]
+Interno #1: Ejecutar reservation
+2024-12-04 16:03:00 [7@SISTEMAS2]
+Interno #1: Ejecutar certificate
+2024-12-04 16:13:40 [18@SISTEMAS2]
+Interno #1: Lanzar slaticket
+2024-12-04 16:14:21 [7@SISTEMAS2]
+Interno #1: Ejecutar RecurrentItems
+2024-12-04 16:17:09 [@SISTEMAS2]
+Interno #1: Lanzar contract
+2024-12-04 16:40:05 [7@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2024-12-04 16:42:12 [18@SISTEMAS2]
+Interno #1: Ejecutar olaticket
+2024-12-04 16:43:35 [@SISTEMAS2]
+Interno #1: Ejecutar mailgate
+2024-12-04 16:47:32 [18@SISTEMAS2]
+Interno #1: Ejecutar closeticket
+2024-12-04 16:54:26 [7@SISTEMAS2]
+Interno #1: Ejecutar alertnotclosed
+2024-12-04 17:06:34 [@SISTEMAS2]
+Interno #1: Lanzar infocom
+2024-12-04 17:17:53 [18@SISTEMAS2]
+Interno #1: Ejecutar planningrecall
+2024-12-04 17:24:47 [18@SISTEMAS2]
+Interno #1: Ejecutar slaticket
+2024-12-04 17:30:16 [@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2024-12-04 17:34:41 [@SISTEMAS2]
+Interno #1: Ejecutar olaticket
+2024-12-04 17:35:54 [@SISTEMAS2]
+Interno #1: Ejecutar mailgate
+2024-12-04 17:40:37 [18@SISTEMAS2]
+Interno #1: Ejecutar graph
+2024-12-04 17:42:00 [7@SISTEMAS2]
+Interno #1: Ejecutar temp
+2024-12-04 17:42:43 [@SISTEMAS2]
+Interno #1: Ejecutar reservation
+2024-12-04 17:46:07 [18@SISTEMAS2]
+Interno #1: Ejecutar RecurrentItems
+2024-12-04 17:46:13 [@SISTEMAS2]
+Interno #1: Lanzar planningrecall
+2024-12-04 17:49:06 [7@SISTEMAS2]
+Interno #1: Ejecutar slaticket
+2024-12-04 17:51:46 [18@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2024-12-04 17:55:51 [7@SISTEMAS2]
+Interno #1: Ejecutar olaticket
+2024-12-04 17:58:01 [18@SISTEMAS2]
+Interno #1: Ejecutar mailgate
+2024-12-04 18:01:02 [7@SISTEMAS2]
+Interno #1: Ejecutar planningrecall
+2024-12-04 18:06:05 [7@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2024-12-04 18:15:22 [18@SISTEMAS2]
+Interno #1: Ejecutar slaticket
+2024-12-04 18:20:43 [18@SISTEMAS2]
+Interno #1: Ejecutar olaticket
+2024-12-04 18:25:56 [18@SISTEMAS2]
+Interno #1: Ejecutar planningrecall
+2024-12-04 18:30:38 [@SISTEMAS2]
+Interno #1: Lanzar queuednotification
+2024-12-04 18:40:29 [7@SISTEMAS2]
+Interno #1: Ejecutar mailgate
+2024-12-04 18:41:04 [18@SISTEMAS2]
+Interno #1: Ejecutar slaticket
+2024-12-04 20:12:35 [7@SISTEMAS2]
+Interno #1: Ejecutar olaticket
+2024-12-04 20:13:17 [18@SISTEMAS2]
+Interno #1: Ejecutar planningrecall
+2024-12-04 20:35:11 [7@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2024-12-04 20:40:34 [18@SISTEMAS2]
+Interno #1: Ejecutar graph
+2024-12-04 20:45:43 [18@SISTEMAS2]
+Interno #1: Ejecutar reservation
+2024-12-04 21:33:59 [7@SISTEMAS2]
+Interno #1: Ejecutar temp
+2024-12-04 21:40:08 [7@SISTEMAS2]
+Interno #1: Ejecutar slaticket
+2024-12-04 22:14:38 [@SISTEMAS2]
+Interno #1: Ejecutar RecurrentItems
+2024-12-04 22:43:58 [7@SISTEMAS2]
+Interno #1: Ejecutar mailgate
+2024-12-04 22:49:51 [7@SISTEMAS2]
+Interno #1: Ejecutar olaticket
+2024-12-05 13:06:10 [@SISTEMAS2]
+Interno #1: Lanzar planningrecall
+2024-12-05 13:46:56 [18@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2024-12-05 14:35:05 [@SISTEMAS2]
+Interno #1: Ejecutar session
+2024-12-05 14:46:08 [@SISTEMAS2]
+Internal #1: Launch createinquest
+2024-12-05 14:59:36 [7@SISTEMAS2]
+Interno #1: Ejecutar watcher
+2024-12-05 15:31:19 [7@SISTEMAS2]
+Interno #1: Ejecutar graph
+2024-12-05 15:36:13 [18@SISTEMAS2]
+Interno #1: Ejecutar reservation
+2024-12-05 15:37:07 [7@SISTEMAS2]
+Interno #1: Ejecutar slaticket
+2024-12-05 15:41:27 [18@SISTEMAS2]
+Interno #1: Ejecutar temp
+2024-12-05 15:42:08 [7@SISTEMAS2]
+Interno #1: Ejecutar mailgate
+2024-12-05 15:46:52 [18@SISTEMAS2]
+Interno #1: Ejecutar olaticket
+2024-12-05 15:47:15 [7@SISTEMAS2]
+Interno #1: Ejecutar RecurrentItems
+2024-12-05 15:53:50 [18@SISTEMAS2]
+Interno #1: Ejecutar closeticket
+2024-12-05 18:42:30 [@SISTEMAS2]
+Interno #1: Lanzar alertnotclosed
+2024-12-05 20:09:13 [@SISTEMAS2]
+Interno #1: Lanzar planningrecall
+2024-12-05 20:12:40 [18@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2024-12-05 22:38:18 [7@SISTEMAS2]
+Interno #1: Ejecutar slaticket
+2024-12-05 22:44:17 [7@SISTEMAS2]
+Interno #1: Ejecutar queuednotificationclean
+2024-12-06 21:53:30 [18@SISTEMAS2]
+Interno #1: Ejecutar olaticket
+2024-12-06 22:38:38 [7@SISTEMAS2]
+Interno #1: Ejecutar mailgate
+2024-12-06 22:39:15 [@SISTEMAS2]
+Interno #1: Ejecutar mailgateerror
+2024-12-06 22:39:27 [@SISTEMAS2]
+Interno #1: Ejecutar certificate
+2024-12-06 22:55:12 [7@SISTEMAS2]
+Interno #1: Ejecutar contract
+2024-12-06 22:58:13 [@SISTEMAS2]
+Interno #1: Ejecutar graph
+2024-12-09 18:38:32 [7@SISTEMAS2]
+Interno #1: Ejecutar reservation
+2024-12-09 18:43:45 [7@SISTEMAS2]
+Interno #1: Ejecutar temp
+2024-12-09 18:50:45 [7@SISTEMAS2]
+Interno #1: Ejecutar RecurrentItems
+2024-12-09 18:52:08 [@SISTEMAS2]
+Interno #1: Ejecutar infocom
+2024-12-09 18:52:12 [@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2024-12-10 13:18:09 [@SISTEMAS2]
+Interno #1: Lanzar planningrecall
+2024-12-10 20:10:31 [@SISTEMAS2]
+Interno #1: Lanzar slaticket
+2024-12-11 13:58:21 [@SISTEMAS2]
+Interno #1: Lanzar closeticket
+2024-12-11 14:19:38 [@SISTEMAS2]
+Interno #1: Ejecutar alertnotclosed
+2024-12-11 14:19:51 [@SISTEMAS2]
+Interno #1: Ejecutar session
+2024-12-11 14:20:33 [@SISTEMAS2]
+Interno #1: Ejecutar createinquest
+2024-12-11 14:21:20 [@SISTEMAS2]
+Interno #1: Ejecutar watcher
+2024-12-11 14:21:23 [18@SISTEMAS2]
+Interno #1: Ejecutar olaticket
+2024-12-11 14:27:01 [7@SISTEMAS2]
+Interno #1: Ejecutar queuednotificationclean
+2024-12-11 14:29:41 [@SISTEMAS2]
+Interno #1: Ejecutar mailgate
+2024-12-11 14:30:42 [@SISTEMAS2]
+Interno #1: Ejecutar graph
+2024-12-11 14:33:13 [@SISTEMAS2]
+Interno #1: Ejecutar mailgateerror
+2024-12-11 14:33:50 [@SISTEMAS2]
+Interno #1: Ejecutar certificate
+2024-12-11 14:36:05 [@SISTEMAS2]
+Interno #1: Ejecutar contract
+2024-12-11 14:36:35 [@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2024-12-11 14:37:58 [@SISTEMAS2]
+Interno #1: Ejecutar reservation
+2024-12-11 16:20:37 [@SISTEMAS2]
+Interno #1: Ejecutar temp
+2024-12-11 16:23:03 [@SISTEMAS2]
+Interno #1: Ejecutar RecurrentItems
+2024-12-11 16:28:28 [@SISTEMAS2]
+Interno #1: Ejecutar planningrecall
+2024-12-11 16:35:58 [19@SISTEMAS2]
+Interno #1: Lanzar infocom
+2024-12-11 16:36:33 [@SISTEMAS2]
+Interno #1: Ejecutar slaticket
+2024-12-11 16:37:02 [@SISTEMAS2]
+Interno #1: Ejecutar olaticket
+2024-12-11 16:37:15 [@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2024-12-11 16:37:27 [@SISTEMAS2]
+Interno #1: Ejecutar mailgate
+2024-12-11 16:38:11 [@SISTEMAS2]
+Interno #1: Ejecutar graph
+2024-12-11 16:39:23 [@SISTEMAS2]
+Interno #1: Lanzar reservation
+2024-12-11 16:39:37 [@SISTEMAS2]
+Interno #1: Ejecutar planningrecall
+2024-12-11 16:46:28 [7@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2024-12-11 16:48:10 [@SISTEMAS2]
+Interno #1: Ejecutar slaticket
+2024-12-11 16:52:00 [7@SISTEMAS2]
+Interno #1: Ejecutar olaticket
+2024-12-11 16:59:42 [7@SISTEMAS2]
+Interno #1: Ejecutar planningrecall
+2024-12-11 17:05:34 [7@SISTEMAS2]
+Interno #1: Ejecutar mailgate
+2024-12-11 17:08:33 [@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2024-12-11 17:09:16 [@SISTEMAS2]
+Interno #1: Ejecutar slaticket
+2024-12-11 17:15:29 [7@SISTEMAS2]
+Interno #1: Ejecutar olaticket
+2024-12-11 17:16:50 [@SISTEMAS2]
+Interno #1: Lanzar planningrecall
+2024-12-11 17:22:25 [7@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2024-12-11 17:27:26 [7@SISTEMAS2]
+Interno #1: Ejecutar slaticket
+2024-12-11 17:32:29 [7@SISTEMAS2]
+Interno #1: Ejecutar mailgate
+2024-12-11 17:38:49 [14@SISTEMAS2]
+Interno #1: Lanzar temp
+2024-12-11 17:49:05 [7@SISTEMAS2]
+Interno #1: Ejecutar olaticket
+2024-12-11 18:54:51 [@SISTEMAS2]
+Interno #1: Ejecutar planningrecall
+2024-12-11 18:59:49 [@SISTEMAS2]
+Interno #1: Ejecutar RecurrentItems
+2024-12-11 19:07:33 [7@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2024-12-12 14:21:45 [@SISTEMAS2]
+Interno #1: Lanzar slaticket
+2024-12-12 14:27:05 [18@SISTEMAS2]
+Interno #1: Ejecutar graph
+2024-12-12 14:49:39 [18@SISTEMAS2]
+Interno #1: Ejecutar reservation
+2024-12-12 14:56:45 [18@SISTEMAS2]
+Interno #1: Ejecutar mailgate
+2024-12-12 15:12:07 [18@SISTEMAS2]
+Interno #1: Ejecutar olaticket
+2024-12-12 15:17:13 [18@SISTEMAS2]
+Interno #1: Ejecutar temp
+2024-12-12 15:22:30 [18@SISTEMAS2]
+Interno #1: Ejecutar planningrecall
+2024-12-12 15:52:45 [18@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2024-12-12 15:53:20 [7@SISTEMAS2]
+Interno #1: Ejecutar RecurrentItems
+2024-12-12 16:00:23 [7@SISTEMAS2]
+Interno #1: Ejecutar closeticket
+2024-12-12 16:05:26 [7@SISTEMAS2]
+Interno #1: Ejecutar alertnotclosed
+2024-12-12 16:28:46 [7@SISTEMAS2]
+Interno #1: Ejecutar session
+2024-12-12 16:33:57 [7@SISTEMAS2]
+Interno #1: Ejecutar createinquest
+2024-12-12 16:41:22 [7@SISTEMAS2]
+Interno #1: Ejecutar watcher
+2024-12-12 16:43:28 [@SISTEMAS2]
+Interno #1: Ejecutar slaticket
+2024-12-12 16:44:41 [@SISTEMAS2]
+Interno #1: Ejecutar queuednotificationclean
+2024-12-12 16:52:44 [7@SISTEMAS2]
+Interno #1: Ejecutar mailgateerror
+2024-12-12 17:01:46 [7@SISTEMAS2]
+Interno #1: Ejecutar certificate
+2024-12-12 17:07:09 [7@SISTEMAS2]
+Interno #1: Ejecutar contract
+2024-12-12 18:23:20 [7@SISTEMAS2]
+Interno #1: Ejecutar mailgate
+2024-12-12 18:29:42 [7@SISTEMAS2]
+Interno #1: Ejecutar olaticket
+2024-12-12 18:39:56 [7@SISTEMAS2]
+Interno #1: Ejecutar graph
+2024-12-12 18:45:38 [7@SISTEMAS2]
+Interno #1: Ejecutar planningrecall
+2024-12-12 20:05:35 [18@SISTEMAS2]
+Interno #1: Ejecutar reservation
+2024-12-12 20:43:58 [18@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2024-12-12 20:47:34 [7@SISTEMAS2]
+Interno #1: Ejecutar temp
+2024-12-12 20:56:49 [7@SISTEMAS2]
+Interno #1: Ejecutar infocom
+2024-12-12 21:03:58 [7@SISTEMAS2]
+Interno #1: Ejecutar slaticket
+2024-12-12 21:10:26 [7@SISTEMAS2]
+Interno #1: Ejecutar RecurrentItems
+2024-12-12 21:15:28 [7@SISTEMAS2]
+Interno #1: Ejecutar mailgate
+2024-12-12 21:31:01 [7@SISTEMAS2]
+Interno #1: Ejecutar olaticket
+2024-12-12 21:31:07 [@SISTEMAS2]
+Interno #1: Ejecutar planningrecall
+2024-12-12 21:31:11 [@SISTEMAS2]
+Interno #1: Ejecutar graph
+2024-12-12 21:37:35 [7@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2024-12-12 21:49:10 [7@SISTEMAS2]
+Interno #1: Ejecutar reservation
+2024-12-12 15:53:01 [18@SISTEMAS2]
+Interno #1: Ejecutar slaticket
+2024-12-12 15:53:52 [@SISTEMAS2]
+Interno #1: Ejecutar mailgate
+2024-12-12 15:54:34 [@SISTEMAS2]
+Interno #1: Lanzar planningrecall
+2024-12-12 15:55:41 [@SISTEMAS2]
+Interno #1: Ejecutar olaticket
+2024-12-12 15:55:46 [@SISTEMAS2]
+Interno #1: Lanzar queuednotification
+2024-12-12 15:56:17 [@SISTEMAS2]
+Interno #1: Lanzar temp
+2024-12-12 16:04:53 [7@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2024-12-12 16:09:59 [7@SISTEMAS2]
+Interno #1: Ejecutar slaticket
+2024-12-12 16:15:09 [7@SISTEMAS2]
+Interno #1: Ejecutar planningrecall
+2024-12-12 16:23:07 [7@SISTEMAS2]
+Interno #1: Ejecutar olaticket
+2024-12-12 16:38:56 [@SISTEMAS2]
+Interno #1: Lanzar mailgate
+2024-12-12 16:42:40 [7@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2024-12-12 16:47:47 [7@SISTEMAS2]
+Interno #1: Ejecutar RecurrentItems
+2024-12-12 16:55:31 [7@SISTEMAS2]
+Interno #1: Ejecutar slaticket
+2024-12-12 16:56:43 [18@SISTEMAS2]
+Interno #1: Ejecutar planningrecall
+2024-12-12 17:06:24 [7@SISTEMAS2]
+Interno #1: Ejecutar olaticket
+2024-12-12 17:10:54 [@SISTEMAS2]
+Interno #1: Ejecutar graph
+2024-12-12 17:18:41 [7@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2024-12-12 17:23:53 [7@SISTEMAS2]
+Interno #1: Ejecutar mailgate
+2024-12-12 17:26:50 [@SISTEMAS2]
+Interno #1: Ejecutar reservation
+2024-12-12 17:34:45 [7@SISTEMAS2]
+Interno #1: Ejecutar temp
+2024-12-12 17:35:16 [@SISTEMAS2]
+Interno #1: Ejecutar slaticket
+2024-12-13 06:43:27 [@SISTEMAS2]
+Interno #1: Lanzar planningrecall
+2024-12-13 07:18:58 [18@SISTEMAS2]
+Interno #1: Ejecutar olaticket
+2024-12-13 07:47:58 [18@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2024-12-13 07:53:28 [18@SISTEMAS2]
+Interno #1: Ejecutar mailgate
+2024-12-13 08:17:58 [18@SISTEMAS2]
+Interno #1: Ejecutar slaticket
+2024-12-13 08:23:02 [18@SISTEMAS2]
+Interno #1: Ejecutar RecurrentItems
+2024-12-13 08:43:09 [@SISTEMAS2]
+Interno #1: Lanzar graph
+2024-12-13 08:51:01 [18@SISTEMAS2]
+Interno #1: Ejecutar reservation
+2024-12-13 09:32:40 [18@SISTEMAS2]
+Interno #1: Ejecutar temp
+2024-12-13 09:33:00 [@SISTEMAS2]
+Interno #1: Lanzar closeticket
+2024-12-13 09:58:04 [@SISTEMAS2]
+Interno #1: Lanzar alertnotclosed
+2024-12-13 11:57:44 [18@SISTEMAS2]
+Interno #1: Ejecutar planningrecall
+2024-12-13 12:02:48 [18@SISTEMAS2]
+Interno #1: Ejecutar olaticket
+2024-12-13 12:05:34 [@SISTEMAS2]
+Interno #1: Lanzar queuednotification
+2024-12-13 12:10:47 [@SISTEMAS2]
+Interno #1: Lanzar mailgate
+2024-12-13 12:16:09 [18@SISTEMAS2]
+Interno #1: Ejecutar slaticket
+2024-12-13 16:40:07 [18@SISTEMAS2]
+Interno #1: Ejecutar RecurrentItems
+2024-12-16 07:17:05 [@SISTEMAS2]
+Interno #1: Lanzar graph
+2024-12-16 08:11:09 [@SISTEMAS2]
+Interno #1: Lanzar reservation
+2024-12-16 08:19:51 [18@SISTEMAS2]
+Interno #1: Ejecutar session
+2024-12-16 08:23:54 [@SISTEMAS2]
+Interno #1: Ejecutar temp
+2024-12-16 08:24:59 [18@SISTEMAS2]
+Interno #1: Ejecutar createinquest
+2024-12-16 08:25:05 [@SISTEMAS2]
+Interno #1: Lanzar watcher
+2024-12-16 08:36:50 [7@SISTEMAS2]
+Interno #1: Ejecutar queuednotificationclean
+2024-12-16 08:41:34 [18@SISTEMAS2]
+Interno #1: Ejecutar mailgateerror
+2024-12-16 08:42:00 [7@SISTEMAS2]
+Interno #1: Ejecutar certificate
+2024-12-16 08:47:00 [7@SISTEMAS2]
+Interno #1: Ejecutar contract
+2024-12-16 09:09:52 [18@SISTEMAS2]
+Interno #1: Ejecutar planningrecall
+2024-12-16 10:01:23 [@SISTEMAS2]
+Interno #1: Lanzar queuednotification
+2024-12-16 10:55:30 [18@SISTEMAS2]
+Interno #1: Ejecutar olaticket
+2024-12-16 11:10:20 [@SISTEMAS2]
+Interno #1: Ejecutar mailgate
+2024-12-16 11:18:52 [20@SISTEMAS2]
+Interno #1: Lanzar slaticket
+2024-12-16 11:25:12 [20@SISTEMAS2]
+Interno #1: Lanzar infocom
+2024-12-16 11:25:39 [18@SISTEMAS2]
+Interno #1: Ejecutar RecurrentItems
+2024-12-16 11:31:54 [20@SISTEMAS2]
+Interno #1: Lanzar closeticket
+2024-12-16 11:32:13 [20@SISTEMAS2]
+Interno #1: Lanzar alertnotclosed
+2024-12-16 11:42:18 [20@SISTEMAS2]
+Interno #1: Lanzar graph
+2024-12-16 11:51:03 [@SISTEMAS2]
+Interno #1: Ejecutar reservation
+2024-12-16 11:57:00 [7@SISTEMAS2]
+Interno #1: Ejecutar planningrecall
+2024-12-16 12:02:01 [7@SISTEMAS2]
+Interno #1: Ejecutar temp
+2024-12-16 12:11:26 [7@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2024-12-16 12:16:25 [@SISTEMAS2]
+Interno #1: Ejecutar olaticket
+2024-12-16 12:41:39 [@SISTEMAS2]
+Interno #1: Ejecutar mailgate
+2024-12-16 12:41:57 [@SISTEMAS2]
+Interno #1: Ejecutar slaticket
+2024-12-16 12:42:05 [@SISTEMAS2]
+Interno #1: Ejecutar planningrecall
+2024-12-16 12:42:34 [@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2024-12-16 12:42:42 [@SISTEMAS2]
+Interno #1: Ejecutar olaticket
+2024-12-16 12:43:15 [@SISTEMAS2]
+Interno #1: Lanzar RecurrentItems
+2024-12-16 12:43:21 [@SISTEMAS2]
+Interno #1: Lanzar graph
+2024-12-16 12:44:58 [@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2024-12-16 12:47:49 [@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2024-12-16 12:53:38 [@SISTEMAS2]
+Interno #1: Ejecutar slaticket
+2024-12-16 13:18:22 [@SISTEMAS2]
+Interno #1: Lanzar planningrecall
+2024-12-16 13:24:39 [17@SISTEMAS2]
+Interno #1: Lanzar olaticket
+2024-12-16 13:33:31 [7@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2024-12-16 13:34:24 [17@SISTEMAS2]
+Interno #1: Lanzar mailgate
+2024-12-16 13:39:11 [7@SISTEMAS2]
+Interno #1: Ejecutar reservation
+2024-12-16 13:39:44 [17@SISTEMAS2]
+Interno #1: Lanzar slaticket
+2024-12-16 13:44:12 [7@SISTEMAS2]
+Interno #1: Ejecutar temp
+2024-12-16 13:50:21 [17@SISTEMAS2]
+Interno #1: Lanzar planningrecall
+2024-12-16 14:10:22 [17@SISTEMAS2]
+Interno #1: Lanzar olaticket
+2024-12-16 14:18:54 [7@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2024-12-16 14:41:44 [7@SISTEMAS2]
+Interno #1: Ejecutar graph
+2024-12-16 14:50:56 [7@SISTEMAS2]
+Interno #1: Ejecutar RecurrentItems
+2024-12-16 15:09:08 [7@SISTEMAS2]
+Interno #1: Ejecutar mailgate
+2024-12-16 15:18:41 [@SISTEMAS2]
+Interno #1: Lanzar slaticket
+2024-12-16 15:23:34 [@SISTEMAS2]
+Interno #1: Ejecutar planningrecall
+2024-12-16 15:41:22 [@SISTEMAS2]
+Interno #1: Ejecutar olaticket
+2024-12-16 15:41:55 [@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2024-12-16 15:44:34 [@SISTEMAS2]
+Interno #1: Ejecutar reservation
+2024-12-16 15:44:53 [@SISTEMAS2]
+Interno #1: Ejecutar temp
+2024-12-16 15:45:24 [@SISTEMAS2]
+Interno #1: Ejecutar mailgate
+2024-12-16 15:45:36 [@SISTEMAS2]
+Interno #1: Ejecutar slaticket
+2024-12-16 15:46:06 [@SISTEMAS2]
+Interno #1: Ejecutar planningrecall
+2024-12-16 15:47:20 [@SISTEMAS2]
+Interno #1: Ejecutar graph
+2024-12-16 15:49:09 [@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2024-12-16 15:49:30 [@SISTEMAS2]
+Interno #1: Ejecutar olaticket
+2024-12-16 15:50:36 [@SISTEMAS2]
+Interno #1: Ejecutar slaticket
+2024-12-16 15:50:58 [@SISTEMAS2]
+Interno #1: Ejecutar RecurrentItems
+2024-12-16 15:51:21 [@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2024-12-16 15:55:23 [@SISTEMAS2]
+Interno #1: Ejecutar planningrecall
+2024-12-16 15:59:12 [17@SISTEMAS2]
+Interno #1: Lanzar queuednotification
+2024-12-16 16:23:05 [18@SISTEMAS2]
+Interno #1: Ejecutar olaticket
+2024-12-16 17:04:22 [17@SISTEMAS2]
+Interno #1: Lanzar mailgate
+2024-12-17 07:17:41 [18@SISTEMAS2]
+Interno #1: Ejecutar slaticket
+2024-12-17 07:21:08 [14@SISTEMAS2]
+Interno #1: Lanzar planningrecall
+2024-12-17 07:24:34 [18@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2024-12-17 07:26:25 [14@SISTEMAS2]
+Interno #1: Lanzar olaticket
+2024-12-17 07:29:07 [@SISTEMAS2]
+Interno #1: Ejecutar reservation
+2024-12-17 07:29:35 [18@SISTEMAS2]
+Interno #1: Ejecutar temp
+2024-12-17 07:30:38 [@SISTEMAS2]
+Interno #1: Ejecutar graph
+2024-12-17 07:32:51 [@SISTEMAS2]
+Interno #1: Ejecutar RecurrentItems
+2024-12-17 07:45:41 [14@SISTEMAS2]
+Interno #1: Lanzar mailgate
+2024-12-17 07:49:05 [17@SISTEMAS2]
+Interno #1: Lanzar closeticket
+2024-12-17 07:50:58 [14@SISTEMAS2]
+Interno #1: Lanzar alertnotclosed
+2024-12-17 07:51:37 [@SISTEMAS2]
+Interno #1: Ejecutar slaticket
+2024-12-17 07:51:50 [18@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2024-12-17 07:55:28 [17@SISTEMAS2]
+Interno #1: Lanzar planningrecall
+2024-12-17 07:59:07 [14@SISTEMAS2]
+Interno #1: Lanzar olaticket
+2024-12-17 08:00:23 [@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2024-12-17 08:05:15 [18@SISTEMAS2]
+Interno #1: Ejecutar mailgate
+2024-12-17 08:05:22 [@SISTEMAS2]
+Interno #1: Ejecutar slaticket
+2024-12-17 08:10:40 [18@SISTEMAS2]
+Interno #1: Ejecutar planningrecall
+2024-12-17 08:24:42 [18@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2024-12-17 08:32:26 [17@SISTEMAS2]
+Interno #1: Lanzar olaticket
+2024-12-17 09:48:30 [@SISTEMAS2]
+Interno #1: Ejecutar slaticket
+2024-12-17 09:49:28 [17@SISTEMAS2]
+Interno #1: Lanzar mailgate
+2024-12-17 10:47:07 [18@SISTEMAS2]
+Interno #1: Ejecutar planningrecall
+2024-12-17 12:08:33 [18@SISTEMAS2]
+Interno #1: Ejecutar session
+2024-12-17 12:13:42 [18@SISTEMAS2]
+Interno #1: Ejecutar createinquest
+2024-12-17 12:18:45 [18@SISTEMAS2]
+Interno #1: Ejecutar watcher
+2024-12-18 08:00:24 [@SISTEMAS2]
+Interno #1: Lanzar queuednotification
+2024-12-18 08:00:45 [7@SISTEMAS2]
+No se puede obtener el bloqueo de la base de datos
+2024-12-18 08:01:06 [@SISTEMAS2]
+Interno #1: Ejecutar reservation
+2024-12-18 08:01:16 [@SISTEMAS2]
+Interno #1: Ejecutar temp
+2024-12-18 08:05:58 [18@SISTEMAS2]
+Interno #1: Ejecutar graph
+2024-12-18 08:06:08 [7@SISTEMAS2]
+Interno #1: Ejecutar RecurrentItems
+2024-12-18 08:29:39 [20@SISTEMAS2]
+Interno #1: Lanzar queuednotificationclean
+2024-12-18 08:52:34 [18@SISTEMAS2]
+Interno #1: Ejecutar olaticket
+2024-12-18 08:54:11 [7@SISTEMAS2]
+Interno #1: Ejecutar mailgateerror
+2024-12-18 08:58:56 [18@SISTEMAS2]
+Interno #1: Ejecutar certificate
+2024-12-18 09:07:07 [7@SISTEMAS2]
+Interno #1: Ejecutar contract
+2024-12-18 09:12:38 [18@SISTEMAS2]
+Interno #1: Ejecutar slaticket
+2024-12-18 09:13:17 [7@SISTEMAS2]
+Interno #1: Ejecutar mailgate
+2024-12-18 09:18:33 [7@SISTEMAS2]
+Interno #1: Ejecutar planningrecall
+2024-12-18 09:38:37 [7@SISTEMAS2]
+Interno #1: Ejecutar infocom
+2024-12-18 09:45:03 [7@SISTEMAS2]
+Interno #1: Ejecutar closeticket
+2024-12-18 09:50:30 [@SISTEMAS2]
+Interno #1: Lanzar alertnotclosed
+2024-12-18 09:51:50 [7@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2024-12-18 10:14:27 [17@SISTEMAS2]
+Interno #1: Lanzar olaticket
+2024-12-18 10:26:42 [17@SISTEMAS2]
+Interno #1: Lanzar reservation
+2024-12-18 10:40:13 [17@SISTEMAS2]
+Interno #1: Lanzar temp
+2024-12-18 10:51:34 [7@SISTEMAS2]
+Interno #1: Ejecutar graph
+2024-12-18 11:05:19 [7@SISTEMAS2]
+Interno #1: Ejecutar RecurrentItems
+2024-12-18 11:11:02 [7@SISTEMAS2]
+Interno #1: Ejecutar slaticket
+2024-12-18 11:16:30 [7@SISTEMAS2]
+Interno #1: Ejecutar mailgate
+2024-12-18 11:20:02 [@SISTEMAS2]
+Interno #1: Ejecutar planningrecall
+2024-12-18 11:20:21 [@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2024-12-18 11:20:56 [@SISTEMAS2]
+Interno #1: Ejecutar olaticket
+2024-12-18 11:21:17 [@SISTEMAS2]
+Interno #1: Ejecutar slaticket
+2024-12-18 11:21:43 [@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2024-12-18 11:22:07 [@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2024-12-18 11:23:36 [@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2024-12-18 11:28:51 [18@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2024-12-18 11:36:00 [20@SISTEMAS2]
+Interno #1: Lanzar planningrecall
+2024-12-18 11:38:16 [7@SISTEMAS2]
+Interno #1: Ejecutar olaticket
+2024-12-18 11:38:20 [18@SISTEMAS2]
+Interno #1: Ejecutar mailgate
+2024-12-18 11:39:36 [14@SISTEMAS2]
+Interno #1: Lanzar reservation
+2024-12-18 11:49:56 [7@SISTEMAS2]
+Interno #1: Ejecutar slaticket
+2024-12-18 11:58:52 [17@SISTEMAS2]
+Interno #1: Lanzar queuednotification
+2024-12-18 11:59:22 [14@SISTEMAS2]
+Interno #1: Lanzar temp
+2024-12-18 11:59:54 [7@SISTEMAS2]
+Interno #1: Ejecutar planningrecall
+2024-12-18 12:05:12 [14@SISTEMAS2]
+Interno #1: Lanzar olaticket
+2024-12-18 12:05:49 [7@SISTEMAS2]
+Interno #1: Ejecutar mailgate
+2024-12-18 12:34:33 [7@SISTEMAS2]
+Interno #1: Ejecutar graph
+2024-12-18 12:36:22 [14@SISTEMAS2]
+Interno #1: Lanzar slaticket
+2024-12-18 12:40:21 [7@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2024-12-18 12:41:34 [@SISTEMAS2]
+Interno #1: Lanzar planningrecall
+2024-12-18 12:53:21 [7@SISTEMAS2]
+Interno #1: Ejecutar RecurrentItems
+2024-12-18 12:59:30 [7@SISTEMAS2]
+Interno #1: Ejecutar session
+2024-12-18 14:01:25 [7@SISTEMAS2]
+Interno #1: Ejecutar olaticket
+2024-12-18 14:08:51 [17@SISTEMAS2]
+Interno #1: Lanzar createinquest
+2024-12-18 14:31:48 [7@SISTEMAS2]
+Interno #1: Ejecutar mailgate
+2024-12-18 15:34:46 [7@SISTEMAS2]
+Interno #1: Ejecutar watcher
+2024-12-18 15:47:21 [7@SISTEMAS2]
+Interno #1: Ejecutar reservation
+2024-12-18 16:09:48 [7@SISTEMAS2]
+Interno #1: Ejecutar slaticket
+2024-12-18 16:19:56 [7@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2024-12-18 17:19:14 [7@SISTEMAS2]
+Interno #1: Ejecutar planningrecall
+2024-12-19 06:30:33 [@SISTEMAS2]
+Interno #1: Lanzar temp
+2024-12-19 07:04:59 [17@SISTEMAS2]
+Interno #1: Lanzar graph
+2024-12-19 07:08:52 [17@SISTEMAS2]
+Interno #1: Lanzar RecurrentItems
+2024-12-19 07:13:59 [17@SISTEMAS2]
+Interno #1: Lanzar olaticket
+2024-12-19 08:10:24 [@SISTEMAS2]
+Interno #1: Ejecutar mailgate
+2024-12-19 08:15:57 [7@SISTEMAS2]
+Interno #1: Ejecutar slaticket
+2024-12-19 08:51:11 [18@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2024-12-19 09:18:09 [18@SISTEMAS2]
+Interno #1: Ejecutar reservation
+2024-12-19 09:43:03 [14@SISTEMAS2]
+Interno #1: Lanzar planningrecall
+2024-12-19 09:46:58 [7@SISTEMAS2]
+Interno #1: Ejecutar closeticket
+2024-12-19 10:34:40 [17@SISTEMAS2]
+Interno #1: Lanzar alertnotclosed
+2024-12-19 11:11:42 [14@SISTEMAS2]
+Interno #1: Lanzar olaticket
+2024-12-19 11:27:29 [17@SISTEMAS2]
+Interno #1: Lanzar temp
+2024-12-19 11:37:38 [7@SISTEMAS2]
+Interno #1: Ejecutar graph
+2024-12-19 11:38:39 [18@SISTEMAS2]
+Interno #1: Ejecutar RecurrentItems
+2024-12-19 12:40:06 [18@SISTEMAS2]
+Interno #1: Ejecutar mailgate
+2024-12-19 12:45:26 [18@SISTEMAS2]
+Interno #1: Ejecutar slaticket
+2024-12-19 12:48:05 [7@SISTEMAS2]
+Interno #1: Ejecutar queuednotificationclean
+2024-12-19 12:56:30 [7@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2024-12-19 13:08:49 [18@SISTEMAS2]
+Interno #1: Ejecutar mailgateerror
+2024-12-19 13:49:43 [7@SISTEMAS2]
+Interno #1: Ejecutar certificate
+2024-12-19 13:54:47 [7@SISTEMAS2]
+Interno #1: Ejecutar contract
+2024-12-19 14:32:59 [18@SISTEMAS2]
+Interno #1: Ejecutar infocom
+2024-12-19 14:38:54 [18@SISTEMAS2]
+Interno #1: Ejecutar planningrecall
+2024-12-19 15:04:27 [7@SISTEMAS2]
+Interno #1: Ejecutar reservation
+2024-12-19 15:14:51 [7@SISTEMAS2]
+Interno #1: Ejecutar olaticket
+2024-12-20 06:18:21 [@SISTEMAS2]
+Interno #1: Lanzar temp
+2024-12-20 07:46:33 [18@SISTEMAS2]
+Interno #1: Ejecutar graph
+2024-12-20 07:53:14 [18@SISTEMAS2]
+Interno #1: Ejecutar RecurrentItems
+2024-12-20 08:30:53 [18@SISTEMAS2]
+Interno #1: Ejecutar mailgate
+2024-12-20 08:40:35 [18@SISTEMAS2]
+Interno #1: Ejecutar slaticket
+2024-12-20 09:40:07 [18@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2024-12-20 09:52:54 [17@SISTEMAS2]
+Interno #1: Lanzar session
+2024-12-20 12:54:44 [@SISTEMAS2]
+Interno #1: Lanzar createinquest
+2024-12-20 14:10:28 [18@SISTEMAS2]
+Interno #1: Ejecutar planningrecall
+2024-12-20 14:37:06 [@SISTEMAS2]
+Interno #1: Lanzar olaticket
+2024-12-20 16:39:29 [14@SISTEMAS2]
+Interno #1: Lanzar watcher
+2024-12-23 06:03:51 [@SISTEMAS2]
+Interno #1: Lanzar reservation
+2024-12-23 07:43:58 [18@SISTEMAS2]
+Interno #1: Ejecutar closeticket
+2024-12-24 07:46:17 [18@SISTEMAS2]
+Interno #1: Ejecutar alertnotclosed
+2024-12-24 10:06:07 [18@SISTEMAS2]
+Interno #1: Ejecutar temp
+2024-12-24 10:19:53 [@SISTEMAS2]
+Interno #1: Ejecutar mailgate
+2024-12-27 07:33:36 [18@SISTEMAS2]
+Interno #1: Ejecutar slaticket
+2024-12-27 07:55:30 [18@SISTEMAS2]
+Interno #1: Ejecutar graph
+2024-12-27 07:58:24 [@SISTEMAS2]
+Interno #1: Ejecutar RecurrentItems
+2024-12-27 08:30:06 [@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2024-12-27 08:41:39 [18@SISTEMAS2]
+Interno #1: Ejecutar queuednotificationclean
+2024-12-27 09:00:25 [18@SISTEMAS2]
+Interno #1: Ejecutar mailgateerror
+2024-12-30 08:44:51 [18@SISTEMAS2]
+Interno #1: Ejecutar certificate
+2024-12-30 08:50:09 [18@SISTEMAS2]
+Interno #1: Ejecutar contract
+2024-12-30 08:53:20 [@SISTEMAS2]
+Interno #1: Ejecutar planningrecall
+2024-12-30 08:56:57 [@SISTEMAS2]
+Interno #1: Lanzar infocom
+2024-12-30 09:08:13 [13@SISTEMAS2]
+Interno #1: Lanzar olaticket
+2024-12-30 09:19:56 [13@SISTEMAS2]
+Interno #1: Lanzar session
+2024-12-30 09:25:58 [13@SISTEMAS2]
+Interno #1: Lanzar createinquest
+2024-12-30 09:44:48 [18@SISTEMAS2]
+Interno #1: Ejecutar watcher
+2024-12-30 10:34:22 [@SISTEMAS2]
+Interno #1: Ejecutar reservation
+2024-12-30 15:07:00 [7@SISTEMAS2]
+Interno #1: Ejecutar closeticket
+2024-12-30 15:12:40 [7@SISTEMAS2]
+Interno #1: Ejecutar mailgate
+2024-12-30 15:18:13 [7@SISTEMAS2]
+Interno #1: Ejecutar temp
+2024-12-30 15:23:29 [7@SISTEMAS2]
+Interno #1: Ejecutar alertnotclosed
+2024-12-30 17:08:04 [18@SISTEMAS2]
+Interno #1: Ejecutar slaticket
+2025-01-02 07:21:56 [@SISTEMAS2]
+Interno #1: Lanzar queuednotification
+2025-01-02 08:10:48 [18@SISTEMAS2]
+Interno #1: Ejecutar graph
+2025-01-02 08:12:24 [7@SISTEMAS2]
+Interno #1: Ejecutar RecurrentItems
+2025-01-02 09:52:56 [7@SISTEMAS2]
+Interno #1: Ejecutar queuednotificationclean
+2025-01-02 09:53:08 [18@SISTEMAS2]
+Interno #1: Ejecutar mailgateerror
+2025-01-02 09:58:04 [7@SISTEMAS2]
+Interno #1: Ejecutar planningrecall
+2025-01-02 10:18:21 [7@SISTEMAS2]
+Interno #1: Ejecutar olaticket
+2025-01-02 11:52:52 [18@SISTEMAS2]
+Interno #1: Ejecutar reservation
+2025-01-02 12:20:26 [18@SISTEMAS2]
+Interno #1: Ejecutar mailgate
+2025-01-02 14:32:09 [@SISTEMAS2]
+Interno #1: Lanzar temp
+2025-01-02 17:11:44 [18@SISTEMAS2]
+Interno #1: Ejecutar slaticket
+2025-01-02 17:26:49 [18@SISTEMAS2]
+Interno #1: Ejecutar closeticket
+2025-01-03 07:30:04 [18@SISTEMAS2]
+Interno #1: Ejecutar alertnotclosed
+2025-01-03 07:35:19 [@SISTEMAS2]
+Interno #1: Lanzar certificate
+2025-01-03 07:35:51 [18@SISTEMAS2]
+Interno #1: Ejecutar contract
+2025-01-03 07:47:06 [18@SISTEMAS2]
+Interno #1: Ejecutar infocom
+2025-01-03 07:49:28 [@SISTEMAS2]
+Interno #1: Lanzar session
+2025-01-03 07:55:07 [17@SISTEMAS2]
+Interno #1: Lanzar createinquest
+2025-01-03 07:58:49 [18@SISTEMAS2]
+Interno #1: Ejecutar watcher
+2025-01-03 08:04:55 [18@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2025-01-03 08:11:08 [18@SISTEMAS2]
+Interno #1: Ejecutar graph
+2025-01-03 08:34:06 [18@SISTEMAS2]
+Interno #1: Ejecutar RecurrentItems
+2025-01-03 08:40:01 [@SISTEMAS2]
+Interno #1: Ejecutar planningrecall
+2025-01-03 08:40:32 [@SISTEMAS2]
+Interno #1: Ejecutar olaticket
+2025-01-03 08:41:47 [@SISTEMAS2]
+Interno #1: Ejecutar mailgate
+2025-01-03 08:41:58 [@SISTEMAS2]
+Interno #1: Ejecutar reservation
+2025-01-03 08:42:35 [18@SISTEMAS2]
+Interno #1: Ejecutar temp
+2025-01-03 08:56:13 [7@SISTEMAS2]
+Interno #1: Ejecutar slaticket
+2025-01-03 10:13:08 [18@SISTEMAS2]
+Interno #1: Ejecutar closeticket
+2025-01-03 12:11:04 [7@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2025-01-03 12:22:36 [7@SISTEMAS2]
+Interno #1: Ejecutar planningrecall
+2025-01-03 12:39:32 [7@SISTEMAS2]
+Interno #1: Ejecutar olaticket
+2025-01-03 14:07:15 [18@SISTEMAS2]
+Interno #1: Ejecutar mailgate
+2025-01-03 16:32:39 [18@SISTEMAS2]
+Interno #1: Ejecutar slaticket
+2025-01-03 17:18:20 [18@SISTEMAS2]
+Interno #1: Ejecutar graph
+2025-01-07 07:33:56 [@SISTEMAS2]
+Interno #1: Ejecutar RecurrentItems
+2025-01-07 07:41:50 [@SISTEMAS2]
+Interno #1: Lanzar reservation
+2025-01-07 07:49:48 [@SISTEMAS2]
+Interno #1: Lanzar temp
+2025-01-07 07:57:40 [@SISTEMAS2]
+Interno #1: Lanzar queuednotificationclean
+2025-01-07 08:07:37 [20@SISTEMAS2]
+Interno #1: Lanzar mailgateerror
+2025-01-07 09:03:32 [@SISTEMAS2]
+Interno #1: Lanzar queuednotification
+2025-01-07 10:33:51 [@SISTEMAS2]
+Interno #1: Ejecutar planningrecall
+2025-01-07 11:28:46 [18@SISTEMAS2]
+Interno #1: Ejecutar olaticket
+2025-01-07 12:08:04 [7@SISTEMAS2]
+Interno #1: Ejecutar mailgate
+2025-01-07 15:15:13 [@SISTEMAS2]
+Interno #1: Lanzar slaticket
+2025-01-07 15:32:29 [18@SISTEMAS2]
+Interno #1: Ejecutar graph
+2025-01-07 15:41:22 [18@SISTEMAS2]
+Interno #1: Ejecutar alertnotclosed
+2025-01-08 07:29:29 [@SISTEMAS2]
+Interno #1: Ejecutar closeticket
+2025-01-08 07:29:43 [18@SISTEMAS2]
+Interno #1: Ejecutar contract
+2025-01-08 07:38:47 [@SISTEMAS2]
+Interno #1: Lanzar certificate
+2025-01-08 07:39:20 [18@SISTEMAS2]
+Interno #1: Ejecutar infocom
+2025-01-08 07:44:24 [18@SISTEMAS2]
+Interno #1: Ejecutar session
+2025-01-08 08:03:03 [17@SISTEMAS2]
+Interno #1: Lanzar createinquest
+2025-01-08 08:09:17 [18@SISTEMAS2]
+Interno #1: Ejecutar watcher
+2025-01-08 08:11:49 [17@SISTEMAS2]
+Interno #1: Lanzar RecurrentItems
+2025-01-08 08:29:30 [17@SISTEMAS2]
+Interno #1: Lanzar reservation
+2025-01-08 08:51:17 [7@SISTEMAS2]
+Interno #1: Ejecutar temp
+2025-01-08 08:51:26 [18@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2025-01-08 08:59:17 [18@SISTEMAS2]
+Interno #1: Ejecutar planningrecall
+2025-01-08 09:04:18 [18@SISTEMAS2]
+Interno #1: Ejecutar olaticket
+2025-01-08 09:06:37 [14@SISTEMAS2]
+Interno #1: Lanzar mailgate
+2025-01-08 09:18:45 [18@SISTEMAS2]
+Interno #1: Ejecutar slaticket
+2025-01-08 09:34:06 [17@SISTEMAS2]
+Interno #1: Lanzar graph
+2025-01-08 09:49:59 [18@SISTEMAS2]
+Interno #1: Ejecutar alertnotclosed
+2025-01-08 11:35:07 [18@SISTEMAS2]
+Interno #1: Ejecutar queuednotificationclean
+2025-01-08 11:55:21 [18@SISTEMAS2]
+Interno #1: Ejecutar mailgateerror
+2025-01-08 12:02:09 [18@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2025-01-08 13:30:37 [17@SISTEMAS2]
+Interno #1: Lanzar planningrecall
+2025-01-08 14:05:33 [18@SISTEMAS2]
+Interno #1: Ejecutar olaticket
+2025-01-08 15:50:34 [7@SISTEMAS2]
+Interno #1: Ejecutar RecurrentItems
+2025-01-08 16:28:46 [17@SISTEMAS2]
+Interno #1: Lanzar mailgate
+2025-01-08 16:38:49 [18@SISTEMAS2]
+Interno #1: Ejecutar slaticket
+2025-01-08 16:48:06 [7@SISTEMAS2]
+Interno #1: Ejecutar reservation
+2025-01-08 17:02:16 [7@SISTEMAS2]
+Interno #1: Ejecutar temp
+2025-01-08 17:10:47 [7@SISTEMAS2]
+Interno #1: Ejecutar graph
+2025-01-08 17:17:22 [7@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2025-01-08 17:18:23 [17@SISTEMAS2]
+Interno #1: Lanzar planningrecall
+2025-01-08 17:26:24 [7@SISTEMAS2]
+Interno #1: Ejecutar olaticket
+2025-01-08 17:27:43 [18@SISTEMAS2]
+Interno #1: Ejecutar mailgate
+2025-01-08 17:28:33 [@SISTEMAS2]
+Interno #1: Ejecutar slaticket
+2025-01-08 22:19:13 [@SISTEMAS2]
+Interno #1: Lanzar RecurrentItems
+2025-01-09 07:19:59 [@SISTEMAS2]
+Interno #1: Lanzar queuednotification
+2025-01-09 07:20:05 [18@SISTEMAS2]
+Interno #1: Ejecutar planningrecall
+2025-01-09 07:25:36 [18@SISTEMAS2]
+Interno #1: Ejecutar olaticket
+2025-01-09 08:07:01 [18@SISTEMAS2]
+Interno #1: Ejecutar slaticket
+2025-01-09 08:33:09 [18@SISTEMAS2]
+Interno #1: Ejecutar mailgate
+2025-01-09 08:42:18 [18@SISTEMAS2]
+Interno #1: Ejecutar reservation
+2025-01-09 08:47:21 [18@SISTEMAS2]
+Interno #1: Ejecutar temp
+2025-01-09 08:52:28 [18@SISTEMAS2]
+Interno #1: Ejecutar graph
+2025-01-09 08:57:48 [18@SISTEMAS2]
+Interno #1: Ejecutar closeticket
+2025-01-09 09:03:37 [18@SISTEMAS2]
+Interno #1: Ejecutar alertnotclosed
+2025-01-09 09:09:10 [18@SISTEMAS2]
+Interno #1: Ejecutar RecurrentItems
+2025-01-09 09:20:42 [18@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2025-01-09 09:28:38 [18@SISTEMAS2]
+Interno #1: Ejecutar planningrecall
+2025-01-09 09:34:30 [18@SISTEMAS2]
+Interno #1: Ejecutar contract
+2025-01-09 09:41:30 [18@SISTEMAS2]
+Interno #1: Ejecutar olaticket
+2025-01-09 09:53:11 [18@SISTEMAS2]
+Interno #1: Ejecutar certificate
+2025-01-09 09:58:23 [18@SISTEMAS2]
+Interno #1: Ejecutar infocom
+2025-01-09 10:03:23 [18@SISTEMAS2]
+Interno #1: Ejecutar session
+2025-01-09 10:09:58 [18@SISTEMAS2]
+Interno #1: Ejecutar createinquest
+2025-01-09 10:17:55 [18@SISTEMAS2]
+Interno #1: Ejecutar watcher
+2025-01-09 10:23:38 [18@SISTEMAS2]
+Interno #1: Ejecutar slaticket
+2025-01-09 10:29:48 [18@SISTEMAS2]
+Interno #1: Ejecutar mailgate
+2025-01-09 10:34:49 [18@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2025-01-09 10:40:05 [18@SISTEMAS2]
+Interno #1: Ejecutar planningrecall
+2025-01-09 10:45:18 [18@SISTEMAS2]
+Interno #1: Ejecutar reservation
+2025-01-09 10:45:32 [@SISTEMAS2]
+Interno #1: Ejecutar olaticket
+2025-01-09 10:55:53 [18@SISTEMAS2]
+Interno #1: Ejecutar temp
+2025-01-09 11:00:35 [@SISTEMAS2]
+Interno #1: Ejecutar graph
+2025-01-09 11:23:28 [7@SISTEMAS2]
+Interno #1: Ejecutar RecurrentItems
+2025-01-09 11:27:21 [@SISTEMAS2]
+Interno #1: Ejecutar slaticket
+2025-01-09 11:27:54 [@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2025-01-09 11:28:04 [@SISTEMAS2]
+Interno #1: Ejecutar mailgate
+2025-01-09 11:30:39 [18@SISTEMAS2]
+Interno #1: Ejecutar planningrecall
+2025-01-09 11:35:55 [18@SISTEMAS2]
+Interno #1: Ejecutar olaticket
+2025-01-09 11:40:55 [18@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2025-01-09 11:50:10 [18@SISTEMAS2]
+Interno #1: Ejecutar slaticket
+2025-01-09 11:54:01 [@SISTEMAS2]
+Interno #1: Ejecutar planningrecall
+2025-01-09 12:01:38 [18@SISTEMAS2]
+Interno #1: Ejecutar queuednotificationclean
+2025-01-09 12:06:42 [18@SISTEMAS2]
+Interno #1: Ejecutar mailgate
+2025-01-09 12:12:18 [18@SISTEMAS2]
+Interno #1: Ejecutar olaticket
+2025-01-09 12:21:00 [18@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2025-01-09 12:30:39 [18@SISTEMAS2]
+Interno #1: Ejecutar reservation
+2025-01-09 12:47:42 [18@SISTEMAS2]
+Interno #1: Ejecutar slaticket
+2025-01-09 12:51:12 [21@SISTEMAS2]
+Interno #1: Lanzar temp
+2025-01-09 14:21:09 [18@SISTEMAS2]
+Interno #1: Ejecutar mailgateerror
+2025-01-09 14:21:27 [@SISTEMAS2]
+Interno #1: Ejecutar planningrecall
+2025-01-09 16:57:22 [18@SISTEMAS2]
+Interno #1: Ejecutar graph
+2025-01-09 17:23:50 [18@SISTEMAS2]
+Interno #1: Ejecutar mailgate
+2025-01-10 07:13:52 [18@SISTEMAS2]
+Interno #1: Ejecutar olaticket
+2025-01-10 07:23:22 [@SISTEMAS2]
+Interno #1: Lanzar queuednotification
+2025-01-10 08:23:02 [18@SISTEMAS2]
+Interno #1: Ejecutar RecurrentItems
+2025-01-10 11:28:39 [18@SISTEMAS2]
+Interno #1: Ejecutar slaticket
+2025-01-10 11:36:18 [18@SISTEMAS2]
+Interno #1: Ejecutar reservation
+2025-01-10 11:41:38 [18@SISTEMAS2]
+Interno #1: Ejecutar temp
+2025-01-10 11:53:23 [18@SISTEMAS2]
+Interno #1: Ejecutar planningrecall
+2025-01-10 11:59:12 [18@SISTEMAS2]
+Interno #1: Ejecutar mailgate
+2025-01-10 12:06:01 [18@SISTEMAS2]
+Interno #1: Ejecutar graph
+2025-01-10 12:42:43 [@SISTEMAS2]
+Interno #1: Ejecutar closeticket
+2025-01-10 15:57:08 [18@SISTEMAS2]
+Interno #1: Ejecutar alertnotclosed
+2025-01-13 09:29:02 [21@SISTEMAS2]
+Interno #1: Lanzar olaticket
+2025-01-13 11:36:05 [7@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2025-01-13 11:58:50 [18@SISTEMAS2]
+Interno #1: Ejecutar RecurrentItems
+2025-01-13 14:10:23 [18@SISTEMAS2]
+Interno #1: Ejecutar contract
+2025-01-13 14:58:20 [18@SISTEMAS2]
+Interno #1: Ejecutar certificate
+2025-01-13 15:17:07 [18@SISTEMAS2]
+Interno #1: Ejecutar infocom
+2025-01-14 06:41:50 [@SISTEMAS2]
+Interno #1: Lanzar session
+2025-01-14 09:29:14 [@SISTEMAS2]
+Interno #1: Lanzar createinquest
+2025-01-14 09:42:00 [20@SISTEMAS2]
+Interno #1: Lanzar watcher
+2025-01-14 09:53:41 [18@SISTEMAS2]
+Interno #1: Ejecutar slaticket
+2025-01-14 10:04:01 [18@SISTEMAS2]
+Interno #1: Ejecutar planningrecall
+2025-01-14 10:06:59 [@SISTEMAS2]
+Interno #1: Lanzar queuednotificationclean
+2025-01-14 10:16:18 [18@SISTEMAS2]
+Interno #1: Ejecutar mailgate
+2025-01-14 10:41:40 [18@SISTEMAS2]
+Interno #1: Ejecutar reservation
+2025-01-14 10:47:44 [18@SISTEMAS2]
+Interno #1: Ejecutar temp
+2025-01-14 10:53:22 [18@SISTEMAS2]
+Interno #1: Ejecutar graph
+2025-01-14 11:26:25 [18@SISTEMAS2]
+Interno #1: Ejecutar mailgateerror
+2025-01-14 11:31:26 [18@SISTEMAS2]
+Interno #1: Ejecutar closeticket
+2025-01-14 12:02:27 [18@SISTEMAS2]
+Interno #1: Ejecutar alertnotclosed
+2025-01-14 14:02:01 [18@SISTEMAS2]
+Interno #1: Ejecutar olaticket
+2025-01-14 16:01:14 [18@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2025-01-14 16:44:14 [@SISTEMAS2]
+Interno #1: Lanzar RecurrentItems
+2025-01-15 08:14:17 [18@SISTEMAS2]
+Interno #1: Ejecutar slaticket
+2025-01-15 08:19:59 [18@SISTEMAS2]
+Interno #1: Ejecutar planningrecall
+2025-01-15 08:25:24 [18@SISTEMAS2]
+Interno #1: Ejecutar mailgate
+2025-01-15 08:33:45 [18@SISTEMAS2]
+Interno #1: Ejecutar reservation
+2025-01-15 08:39:43 [18@SISTEMAS2]
+Interno #1: Ejecutar temp
+2025-01-15 09:06:40 [18@SISTEMAS2]
+Interno #1: Ejecutar graph
+2025-01-15 09:11:59 [18@SISTEMAS2]
+Interno #1: Ejecutar olaticket
+2025-01-15 09:17:00 [18@SISTEMAS2]
+Interno #1: Ejecutar contract
+2025-01-15 09:27:46 [18@SISTEMAS2]
+Interno #1: Ejecutar certificate
+2025-01-15 09:33:16 [18@SISTEMAS2]
+Interno #1: Ejecutar infocom
+2025-01-15 09:38:56 [18@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2025-01-15 09:54:59 [18@SISTEMAS2]
+Interno #1: Ejecutar RecurrentItems
+2025-01-15 10:19:23 [18@SISTEMAS2]
+Interno #1: Ejecutar closeticket
+2025-01-15 10:36:55 [@SISTEMAS2]
+Interno #1: Ejecutar alertnotclosed
+2025-01-15 10:39:23 [@SISTEMAS2]
+Interno #1: Ejecutar session
+2025-01-15 11:15:14 [18@SISTEMAS2]
+Interno #1: Ejecutar slaticket
+2025-01-15 11:28:03 [18@SISTEMAS2]
+Interno #1: Ejecutar planningrecall
+2025-01-15 11:44:08 [18@SISTEMAS2]
+Interno #1: Ejecutar mailgate
+2025-01-15 11:54:14 [7@SISTEMAS2]
+Interno #1: Ejecutar olaticket
+2025-01-15 12:11:12 [18@SISTEMAS2]
+Interno #1: Ejecutar createinquest
+2025-01-15 12:30:12 [18@SISTEMAS2]
+Interno #1: Ejecutar reservation
+2025-01-15 12:49:30 [18@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2025-01-15 15:13:31 [7@SISTEMAS2]
+Interno #1: Ejecutar temp
+2025-01-15 15:14:02 [@SISTEMAS2]
+Interno #1: Ejecutar watcher
+2025-01-15 15:15:59 [@SISTEMAS2]
+Interno #1: Ejecutar graph
+2025-01-15 15:18:36 [@SISTEMAS2]
+Interno #1: Ejecutar queuednotificationclean
+2025-01-15 15:19:53 [18@SISTEMAS2]
+Interno #1: Ejecutar RecurrentItems
+2025-01-15 17:34:46 [@SISTEMAS2]
+Interno #1: Lanzar slaticket
+2025-01-16 06:10:34 [@SISTEMAS2]
+Interno #1: Lanzar mailgateerror
+2025-01-16 08:04:02 [18@SISTEMAS2]
+Interno #1: Ejecutar planningrecall
+2025-01-16 08:38:30 [18@SISTEMAS2]
+Interno #1: Ejecutar mailgate
+2025-01-16 08:39:24 [@SISTEMAS2]
+Interno #1: Ejecutar olaticket
+2025-01-16 08:39:26 [@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2025-01-16 10:16:26 [@SISTEMAS2]
+Interno #1: Ejecutar reservation
+2025-01-16 10:16:37 [@SISTEMAS2]
+Interno #1: Ejecutar temp
+2025-01-16 10:22:00 [7@SISTEMAS2]
+Interno #1: Ejecutar graph
+2025-01-16 12:20:36 [18@SISTEMAS2]
+Interno #1: Ejecutar RecurrentItems
+2025-01-16 14:31:44 [18@SISTEMAS2]
+Interno #1: Ejecutar slaticket
+2025-01-16 14:42:38 [18@SISTEMAS2]
+Interno #1: Ejecutar closeticket
+2025-01-16 17:08:24 [18@SISTEMAS2]
+Interno #1: Ejecutar alertnotclosed
+2025-01-16 17:12:19 [@SISTEMAS2]
+Interno #1: Ejecutar planningrecall
+2025-01-17 06:06:45 [@SISTEMAS2]
+Interno #1: Lanzar queuednotification
+2025-01-17 07:27:21 [18@SISTEMAS2]
+Interno #1: Ejecutar olaticket
+2025-01-17 08:34:06 [18@SISTEMAS2]
+Interno #1: Ejecutar mailgate
+2025-01-17 08:44:02 [18@SISTEMAS2]
+Interno #1: Ejecutar contract
+2025-01-17 09:04:37 [18@SISTEMAS2]
+Interno #1: Ejecutar certificate
+2025-01-17 09:09:45 [18@SISTEMAS2]
+Interno #1: Ejecutar infocom
+2025-01-17 09:54:52 [18@SISTEMAS2]
+Interno #1: Ejecutar session
+2025-01-17 11:55:55 [18@SISTEMAS2]
+Interno #1: Ejecutar reservation
+2025-01-17 12:34:42 [18@SISTEMAS2]
+Interno #1: Ejecutar temp
+2025-01-17 14:08:00 [18@SISTEMAS2]
+Interno #1: Ejecutar graph
+2025-01-17 14:13:16 [18@SISTEMAS2]
+Interno #1: Ejecutar createinquest
+2025-01-17 14:18:57 [18@SISTEMAS2]
+Interno #1: Ejecutar RecurrentItems
+2025-01-17 14:24:49 [18@SISTEMAS2]
+Interno #1: Ejecutar slaticket
+2025-01-17 14:24:56 [@SISTEMAS2]
+Interno #1: Ejecutar watcher
+2025-01-17 14:35:30 [18@SISTEMAS2]
+Interno #1: Ejecutar queuednotificationclean
+2025-01-17 15:02:47 [18@SISTEMAS2]
+Interno #1: Ejecutar planningrecall
+2025-01-17 15:52:30 [18@SISTEMAS2]
+Interno #1: Ejecutar closeticket
+2025-01-17 17:15:57 [18@SISTEMAS2]
+Interno #1: Ejecutar alertnotclosed
+2025-01-17 17:22:55 [18@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2025-01-17 17:38:57 [18@SISTEMAS2]
+Interno #1: Ejecutar mailgateerror
+2025-01-18 09:55:50 [@SISTEMAS2]
+Interno #1: Lanzar olaticket
+2025-01-20 06:03:18 [@SISTEMAS2]
+Interno #1: Lanzar mailgate
+2025-01-20 06:33:02 [@SISTEMAS2]
+Interno #1: Lanzar reservation
+2025-01-20 07:27:11 [18@SISTEMAS2]
+Interno #1: Ejecutar temp
+2025-01-20 07:41:41 [@SISTEMAS2]
+Interno #1: Ejecutar slaticket
+2025-01-20 09:22:30 [18@SISTEMAS2]
+Interno #1: Ejecutar graph
+2025-01-20 09:53:13 [@SISTEMAS2]
+Interno #1: Ejecutar planningrecall
+2025-01-20 09:53:51 [18@SISTEMAS2]
+Interno #1: Ejecutar RecurrentItems
+2025-01-20 09:58:42 [7@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2025-01-20 10:19:48 [7@SISTEMAS2]
+Interno #1: Ejecutar closeticket
+2025-01-20 10:38:43 [7@SISTEMAS2]
+Interno #1: Ejecutar alertnotclosed
+2025-01-20 11:01:20 [18@SISTEMAS2]
+Interno #1: Ejecutar contract
+2025-01-20 12:46:43 [18@SISTEMAS2]
+Interno #1: Ejecutar certificate
+2025-01-20 14:09:17 [18@SISTEMAS2]
+Interno #1: Ejecutar infocom
+2025-01-20 16:48:00 [18@SISTEMAS2]
+Interno #1: Ejecutar session
+2025-01-21 06:06:18 [@SISTEMAS2]
+Interno #1: Lanzar olaticket
+2025-01-21 06:52:59 [17@SISTEMAS2]
+Interno #1: Lanzar createinquest
+2025-01-21 07:21:17 [18@SISTEMAS2]
+Interno #1: Ejecutar watcher
+2025-01-21 07:28:52 [18@SISTEMAS2]
+Interno #1: Ejecutar queuednotificationclean
+2025-01-21 07:35:34 [18@SISTEMAS2]
+Interno #1: Ejecutar mailgateerror
+2025-01-21 07:40:57 [18@SISTEMAS2]
+Interno #1: Ejecutar mailgate
+2025-01-21 07:46:30 [18@SISTEMAS2]
+Interno #1: Ejecutar reservation
+2025-01-21 07:55:49 [18@SISTEMAS2]
+Interno #1: Ejecutar slaticket
+2025-01-21 08:00:57 [18@SISTEMAS2]
+Interno #1: Ejecutar temp
+2025-01-21 08:09:30 [18@SISTEMAS2]
+Interno #1: Ejecutar planningrecall
+2025-01-21 08:14:52 [18@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2025-01-21 08:27:24 [18@SISTEMAS2]
+Interno #1: Ejecutar graph
+2025-01-21 08:35:36 [18@SISTEMAS2]
+Interno #1: Ejecutar RecurrentItems
+2025-01-21 08:40:47 [18@SISTEMAS2]
+Interno #1: Ejecutar closeticket
+2025-01-21 08:52:48 [18@SISTEMAS2]
+Interno #1: Ejecutar alertnotclosed
+2025-01-21 08:58:44 [18@SISTEMAS2]
+Interno #1: Ejecutar olaticket
+2025-01-21 09:53:54 [7@SISTEMAS2]
+Interno #1: Ejecutar mailgate
+2025-01-21 10:32:46 [@SISTEMAS2]
+Interno #1: Ejecutar slaticket
+2025-01-21 11:26:52 [7@SISTEMAS2]
+Interno #1: Ejecutar planningrecall
+2025-01-21 11:54:54 [18@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2025-01-21 12:20:15 [7@SISTEMAS2]
+Interno #1: Ejecutar reservation
+2025-01-21 13:36:03 [17@SISTEMAS2]
+Interno #1: Lanzar temp
+2025-01-21 14:11:06 [18@SISTEMAS2]
+Interno #1: Ejecutar olaticket
+2025-01-21 16:37:06 [18@SISTEMAS2]
+Interno #1: Ejecutar graph
+2025-01-22 06:17:32 [@SISTEMAS2]
+Interno #1: Lanzar RecurrentItems
+2025-01-22 07:23:58 [18@SISTEMAS2]
+Interno #1: Ejecutar mailgate
+2025-01-22 10:46:56 [17@SISTEMAS2]
+Interno #1: Lanzar slaticket
+2025-01-22 12:07:10 [18@SISTEMAS2]
+Interno #1: Ejecutar contract
+2025-01-22 12:18:29 [18@SISTEMAS2]
+Interno #1: Ejecutar planningrecall
+2025-01-22 12:23:35 [18@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2025-01-22 14:36:11 [18@SISTEMAS2]
+Interno #1: Ejecutar certificate
+2025-01-22 14:38:02 [7@SISTEMAS2]
+Interno #1: Ejecutar reservation
+2025-01-22 14:49:03 [18@SISTEMAS2]
+Interno #1: Ejecutar infocom
+2025-01-22 14:54:59 [18@SISTEMAS2]
+Interno #1: Ejecutar olaticket
+2025-01-22 15:00:26 [18@SISTEMAS2]
+Interno #1: Ejecutar temp
+2025-01-22 15:05:38 [18@SISTEMAS2]
+Interno #1: Ejecutar session
+2025-01-22 15:10:48 [18@SISTEMAS2]
+Interno #1: Ejecutar graph
+2025-01-22 15:15:52 [18@SISTEMAS2]
+Interno #1: Ejecutar closeticket
+2025-01-22 15:20:59 [18@SISTEMAS2]
+Interno #1: Ejecutar alertnotclosed
+2025-01-22 15:26:33 [18@SISTEMAS2]
+Interno #1: Ejecutar createinquest
+2025-01-22 15:31:40 [18@SISTEMAS2]
+Interno #1: Ejecutar RecurrentItems
+2025-01-22 15:37:13 [18@SISTEMAS2]
+Interno #1: Ejecutar watcher
+2025-01-22 15:57:40 [@SISTEMAS2]
+Interno #1: Lanzar queuednotificationclean
+2025-01-22 15:57:57 [@SISTEMAS2]
+Interno #1: Lanzar mailgate
+2025-01-22 15:58:52 [@SISTEMAS2]
+Interno #1: Lanzar mailgateerror
+2025-01-22 16:00:51 [@SISTEMAS2]
+Interno #1: Lanzar slaticket
+2025-01-22 17:17:58 [18@SISTEMAS2]
+Interno #1: Ejecutar planningrecall
+2025-01-23 06:08:48 [@SISTEMAS2]
+Interno #1: Lanzar queuednotification
+2025-01-23 06:24:33 [@SISTEMAS2]
+Interno #1: Lanzar olaticket
+2025-01-23 07:27:48 [18@SISTEMAS2]
+Interno #1: Ejecutar reservation
+2025-01-23 10:32:23 [18@SISTEMAS2]
+Interno #1: Ejecutar temp
+2025-01-23 12:27:00 [@SISTEMAS2]
+Interno #1: Lanzar slaticket
+2025-01-23 12:36:53 [18@SISTEMAS2]
+Interno #1: Ejecutar mailgate
+2025-01-23 14:19:06 [18@SISTEMAS2]
+Interno #1: Ejecutar graph
+2025-01-23 14:28:16 [18@SISTEMAS2]
+Interno #1: Ejecutar RecurrentItems
+2025-01-23 14:32:18 [7@SISTEMAS2]
+Interno #1: Ejecutar planningrecall
+2025-01-23 14:33:44 [18@SISTEMAS2]
+Interno #1: Ejecutar closeticket
+2025-01-23 14:46:27 [18@SISTEMAS2]
+Interno #1: Ejecutar alertnotclosed
+2025-01-23 14:58:40 [18@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2025-01-23 15:13:34 [18@SISTEMAS2]
+Interno #1: Ejecutar olaticket
+2025-01-24 06:11:25 [@SISTEMAS2]
+Interno #1: Lanzar reservation
+2025-01-24 08:18:09 [@SISTEMAS2]
+Interno #1: Lanzar temp
+2025-01-24 08:24:39 [17@SISTEMAS2]
+Interno #1: Lanzar contract
+2025-01-24 08:37:03 [18@SISTEMAS2]
+Interno #1: Ejecutar slaticket
+2025-01-24 08:57:11 [18@SISTEMAS2]
+Interno #1: Ejecutar mailgate
+2025-01-24 09:02:20 [18@SISTEMAS2]
+Interno #1: Ejecutar certificate
+2025-01-24 09:07:37 [18@SISTEMAS2]
+Interno #1: Ejecutar planningrecall
+2025-01-24 09:10:00 [@SISTEMAS2]
+Interno #1: Ejecutar infocom
+2025-01-24 09:10:38 [@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2025-01-24 09:32:15 [18@SISTEMAS2]
+Interno #1: Ejecutar session
+2025-01-24 09:33:01 [@SISTEMAS2]
+Interno #1: Ejecutar olaticket
+2025-01-24 09:38:38 [@SISTEMAS2]
+Interno #1: Ejecutar graph
+2025-01-24 09:44:31 [24@SISTEMAS2]
+Interno #1: Lanzar createinquest
+2025-01-24 09:51:45 [24@SISTEMAS2]
+Interno #1: Lanzar RecurrentItems
+2025-01-24 09:52:11 [18@SISTEMAS2]
+Interno #1: Ejecutar watcher
+2025-01-24 10:09:40 [@SISTEMAS2]
+Interno #1: Ejecutar queuednotificationclean
+2025-01-24 10:09:43 [@SISTEMAS2]
+Internal #1: Launch mailgateerror
+2025-01-24 10:34:10 [@SISTEMAS2]
+Interno #1: Lanzar closeticket
+2025-01-24 10:36:49 [18@SISTEMAS2]
+Interno #1: Ejecutar alertnotclosed
+2025-01-24 10:41:07 [24@SISTEMAS2]
+Interno #1: Lanzar reservation
+2025-01-24 10:42:33 [18@SISTEMAS2]
+Interno #1: Ejecutar slaticket
+2025-01-24 10:47:48 [18@SISTEMAS2]
+Interno #1: Ejecutar mailgate
+2025-01-24 11:00:04 [18@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2025-01-24 12:42:36 [18@SISTEMAS2]
+Interno #1: Ejecutar planningrecall
+2025-01-24 12:53:51 [18@SISTEMAS2]
+Interno #1: Ejecutar temp
+2025-01-24 13:23:59 [17@SISTEMAS2]
+Interno #1: Lanzar olaticket
+2025-01-24 14:09:37 [18@SISTEMAS2]
+Interno #1: Ejecutar graph
+2025-01-24 14:20:08 [18@SISTEMAS2]
+Interno #1: Ejecutar slaticket
+2025-01-24 14:52:42 [@SISTEMAS2]
+Interno #1: Ejecutar RecurrentItems
+2025-01-24 15:05:05 [18@SISTEMAS2]
+Interno #1: Ejecutar mailgate
+2025-01-24 16:04:22 [7@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2025-01-24 16:09:54 [7@SISTEMAS2]
+Interno #1: Ejecutar reservation
+2025-01-24 17:26:08 [18@SISTEMAS2]
+Interno #1: Ejecutar planningrecall
+2025-01-25 09:00:14 [@SISTEMAS2]
+Interno #1: Lanzar olaticket
+2025-01-27 06:17:31 [@SISTEMAS2]
+Interno #1: Lanzar temp
+2025-01-27 07:30:53 [@SISTEMAS2]
+Interno #1: Ejecutar slaticket
+2025-01-27 07:31:45 [@SISTEMAS2]
+Interno #1: Ejecutar graph
+2025-01-27 07:46:20 [18@SISTEMAS2]
+Interno #1: Ejecutar mailgate
+2025-01-27 07:56:20 [18@SISTEMAS2]
+Interno #1: Ejecutar RecurrentItems
+2025-01-27 08:01:33 [18@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2025-01-27 08:06:41 [18@SISTEMAS2]
+Interno #1: Ejecutar reservation
+2025-01-27 08:11:57 [18@SISTEMAS2]
+Interno #1: Ejecutar planningrecall
+2025-01-27 09:38:28 [17@SISTEMAS2]
+Interno #1: Lanzar closeticket
+2025-01-27 09:51:17 [@SISTEMAS2]
+Interno #1: Ejecutar alertnotclosed
+2025-01-27 10:10:36 [18@SISTEMAS2]
+Interno #1: Ejecutar contract
+2025-01-27 10:19:58 [7@SISTEMAS2]
+Interno #1: Ejecutar certificate
+2025-01-27 10:27:49 [18@SISTEMAS2]
+Interno #1: Ejecutar olaticket
+2025-01-27 11:02:56 [@SISTEMAS2]
+Interno #1: Lanzar infocom
+2025-01-27 11:04:25 [@SISTEMAS2]
+Interno #1: Lanzar session
+2025-01-27 11:04:57 [7@SISTEMAS2]
+Interno #1: Ejecutar createinquest
+2025-01-27 11:07:21 [@SISTEMAS2]
+Interno #1: Lanzar watcher
+2025-01-27 12:01:30 [18@SISTEMAS2]
+Interno #1: Ejecutar queuednotificationclean
+2025-01-27 12:22:27 [@SISTEMAS2]
+Interno #1: Lanzar mailgateerror
+2025-01-27 12:23:01 [@SISTEMAS2]
+Interno #1: Lanzar temp
+2025-01-27 12:45:32 [18@SISTEMAS2]
+Interno #1: Ejecutar slaticket
+2025-01-27 13:52:40 [7@SISTEMAS2]
+Interno #1: Ejecutar mailgate
+2025-01-27 14:05:53 [18@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2025-01-27 14:06:18 [7@SISTEMAS2]
+No se puede obtener el bloqueo de la base de datos
+2025-01-27 15:27:47 [7@SISTEMAS2]
+Interno #1: Ejecutar planningrecall
+2025-01-27 15:34:33 [7@SISTEMAS2]
+Interno #1: Ejecutar graph
+2025-01-27 15:39:53 [7@SISTEMAS2]
+Interno #1: Ejecutar RecurrentItems
+2025-01-27 15:56:21 [24@SISTEMAS2]
+Interno #1: Lanzar reservation
+2025-01-27 16:51:08 [17@SISTEMAS2]
+Interno #1: Lanzar olaticket
+2025-01-28 08:38:04 [18@SISTEMAS2]
+Interno #1: Ejecutar slaticket
+2025-01-28 10:11:39 [18@SISTEMAS2]
+Interno #1: Ejecutar temp
+2025-01-28 11:06:18 [18@SISTEMAS2]
+Interno #1: Ejecutar mailgate
+2025-01-28 12:01:14 [20@SISTEMAS2]
+Interno #1: Lanzar queuednotification
+2025-01-28 12:43:15 [18@SISTEMAS2]
+Interno #1: Ejecutar planningrecall
+2025-01-28 14:06:34 [20@SISTEMAS2]
+Interno #1: Lanzar graph
+2025-01-28 15:41:23 [18@SISTEMAS2]
+Interno #1: Ejecutar RecurrentItems
+2025-01-28 16:11:18 [18@SISTEMAS2]
+Interno #1: Ejecutar reservation
+2025-01-28 16:21:28 [18@SISTEMAS2]
+Interno #1: Ejecutar olaticket
+2025-01-28 16:26:29 [18@SISTEMAS2]
+Interno #1: Ejecutar closeticket
+2025-01-28 17:01:21 [18@SISTEMAS2]
+Interno #1: Ejecutar alertnotclosed
+2025-01-29 07:27:32 [@SISTEMAS2]
+Interno #1: Ejecutar slaticket
+2025-01-29 07:32:50 [18@SISTEMAS2]
+Interno #1: Ejecutar contract
+2025-01-29 08:14:52 [18@SISTEMAS2]
+Interno #1: Ejecutar certificate
+2025-01-29 08:22:03 [18@SISTEMAS2]
+Interno #1: Ejecutar infocom
+2025-01-29 08:27:36 [18@SISTEMAS2]
+Interno #1: Ejecutar session
+2025-01-29 08:32:33 [@SISTEMAS2]
+Interno #1: Ejecutar createinquest
+2025-01-29 08:33:05 [@SISTEMAS2]
+Interno #1: Ejecutar watcher
+2025-01-29 08:33:30 [@SISTEMAS2]
+Interno #1: Ejecutar temp
+2025-01-29 08:33:45 [18@SISTEMAS2]
+Interno #1: Ejecutar mailgate
+2025-01-29 08:39:00 [18@SISTEMAS2]
+Interno #1: Ejecutar queuednotificationclean
+2025-01-29 08:50:09 [18@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2025-01-29 08:56:36 [18@SISTEMAS2]
+Interno #1: Ejecutar mailgateerror
+2025-01-29 09:12:32 [18@SISTEMAS2]
+Interno #1: Ejecutar planningrecall
+2025-01-29 09:18:01 [18@SISTEMAS2]
+Interno #1: Ejecutar graph
+2025-01-29 10:04:06 [18@SISTEMAS2]
+Interno #1: Ejecutar olaticket
+2025-01-29 10:36:27 [@SISTEMAS2]
+Interno #1: Lanzar RecurrentItems
+2025-01-29 10:43:55 [18@SISTEMAS2]
+Interno #1: Ejecutar reservation
+2025-01-29 12:11:40 [17@SISTEMAS2]
+Interno #1: Lanzar closeticket
+2025-01-29 12:17:05 [17@SISTEMAS2]
+Interno #1: Lanzar alertnotclosed
+2025-01-29 13:19:11 [17@SISTEMAS2]
+Interno #1: Lanzar slaticket
+2025-01-29 14:10:19 [18@SISTEMAS2]
+Interno #1: Ejecutar mailgate
+2025-01-30 11:37:38 [18@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2025-01-30 12:33:34 [18@SISTEMAS2]
+Interno #1: Ejecutar planningrecall
+2025-01-30 13:43:16 [@SISTEMAS2]
+Interno #1: Ejecutar temp
+2025-01-30 14:12:33 [18@SISTEMAS2]
+Interno #1: Ejecutar olaticket
+2025-01-30 14:45:36 [7@SISTEMAS2]
+Interno #1: Ejecutar graph
+2025-01-30 14:57:19 [18@SISTEMAS2]
+Interno #1: Ejecutar RecurrentItems
+2025-01-30 17:02:30 [7@SISTEMAS2]
+Interno #1: Ejecutar reservation
+2025-01-31 06:14:22 [@SISTEMAS2]
+Interno #1: Lanzar slaticket
+2025-01-31 07:24:42 [18@SISTEMAS2]
+Interno #1: Ejecutar mailgate
+2025-01-31 08:13:09 [18@SISTEMAS2]
+Interno #1: Ejecutar closeticket
+2025-01-31 08:19:25 [@SISTEMAS2]
+Interno #1: Ejecutar alertnotclosed
+2025-01-31 08:46:00 [@SISTEMAS2]
+Interno #1: Ejecutar contract
+2025-01-31 09:41:52 [@SISTEMAS2]
+Interno #1: Lanzar certificate
+2025-01-31 09:57:13 [7@SISTEMAS2]
+Interno #1: Ejecutar infocom
+2025-01-31 10:05:13 [18@SISTEMAS2]
+Interno #1: Ejecutar session
+2025-01-31 10:06:16 [7@SISTEMAS2]
+Interno #1: Ejecutar createinquest
+2025-01-31 10:32:06 [18@SISTEMAS2]
+Interno #1: Ejecutar watcher
+2025-01-31 10:39:03 [18@SISTEMAS2]
+Interno #1: Ejecutar queuednotificationclean
+2025-01-31 10:46:35 [18@SISTEMAS2]
+Interno #1: Ejecutar mailgateerror
+2025-01-31 11:54:19 [@SISTEMAS2]
+Interno #1: Lanzar queuednotification
+2025-01-31 12:00:36 [@SISTEMAS2]
+Interno #1: Ejecutar planningrecall
+2025-01-31 12:09:22 [18@SISTEMAS2]
+Interno #1: Ejecutar olaticket
+2025-01-31 12:10:13 [7@SISTEMAS2]
+Interno #1: Ejecutar temp
+2025-01-31 12:15:18 [7@SISTEMAS2]
+Interno #1: Ejecutar graph
+2025-01-31 12:29:27 [26@SISTEMAS2]
+Interno #1: Lanzar RecurrentItems
+2025-01-31 12:49:59 [18@SISTEMAS2]
+Interno #1: Ejecutar reservation
+2025-01-31 14:12:14 [7@SISTEMAS2]
+Interno #1: Ejecutar slaticket
+2025-01-31 14:19:36 [18@SISTEMAS2]
+Interno #1: Ejecutar mailgate
+2025-01-31 15:47:58 [18@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2025-01-31 15:48:30 [7@SISTEMAS2]
+No se puede obtener el bloqueo de la base de datos
+2025-01-31 15:48:35 [@SISTEMAS2]
+No se puede obtener el bloqueo de la BD
+2025-02-01 06:20:30 [@SISTEMAS2]
+Interno #1: Lanzar planningrecall
+2025-02-01 06:21:14 [@SISTEMAS2]
+Interno #1: Lanzar olaticket
+2025-02-01 06:21:36 [@SISTEMAS2]
+Interno #1: Lanzar temp
+2025-02-01 06:22:03 [@SISTEMAS2]
+Interno #1: Lanzar graph
+2025-02-03 07:38:06 [18@SISTEMAS2]
+Interno #1: Ejecutar RecurrentItems
+2025-02-03 07:44:32 [18@SISTEMAS2]
+Interno #1: Ejecutar reservation
+2025-02-03 07:45:09 [@SISTEMAS2]
+Interno #1: Ejecutar slaticket
+2025-02-03 07:56:06 [18@SISTEMAS2]
+Interno #1: Ejecutar mailgate
+2025-02-03 07:57:05 [14@SISTEMAS2]
+Interno #1: Lanzar queuednotification
+2025-02-03 08:07:17 [@SISTEMAS2]
+Interno #1: Lanzar closeticket
+2025-02-03 09:08:02 [14@SISTEMAS2]
+Interno #1: Lanzar alertnotclosed
+2025-02-03 11:03:49 [18@SISTEMAS2]
+Interno #1: Ejecutar planningrecall
+2025-02-03 12:18:59 [18@SISTEMAS2]
+Interno #1: Ejecutar olaticket
+2025-02-03 14:09:20 [18@SISTEMAS2]
+Interno #1: Ejecutar temp
+2025-02-03 15:42:22 [18@SISTEMAS2]
+Interno #1: Ejecutar graph
+2025-02-03 16:27:20 [@SISTEMAS2]
+Interno #1: Ejecutar contract
+2025-02-03 17:05:09 [18@SISTEMAS2]
+Interno #1: Ejecutar certificate
+2025-02-04 06:06:26 [@SISTEMAS2]
+Interno #1: Lanzar infocom
+2025-02-04 08:05:43 [18@SISTEMAS2]
+Interno #1: Ejecutar session
+2025-02-04 08:27:53 [18@SISTEMAS2]
+Interno #1: Ejecutar createinquest
+2025-02-04 08:41:12 [18@SISTEMAS2]
+Interno #1: Ejecutar watcher
+2025-02-04 10:48:47 [7@SISTEMAS2]
+Interno #1: Ejecutar queuednotificationclean
+2025-02-04 14:08:32 [18@SISTEMAS2]
+Interno #1: Ejecutar mailgateerror
+2025-02-04 14:47:20 [18@SISTEMAS2]
+Interno #1: Ejecutar slaticket
+2025-02-04 15:22:52 [@SISTEMAS2]
+Interno #1: Lanzar queuednotification
+2025-02-04 15:39:49 [26@SISTEMAS2]
+Interno #1: Lanzar mailgate
+2025-02-04 16:02:22 [7@SISTEMAS2]
+Interno #1: Ejecutar RecurrentItems
+2025-02-04 16:04:01 [18@SISTEMAS2]
+Interno #1: Ejecutar reservation
+2025-02-04 16:09:05 [18@SISTEMAS2]
+Interno #1: Ejecutar planningrecall
+2025-02-04 16:11:10 [7@SISTEMAS2]
+Interno #1: Ejecutar olaticket
+2025-02-04 16:16:27 [7@SISTEMAS2]
+Interno #1: Ejecutar temp
+2025-02-04 16:29:57 [7@SISTEMAS2]
+Interno #1: Ejecutar graph
+2025-02-04 16:46:41 [7@SISTEMAS2]
+Interno #1: Ejecutar closeticket
+2025-02-04 16:46:52 [7@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2025-02-04 16:47:14 [7@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2025-02-04 16:52:11 [7@SISTEMAS2]
+Interno #1: Ejecutar alertnotclosed
+2025-02-04 16:53:21 [7@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2025-02-04 17:33:52 [18@SISTEMAS2]
+Interno #1: Ejecutar slaticket
+2025-02-04 17:35:10 [7@SISTEMAS2]
+Interno #1: Ejecutar mailgate
+2025-02-04 17:57:06 [@SISTEMAS2]
+Interno #1: Lanzar planningrecall
+2025-02-05 06:03:20 [@SISTEMAS2]
+Interno #1: Lanzar olaticket
+2025-02-05 07:49:53 [18@SISTEMAS2]
+Interno #1: Ejecutar contract
+2025-02-05 08:14:11 [18@SISTEMAS2]
+Interno #1: Ejecutar RecurrentItems
+2025-02-05 08:23:11 [17@SISTEMAS2]
+Interno #1: Lanzar reservation
+2025-02-05 08:28:17 [17@SISTEMAS2]
+Interno #1: Lanzar certificate
+2025-02-05 08:30:56 [18@SISTEMAS2]
+Interno #1: Ejecutar temp
+2025-02-05 08:40:01 [18@SISTEMAS2]
+Interno #1: Ejecutar graph
+2025-02-05 08:44:54 [@SISTEMAS2]
+Interno #1: Ejecutar slaticket
+2025-02-05 08:48:50 [18@SISTEMAS2]
+Interno #1: Ejecutar mailgate
+2025-02-05 08:49:01 [@SISTEMAS2]
+Interno #1: Ejecutar planningrecall
+2025-02-05 08:49:33 [@SISTEMAS2]
+Interno #1: Ejecutar closeticket
+2025-02-05 08:53:11 [@SISTEMAS2]
+Interno #1: Ejecutar alertnotclosed
+2025-02-05 08:56:06 [@SISTEMAS2]
+Interno #1: Ejecutar infocom
+2025-02-05 09:01:44 [@SISTEMAS2]
+Interno #1: Ejecutar olaticket
+2025-02-05 09:01:48 [18@SISTEMAS2]
+Interno #1: Ejecutar session
+2025-02-05 09:37:59 [18@SISTEMAS2]
+Interno #1: Ejecutar createinquest
+2025-02-05 10:36:22 [18@SISTEMAS2]
+Interno #1: Ejecutar watcher
+2025-02-05 10:36:24 [7@SISTEMAS2]
+Interno #1: Ejecutar slaticket
+2025-02-05 10:37:35 [7@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2025-02-05 11:58:22 [@SISTEMAS2]
+Interno #1: Lanzar planningrecall
+2025-02-05 13:08:03 [@SISTEMAS2]
+Interno #1: Lanzar mailgate
+2025-02-05 14:04:03 [7@SISTEMAS2]
+Interno #1: Ejecutar olaticket
+2025-02-05 14:04:10 [18@SISTEMAS2]
+Interno #1: Ejecutar RecurrentItems
+2025-02-05 14:10:00 [7@SISTEMAS2]
+Interno #1: Ejecutar reservation
+2025-02-05 15:50:08 [7@SISTEMAS2]
+Interno #1: Ejecutar temp
+2025-02-05 15:53:31 [@SISTEMAS2]
+Interno #1: Ejecutar graph
+2025-02-05 16:35:59 [18@SISTEMAS2]
+Interno #1: Ejecutar slaticket
+2025-02-06 06:10:35 [@SISTEMAS2]
+Interno #1: Lanzar queuednotification
+2025-02-06 09:55:42 [17@SISTEMAS2]
+Interno #1: Lanzar queuednotificationclean
+2025-02-06 09:59:53 [@SISTEMAS2]
+Interno #1: Lanzar planningrecall
+2025-02-06 12:55:07 [7@SISTEMAS2]
+Interno #1: Ejecutar mailgate
+2025-02-06 13:43:02 [@SISTEMAS2]
+Interno #1: Lanzar mailgateerror
+2025-02-06 14:09:02 [18@SISTEMAS2]
+Interno #1: Ejecutar olaticket
+2025-02-06 14:14:19 [18@SISTEMAS2]
+Interno #1: Ejecutar RecurrentItems
+2025-02-06 15:29:37 [18@SISTEMAS2]
+Interno #1: Ejecutar reservation
+2025-02-06 16:33:09 [7@SISTEMAS2]
+Interno #1: Ejecutar slaticket
+2025-02-06 16:35:38 [18@SISTEMAS2]
+Interno #1: Ejecutar temp
+2025-02-07 06:09:52 [@SISTEMAS2]
+Interno #1: Lanzar graph
+2025-02-07 06:41:47 [17@SISTEMAS2]
+Interno #1: Lanzar closeticket
+2025-02-07 09:14:09 [18@SISTEMAS2]
+Interno #1: Ejecutar alertnotclosed
+2025-02-07 09:58:47 [18@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2025-02-07 10:23:53 [18@SISTEMAS2]
+Interno #1: Ejecutar contract
+2025-02-07 10:30:44 [18@SISTEMAS2]
+Interno #1: Ejecutar certificate
+2025-02-07 10:37:32 [18@SISTEMAS2]
+Interno #1: Ejecutar infocom
+2025-02-07 11:00:44 [18@SISTEMAS2]
+Interno #1: Ejecutar session
+2025-02-07 11:45:34 [18@SISTEMAS2]
+Interno #1: Ejecutar createinquest
+2025-02-07 12:12:37 [@SISTEMAS2]
+Interno #1: Lanzar planningrecall
+2025-02-07 14:14:58 [18@SISTEMAS2]
+Interno #1: Ejecutar watcher
+2025-02-10 07:56:12 [@SISTEMAS2]
+Interno #1: Lanzar mailgate
+2025-02-10 08:20:45 [@SISTEMAS2]
+Interno #1: Lanzar olaticket
+2025-02-10 09:15:44 [18@SISTEMAS2]
+Interno #1: Ejecutar RecurrentItems
+2025-02-10 09:21:54 [@SISTEMAS2]
+Interno #1: Ejecutar reservation
+2025-02-10 09:26:33 [18@SISTEMAS2]
+Interno #1: Ejecutar slaticket
+2025-02-10 09:28:41 [28@SISTEMAS2]
+Interno #1: Lanzar temp
+2025-02-10 09:36:56 [28@SISTEMAS2]
+Interno #1: Lanzar graph
+2025-02-10 09:47:27 [@SISTEMAS2]
+Interno #1: Ejecutar queuednotificationclean
+2025-02-10 09:58:25 [28@SISTEMAS2]
+Interno #1: Lanzar queuednotification
+2025-02-10 10:03:24 [18@SISTEMAS2]
+Interno #1: Ejecutar planningrecall
+2025-02-10 10:05:30 [28@SISTEMAS2]
+Interno #1: Lanzar mailgateerror
+2025-02-10 10:10:54 [28@SISTEMAS2]
+Interno #1: Lanzar closeticket
+2025-02-10 10:18:39 [18@SISTEMAS2]
+Interno #1: Ejecutar alertnotclosed
+2025-02-10 10:18:45 [28@SISTEMAS2]
+Interno #1: Lanzar contract
+2025-02-10 10:25:23 [18@SISTEMAS2]
+Interno #1: Ejecutar certificate
+2025-02-10 10:26:13 [28@SISTEMAS2]
+Interno #1: Lanzar infocom
+2025-02-10 10:38:09 [18@SISTEMAS2]
+Interno #1: Ejecutar session
+2025-02-10 10:45:10 [28@SISTEMAS2]
+Interno #1: Lanzar createinquest
+2025-02-10 11:08:46 [18@SISTEMAS2]
+Interno #1: Ejecutar watcher
+2025-02-10 11:19:45 [18@SISTEMAS2]
+Interno #1: Ejecutar mailgate
+2025-02-10 12:37:48 [18@SISTEMAS2]
+Interno #1: Ejecutar olaticket
+2025-02-10 12:49:23 [18@SISTEMAS2]
+Interno #1: Ejecutar slaticket
+2025-02-10 12:55:18 [18@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2025-02-10 14:12:29 [18@SISTEMAS2]
+Interno #1: Ejecutar planningrecall
+2025-02-10 14:18:34 [18@SISTEMAS2]
+Interno #1: Ejecutar RecurrentItems
+2025-02-10 14:23:55 [@SISTEMAS2]
+Interno #1: Lanzar reservation
+2025-02-10 14:37:55 [18@SISTEMAS2]
+Interno #1: Ejecutar temp
+2025-02-10 14:43:09 [18@SISTEMAS2]
+Interno #1: Ejecutar graph
+2025-02-10 14:43:29 [@SISTEMAS2]
+Interno #1: Lanzar mailgate
+2025-02-10 14:48:17 [18@SISTEMAS2]
+Interno #1: Ejecutar olaticket
+2025-02-10 14:51:52 [@SISTEMAS2]
+Interno #1: Lanzar slaticket
+2025-02-10 14:57:58 [18@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2025-02-10 15:03:26 [20@SISTEMAS2]
+Interno #1: Lanzar planningrecall
+2025-02-10 15:11:12 [7@SISTEMAS2]
+Interno #1: Ejecutar mailgate
+2025-02-10 15:13:12 [@SISTEMAS2]
+Interno #1: Ejecutar olaticket
+2025-02-10 15:19:05 [17@SISTEMAS2]
+Interno #1: Lanzar slaticket
+2025-02-10 15:23:32 [18@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2025-02-10 15:24:40 [17@SISTEMAS2]
+Interno #1: Lanzar planningrecall
+2025-02-10 17:24:41 [18@SISTEMAS2]
+Interno #1: Ejecutar RecurrentItems
+2025-02-11 08:08:34 [7@SISTEMAS2]
+Interno #1: Ejecutar olaticket
+2025-02-11 08:14:29 [7@SISTEMAS2]
+Interno #1: Ejecutar mailgate
+2025-02-11 09:18:22 [18@SISTEMAS2]
+Interno #1: Ejecutar reservation
+2025-02-11 10:18:20 [18@SISTEMAS2]
+Interno #1: Ejecutar slaticket
+2025-02-11 10:23:25 [18@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2025-02-11 10:23:42 [7@SISTEMAS2]
+No se puede obtener el bloqueo de la base de datos
+2025-02-11 10:30:10 [7@SISTEMAS2]
+Interno #1: Ejecutar planningrecall
+2025-02-11 10:35:34 [18@SISTEMAS2]
+Interno #1: Ejecutar temp
+2025-02-11 10:40:42 [18@SISTEMAS2]
+Interno #1: Ejecutar graph
+2025-02-11 10:45:55 [18@SISTEMAS2]
+Interno #1: Ejecutar RecurrentItems
+2025-02-11 10:50:56 [18@SISTEMAS2]
+Interno #1: Ejecutar closeticket
+2025-02-11 12:32:36 [@SISTEMAS2]
+Interno #1: Lanzar alertnotclosed
+2025-02-11 12:46:10 [7@SISTEMAS2]
+Interno #1: Ejecutar olaticket
+2025-02-11 12:51:14 [7@SISTEMAS2]
+Interno #1: Ejecutar mailgate
+2025-02-11 13:35:38 [@SISTEMAS2]
+Interno #1: Lanzar queuednotificationclean
+2025-02-11 13:58:09 [7@SISTEMAS2]
+Interno #1: Ejecutar mailgateerror
+2025-02-11 14:17:45 [7@SISTEMAS2]
+Interno #1: Ejecutar contract
+2025-02-11 14:26:43 [7@SISTEMAS2]
+Interno #1: Ejecutar reservation
+2025-02-11 15:34:34 [18@SISTEMAS2]
+Interno #1: Ejecutar slaticket
+2025-02-11 15:51:57 [26@SISTEMAS2]
+Interno #1: Lanzar certificate
+2025-02-12 06:05:02 [@SISTEMAS2]
+Interno #1: Lanzar infocom
+2025-02-12 08:43:15 [20@SISTEMAS2]
+Interno #1: Lanzar queuednotification
+2025-02-12 08:49:06 [20@SISTEMAS2]
+Interno #1: Lanzar planningrecall
+2025-02-12 08:57:36 [7@SISTEMAS2]
+Interno #1: Ejecutar session
+2025-02-12 10:02:43 [@SISTEMAS2]
+Interno #1: Lanzar createinquest
+2025-02-12 10:07:58 [21@SISTEMAS2]
+Interno #1: Lanzar watcher
+2025-02-12 11:30:49 [@SISTEMAS2]
+Interno #1: Ejecutar temp
+2025-02-12 11:47:16 [18@SISTEMAS2]
+Interno #1: Ejecutar graph
+2025-02-12 12:47:18 [18@SISTEMAS2]
+Interno #1: Ejecutar RecurrentItems
+2025-02-12 13:44:38 [@SISTEMAS2]
+Interno #1: Lanzar olaticket
+2025-02-12 14:22:35 [18@SISTEMAS2]
+Interno #1: Ejecutar mailgate
+2025-02-12 14:40:26 [@SISTEMAS2]
+Interno #1: Lanzar reservation
+2025-02-12 14:43:45 [@SISTEMAS2]
+Interno #1: Lanzar slaticket
+2025-02-12 15:17:59 [18@SISTEMAS2]
+Interno #1: Ejecutar closeticket
+2025-02-13 06:17:30 [@SISTEMAS2]
+Interno #1: Lanzar alertnotclosed
+2025-02-13 07:35:25 [18@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2025-02-13 07:41:53 [18@SISTEMAS2]
+Interno #1: Ejecutar planningrecall
+2025-02-13 07:47:52 [18@SISTEMAS2]
+Interno #1: Ejecutar temp
+2025-02-13 07:56:12 [18@SISTEMAS2]
+Interno #1: Ejecutar graph
+2025-02-13 07:57:00 [@SISTEMAS2]
+Interno #1: Ejecutar queuednotificationclean
+2025-02-13 08:01:32 [18@SISTEMAS2]
+Interno #1: Ejecutar RecurrentItems
+2025-02-13 08:14:21 [18@SISTEMAS2]
+Interno #1: Ejecutar olaticket
+2025-02-13 11:04:36 [@SISTEMAS2]
+Interno #1: Ejecutar mailgateerror
+2025-02-13 14:11:47 [18@SISTEMAS2]
+Interno #1: Ejecutar contract
+2025-02-13 14:37:48 [18@SISTEMAS2]
+Interno #1: Ejecutar mailgate
+2025-02-13 14:43:02 [18@SISTEMAS2]
+Interno #1: Ejecutar slaticket
+2025-02-14 06:17:12 [@SISTEMAS2]
+Interno #1: Lanzar reservation
+2025-02-14 07:43:43 [18@SISTEMAS2]
+Interno #1: Ejecutar certificate
+2025-02-14 07:48:46 [18@SISTEMAS2]
+Interno #1: Ejecutar closeticket
+2025-02-14 09:04:37 [18@SISTEMAS2]
+Interno #1: Ejecutar infocom
+2025-02-14 10:30:56 [18@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2025-02-14 10:46:58 [18@SISTEMAS2]
+Interno #1: Ejecutar planningrecall
+2025-02-14 11:10:20 [18@SISTEMAS2]
+Interno #1: Ejecutar olaticket
+2025-02-14 11:23:31 [@SISTEMAS2]
+Interno #1: Ejecutar temp
+2025-02-14 11:34:19 [@SISTEMAS2]
+Interno #1: Lanzar graph
+2025-02-14 11:45:18 [@SISTEMAS2]
+Interno #1: Lanzar session
+2025-02-14 16:16:50 [18@SISTEMAS2]
+Interno #1: Ejecutar RecurrentItems
+2025-02-14 16:27:15 [18@SISTEMAS2]
+Interno #1: Ejecutar createinquest
+2025-02-14 16:48:18 [18@SISTEMAS2]
+Interno #1: Ejecutar watcher
+2025-02-14 17:25:23 [18@SISTEMAS2]
+Interno #1: Ejecutar mailgate
+2025-02-17 08:27:36 [7@SISTEMAS2]
+Interno #1: Ejecutar slaticket
+2025-02-17 08:30:59 [@SISTEMAS2]
+Interno #1: Ejecutar alertnotclosed
+2025-02-17 08:59:25 [7@SISTEMAS2]
+Interno #1: Ejecutar reservation
+2025-02-17 09:23:53 [@SISTEMAS2]
+Interno #1: Ejecutar queuednotificationclean
+2025-02-17 09:59:46 [18@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2025-02-17 10:33:34 [18@SISTEMAS2]
+Interno #1: Ejecutar planningrecall
+2025-02-17 11:00:28 [7@SISTEMAS2]
+Interno #1: Ejecutar mailgateerror
+2025-02-17 11:20:18 [7@SISTEMAS2]
+Interno #1: Ejecutar olaticket
+2025-02-17 11:41:00 [18@SISTEMAS2]
+Interno #1: Ejecutar temp
+2025-02-17 11:41:53 [@SISTEMAS2]
+Interno #1: Ejecutar graph
+2025-02-17 13:58:47 [7@SISTEMAS2]
+Interno #1: Ejecutar contract
+2025-02-17 14:03:50 [18@SISTEMAS2]
+Interno #1: Ejecutar RecurrentItems
+2025-02-17 14:26:44 [22@SISTEMAS2]
+Interno #1: Lanzar mailgate
+2025-02-17 14:27:46 [7@SISTEMAS2]
+Interno #1: Ejecutar closeticket
+2025-02-17 14:27:49 [18@SISTEMAS2]
+Interno #1: Ejecutar certificate
+2025-02-17 14:32:15 [@SISTEMAS2]
+Interno #1: Ejecutar infocom
+2025-02-17 14:32:47 [7@SISTEMAS2]
+Interno #1: Ejecutar session
+2025-02-17 14:37:50 [7@SISTEMAS2]
+Interno #1: Ejecutar createinquest
+2025-02-17 14:41:14 [18@SISTEMAS2]
+Interno #1: Ejecutar watcher
+2025-02-17 14:42:52 [7@SISTEMAS2]
+Interno #1: Ejecutar slaticket
+2025-02-17 14:46:46 [18@SISTEMAS2]
+Interno #1: Ejecutar reservation
+2025-02-17 15:17:43 [18@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2025-02-17 15:51:52 [@SISTEMAS2]
+Interno #1: Lanzar planningrecall
+2025-02-17 15:57:04 [@SISTEMAS2]
+Interno #1: Ejecutar olaticket
+2025-02-17 15:57:18 [@SISTEMAS2]
+Interno #1: Ejecutar temp
+2025-02-18 06:31:40 [@SISTEMAS2]
+Interno #1: Lanzar graph
+2025-02-18 07:32:06 [18@SISTEMAS2]
+Interno #1: Ejecutar mailgate
+2025-02-18 07:59:01 [18@SISTEMAS2]
+Interno #1: Ejecutar slaticket
+2025-02-18 08:01:25 [7@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2025-02-18 09:27:04 [18@SISTEMAS2]
+Interno #1: Ejecutar RecurrentItems
+2025-02-18 09:41:54 [18@SISTEMAS2]
+Interno #1: Ejecutar reservation
+2025-02-18 09:48:30 [@SISTEMAS2]
+Interno #1: Lanzar planningrecall
+2025-02-18 10:14:57 [18@SISTEMAS2]
+Interno #1: Ejecutar olaticket
+2025-02-18 10:37:17 [18@SISTEMAS2]
+Interno #1: Ejecutar temp
+2025-02-18 11:12:59 [@SISTEMAS2]
+Interno #1: Ejecutar alertnotclosed
+2025-02-18 11:14:29 [18@SISTEMAS2]
+Interno #1: Ejecutar closeticket
+2025-02-18 11:23:17 [18@SISTEMAS2]
+Interno #1: Ejecutar graph
+2025-02-18 11:40:46 [18@SISTEMAS2]
+Interno #1: Ejecutar mailgate
+2025-02-18 11:50:58 [18@SISTEMAS2]
+Interno #1: Ejecutar slaticket
+2025-02-18 11:58:00 [21@SISTEMAS2]
+Interno #1: Lanzar queuednotification
+2025-02-18 14:08:53 [18@SISTEMAS2]
+Interno #1: Ejecutar queuednotificationclean
+2025-02-18 14:13:47 [7@SISTEMAS2]
+Interno #1: Ejecutar planningrecall
+2025-02-18 14:18:49 [18@SISTEMAS2]
+Interno #1: Ejecutar olaticket
+2025-02-18 14:19:30 [@SISTEMAS2]
+Interno #1: Ejecutar RecurrentItems
+2025-02-18 14:22:11 [@SISTEMAS2]
+Interno #1: Ejecutar reservation
+2025-02-18 14:30:52 [18@SISTEMAS2]
+Interno #1: Ejecutar mailgateerror
+2025-02-18 14:45:05 [@SISTEMAS2]
+Interno #1: Lanzar temp
+2025-02-18 15:21:31 [@SISTEMAS2]
+Interno #1: Ejecutar mailgate
+2025-02-18 15:31:01 [18@SISTEMAS2]
+Interno #1: Ejecutar slaticket
+2025-02-18 16:19:52 [18@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2025-02-18 16:26:54 [18@SISTEMAS2]
+Interno #1: Ejecutar graph
+2025-02-18 17:05:09 [18@SISTEMAS2]
+Interno #1: Ejecutar contract
+2025-02-18 17:11:52 [18@SISTEMAS2]
+Interno #1: Ejecutar planningrecall
+2025-02-19 06:11:10 [@SISTEMAS2]
+Interno #1: Lanzar olaticket
+2025-02-19 06:44:08 [17@SISTEMAS2]
+Interno #1: Lanzar certificate
+2025-02-19 07:47:26 [@SISTEMAS2]
+Interno #1: Ejecutar infocom
+2025-02-19 08:15:46 [@SISTEMAS2]
+Interno #1: Lanzar session
+2025-02-19 08:24:33 [@SISTEMAS2]
+Interno #1: Lanzar createinquest
+2025-02-19 08:29:20 [18@SISTEMAS2]
+Interno #1: Ejecutar watcher
+2025-02-19 12:14:33 [@SISTEMAS2]
+Interno #1: Lanzar RecurrentItems
+2025-02-19 12:19:49 [20@SISTEMAS2]
+Interno #1: Lanzar reservation
+2025-02-19 14:14:58 [18@SISTEMAS2]
+Interno #1: Ejecutar mailgate
+2025-02-19 14:46:35 [@SISTEMAS2]
+Interno #1: Ejecutar slaticket
+2025-02-19 14:47:07 [@SISTEMAS2]
+Interno #1: Ejecutar temp
+2025-02-19 15:46:06 [20@SISTEMAS2]
+Interno #1: Lanzar queuednotification
+2025-02-19 17:26:49 [18@SISTEMAS2]
+Interno #1: Ejecutar planningrecall
+2025-02-19 17:33:07 [18@SISTEMAS2]
+Interno #1: Ejecutar graph
+2025-02-20 06:24:49 [@SISTEMAS2]
+Interno #1: Lanzar alertnotclosed
+2025-02-20 08:33:57 [@SISTEMAS2]
+Interno #1: Ejecutar closeticket
+2025-02-20 08:54:58 [18@SISTEMAS2]
+Interno #1: Ejecutar olaticket
+2025-02-20 09:09:00 [18@SISTEMAS2]
+Interno #1: Ejecutar RecurrentItems
+2025-02-20 09:18:01 [18@SISTEMAS2]
+Interno #1: Ejecutar reservation
+2025-02-20 09:27:01 [18@SISTEMAS2]
+Interno #1: Ejecutar queuednotificationclean
+2025-02-20 09:27:32 [26@SISTEMAS2]
+Interno #1: Lanzar mailgate
+2025-02-20 09:32:19 [7@SISTEMAS2]
+Interno #1: Ejecutar mailgateerror
+2025-02-20 09:44:30 [26@SISTEMAS2]
+Interno #1: Lanzar slaticket
+2025-02-20 09:49:40 [26@SISTEMAS2]
+Interno #1: Lanzar temp
+2025-02-20 10:12:36 [18@SISTEMAS2]
+Interno #1: Ejecutar queuednotification
+2025-02-20 10:59:25 [18@SISTEMAS2]
+Interno #1: Ejecutar contract
+2025-02-20 11:12:02 [18@SISTEMAS2]
+Interno #1: Ejecutar planningrecall
+2025-02-20 11:20:06 [7@SISTEMAS2]
+Interno #1: Ejecutar graph

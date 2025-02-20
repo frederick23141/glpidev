@@ -1,0 +1,1167 @@
+1727982874
+010c93310a6d05c779da924ca259ffc864936662
+s:56708:"<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>GLPI Project</title>
+	<atom:link href="https://glpi-project.org/feed/" rel="self" type="application/rss+xml" />
+	<link>https://glpi-project.org/</link>
+	<description>GLPI IT Service Management software powered by open source</description>
+	<lastBuildDate>Mon, 30 Sep 2024 11:57:23 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.4.5</generator>
+
+<image>
+	<url>https://glpi-project.org/wp-content/uploads/cropped-favicon-glpi-32x32.png</url>
+	<title>GLPI Project</title>
+	<link>https://glpi-project.org/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+<site xmlns="com-wordpress:feed-additions:1">231083796</site>	<item>
+		<title>5 Practices to Maintain Client Satisfaction When Using Pending Tickets in GLPI</title>
+		<link>https://glpi-project.org/5-practices-to-maintain-client-satisfaction-when-using-pending-tickets-in-glpi/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=5-practices-to-maintain-client-satisfaction-when-using-pending-tickets-in-glpi</link>
+		
+		<dc:creator><![CDATA[Arthur Schaefer]]></dc:creator>
+		<pubDate>Mon, 30 Sep 2024 11:32:15 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[glpi]]></category>
+		<category><![CDATA[YouTube video]]></category>
+		<guid isPermaLink="false">https://glpi-project.org/?p=432036</guid>
+
+					<description><![CDATA[<p>Companies with a high number of tickets in pending status often struggle with SLA breaches. Over 60% of SLA violations can be traced back to poor handling of pending tickets, mainly when communication with clients or vendors is not maintained. There is a myriad of possibilities on when to or not to use the pending [&#8230;]</p>
+<p>The post <a href="https://glpi-project.org/5-practices-to-maintain-client-satisfaction-when-using-pending-tickets-in-glpi/">5 Practices to Maintain Client Satisfaction When Using Pending Tickets in GLPI</a> appeared first on <a href="https://glpi-project.org">GLPI Project</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<p><strong>Companies with a high number of tickets in pending status often struggle with SLA breaches.</strong></p>
+
+
+
+<p><strong>Over 60% of SLA violations can be traced back to poor handling of pending tickets, mainly when communication with clients or vendors is not maintained.</strong></p>
+
+
+
+<p>There is a myriad of possibilities on when to or not to use the pending statuses. The way the support team choose to use it, can make or break the relationship with clients. Support departments must keep in mind that timely resolutions are critical, and managing pending tickets effectively is a no-brainer.</p>
+
+
+
+<p>When left behind, or the process of defining as pending is not that clear, these issues can lead to client frustration and dissatisfaction, which impacts a business&#8217;s reputation.</p>
+
+
+
+<h3 class="wp-block-heading"><strong>1. Define Clear Criteria for Pending Status:</strong></h3>
+
+
+
+<p>Defining when it&#8217;s appropriate to mark a ticket as pending help prevent misuse of this status, such as using it to delay work or avoid responsibility.</p>
+
+
+
+<p>Awaiting client feedback, external vendor actions or parts arrival could all be valid reasons <strong><u>if it is accorded between parties</u></strong> and your support team is well-trained to use them</p>
+
+
+
+<p class="has-cyan-bluish-gray-background-color has-background"><strong>Remember that the &#8216;pending&#8217; status in GLPI makes all SLA and date to solve to be updated after the ticket is changed to other status different from pending. So being honest and clear with clients about these reasons, can be crucial.</strong></p>
+
+
+
+<ul>
+<li><strong>45%</strong> of pending tickets are due to awaiting client feedback or necessary information.</li>
+
+
+
+<li><strong>30%</strong> of pending tickets are attributed to waiting on external vendors or third parties.</li>
+
+
+
+<li><strong>15%</strong> are related to awaiting internal approvals or additional resources (e.g., parts or budget).</li>
+</ul>
+
+
+
+<h3 class="wp-block-heading"><strong>2. Set Limits and Follow-up Protocols:</strong></h3>
+
+
+
+<p>Tickets left in pending status for too long may increase unhappiness and missed deadlines.</p>
+
+
+
+<p>Establish time limits for how long a ticket can remain in pending status before a mandatory review or follow-up is triggered. Use GLPI’s automation rules to send reminders to technicians to reassess pending tickets regularly.</p>
+
+
+
+<p class="has-cyan-bluish-gray-background-color has-background"><strong><a href="https://faq.teclib.com/02_FAQ/Saved_searches/">Saved searches</a> with time ranges and notifications may help technicians to not let pending status</strong></p>
+
+
+
+<ul>
+<li>It is known that best practices in handling pending tickets can increase SLA adherence by up to 25%, significantly improving customer satisfaction.</li>
+</ul>
+
+
+
+<h3 class="wp-block-heading"><strong>3. Document All Actions and Reasons:</strong></h3>
+
+
+
+<p>Proper documentation within each ticket ensures that any team member can quickly understand the ticket’s history and current status, reducing delays caused by knowledge gaps.</p>
+
+
+
+<p class="has-cyan-bluish-gray-background-color has-background"><strong><a href="https://faq.teclib.com/04_Plugins/Glpiai/">GLPI AI plugin</a> helps technicians to be aware of a vast timeline of facts in a ticket</strong></p>
+
+
+
+<h3 class="wp-block-heading"><strong>4. Prioritize Client Communication During Escalations:</strong></h3>
+
+
+
+<p>Sometimes, a ticket might need to be escalated due to delays or complexity, which can further frustrate clients if not handled well.</p>
+
+
+
+<p class="has-cyan-bluish-gray-background-color has-background"><strong><a href="https://faq.teclib.com/04_Plugins/Escalade/">Plugin Escalade</a>, for example, add options of adding followups automatically when an escalation is done</strong></p>
+
+
+
+<ul>
+<li>Tickets that remain in pending status for longer than 3 days without updates or communication result in a 25-30% drop in customer satisfaction ratings.</li>
+
+
+
+<li>Proactive communication (even with pending status updates) can maintain satisfaction levels, keeping the negative impact to less than 10%.</li>
+</ul>
+
+
+
+<h3 class="wp-block-heading"><strong>5. Communicate Transparently with Clients:</strong></h3>
+
+
+
+<p>Clients need and want to feel informed about the status of their tickets, even when they&#8217;re pending. Don&#8217;t let clients feel ignored.</p>
+
+
+
+<ul>
+<li>The number of pending tickets can increase if processes are not optimized, leading to backlogs and longer resolution times.</li>
+</ul>
+
+
+
+<p class="has-cyan-bluish-gray-background-color has-background"><strong><a href="https://faq.teclib.com/03_knowledgebase/helpdesk/add_pending_reason/">Set up a dunning process</a>, so GLPI may keep the user automatically updated about the status of the ticket or when you need to remind people about the need to interact with the ticket.</strong></p>
+
+
+
+<div style="height:46px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h2 class="wp-block-heading">YouTube video: </h2>
+
+
+
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe title="5 Practices to maintain client satisfaction when using pending tickets in GLPI&#x1f680;" width="1080" height="608" src="https://www.youtube.com/embed/WIAOUtzrNGE?feature=oembed"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<div style="height:50px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h2 class="wp-block-heading">Stay connected so you don’t miss any of our news!</h2>
+
+
+
+<div class="wp-block-buttons is-layout-flex wp-block-buttons-is-layout-flex">
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://linktr.ee/teclib" target="_blank" rel="noreferrer noopener">Join us!</a></div>
+</div>
+<p>The post <a href="https://glpi-project.org/5-practices-to-maintain-client-satisfaction-when-using-pending-tickets-in-glpi/">5 Practices to Maintain Client Satisfaction When Using Pending Tickets in GLPI</a> appeared first on <a href="https://glpi-project.org">GLPI Project</a>.</p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">432036</post-id>	</item>
+		<item>
+		<title>New silver GLPI partner in Mexico: Innovabits</title>
+		<link>https://glpi-project.org/glpi-partner-innovabits/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=glpi-partner-innovabits</link>
+		
+		<dc:creator><![CDATA[Flavia Calonego]]></dc:creator>
+		<pubDate>Thu, 26 Sep 2024 09:47:32 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[glpi partner]]></category>
+		<category><![CDATA[new partner]]></category>
+		<category><![CDATA[silver partner]]></category>
+		<guid isPermaLink="false">https://glpi-project.org/?p=432101</guid>
+
+					<description><![CDATA[<p>Congratulations! We are happy to announce our new Silver GLPI Network partner in Mexico: Innovabits At Innovabits, technology and best practices are at the core of their expertise. As software developers, they offer tools that simplify data import and visualization, including the integration of Telcel equipment and contracts. They also design dashboards and alert rules in [&#8230;]</p>
+<p>The post <a href="https://glpi-project.org/glpi-partner-innovabits/">New silver GLPI partner in Mexico: Innovabits</a> appeared first on <a href="https://glpi-project.org">GLPI Project</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<blockquote class="wp-block-quote">
+<p class="has-medium-font-size">Congratulations! We are happy to announce our new Silver GLPI Network partner in Mexico:<strong> Innovabits</strong></p>
+</blockquote>
+
+
+
+<figure class="wp-block-image size-large"><img fetchpriority="high" decoding="async" width="1024" height="535" src="https://glpi-project.org/wp-content/uploads/EN-Innovabits-1024x535.png" alt="" class="wp-image-432156" srcset="https://glpi-project.org/wp-content/uploads/EN-Innovabits-1024x535.png 1024w, https://glpi-project.org/wp-content/uploads/EN-Innovabits-980x512.png 980w, https://glpi-project.org/wp-content/uploads/EN-Innovabits-480x251.png 480w" sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) and (max-width: 980px) 980px, (min-width: 981px) 1024px, 100vw" /></figure>
+
+
+
+<p>At Innovabits, technology and best practices are at the core of their expertise. As software developers, they offer tools that simplify data import and visualization, including the integration of Telcel equipment and contracts. They also design dashboards and alert rules in Grafana, leveraging GLPI information to optimize their clients’ processes.</p>
+
+
+
+<p>Their strategic partnerships with ITIL training specialists enable them to provide a comprehensive solution for GLPI implementation. This ensures that clients not only get the best tool but also the necessary knowledge to maximize its use.</p>
+
+
+
+<p>With over 20 years of experience in developing and managing IT projects, Innovabits has worked with both private companies and public institutions, delivering cloud solutions as well as on-premises services. Their mission is to provide clients with a complete, tailored service that meets their specific needs.</p>
+
+
+
+<p><strong>Website: <a href="https://bit.ly/3XRECkB" target="_blank" rel="noreferrer noopener">https://bit.ly/3XRECkB</a></strong></p>
+
+
+
+<p>We are excited that GLPI ITSM solution is becoming more and more represented all over the world and GLPI Network (our support offer for on-premises – get your IT Infrastructure secured) subscription service will be available for more customers through our new partners.</p>
+
+
+
+<p>Our large partnership network is always open for new collaborations. If you are interested in representing one of our products in your country, get in touch with us:&nbsp;<a href="https://glpi-project.org/contact_us/" target="_blank" rel="noreferrer noopener"><strong>https://glpi-project.org/contact_us/</strong></a></p>
+
+
+
+<p><strong>Being a partner means:</strong></p>
+
+
+
+<ul>
+<li>Having an a direct access to the Teclib´s tech expertise;</li>
+
+
+
+<li>Get special discounts;</li>
+
+
+
+<li>Access official support,</li>
+
+
+
+<li>Many other tools which will help you to gain more customers and increase reputation on the market by adding open source ITSM to your portfolio.</li>
+</ul>
+
+
+
+<blockquote class="wp-block-quote">
+<p>Discover all benefits of being a partner here:&nbsp;<a href="https://glpi-project.org/partners/" target="_blank" rel="noreferrer noopener"><strong>https://glpi-project.org/partners/</strong></a></p>
+</blockquote>
+
+
+
+<h2 class="wp-block-heading">Stay connected! Follow us on our social media platforms!</h2>
+
+
+
+<div class="wp-block-buttons is-layout-flex wp-block-buttons-is-layout-flex">
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://linktr.ee/teclib" target="_blank" rel="noreferrer noopener">Join us!</a></div>
+</div>
+<p>The post <a href="https://glpi-project.org/glpi-partner-innovabits/">New silver GLPI partner in Mexico: Innovabits</a> appeared first on <a href="https://glpi-project.org">GLPI Project</a>.</p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">432101</post-id>	</item>
+		<item>
+		<title>GLPI Agent v1.11 released!</title>
+		<link>https://glpi-project.org/glpi-agent-v1-11-released/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=glpi-agent-v1-11-released</link>
+		
+		<dc:creator><![CDATA[Flavia Calonego]]></dc:creator>
+		<pubDate>Tue, 24 Sep 2024 10:00:56 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[agent 1.11]]></category>
+		<category><![CDATA[glpi agent]]></category>
+		<category><![CDATA[new agent released]]></category>
+		<guid isPermaLink="false">https://glpi-project.org/?p=432114</guid>
+
+					<description><![CDATA[<p>GLPI Agent 1.11 has been released. You can download it on the GLPI Agent github project: https://github.com/glpi-project/glpi-agent/releases/tag/1.11 This version comes with few fixes and enhancements and here are the essential ones: About packaging, here is what you should retain: You can check changes details in the official online Changelog available here: https://github.com/glpi-project/glpi-agent/blob/1.11/Changes We invite you to update [&#8230;]</p>
+<p>The post <a href="https://glpi-project.org/glpi-agent-v1-11-released/">GLPI Agent v1.11 released!</a> appeared first on <a href="https://glpi-project.org">GLPI Project</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<blockquote class="wp-block-quote has-medium-font-size">
+<p>GLPI Agent 1.11 has been released.</p>
+</blockquote>
+
+
+
+<p>You can download it on the GLPI Agent github project: <a href="https://github.com/glpi-project/glpi-agent/releases/tag/1.11" target="_blank" rel="noreferrer noopener">https://github.com/glpi-project/glpi-agent/releases/tag/1.11</a></p>
+
+
+
+<p>This version comes with few fixes and enhancements and here are the essential ones:</p>
+
+
+
+<ul>
+<li>On Windows, a fix from the community prevents overwriting of Keystore exported certificates. So these certificates are no more ignored.</li>
+
+
+
+<li>On Windows, a new&nbsp;<code>ssl-keystore</code>&nbsp;option is available to disable or optimize Keystore certificates export.</li>
+
+
+
+<li>Bitdefender antivirus support has been updated on Windows.</li>
+
+
+
+<li>TacticalRMM remote management inventory support has been added on MacOSX.</li>
+
+
+
+<li>Users inventory has been fixed with partial inventory used with&nbsp;<code>full-inventory-postpone</code>.</li>
+
+
+
+<li>Few updates for Hikvision devices support and Konica printers have been included in NetDiscovery and NetInventory tasks</li>
+
+
+
+<li>Deploy task won’t no more display an error when running a PowerShell script on Windows.</li>
+
+
+
+<li>Proxy server plugin will now accept Json as inventory format when&nbsp;<code>glpi_protocol</code>&nbsp;option is set and no GLPI server is configured.</li>
+</ul>
+
+
+
+<p>About packaging, here is what you should retain:</p>
+
+
+
+<ul>
+<li>On Windows, perl is now built with OpenSSL v3.3.2 and the libxml2 library v2.13.4 supports. 7-zip provided command is now v24.08 version.</li>
+
+
+
+<li>The Windows packaging now includes GLPI-AgentMonitor software v1.4.0 and the installer supports&nbsp;<code>AGENTMONITOR_NEWTICKET_SCREENSHOT</code>&nbsp;as parameter to configure if a screenshot should be done before opening a new ticket.</li>
+
+
+
+<li>The MacOSX packaging now uses OpenSSL v3.3.2.</li>
+</ul>
+
+
+
+<p>You can check changes details in the official online Changelog available here: <a href="https://github.com/glpi-project/glpi-agent/blob/1.11/Changes" target="_blank" rel="noreferrer noopener">https://github.com/glpi-project/glpi-agent/blob/1.11/Changes</a></p>
+
+
+
+<p>We invite you to update your agents to take advantage of these improvements.</p>
+
+
+
+<div style="height:54px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h2 class="wp-block-heading">Stay connected! Follow us on our social media platforms!</h2>
+
+
+
+<div class="wp-block-buttons is-layout-flex wp-block-buttons-is-layout-flex">
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://linktr.ee/teclib" target="_blank" rel="noreferrer noopener">Join us!</a></div>
+</div>
+<p>The post <a href="https://glpi-project.org/glpi-agent-v1-11-released/">GLPI Agent v1.11 released!</a> appeared first on <a href="https://glpi-project.org">GLPI Project</a>.</p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">432114</post-id>	</item>
+		<item>
+		<title>New silver GLPI partner in Poland: DNR Group</title>
+		<link>https://glpi-project.org/new-silver-glpi-partner-in-poland-dnr-group/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=new-silver-glpi-partner-in-poland-dnr-group</link>
+		
+		<dc:creator><![CDATA[Flavia Calonego]]></dc:creator>
+		<pubDate>Mon, 23 Sep 2024 14:29:23 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[GLPI Network]]></category>
+		<category><![CDATA[glpi partner]]></category>
+		<category><![CDATA[partner silver]]></category>
+		<guid isPermaLink="false">https://glpi-project.org/?p=432130</guid>
+
+					<description><![CDATA[<p>Congratulations! We are happy to announce our new Silver GLPI Network partner in Poland: DNR Group Specialists in IT support, server administration, and cybersecurity. They will provide you with their knowledge, experience, dedicated solutions, and full support. They will help your company streamline processes within your IT infrastructure, ensure data security, and optimize operations while helping [&#8230;]</p>
+<p>The post <a href="https://glpi-project.org/new-silver-glpi-partner-in-poland-dnr-group/">New silver GLPI partner in Poland: DNR Group</a> appeared first on <a href="https://glpi-project.org">GLPI Project</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<blockquote class="wp-block-quote">
+<p class="has-medium-font-size">Congratulations! We are happy to announce our new Silver GLPI Network partner in Poland:<strong> DNR Group</strong></p>
+</blockquote>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="535" src="https://glpi-project.org/wp-content/uploads/EN-Partner-Poland-1024x535.png" alt="" class="wp-image-432131" srcset="https://glpi-project.org/wp-content/uploads/EN-Partner-Poland-1024x535.png 1024w, https://glpi-project.org/wp-content/uploads/EN-Partner-Poland-980x512.png 980w, https://glpi-project.org/wp-content/uploads/EN-Partner-Poland-480x251.png 480w" sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) and (max-width: 980px) 980px, (min-width: 981px) 1024px, 100vw" /></figure>
+
+
+
+<p>Specialists in IT support, server administration, and cybersecurity. They will provide you with their knowledge, experience, dedicated solutions, and full support. They will help your company streamline processes within your IT infrastructure, ensure data security, and optimize operations while helping to reduce costs. DNR Group is a family-owned company; they know how to listen and respond to the needs of others. They treat their clients as partners because trust is key. Let them get to know your business, and they will propose the best and most optimal solutions.</p>
+
+
+
+<p>The DNR Group team is a leader in responsiveness. For years, they have been using and enhancing GLPI for their own needs, creating solutions that not only allow for quick responses to reported issues but also enable agile management of the entire IT environment!</p>
+
+
+
+<p>They provide professional IT infrastructure monitoring and a dedicated center for data security management. Their solutions allow you to anticipate, prevent, and solve internal and external problems! Your infrastructure will be not only more secure, efficient, and effective but also optimally utilized!</p>
+
+
+
+<p>As specialists with many years of experience, they offer IT consulting services, a range of employee training, solutions for remote work, as well as installation work during network modernization. Their service range is vast, as is their pool of satisfied clients. The solutions they offer ensure the highest level of security, high availability, and maximum efficiency.</p>
+
+
+
+<p><strong>Website: <a href="https://bit.ly/47Szoc1" target="_blank" rel="noreferrer noopener">https://bit.ly/47Szoc1</a></strong></p>
+
+
+
+<p>We are excited that GLPI ITSM solution is becoming more and more represented all over the world and GLPI Network (our support offer for on-premises – get your IT Infrastructure secured) subscription service will be available for more customers through our new partners.</p>
+
+
+
+<p>Our large partnership network is always open for new collaborations. If you are interested in representing one of our products in your country, get in touch with us:&nbsp;<a href="https://glpi-project.org/contact_us/" target="_blank" rel="noreferrer noopener"><strong>https://glpi-project.org/contact_us/</strong></a></p>
+
+
+
+<p><strong>Being a partner means:</strong></p>
+
+
+
+<ul>
+<li>Having an a direct access to the Teclib´s tech expertise;</li>
+
+
+
+<li>Get special discounts;</li>
+
+
+
+<li>Access official support,</li>
+
+
+
+<li>Many other tools which will help you to gain more customers and increase reputation on the market by adding open source ITSM to your portfolio.</li>
+</ul>
+
+
+
+<blockquote class="wp-block-quote">
+<p>Discover all benefits of being a partner here: <a href="https://glpi-project.org/partners/" target="_blank" rel="noreferrer noopener"><strong>https://glpi-project.org/partners/</strong></a></p>
+</blockquote>
+
+
+
+<h2 class="wp-block-heading">Stay connected! Follow us on our social media platforms!</h2>
+
+
+
+<div class="wp-block-buttons is-layout-flex wp-block-buttons-is-layout-flex">
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://linktr.ee/teclib" target="_blank" rel="noreferrer noopener">Join us!</a></div>
+</div>
+<p>The post <a href="https://glpi-project.org/new-silver-glpi-partner-in-poland-dnr-group/">New silver GLPI partner in Poland: DNR Group</a> appeared first on <a href="https://glpi-project.org">GLPI Project</a>.</p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">432130</post-id>	</item>
+		<item>
+		<title>A new version of the Fields plugin is released! Update: 1.21.13 now!</title>
+		<link>https://glpi-project.org/a-new-version-of-the-fields-plugin-is-released-update-1-21-13-now/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=a-new-version-of-the-fields-plugin-is-released-update-1-21-13-now</link>
+		
+		<dc:creator><![CDATA[Daniela Buxo]]></dc:creator>
+		<pubDate>Thu, 12 Sep 2024 14:25:15 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[github]]></category>
+		<category><![CDATA[glpi]]></category>
+		<category><![CDATA[plugin]]></category>
+		<guid isPermaLink="false">https://glpi-project.org/?p=432025</guid>
+
+					<description><![CDATA[<p>The post <a href="https://glpi-project.org/a-new-version-of-the-fields-plugin-is-released-update-1-21-13-now/">A new version of the Fields plugin is released! Update: 1.21.13 now!</a> appeared first on <a href="https://glpi-project.org">GLPI Project</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p><div class="et_pb_section et_pb_section_0 et_section_regular" >
+				
+				
+				
+				
+					<div class="et_pb_row et_pb_row_0">
+				<div class="et_pb_column et_pb_column_4_4 et_pb_column_0  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_0  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				<div class="et_pb_text_inner"><p><strong>A new version of the Fields plugin is now available!</strong></p>
+<p>This version corrects a recently discovered security problem. The update is recommended!</p>
+<ul>
+<li>CVE-2024-45600 Authenticated SQL Injection</li>
+</ul>
+<p>The <a href="https://github.com/pluginsGLPI/fields/blob/1.21.13/CHANGELOG.md">full changelog</a> is available for more details.</p>
+<p>You can update the plugin from the marketplace or download the plugin archive on <a href="https://github.com/pluginsGLPI/fields/releases/tag/1.21.13">GitHub</a>.</p></div>
+			</div> <!-- .et_pb_text -->
+			</div> <!-- .et_pb_column -->
+				
+				
+			</div> <!-- .et_pb_row -->
+				
+				
+			</div> <!-- .et_pb_section --><div class="et_pb_section et_pb_section_1 et_section_regular" >
+				
+				
+				
+				
+					<div class="et_pb_row et_pb_row_1">
+				<div class="et_pb_column et_pb_column_4_4 et_pb_column_1  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				<div class="et_pb_button_module_wrapper et_pb_button_0_wrapper  et_pb_module ">
+				<a class="et_pb_button et_pb_button_0 et_pb_bg_layout_light" href="http://url9687.teclib.com/ls/click?upn=u001.PRQZqyttJiYdbebVum5W2KtL-2B1g-2F68E0u5eCf6bW7NNGlYOYobhvxega9mj6NIMyqKs4_0KAjk74CbnpapAVi6yocwGil3HK83h2-2FwAHh5aULA8fAN6gesMCWnQuy1zD9GF6lyxY4I0PZmMq0uuknfLPimW7-2FRicQyqg2AJACgor7CGVCFMgEJz44aAJcLFdgBs4neChEfXZvpefexYX5JmvaqI5iUhF-2Fmh7uXlIsVEvXgmvNpZ7riPxjOtqhA26Y50lsjMy7vl2GnoafgcVlV854UVHRQuKNWGpyzp-2FfInH3qC56FIcZQ16UVeZ1dba-2B9GFKPYLJg6n8B9Yu0BGTIdUTe7EsXbVJLq7evL9xNddBU7gfcQZ9xbPl5Y-2Fbr5w3nS4rgYt9GLVkkMGAMCpxG7gxPi7rIbwReLKCoxANXHz-2FXU2eQ-2BtMZ9QbRYngt5dtYgN3fh2ZiANar5Xcq0ovXBPIGOE92SdSZgfgfafSPHSRO-2FK8hfUYAApggJXev-2BJ-2FowC-2BOXeTVMDZH4Q1M5-2BTkzg1wG5YE8pwj19WYuTwNw9673aqjsaFzQoUBMkmgieOx6GCfnpFwROJz-2FAdXwahPnBgjGBoE6Q201DajM6tCjydlTNF17Kae4w28xphmIGNDiF6q6vsmVPzzulqw-2BhoaQ4IBfS6eqxlRir2oqSzRKsYeDTHyWuH0sDUeUvbhAZz8glBUHs0AOvbWKC26jZwFTvwSY47NsXHnhQYx0ixZh3a7rylN6ZWbVDBVwViA4CSOwlvlwrSpgpOkjd1ysUUt-2FZ-2Fslf7gtRL3TR-2BOQ9SYuoqDFu3Z5O59j4hxxKHUAFCGrCaa7-2F5uvLspKBVM10YeA0CnCmhdu9D9TOZnw5sEZOSWpy2UiAT4rFS1LO4YYyOTXzmPgbMRTcbYbnz5B-2Ffpcnm77-2Bkrx3BmnQerZHAzvZI4wfRAsxZbVfbjf6bvNxvZYrLgByfQpEntOWEgnhZTggJGh3IgKRE5U8KXGrVXJVbMkR3iID-2BAWFaGOTDepL4Am1Fsw9ErAenntTkxdsyGoToBA-3D-3D">Download now</a>
+			</div>
+			</div> <!-- .et_pb_column -->
+				
+				
+			</div> <!-- .et_pb_row -->
+				
+				
+			</div> <!-- .et_pb_section --></p>
+<p>The post <a href="https://glpi-project.org/a-new-version-of-the-fields-plugin-is-released-update-1-21-13-now/">A new version of the Fields plugin is released! Update: 1.21.13 now!</a> appeared first on <a href="https://glpi-project.org">GLPI Project</a>.</p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">432025</post-id>	</item>
+		<item>
+		<title>How to save the support team time with templates in GLPI</title>
+		<link>https://glpi-project.org/how-to-save-the-support-team-time-with-templates-in-glpi/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=how-to-save-the-support-team-time-with-templates-in-glpi</link>
+		
+		<dc:creator><![CDATA[Arthur Schaefer]]></dc:creator>
+		<pubDate>Tue, 03 Sep 2024 13:19:19 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[glpi]]></category>
+		<category><![CDATA[glpi tutorial]]></category>
+		<category><![CDATA[templates]]></category>
+		<category><![CDATA[YouTube tutorial]]></category>
+		<category><![CDATA[YouTube video]]></category>
+		<guid isPermaLink="false">https://glpi-project.org/?p=431889</guid>
+
+					<description><![CDATA[<p>Twig is a templating Engine for PHP that helps to keep the code clean and organized by separating what is coded from what people see on the website. This makes the task of managing and updating templates a bit easier. GLPI has brought since the version 10, the ability to use Twig variables on followups, [&#8230;]</p>
+<p>The post <a href="https://glpi-project.org/how-to-save-the-support-team-time-with-templates-in-glpi/">How to save the support team time with templates in GLPI</a> appeared first on <a href="https://glpi-project.org">GLPI Project</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<p>Twig is a templating Engine for PHP that helps to keep the code clean and organized by separating what is coded from what people see on the website. This makes the task of managing and updating templates a bit easier.</p>
+
+
+
+<p>GLPI has brought since the version 10, the ability to use Twig variables on followups, tasks and solution templates. But you may ask, what is it useful for?</p>
+
+
+
+<p>Well. Let&#8217;s take a template you use on a daily basis and have to always change some fields. Start with a welcome message in a ticket, as an example:</p>
+
+
+
+<blockquote class="wp-block-quote">
+<p>Dear <strong>{Client’s Name}</strong>,</p>
+
+
+
+<p>Thank you for reaching out to our support team. We wanted to let you know that your support ticket has been successfully inserted into our support area. Our team is already on it and will start the process of analysis within <strong>{specified time frame}</strong>.</p>
+
+
+
+<p>If you need to add any additional information or have further questions, you can simply reply to this email or visit our website at upport.yourdomain.com to update your ticket.</p>
+
+
+
+<p>We appreciate your patience and will get back to you as soon as possible.</p>
+
+
+
+<p>Best regards,</p>
+</blockquote>
+
+
+
+<p>I know. Sometimes we forget to <strong>manually</strong> change the fields by the correct ones, or we just let general information there as don&#8217;t make any mistakes.</p>
+
+
+
+<blockquote class="wp-block-quote">
+<p><strong>The twig variables are exactly for this.</strong></p>
+</blockquote>
+
+
+
+<p>Every ticket has some pre-filled fields. Be it by the user, by the technicians, by automatic business rules. The only thing we want here is to be accurate, quick and informative.</p>
+
+
+
+<p>Let&#8217;s change this same message to add</p>
+
+
+
+<ol>
+<li>The first name of the requester</li>
+
+
+
+<li>The Time to Own the ticket received at this moment</li>
+
+
+
+<li>The group that is responsible for the ticket at the moment</li>
+</ol>
+
+
+
+<blockquote class="wp-block-quote">
+<p>Dear <code>{% for user in ticket.requesters.users %}</code>&nbsp;<code>{{ user.firstname }}</code> ,<br><code>{% endfor %}</code></p>
+
+
+
+<p>Thank you for reaching out to our support team. We wanted to let you know that your support ticket has been successfully inserted into our support area. Our team is already on it and will start the process of analysis within <code>{{ ticket.tto | date("d/m/y H:i") }}</code>.</p>
+
+
+
+<p>The group <code>{{ group.name }}</code> is responsible for this ticket at this level.</p>
+
+
+
+<p>If you need to add any additional information or have further questions, you can simply reply to this email or visit our website at upport.yourdomain.com to update your ticket.</p>
+
+
+
+<p>We appreciate your patience and will get back to you as soon as possible.</p>
+
+
+
+<p>Best regards,</p>
+</blockquote>
+
+
+
+<p>As you can see, there are some variables in this template. It means that every time a technician selects this Followup template, GLPI will insert:</p>
+
+
+
+<ul>
+<li>Every first name of users at the requesters field
+<ul>
+<li><code>{% for user in ticket.requesters.users %}&nbsp;{{ user.firstname }} , {% endfor %}</code></li>
+</ul>
+</li>
+
+
+
+<li>The Time to Own date and time added manually or automatically via business rules
+<ul>
+<li><code>{{ ticket.tto | date("d/m/y H:i") }}</code></li>
+</ul>
+</li>
+
+
+
+<li>The responsible group of the ticket
+<ul>
+<li><code>{{ group.name }}</code></li>
+</ul>
+</li>
+</ul>
+
+
+
+<p>The best part is that, once these fields change during the lifecycle of the ticket, the new followups, tasks and solutions will get updated information to be inserted during the time.</p>
+
+
+
+<p>Here are some other ideas of templates you may use</p>
+
+
+
+<ul>
+<li>Fill with a KB article
+<ul>
+<li>If you have a knowledge base article that may be useful for the user, you may:
+<ul>
+<li>relate this article with the ticket using the knowledge base tab in a ticket</li>
+
+
+
+<li>create the followup or solution template with the following variable <code>{{ knowbaseitem.answer | raw }}</code></li>
+
+
+
+<li>select the template you&#8217;ve previously created. GLPI will insert the content of the article to the solution or followup template.</li>
+
+
+
+<li>here is a template example</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+
+
+<blockquote class="wp-block-quote">
+<p><br><code>{% for user in ticket.requesters.users %}</code> <code>{{ user.fullname }}</code><br><code>{% endfor %}</code><br>There is a possible article on our knowledge base that may be of help:<br><code>{% for knowbaseitem in ticket.knowbaseitems %}</code></p>
+
+
+
+<p><code>{{ knowbaseitem.link | raw }}</code><br><br><code>{{ knowbaseitem.answer | raw }}</code><br><br><code>{% endfor %}</code></p>
+</blockquote>
+
+
+
+<ul>
+<li>Use it for pending reasons
+<ul>
+<li>relate this article with the ticket using the knowledge base tab in a ticket</li>
+
+
+
+<li>create the followup template with the important variables</li>
+
+
+
+<li>create the pending reasons</li>
+
+
+
+<li>connect the template you created to the pending reason you&#8217;ve previously created</li>
+
+
+
+<li>here is a template example</li>
+</ul>
+</li>
+</ul>
+
+
+
+<blockquote class="wp-block-quote">
+<p>Hi <code>{% for user in ticket.requesters.users %}</code>&nbsp;<code>{{ user.firstname }}</code> ,<br><code>{% endfor %}</code></p>
+
+
+
+<p>Hope you&#8217;re doing well! We&#8217;re just dropping a quick note to remind you that your response is needed to proceed with ticket # <code>{{ ticket.id }}</code> regarding <code>{{ ticket.name }}</code>.</p>
+
+
+
+<p>Your input is crucial for us to move forward. If you could spare a few moments to provide the necessary information or feedback, we&#8217;d greatly appreciate it.</p>
+
+
+
+<p>If the issue has already been resolved, or you have other questions, please let us know.</p>
+
+
+
+<p>Thanks for your attention to this matter!</p>
+
+
+
+<p>Best,</p>
+
+
+
+<p><code>{% for user in ticket.assignees.users %}</code> <code>{{ user.firstname }}</code><br><br><code>{% endfor %}</code></p>
+</blockquote>
+
+
+
+<p>The Twig variables may be found at the followup, task and solution templates. Explore it and make me know what are the projects you have created with them. We will have news about those same twigs in next versions.</p>
+
+
+
+<div style="height:31px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h2 class="wp-block-heading">YouTube video:</h2>
+
+
+
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="How to save the support team time with templates in GLPI &#x1f680;" width="1080" height="608" src="https://www.youtube.com/embed/eMvssYNAQtg?feature=oembed"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<div style="height:48px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h2 class="wp-block-heading">Stay connected so you don’t miss any of our news!</h2>
+
+
+
+<div class="wp-block-buttons is-layout-flex wp-block-buttons-is-layout-flex">
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://linktr.ee/teclib" target="_blank" rel="noreferrer noopener">Join us! </a></div>
+</div>
+<p>The post <a href="https://glpi-project.org/how-to-save-the-support-team-time-with-templates-in-glpi/">How to save the support team time with templates in GLPI</a> appeared first on <a href="https://glpi-project.org">GLPI Project</a>.</p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">431889</post-id>	</item>
+		<item>
+		<title>New silver partner in France: All Business</title>
+		<link>https://glpi-project.org/new-silver-partner-in-france-all-business/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=new-silver-partner-in-france-all-business</link>
+		
+		<dc:creator><![CDATA[Daniela Buxo]]></dc:creator>
+		<pubDate>Wed, 21 Aug 2024 09:44:51 +0000</pubDate>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[glpi]]></category>
+		<category><![CDATA[glpi partner]]></category>
+		<category><![CDATA[partner glpi]]></category>
+		<category><![CDATA[partners]]></category>
+		<category><![CDATA[partnership]]></category>
+		<guid isPermaLink="false">https://glpi-project.org/?p=431818</guid>
+
+					<description><![CDATA[<p>The post <a href="https://glpi-project.org/new-silver-partner-in-france-all-business/">New silver partner in France: All Business</a> appeared first on <a href="https://glpi-project.org">GLPI Project</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p><div class="et_pb_section et_pb_section_2 et_section_regular" >
+				
+				
+				
+				
+					<div class="et_pb_row et_pb_row_2">
+								<div class="et_pb_column et_pb_column_4_4 et_pb_column_2  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_1  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				<div class="et_pb_text_inner"><blockquote class="wp-block-quote has-medium-font-size">
+<p>Congratulations! We are happy to announce our new Silver GLPI Network partner in France:<strong>&nbsp;All Business.</strong></p>
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="535" src="https://glpi-project.org/wp-content/uploads/FR-2-1-1024x535.png" alt="" class="wp-image-431819" srcset="https://glpi-project.org/wp-content/uploads/FR-2-1-1024x535.png 1024w, https://glpi-project.org/wp-content/uploads/FR-2-1-980x512.png 980w, https://glpi-project.org/wp-content/uploads/FR-2-1-480x251.png 480w" sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) and (max-width: 980px) 980px, (min-width: 981px) 1024px, 100vw" /></figure>
+</blockquote>
+<p><strong>All Business</strong> aims to analyze and improve the information systems. They offer tailor-made solutions to optimize IT infrastructures, improve operational efficiency and reduce costs. Whether you want to modernize your existing systems or integrate new technologies, their team of experts can guide you every step of the way. They are committed to understand your specific needs and by providing solutions aligned with your business objectives. </p>
+<p>Their IT consulting services are designed to provide customized solutions that specifically meet your business needs. By working with them, you benefit from their in-depth expertise and commitment to optimize your information systems for maximum performance. </p>
+<p>Benefits:</p>
+<ul>
+<li>Tailor-made solutions; </li>
+<li>Cost reduction;</li>
+<li>Improved efficiency.</li>
+</ul>
+<p><strong>Website: </strong><a href="https://bit.ly/3SVKlDo" target="_blank" rel="noreferrer noopener"><strong>https://bit.ly/3SVKlDo</strong></a></p>
+<p>We are excited that GLPI ITSM solution is becoming more and more represented all over the world and GLPI Network (our support offer for on-premises – get your IT Infrastructure secured) subscription service will be available for more customers through our new partners.</p>
+<p>Our large partnership network is always open for new collaborations. If you are interested in representing one of our products in your country, get in touch with us:&nbsp;<a href="https://glpi-project.org/contact_us/" target="_blank" rel="noreferrer noopener"><strong>https://glpi-project.org/contact_us/</strong></a></p>
+<p><strong>Being a partner means:</strong></p>
+<ul>
+<li>Having an a direct access to the Teclib´s tech expertise;</li>
+<li>Get special discounts;</li>
+<li>Access official support,</li>
+<li>Many other tools which will help you to gain more customers and increase reputation on the market by adding open source ITSM to your portfolio.</li>
+</ul>
+<blockquote class="wp-block-quote">
+<p>Discover all benefits of being a partner here:&nbsp;<a href="https://glpi-project.org/partners/" target="_blank" rel="noreferrer noopener"><strong>https://glpi-project.org/partners/</strong></a></p>
+</blockquote>
+<h2 class="wp-block-heading">Stay connected! Follow us on our social media platforms!</h2>
+<div class="wp-block-buttons">
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://linktr.ee/teclib" target="_blank" rel="noreferrer noopener">Join us!</a></div>
+</div></div>
+			</div> <!-- .et_pb_text -->
+			</div> <!-- .et_pb_column -->			
+				
+				
+			</div> <!-- .et_pb_row -->		
+				
+				
+			</div> <!-- .et_pb_section --></p>
+<p>The post <a href="https://glpi-project.org/new-silver-partner-in-france-all-business/">New silver partner in France: All Business</a> appeared first on <a href="https://glpi-project.org">GLPI Project</a>.</p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">431818</post-id>	</item>
+		<item>
+		<title>How GLPI helps you keep updated with critical news and update</title>
+		<link>https://glpi-project.org/how-glpi-helps-you-keep-updated-with-critical-news-and-update/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=how-glpi-helps-you-keep-updated-with-critical-news-and-update</link>
+		
+		<dc:creator><![CDATA[Flavia Calonego]]></dc:creator>
+		<pubDate>Mon, 05 Aug 2024 09:24:59 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[glpi]]></category>
+		<category><![CDATA[how glpi helps]]></category>
+		<category><![CDATA[RSS]]></category>
+		<category><![CDATA[YouTube video]]></category>
+		<guid isPermaLink="false">https://glpi-project.org/?p=431749</guid>
+
+					<description><![CDATA[<p>In a fast-paced routine, losing important news and updates is not a rare incident. Analysts do have a lot to do during their day, and&#160;the world doesn&#8217;t stop. It&#8217;s hard to keep up with everything. Sometimes, leaders may want their teams to be aware of information from some service providers that maintain blogs and pages [&#8230;]</p>
+<p>The post <a href="https://glpi-project.org/how-glpi-helps-you-keep-updated-with-critical-news-and-update/">How GLPI helps you keep updated with critical news and update</a> appeared first on <a href="https://glpi-project.org">GLPI Project</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<p>In a fast-paced routine, losing important news and updates is not a rare incident. Analysts do have a lot to do during their day, and&nbsp;the world doesn&#8217;t stop. It&#8217;s hard to keep up with everything.</p>
+
+
+
+<p>Sometimes, leaders may want their teams to be aware of information from some service providers that maintain blogs and pages where useful announcements are inserted. I, Arthur, in the past, used to have three products on my portfolio that used to publish new features announcements, dates of future updates and also notices and alerts about their tools.</p>
+
+
+
+<p>I always wanted — and still want — to be aware of what is going on and coming on the next months when the main tools I use have this channel available.</p>
+
+
+
+<p>These blogs usually have a service called RSS — Really Simple Syndication — which is a very convenient way to receive updates from your favorite websites without having to visit them manually.</p>
+
+
+
+<p>There are several options of RSS Feed Readers. But, adding a new layer of complexity to your daily basis could not be the best approach. GLPI has this tool embedded with the adding of you being able to share some sources of information to Entities, Groups, Users, and Profiles. You add the feed to your instance, and GLPI works as an RSS Feed Reader that may be the official source of information for you and your teams.</p>
+
+
+
+<div style="height:27px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h2 class="wp-block-heading">Useful links:</h2>
+
+
+
+<p><a href="https://faq.teclib.com/03_knowledgebase/tools/rssfeed/" target="_blank" rel="noreferrer noopener">https://faq.teclib.com/03_knowledgebase/tools/rssfeed/</a></p>
+
+
+
+<p><a href="https://glpi-user-documentation.readthedocs.io/fr/latest/modules/tools/rssfeed.html" target="_blank" rel="noreferrer noopener">https://glpi-user-documentation.readthedocs.io/fr/latest/modules/tools/rssfeed.html</a></p>
+
+
+
+<div style="height:24px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h2 class="wp-block-heading">YouTube Video: </h2>
+
+
+
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="How GLPI helps you keep updated with critical news and updates &#x1f680; #GLPI #viralvideo #foryou #ITSM" width="1080" height="608" src="https://www.youtube.com/embed/4CONhCQYwsM?feature=oembed"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<div style="height:28px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h2 class="wp-block-heading">Stay connected so you don&#8217;t miss any of our news!</h2>
+
+
+
+<div class="wp-block-buttons is-layout-flex wp-block-buttons-is-layout-flex">
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://linktr.ee/teclib" target="_blank" rel="noreferrer noopener">Join us!</a></div>
+</div>
+<p>The post <a href="https://glpi-project.org/how-glpi-helps-you-keep-updated-with-critical-news-and-update/">How GLPI helps you keep updated with critical news and update</a> appeared first on <a href="https://glpi-project.org">GLPI Project</a>.</p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">431749</post-id>	</item>
+		<item>
+		<title>New silver partner in France: ITSR Informatique</title>
+		<link>https://glpi-project.org/partner-glpi-itsr-informatique/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=partner-glpi-itsr-informatique</link>
+		
+		<dc:creator><![CDATA[Flavia Calonego]]></dc:creator>
+		<pubDate>Wed, 24 Jul 2024 06:52:42 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[new partner]]></category>
+		<category><![CDATA[partner glpi]]></category>
+		<category><![CDATA[partnership]]></category>
+		<guid isPermaLink="false">https://glpi-project.org/?p=431734</guid>
+
+					<description><![CDATA[<p>Congratulations! We are happy to announce our new Silver GLPI Network partner in France: ITSR Informatique ITSR INFORMATIQUE supports businesses in evolving and managing their IT systems, adapting them to new uses and organizational and quality challenges. Specializing in IT as both an integrator and service provider, we bring over 20 years of experience and expertise [&#8230;]</p>
+<p>The post <a href="https://glpi-project.org/partner-glpi-itsr-informatique/">New silver partner in France: ITSR Informatique</a> appeared first on <a href="https://glpi-project.org">GLPI Project</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<blockquote class="wp-block-quote has-medium-font-size">
+<p>Congratulations! We are happy to announce our new Silver GLPI Network partner in France: <strong>ITSR Informatique</strong></p>
+</blockquote>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="535" src="https://glpi-project.org/wp-content/uploads/EN-15-1024x535.png" alt="" class="wp-image-431735" srcset="https://glpi-project.org/wp-content/uploads/EN-15-1024x535.png 1024w, https://glpi-project.org/wp-content/uploads/EN-15-980x512.png 980w, https://glpi-project.org/wp-content/uploads/EN-15-480x251.png 480w" sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) and (max-width: 980px) 980px, (min-width: 981px) 1024px, 100vw" /></figure>
+
+
+
+<p>ITSR INFORMATIQUE supports businesses in evolving and managing their IT systems, adapting them to new uses and organizational and quality challenges. Specializing in IT as both an integrator and service provider, we bring over 20 years of experience and expertise to help you successfully complete your projects. Our services include IT resource management using GLPI and IT systems monitoring with Open Source software.</p>
+
+
+
+<p><strong>Website: <a href="https://bit.ly/4ffZj0e" target="_blank" rel="noreferrer noopener">https://bit.ly/4ffZj0e</a></strong></p>
+
+
+
+<p>We are excited that GLPI ITSM solution is becoming more and more represented all over the world and GLPI Network (our support offer for on-premises – get your IT Infrastructure secured) subscription service will be available for more customers through our new partners.</p>
+
+
+
+<p>Our large partnership network is always open for new collaborations. If you are interested in representing one of our products in your country, get in touch with us:&nbsp;<a href="https://glpi-project.org/contact_us/" target="_blank" rel="noreferrer noopener"><strong>https://glpi-project.org/contact_us/</strong></a></p>
+
+
+
+<p><strong>Being a partner means:</strong></p>
+
+
+
+<ul>
+<li>Having an a direct access to the Teclib´s tech expertise;</li>
+
+
+
+<li>Get special discounts;</li>
+
+
+
+<li>Access official support,</li>
+
+
+
+<li>Many other tools which will help you to gain more customers and increase reputation on the market by adding open source ITSM to your portfolio.</li>
+</ul>
+
+
+
+<blockquote class="wp-block-quote">
+<p>Discover all benefits of being a partner here: <a href="https://glpi-project.org/partners/" target="_blank" rel="noreferrer noopener"><strong>https://glpi-project.org/partners/</strong></a></p>
+</blockquote>
+
+
+
+<h2 class="wp-block-heading">Stay connected! Follow us on our social media platforms!</h2>
+
+
+
+<div class="wp-block-buttons is-layout-flex wp-block-buttons-is-layout-flex">
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://linktr.ee/teclib" target="_blank" rel="noreferrer noopener">Join us!</a></div>
+</div>
+<p>The post <a href="https://glpi-project.org/partner-glpi-itsr-informatique/">New silver partner in France: ITSR Informatique</a> appeared first on <a href="https://glpi-project.org">GLPI Project</a>.</p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">431734</post-id>	</item>
+		<item>
+		<title>Evaluating the environmental impact of Digital Technologies: The IEN Project and Teclib&#8217;</title>
+		<link>https://glpi-project.org/ien-project-and-teclib/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=ien-project-and-teclib</link>
+		
+		<dc:creator><![CDATA[Flavia Calonego]]></dc:creator>
+		<pubDate>Wed, 17 Jul 2024 06:57:03 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[environmental impact of digital technologies]]></category>
+		<category><![CDATA[glpi]]></category>
+		<category><![CDATA[IEN Project]]></category>
+		<guid isPermaLink="false">https://glpi-project.org/?p=431709</guid>
+
+					<description><![CDATA[<p>The IEN (Environmental Impact of Digital Technology) project, launched by IRT SystemX, aims to develop tools to assess the environmental impact of digital technologies. This 36-month project involves major players like Airbus Protect, Teclib’, Total Energies, AFNIC and CentraleSupélec to create standardized evaluation methods. Objectives of the IEN Project IEN aims to provide a systemic [&#8230;]</p>
+<p>The post <a href="https://glpi-project.org/ien-project-and-teclib/">Evaluating the environmental impact of Digital Technologies: The IEN Project and Teclib&#8217;</a> appeared first on <a href="https://glpi-project.org">GLPI Project</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<blockquote class="wp-block-quote">
+<p style="font-size:18px">The IEN (Environmental Impact of Digital Technology) project, launched by IRT SystemX, aims to develop tools to assess the environmental impact of digital technologies. This 36-month project involves major players like Airbus Protect, Teclib’, Total Energies, AFNIC and CentraleSupélec to create standardized evaluation methods.</p>
+</blockquote>
+
+
+
+<h2 class="wp-block-heading"><strong>Objectives of the IEN Project</strong></h2>
+
+
+
+<p>IEN aims to provide a systemic approach to evaluate the direct and indirect environmental impacts of digital systems, offering standardized indicators based on the full life cycle of digital components.</p>
+
+
+
+<h2 class="wp-block-heading"><strong>The role of Teclib’</strong></h2>
+
+
+
+<p>Teclib’ contributes with its expertise in managing the environmental impact of digital services and software. Its experience in sustainable development and open-source software helps create decision-making tools based on environmental and economic criteria.</p>
+
+
+
+<h2 class="wp-block-heading"><strong>Methodology and implementation</strong></h2>
+
+
+
+<p>IEN&#8217;s comprehensive approach includes:</p>
+
+
+
+<p>&#8211; Defining valuation rules for environmental impacts of physical components at each life cycle stage.</p>
+
+
+
+<p>&#8211; Creating a decision-making tool for technological choices and data processing methods.</p>
+
+
+
+<p>&#8211; Sharing a systemic diagnostic guide on environmental impacts with the scientific community, along with training solutions to raise awareness among digital stakeholders.</p>
+
+
+
+<h2 class="wp-block-heading"><strong>Perspectives and contributions</strong></h2>
+
+
+
+<p>Drawing on research from the PSE (Paris-Saclay Energies) project and the CircularIT alliance, IEN promotes the circular economy and ecological transition. Expected outcomes include a common framework and methodology for industries, local authorities, and suppliers to facilitate more sustainable technological choices.</p>
+
+
+
+<p>The IEN project is a significant step towards rigorous and standardized evaluation of the environmental impact of digital technologies. With partners like Teclib’, this project aims to provide valuable tools for adopting more environmentally friendly digital practices and supporting the transition to a circular economy.</p>
+
+
+
+<p>For more information, visit the website: <a href="https://www.irt-systemx.fr/en/projets/ien-project/" target="_blank" rel="noreferrer noopener">https://www.irt-systemx.fr/en/projets/ien-project/</a> </p>
+
+
+
+<div style="height:36px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h2 class="wp-block-heading">For more news, join our social networks!</h2>
+
+
+
+<div class="wp-block-buttons is-layout-flex wp-block-buttons-is-layout-flex">
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://linktr.ee/teclib" target="_blank" rel="noreferrer noopener">Join us!</a></div>
+</div>
+<p>The post <a href="https://glpi-project.org/ien-project-and-teclib/">Evaluating the environmental impact of Digital Technologies: The IEN Project and Teclib&#8217;</a> appeared first on <a href="https://glpi-project.org">GLPI Project</a>.</p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">431709</post-id>	</item>
+	</channel>
+</rss>
+";

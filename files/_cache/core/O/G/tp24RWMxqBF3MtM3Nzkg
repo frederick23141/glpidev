@@ -1,0 +1,137 @@
+0
+05b90c8af053f7a74a60b7be75e7a1aa143dcbbb
+s:5274:".dashboard #chart-332829410 {
+  /*!
+ * ---------------------------------------------------------------------
+ *
+ * GLPI - Gestionnaire Libre de Parc Informatique
+ *
+ * http://glpi-project.org
+ *
+ * @copyright 2015-2024 Teclib' and contributors.
+ * @copyright 2003-2014 by the INDEPNET Development Team.
+ * @licence   https://www.gnu.org/licenses/gpl-3.0.html
+ *
+ * ---------------------------------------------------------------------
+ *
+ * LICENSE
+ *
+ * This file is part of GLPI.
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <https://www.gnu.org/licenses/>.
+ *
+ * ---------------------------------------------------------------------
+ */
+}
+.dashboard #chart-332829410 .ct-series-0 .ct-point, .dashboard #chart-332829410 .ct-series-0 .ct-line, .dashboard #chart-332829410 .ct-series-0 .ct-bar, .dashboard #chart-332829410 .ct-series-0 .ct-slice-donut {
+  stroke: #1c8787;
+}
+.dashboard #chart-332829410 .ct-series-0 .ct-bar + .ct-barlabel {
+  fill: setcolor(#1c8787);
+}
+.dashboard #chart-332829410 .ct-series-0 .ct-circle {
+  fill: #1c8787;
+}
+.dashboard #chart-332829410 .ct-series-0 .ct-circle + .ct-label {
+  fill: #1c8787;
+}
+.dashboard #chart-332829410 .ct-series-0 .ct-slice-pie, .dashboard #chart-332829410 .ct-series-0 .ct-area, .dashboard #chart-332829410 .ct-series-0 .ct-slice-donut-solid {
+  fill: #1c8787;
+  stroke: setcolor(#1c8787);
+}
+.dashboard #chart-332829410 .ct-series-0:before {
+  background-color: #1c8787;
+  border-color: #1c8787;
+}
+.dashboard #chart-332829410 .ct-series-1 .ct-point, .dashboard #chart-332829410 .ct-series-1 .ct-line, .dashboard #chart-332829410 .ct-series-1 .ct-bar, .dashboard #chart-332829410 .ct-series-1 .ct-slice-donut {
+  stroke: #2bb6b6;
+}
+.dashboard #chart-332829410 .ct-series-1 .ct-bar + .ct-barlabel {
+  fill: setcolor(#2bb6b6);
+}
+.dashboard #chart-332829410 .ct-series-1 .ct-circle {
+  fill: #2bb6b6;
+}
+.dashboard #chart-332829410 .ct-series-1 .ct-circle + .ct-label {
+  fill: #2bb6b6;
+}
+.dashboard #chart-332829410 .ct-series-1 .ct-slice-pie, .dashboard #chart-332829410 .ct-series-1 .ct-area, .dashboard #chart-332829410 .ct-series-1 .ct-slice-donut-solid {
+  fill: #2bb6b6;
+  stroke: setcolor(#2bb6b6);
+}
+.dashboard #chart-332829410 .ct-series-1:before {
+  background-color: #2bb6b6;
+  border-color: #2bb6b6;
+}
+.dashboard #chart-332829410 .ct-series-2 .ct-point, .dashboard #chart-332829410 .ct-series-2 .ct-line, .dashboard #chart-332829410 .ct-series-2 .ct-bar, .dashboard #chart-332829410 .ct-series-2 .ct-slice-donut {
+  stroke: #4ed0d0;
+}
+.dashboard #chart-332829410 .ct-series-2 .ct-bar + .ct-barlabel {
+  fill: setcolor(#4ed0d0);
+}
+.dashboard #chart-332829410 .ct-series-2 .ct-circle {
+  fill: #4ed0d0;
+}
+.dashboard #chart-332829410 .ct-series-2 .ct-circle + .ct-label {
+  fill: #4ed0d0;
+}
+.dashboard #chart-332829410 .ct-series-2 .ct-slice-pie, .dashboard #chart-332829410 .ct-series-2 .ct-area, .dashboard #chart-332829410 .ct-series-2 .ct-slice-donut-solid {
+  fill: #4ed0d0;
+  stroke: setcolor(#4ed0d0);
+}
+.dashboard #chart-332829410 .ct-series-2:before {
+  background-color: #4ed0d0;
+  border-color: #4ed0d0;
+}
+.dashboard #chart-332829410 .ct-series-3 .ct-point, .dashboard #chart-332829410 .ct-series-3 .ct-line, .dashboard #chart-332829410 .ct-series-3 .ct-bar, .dashboard #chart-332829410 .ct-series-3 .ct-slice-donut {
+  stroke: #81d9d9;
+}
+.dashboard #chart-332829410 .ct-series-3 .ct-bar + .ct-barlabel {
+  fill: setcolor(#81d9d9);
+}
+.dashboard #chart-332829410 .ct-series-3 .ct-circle {
+  fill: #81d9d9;
+}
+.dashboard #chart-332829410 .ct-series-3 .ct-circle + .ct-label {
+  fill: #81d9d9;
+}
+.dashboard #chart-332829410 .ct-series-3 .ct-slice-pie, .dashboard #chart-332829410 .ct-series-3 .ct-area, .dashboard #chart-332829410 .ct-series-3 .ct-slice-donut-solid {
+  fill: #81d9d9;
+  stroke: setcolor(#81d9d9);
+}
+.dashboard #chart-332829410 .ct-series-3:before {
+  background-color: #81d9d9;
+  border-color: #81d9d9;
+}
+.dashboard #chart-332829410 .ct-series-4 .ct-point, .dashboard #chart-332829410 .ct-series-4 .ct-line, .dashboard #chart-332829410 .ct-series-4 .ct-bar, .dashboard #chart-332829410 .ct-series-4 .ct-slice-donut {
+  stroke: #b3e6e6;
+}
+.dashboard #chart-332829410 .ct-series-4 .ct-bar + .ct-barlabel {
+  fill: setcolor(#b3e6e6);
+}
+.dashboard #chart-332829410 .ct-series-4 .ct-circle {
+  fill: #b3e6e6;
+}
+.dashboard #chart-332829410 .ct-series-4 .ct-circle + .ct-label {
+  fill: #b3e6e6;
+}
+.dashboard #chart-332829410 .ct-series-4 .ct-slice-pie, .dashboard #chart-332829410 .ct-series-4 .ct-area, .dashboard #chart-332829410 .ct-series-4 .ct-slice-donut-solid {
+  fill: #b3e6e6;
+  stroke: setcolor(#b3e6e6);
+}
+.dashboard #chart-332829410 .ct-series-4:before {
+  background-color: #b3e6e6;
+  border-color: #b3e6e6;
+}
+";

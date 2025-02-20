@@ -1,0 +1,938 @@
+[2024-09-26 20:23:01] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: ALTER TABLE `glpi_plugin_moreticket_notificationtickets` DROP FOREIGN KEY glpi_plugin_moreticket_notificationtickets_ibfk_1
+  Error: Can't DROP FOREIGN KEY `glpi_plugin_moreticket_notificationtickets_ibfk_1`; check that it exists
+  Backtrace :
+  src\DBmysql.php:1080                               DBmysql->doQuery()
+  marketplace\moreticket\hook.php:98                 DBmysql->runFile()
+  src\Plugin.php:955                                 plugin_moreticket_install()
+  :                                                  Plugin->install()
+  src\Marketplace\Controller.php:546                 call_user_func()
+  src\Marketplace\Controller.php:436                 Glpi\Marketplace\Controller->setPluginState()
+  src\Marketplace\Controller.php:179                 Glpi\Marketplace\Controller->installPlugin()
+  ajax\marketplace.php:75                            Glpi\Marketplace\Controller->downloadPlugin()
+  {"user":"7@SISTEMAS2"} 
+[2024-09-26 20:23:48] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: ALTER TABLE `glpi_plugin_mydashboard_userwidgets` DROP CONSTRAINT `glpi_plugin_mydashboard_userwidgets_ibfk_1`
+  Error: Can't DROP CONSTRAINT `glpi_plugin_mydashboard_userwidgets_ibfk_1`; check that it exists
+  Backtrace :
+  src\DBmysql.php:1080                               DBmysql->doQuery()
+  marketplace\mydashboard\hook.php:240               DBmysql->runFile()
+  src\Plugin.php:955                                 plugin_mydashboard_install()
+  :                                                  Plugin->install()
+  src\Marketplace\Controller.php:546                 call_user_func()
+  src\Marketplace\Controller.php:436                 Glpi\Marketplace\Controller->setPluginState()
+  src\Marketplace\Controller.php:179                 Glpi\Marketplace\Controller->installPlugin()
+  ajax\marketplace.php:75                            Glpi\Marketplace\Controller->downloadPlugin()
+  {"user":"7@SISTEMAS2"} 
+[2024-11-13 22:29:35] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: INSERT INTO `glpi_projectteams` (`projects_id`, `itemtype`, `items_id`) VALUES ('4', 'Group', '1')
+  Error: Duplicate entry '4-Group-1' for key 'unicity'
+  Backtrace :
+  src\DBmysql.php:1380                               DBmysql->doQuery()
+  src\CommonDBTM.php:729                             DBmysql->insert()
+  src\CommonDBTM.php:1342                            CommonDBTM->addToDB()
+  src\Project.php:2598                               CommonDBTM->add()
+  ajax\kanban.php:302                                Project->addTeamMember()
+  {"user":"18@SISTEMAS2"} 
+[2024-11-14 18:01:45] glpisqllog.WARNING: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 443
+  *** MySQL query warnings:
+  SQL: UPDATE `glpi_projecttasks` SET `percent_done` = NULL, `date_mod` = '2024-11-14 18:01:44' WHERE `id` = '5'
+  Warnings: 
+1048: Column 'percent_done' cannot be null
+  Backtrace :
+  src\DBmysql.php:1503                               DBmysql->doQuery()
+  src\CommonDBTM.php:689                             DBmysql->update()
+  src\CommonDBTM.php:1698                            CommonDBTM->updateInDB()
+  src\ProjectTask.php:1691                           CommonDBTM->update()
+  src\ProjectTask.php:283                            ProjectTask::recalculatePercentDone()
+  src\CommonDBTM.php:1747                            ProjectTask->post_updateItem()
+  front\projecttask.form.php:89                      CommonDBTM->update()
+  {"user":"7@SISTEMAS2"} 
+[2024-12-02 23:16:04] glpisqllog.WARNING: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 443
+  *** MySQL query warnings:
+  SQL: UPDATE `glpi_projecttasks` SET `percent_done` = NULL, `date_mod` = '2024-12-02 23:16:04' WHERE `id` = '20'
+  Warnings: 
+1048: Column 'percent_done' cannot be null
+  Backtrace :
+  src\DBmysql.php:1503                               DBmysql->doQuery()
+  src\CommonDBTM.php:689                             DBmysql->update()
+  src\CommonDBTM.php:1698                            CommonDBTM->updateInDB()
+  src\ProjectTask.php:1691                           CommonDBTM->update()
+  src\ProjectTask.php:283                            ProjectTask::recalculatePercentDone()
+  src\CommonDBTM.php:1747                            ProjectTask->post_updateItem()
+  front\projecttask.form.php:89                      CommonDBTM->update()
+  {"user":"18@SISTEMAS2"} 
+[2024-12-04 18:18:10] glpisqllog.WARNING: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 443
+  *** MySQL query warnings:
+  SQL: UPDATE `glpi_projecttasks` SET `percent_done` = NULL, `date_mod` = '2024-12-04 18:18:09' WHERE `id` = '13'
+  Warnings: 
+1048: Column 'percent_done' cannot be null
+  Backtrace :
+  src\DBmysql.php:1503                               DBmysql->doQuery()
+  src\CommonDBTM.php:689                             DBmysql->update()
+  src\CommonDBTM.php:1698                            CommonDBTM->updateInDB()
+  src\ProjectTask.php:1691                           CommonDBTM->update()
+  src\ProjectTask.php:283                            ProjectTask::recalculatePercentDone()
+  src\CommonDBTM.php:1747                            ProjectTask->post_updateItem()
+  front\projecttask.form.php:89                      CommonDBTM->update()
+  {"user":"18@SISTEMAS2"} 
+[2024-12-11 17:26:31] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: UPDATE `glpi_items_softwareversions` SET `softwareversions_id` = '2845' WHERE `id` = '3168'
+  Error: Duplicate entry 'Computer-11-2845' for key 'unicity'
+  Backtrace :
+  src\DBmysql.php:1503                               DBmysql->doQuery()
+  src\Transfer.php:1799                              DBmysql->update()
+  src\Transfer.php:1350                              Transfer->transferItemSoftwares()
+  src\Transfer.php:269                               Transfer->transferItem()
+  front\transfer.action.php:49                       Transfer->moveItems()
+  {"user":"7@SISTEMAS2"} 
+[2024-12-11 17:26:31] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: UPDATE `glpi_items_softwareversions` SET `softwareversions_id` = '2844' WHERE `id` = '3166'
+  Error: Duplicate entry 'Computer-11-2844' for key 'unicity'
+  Backtrace :
+  src\DBmysql.php:1503                               DBmysql->doQuery()
+  src\Transfer.php:1799                              DBmysql->update()
+  src\Transfer.php:1350                              Transfer->transferItemSoftwares()
+  src\Transfer.php:269                               Transfer->transferItem()
+  front\transfer.action.php:49                       Transfer->moveItems()
+  {"user":"7@SISTEMAS2","mem_usage":"0.021\", 52.55Mio)"} 
+[2024-12-11 17:26:31] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: UPDATE `glpi_items_softwareversions` SET `softwareversions_id` = '2846' WHERE `id` = '3173'
+  Error: Duplicate entry 'Computer-11-2846' for key 'unicity'
+  Backtrace :
+  src\DBmysql.php:1503                               DBmysql->doQuery()
+  src\Transfer.php:1799                              DBmysql->update()
+  src\Transfer.php:1350                              Transfer->transferItemSoftwares()
+  src\Transfer.php:269                               Transfer->transferItem()
+  front\transfer.action.php:49                       Transfer->moveItems()
+  {"user":"7@SISTEMAS2","mem_usage":"0.006\", 52.57Mio)"} 
+[2024-12-11 17:26:31] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: UPDATE `glpi_items_softwareversions` SET `softwareversions_id` = '2847' WHERE `id` = '3219'
+  Error: Duplicate entry 'Computer-11-2847' for key 'unicity'
+  Backtrace :
+  src\DBmysql.php:1503                               DBmysql->doQuery()
+  src\Transfer.php:1799                              DBmysql->update()
+  src\Transfer.php:1350                              Transfer->transferItemSoftwares()
+  src\Transfer.php:269                               Transfer->transferItem()
+  front\transfer.action.php:49                       Transfer->moveItems()
+  {"user":"7@SISTEMAS2","mem_usage":"0.017\", 52.58Mio)"} 
+[2024-12-11 17:26:31] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: UPDATE `glpi_items_softwareversions` SET `softwareversions_id` = '2849' WHERE `id` = '3194'
+  Error: Duplicate entry 'Computer-11-2849' for key 'unicity'
+  Backtrace :
+  src\DBmysql.php:1503                               DBmysql->doQuery()
+  src\Transfer.php:1799                              DBmysql->update()
+  src\Transfer.php:1350                              Transfer->transferItemSoftwares()
+  src\Transfer.php:269                               Transfer->transferItem()
+  front\transfer.action.php:49                       Transfer->moveItems()
+  {"user":"7@SISTEMAS2","mem_usage":"0.027\", 52.60Mio)"} 
+[2024-12-11 17:26:31] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: UPDATE `glpi_items_softwareversions` SET `softwareversions_id` = '2850' WHERE `id` = '3196'
+  Error: Duplicate entry 'Computer-11-2850' for key 'unicity'
+  Backtrace :
+  src\DBmysql.php:1503                               DBmysql->doQuery()
+  src\Transfer.php:1799                              DBmysql->update()
+  src\Transfer.php:1350                              Transfer->transferItemSoftwares()
+  src\Transfer.php:269                               Transfer->transferItem()
+  front\transfer.action.php:49                       Transfer->moveItems()
+  {"user":"7@SISTEMAS2","mem_usage":"0.007\", 52.62Mio)"} 
+[2024-12-11 17:26:31] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: UPDATE `glpi_items_softwareversions` SET `softwareversions_id` = '2851' WHERE `id` = '3205'
+  Error: Duplicate entry 'Computer-11-2851' for key 'unicity'
+  Backtrace :
+  src\DBmysql.php:1503                               DBmysql->doQuery()
+  src\Transfer.php:1799                              DBmysql->update()
+  src\Transfer.php:1350                              Transfer->transferItemSoftwares()
+  src\Transfer.php:269                               Transfer->transferItem()
+  front\transfer.action.php:49                       Transfer->moveItems()
+  {"user":"7@SISTEMAS2","mem_usage":"0.006\", 52.63Mio)"} 
+[2024-12-11 17:26:31] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: UPDATE `glpi_items_softwareversions` SET `softwareversions_id` = '2887' WHERE `id` = '3237'
+  Error: Duplicate entry 'Computer-11-2887' for key 'unicity'
+  Backtrace :
+  src\DBmysql.php:1503                               DBmysql->doQuery()
+  src\Transfer.php:1799                              DBmysql->update()
+  src\Transfer.php:1350                              Transfer->transferItemSoftwares()
+  src\Transfer.php:269                               Transfer->transferItem()
+  front\transfer.action.php:49                       Transfer->moveItems()
+  {"user":"7@SISTEMAS2","mem_usage":"0.246\", 53.03Mio)"} 
+[2024-12-11 17:26:31] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: UPDATE `glpi_items_softwareversions` SET `softwareversions_id` = '2899' WHERE `id` = '3251'
+  Error: Duplicate entry 'Computer-11-2899' for key 'unicity'
+  Backtrace :
+  src\DBmysql.php:1503                               DBmysql->doQuery()
+  src\Transfer.php:1799                              DBmysql->update()
+  src\Transfer.php:1350                              Transfer->transferItemSoftwares()
+  src\Transfer.php:269                               Transfer->transferItem()
+  front\transfer.action.php:49                       Transfer->moveItems()
+  {"user":"7@SISTEMAS2","mem_usage":"0.124\", 53.13Mio)"} 
+[2024-12-11 17:26:31] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: UPDATE `glpi_items_softwareversions` SET `softwareversions_id` = '2900' WHERE `id` = '3255'
+  Error: Duplicate entry 'Computer-11-2900' for key 'unicity'
+  Backtrace :
+  src\DBmysql.php:1503                               DBmysql->doQuery()
+  src\Transfer.php:1799                              DBmysql->update()
+  src\Transfer.php:1350                              Transfer->transferItemSoftwares()
+  src\Transfer.php:269                               Transfer->transferItem()
+  front\transfer.action.php:49                       Transfer->moveItems()
+  {"user":"7@SISTEMAS2","mem_usage":"0.006\", 53.15Mio)"} 
+[2024-12-11 17:26:32] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: UPDATE `glpi_items_softwareversions` SET `softwareversions_id` = '2920' WHERE `id` = '3285'
+  Error: Duplicate entry 'Computer-11-2920' for key 'unicity'
+  Backtrace :
+  src\DBmysql.php:1503                               DBmysql->doQuery()
+  src\Transfer.php:1799                              DBmysql->update()
+  src\Transfer.php:1350                              Transfer->transferItemSoftwares()
+  src\Transfer.php:269                               Transfer->transferItem()
+  front\transfer.action.php:49                       Transfer->moveItems()
+  {"user":"7@SISTEMAS2","mem_usage":"0.719\", 53.42Mio)"} 
+[2024-12-11 17:26:32] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: UPDATE `glpi_items_softwareversions` SET `softwareversions_id` = '2940' WHERE `id` = '3217'
+  Error: Duplicate entry 'Computer-11-2940' for key 'unicity'
+  Backtrace :
+  src\DBmysql.php:1503                               DBmysql->doQuery()
+  src\Transfer.php:1799                              DBmysql->update()
+  src\Transfer.php:1350                              Transfer->transferItemSoftwares()
+  src\Transfer.php:269                               Transfer->transferItem()
+  front\transfer.action.php:49                       Transfer->moveItems()
+  {"user":"7@SISTEMAS2","mem_usage":"0.134\", 53.61Mio)"} 
+[2024-12-11 17:26:32] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: UPDATE `glpi_items_softwareversions` SET `softwareversions_id` = '2941' WHERE `id` = '3171'
+  Error: Duplicate entry 'Computer-11-2941' for key 'unicity'
+  Backtrace :
+  src\DBmysql.php:1503                               DBmysql->doQuery()
+  src\Transfer.php:1799                              DBmysql->update()
+  src\Transfer.php:1350                              Transfer->transferItemSoftwares()
+  src\Transfer.php:269                               Transfer->transferItem()
+  front\transfer.action.php:49                       Transfer->moveItems()
+  {"user":"7@SISTEMAS2","mem_usage":"0.004\", 53.62Mio)"} 
+[2024-12-11 17:26:32] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: UPDATE `glpi_items_softwareversions` SET `softwareversions_id` = '2942' WHERE `id` = '3180'
+  Error: Duplicate entry 'Computer-11-2942' for key 'unicity'
+  Backtrace :
+  src\DBmysql.php:1503                               DBmysql->doQuery()
+  src\Transfer.php:1799                              DBmysql->update()
+  src\Transfer.php:1350                              Transfer->transferItemSoftwares()
+  src\Transfer.php:269                               Transfer->transferItem()
+  front\transfer.action.php:49                       Transfer->moveItems()
+  {"user":"7@SISTEMAS2","mem_usage":"0.007\", 53.63Mio)"} 
+[2024-12-11 17:26:34] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: UPDATE `glpi_items_softwareversions` SET `softwareversions_id` = '2968' WHERE `id` = '3191'
+  Error: Duplicate entry 'Computer-11-2968' for key 'unicity'
+  Backtrace :
+  src\DBmysql.php:1503                               DBmysql->doQuery()
+  src\Transfer.php:1799                              DBmysql->update()
+  src\Transfer.php:1350                              Transfer->transferItemSoftwares()
+  src\Transfer.php:269                               Transfer->transferItem()
+  front\transfer.action.php:49                       Transfer->moveItems()
+  {"user":"7@SISTEMAS2","mem_usage":"1.468\", 53.88Mio)"} 
+[2024-12-11 17:26:34] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: UPDATE `glpi_items_softwareversions` SET `softwareversions_id` = '2967' WHERE `id` = '3162'
+  Error: Duplicate entry 'Computer-11-2967' for key 'unicity'
+  Backtrace :
+  src\DBmysql.php:1503                               DBmysql->doQuery()
+  src\Transfer.php:1799                              DBmysql->update()
+  src\Transfer.php:1350                              Transfer->transferItemSoftwares()
+  src\Transfer.php:269                               Transfer->transferItem()
+  front\transfer.action.php:49                       Transfer->moveItems()
+  {"user":"7@SISTEMAS2","mem_usage":"0.100\", 54.04Mio)"} 
+[2024-12-11 17:26:34] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: UPDATE `glpi_items_softwareversions` SET `softwareversions_id` = '2988' WHERE `id` = '3221'
+  Error: Duplicate entry 'Computer-11-2988' for key 'unicity'
+  Backtrace :
+  src\DBmysql.php:1503                               DBmysql->doQuery()
+  src\Transfer.php:1799                              DBmysql->update()
+  src\Transfer.php:1350                              Transfer->transferItemSoftwares()
+  src\Transfer.php:269                               Transfer->transferItem()
+  front\transfer.action.php:49                       Transfer->moveItems()
+  {"user":"7@SISTEMAS2","mem_usage":"0.012\", 54.06Mio)"} 
+[2024-12-11 17:26:34] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: UPDATE `glpi_items_softwareversions` SET `softwareversions_id` = '3009' WHERE `id` = '3170'
+  Error: Duplicate entry 'Computer-11-3009' for key 'unicity'
+  Backtrace :
+  src\DBmysql.php:1503                               DBmysql->doQuery()
+  src\Transfer.php:1799                              DBmysql->update()
+  src\Transfer.php:1350                              Transfer->transferItemSoftwares()
+  src\Transfer.php:269                               Transfer->transferItem()
+  front\transfer.action.php:49                       Transfer->moveItems()
+  {"user":"7@SISTEMAS2","mem_usage":"0.619\", 54.29Mio)"} 
+[2024-12-11 17:26:34] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: UPDATE `glpi_items_softwareversions` SET `softwareversions_id` = '3011' WHERE `id` = '3176'
+  Error: Duplicate entry 'Computer-11-3011' for key 'unicity'
+  Backtrace :
+  src\DBmysql.php:1503                               DBmysql->doQuery()
+  src\Transfer.php:1799                              DBmysql->update()
+  src\Transfer.php:1350                              Transfer->transferItemSoftwares()
+  src\Transfer.php:269                               Transfer->transferItem()
+  front\transfer.action.php:49                       Transfer->moveItems()
+  {"user":"7@SISTEMAS2","mem_usage":"0.007\", 54.30Mio)"} 
+[2024-12-12 16:45:08] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT DISTINCT `glpi_tickets`.*, `glpi_itilcategories`.`completename` AS `catname`, `glpi_entities`.`completename` AS `entityname`, `glpi_tickets`.`entities_id` AS `entityID` FROM `glpi_tickets` LEFT JOIN `glpi_groups_tickets` ON (`glpi_tickets`.`id` = `glpi_groups_tickets`.`tickets_id`) LEFT JOIN `glpi_tickets_users` ON (`glpi_tickets`.`id` = `glpi_tickets_users`.`tickets_id`) LEFT JOIN `glpi_suppliers_tickets` ON (`glpi_tickets`.`id` = `glpi_suppliers_tickets`.`tickets_id`) LEFT JOIN `glpi_itilcategories` ON (`glpi_tickets`.`itilcategories_id` = `glpi_itilcategories`.`id`) LEFT JOIN `glpi_items_tickets` ON (`glpi_tickets`.`id` = `glpi_items_tickets`.`tickets_id`) LEFT JOIN `glpi_entities` ON (`glpi_entities`.`id` = `glpi_tickets`.`entities_id`) LEFT JOIN `glpi_tickettasks` ON (`glpi_tickets`.`id` = `glpi_tickettasks`.`tickets_id`) LEFT JOIN `glpi_ticketvalidations` ON (`glpi_tickets`.`id` = `glpi_ticketvalidations`.`tickets_id`) WHERE `status` = '1' AND `is_deleted` = '0' ORDER BY `glpi_tickets`.`date_mod` DESC LIMIT 50
+  Error: Column 'status' in where clause is ambiguous
+  Backtrace :
+  src\DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src\DBmysql.php:1109                               DBmysqlIterator->execute()
+  src\Ticket.php:5340                                DBmysql->request()
+  src\Central.php:161                                Ticket::showCentralNewList()
+  src\Central.php:106                                Central::showGlobalView()
+  src\CommonGLPI.php:694                             Central::displayTabContentForItem()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  {"user":"7@SISTEMAS2"} 
+[2024-12-12 21:04:00] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT DISTINCT `glpi_tickets`.*, `glpi_itilcategories`.`completename` AS `catname`, `glpi_entities`.`completename` AS `entityname`, `glpi_tickets`.`entities_id` AS `entityID` FROM `glpi_tickets` LEFT JOIN `glpi_groups_tickets` ON (`glpi_tickets`.`id` = `glpi_groups_tickets`.`tickets_id`) LEFT JOIN `glpi_tickets_users` ON (`glpi_tickets`.`id` = `glpi_tickets_users`.`tickets_id`) LEFT JOIN `glpi_suppliers_tickets` ON (`glpi_tickets`.`id` = `glpi_suppliers_tickets`.`tickets_id`) LEFT JOIN `glpi_itilcategories` ON (`glpi_tickets`.`itilcategories_id` = `glpi_itilcategories`.`id`) LEFT JOIN `glpi_items_tickets` ON (`glpi_tickets`.`id` = `glpi_items_tickets`.`tickets_id`) LEFT JOIN `glpi_entities` ON (`glpi_entities`.`id` = `glpi_tickets`.`entities_id`) LEFT JOIN `glpi_tickettasks` ON (`glpi_tickets`.`id` = `glpi_tickettasks`.`tickets_id`) LEFT JOIN `glpi_ticketvalidations` ON (`glpi_tickets`.`id` = `glpi_ticketvalidations`.`tickets_id`) WHERE `status` = '1' AND `is_deleted` = '0' ORDER BY `glpi_tickets`.`date_mod` DESC LIMIT 50
+  Error: Column 'status' in where clause is ambiguous
+  Backtrace :
+  src\DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src\DBmysql.php:1109                               DBmysqlIterator->execute()
+  src\Ticket.php:5340                                DBmysql->request()
+  src\Central.php:161                                Ticket::showCentralNewList()
+  src\Central.php:106                                Central::showGlobalView()
+  src\CommonGLPI.php:694                             Central::displayTabContentForItem()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  {"user":"7@SISTEMAS2"} 
+[2025-01-09 10:29:18] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: INSERT INTO `glpi_states` (`entities_id`, `is_recursive`, `name`, `comment`, `states_id`, `is_visible_computer`, `is_visible_monitor`, `is_visible_networkequipment`, `is_visible_peripheral`, `is_visible_phone`, `is_visible_printer`, `is_visible_softwarelicense`, `is_visible_certificate`, `is_visible_enclosure`, `is_visible_pdu`, `is_visible_line`, `is_visible_rack`, `is_visible_softwareversion`, `is_visible_cluster`, `is_visible_contract`, `is_visible_appliance`, `is_visible_databaseinstance`, `is_visible_cable`, `is_visible_unmanaged`, `is_visible_passivedcequipment`, `level`, `completename`, `date_creation`, `date_mod`) VALUES ('0', '0', 'BUENO', '', '0', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', 'BUENO', '2025-01-09 10:29:17', '2025-01-09 10:29:17')
+  Error: Duplicate entry '0-BUENO' for key 'unicity'
+  Backtrace :
+  src\DBmysql.php:1380                               DBmysql->doQuery()
+  src\CommonDBTM.php:729                             DBmysql->insert()
+  src\CommonDBTM.php:1342                            CommonDBTM->addToDB()
+  front\dropdown.common.form.php:62                  CommonDBTM->add()
+  front\state.form.php:39                            include()
+  {"user":"18@SISTEMAS2"} 
+[2025-01-09 10:29:27] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: INSERT INTO `glpi_states` (`entities_id`, `is_recursive`, `name`, `comment`, `states_id`, `is_visible_computer`, `is_visible_monitor`, `is_visible_networkequipment`, `is_visible_peripheral`, `is_visible_phone`, `is_visible_printer`, `is_visible_softwarelicense`, `is_visible_certificate`, `is_visible_enclosure`, `is_visible_pdu`, `is_visible_line`, `is_visible_rack`, `is_visible_softwareversion`, `is_visible_cluster`, `is_visible_contract`, `is_visible_appliance`, `is_visible_databaseinstance`, `is_visible_cable`, `is_visible_unmanaged`, `is_visible_passivedcequipment`, `level`, `completename`, `date_creation`, `date_mod`) VALUES ('0', '0', 'MALO', '', '0', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', 'MALO', '2025-01-09 10:29:26', '2025-01-09 10:29:26')
+  Error: Duplicate entry '0-MALO' for key 'unicity'
+  Backtrace :
+  src\DBmysql.php:1380                               DBmysql->doQuery()
+  src\CommonDBTM.php:729                             DBmysql->insert()
+  src\CommonDBTM.php:1342                            CommonDBTM->addToDB()
+  front\dropdown.common.form.php:62                  CommonDBTM->add()
+  front\state.form.php:39                            include()
+  {"user":"18@SISTEMAS2"} 
+[2025-01-09 10:29:38] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: INSERT INTO `glpi_states` (`entities_id`, `is_recursive`, `name`, `comment`, `states_id`, `is_visible_computer`, `is_visible_monitor`, `is_visible_networkequipment`, `is_visible_peripheral`, `is_visible_phone`, `is_visible_printer`, `is_visible_softwarelicense`, `is_visible_certificate`, `is_visible_enclosure`, `is_visible_pdu`, `is_visible_line`, `is_visible_rack`, `is_visible_softwareversion`, `is_visible_cluster`, `is_visible_contract`, `is_visible_appliance`, `is_visible_databaseinstance`, `is_visible_cable`, `is_visible_unmanaged`, `is_visible_passivedcequipment`, `level`, `completename`, `date_creation`, `date_mod`) VALUES ('0', '1', 'REGULAR', '', '0', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', 'REGULAR', '2025-01-09 10:29:38', '2025-01-09 10:29:38')
+  Error: Duplicate entry '0-REGULAR' for key 'unicity'
+  Backtrace :
+  src\DBmysql.php:1380                               DBmysql->doQuery()
+  src\CommonDBTM.php:729                             DBmysql->insert()
+  src\CommonDBTM.php:1342                            CommonDBTM->addToDB()
+  front\dropdown.common.form.php:62                  CommonDBTM->add()
+  front\state.form.php:39                            include()
+  {"user":"18@SISTEMAS2"} 
+[2025-01-09 11:00:12] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: INSERT INTO `glpi_states` (`entities_id`, `is_recursive`, `name`, `comment`, `states_id`, `is_visible_computer`, `is_visible_monitor`, `is_visible_networkequipment`, `is_visible_peripheral`, `is_visible_phone`, `is_visible_printer`, `is_visible_softwarelicense`, `is_visible_certificate`, `is_visible_enclosure`, `is_visible_pdu`, `is_visible_line`, `is_visible_rack`, `is_visible_softwareversion`, `is_visible_cluster`, `is_visible_contract`, `is_visible_appliance`, `is_visible_databaseinstance`, `is_visible_cable`, `is_visible_unmanaged`, `is_visible_passivedcequipment`, `level`, `completename`, `date_creation`, `date_mod`) VALUES ('0', '0', 'BUENO', '', '0', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', '1', 'BUENO', '2025-01-09 11:00:12', '2025-01-09 11:00:12')
+  Error: Duplicate entry '0-BUENO' for key 'unicity'
+  Backtrace :
+  src\DBmysql.php:1380                               DBmysql->doQuery()
+  src\CommonDBTM.php:729                             DBmysql->insert()
+  src\CommonDBTM.php:1342                            CommonDBTM->addToDB()
+  front\dropdown.common.form.php:62                  CommonDBTM->add()
+  front\state.form.php:39                            include()
+  {"user":"18@SISTEMAS2"} 
+[2025-01-13 08:58:22] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT DISTINCT `glpi_tickets`.*, `glpi_itilcategories`.`completename` AS `catname`, `glpi_entities`.`completename` AS `entityname`, `glpi_tickets`.`entities_id` AS `entityID` FROM `glpi_tickets` LEFT JOIN `glpi_groups_tickets` ON (`glpi_tickets`.`id` = `glpi_groups_tickets`.`tickets_id`) LEFT JOIN `glpi_tickets_users` ON (`glpi_tickets`.`id` = `glpi_tickets_users`.`tickets_id`) LEFT JOIN `glpi_suppliers_tickets` ON (`glpi_tickets`.`id` = `glpi_suppliers_tickets`.`tickets_id`) LEFT JOIN `glpi_itilcategories` ON (`glpi_tickets`.`itilcategories_id` = `glpi_itilcategories`.`id`) LEFT JOIN `glpi_items_tickets` ON (`glpi_tickets`.`id` = `glpi_items_tickets`.`tickets_id`) LEFT JOIN `glpi_entities` ON (`glpi_entities`.`id` = `glpi_tickets`.`entities_id`) LEFT JOIN `glpi_tickettasks` ON (`glpi_tickets`.`id` = `glpi_tickettasks`.`tickets_id`) LEFT JOIN `glpi_ticketvalidations` ON (`glpi_tickets`.`id` = `glpi_ticketvalidations`.`tickets_id`) WHERE `status` = '1' AND `is_deleted` = '0' ORDER BY `glpi_tickets`.`date_mod` DESC LIMIT 50
+  Error: Column 'status' in where clause is ambiguous
+  Backtrace :
+  src\DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src\DBmysql.php:1109                               DBmysqlIterator->execute()
+  src\Ticket.php:5340                                DBmysql->request()
+  src\Central.php:161                                Ticket::showCentralNewList()
+  src\Central.php:106                                Central::showGlobalView()
+  src\CommonGLPI.php:694                             Central::displayTabContentForItem()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  {"user":"7@SISTEMAS2"} 
+[2025-01-13 11:09:15] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT DISTINCT `glpi_tickets`.*, `glpi_itilcategories`.`completename` AS `catname`, `glpi_entities`.`completename` AS `entityname`, `glpi_tickets`.`entities_id` AS `entityID` FROM `glpi_tickets` LEFT JOIN `glpi_groups_tickets` ON (`glpi_tickets`.`id` = `glpi_groups_tickets`.`tickets_id`) LEFT JOIN `glpi_tickets_users` ON (`glpi_tickets`.`id` = `glpi_tickets_users`.`tickets_id`) LEFT JOIN `glpi_suppliers_tickets` ON (`glpi_tickets`.`id` = `glpi_suppliers_tickets`.`tickets_id`) LEFT JOIN `glpi_itilcategories` ON (`glpi_tickets`.`itilcategories_id` = `glpi_itilcategories`.`id`) LEFT JOIN `glpi_items_tickets` ON (`glpi_tickets`.`id` = `glpi_items_tickets`.`tickets_id`) LEFT JOIN `glpi_entities` ON (`glpi_entities`.`id` = `glpi_tickets`.`entities_id`) LEFT JOIN `glpi_tickettasks` ON (`glpi_tickets`.`id` = `glpi_tickettasks`.`tickets_id`) LEFT JOIN `glpi_ticketvalidations` ON (`glpi_tickets`.`id` = `glpi_ticketvalidations`.`tickets_id`) WHERE `status` = '1' AND `is_deleted` = '0' ORDER BY `glpi_tickets`.`date_mod` DESC LIMIT 50
+  Error: Column 'status' in where clause is ambiguous
+  Backtrace :
+  src\DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src\DBmysql.php:1109                               DBmysqlIterator->execute()
+  src\Ticket.php:5340                                DBmysql->request()
+  src\Central.php:161                                Ticket::showCentralNewList()
+  src\Central.php:106                                Central::showGlobalView()
+  src\CommonGLPI.php:694                             Central::displayTabContentForItem()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  {"user":"7@SISTEMAS2"} 
+[2025-01-13 11:31:04] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT DISTINCT `glpi_tickets`.*, `glpi_itilcategories`.`completename` AS `catname`, `glpi_entities`.`completename` AS `entityname`, `glpi_tickets`.`entities_id` AS `entityID` FROM `glpi_tickets` LEFT JOIN `glpi_groups_tickets` ON (`glpi_tickets`.`id` = `glpi_groups_tickets`.`tickets_id`) LEFT JOIN `glpi_tickets_users` ON (`glpi_tickets`.`id` = `glpi_tickets_users`.`tickets_id`) LEFT JOIN `glpi_suppliers_tickets` ON (`glpi_tickets`.`id` = `glpi_suppliers_tickets`.`tickets_id`) LEFT JOIN `glpi_itilcategories` ON (`glpi_tickets`.`itilcategories_id` = `glpi_itilcategories`.`id`) LEFT JOIN `glpi_items_tickets` ON (`glpi_tickets`.`id` = `glpi_items_tickets`.`tickets_id`) LEFT JOIN `glpi_entities` ON (`glpi_entities`.`id` = `glpi_tickets`.`entities_id`) LEFT JOIN `glpi_tickettasks` ON (`glpi_tickets`.`id` = `glpi_tickettasks`.`tickets_id`) LEFT JOIN `glpi_ticketvalidations` ON (`glpi_tickets`.`id` = `glpi_ticketvalidations`.`tickets_id`) WHERE `status` = '1' AND `is_deleted` = '0' ORDER BY `glpi_tickets`.`date_mod` DESC LIMIT 50
+  Error: Column 'status' in where clause is ambiguous
+  Backtrace :
+  src\DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src\DBmysql.php:1109                               DBmysqlIterator->execute()
+  src\Ticket.php:5340                                DBmysql->request()
+  src\Central.php:161                                Ticket::showCentralNewList()
+  src\Central.php:106                                Central::showGlobalView()
+  src\CommonGLPI.php:694                             Central::displayTabContentForItem()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  {"user":"7@SISTEMAS2"} 
+[2025-01-15 08:14:39] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT DISTINCT `glpi_tickets`.*, `glpi_itilcategories`.`completename` AS `catname`, `glpi_entities`.`completename` AS `entityname`, `glpi_tickets`.`entities_id` AS `entityID` FROM `glpi_tickets` LEFT JOIN `glpi_groups_tickets` ON (`glpi_tickets`.`id` = `glpi_groups_tickets`.`tickets_id`) LEFT JOIN `glpi_tickets_users` ON (`glpi_tickets`.`id` = `glpi_tickets_users`.`tickets_id`) LEFT JOIN `glpi_suppliers_tickets` ON (`glpi_tickets`.`id` = `glpi_suppliers_tickets`.`tickets_id`) LEFT JOIN `glpi_itilcategories` ON (`glpi_tickets`.`itilcategories_id` = `glpi_itilcategories`.`id`) LEFT JOIN `glpi_items_tickets` ON (`glpi_tickets`.`id` = `glpi_items_tickets`.`tickets_id`) LEFT JOIN `glpi_entities` ON (`glpi_entities`.`id` = `glpi_tickets`.`entities_id`) LEFT JOIN `glpi_tickettasks` ON (`glpi_tickets`.`id` = `glpi_tickettasks`.`tickets_id`) LEFT JOIN `glpi_ticketvalidations` ON (`glpi_tickets`.`id` = `glpi_ticketvalidations`.`tickets_id`) WHERE `status` = '1' AND `is_deleted` = '0' ORDER BY `glpi_tickets`.`date_mod` DESC LIMIT 50
+  Error: Column 'status' in where clause is ambiguous
+  Backtrace :
+  src\DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src\DBmysql.php:1109                               DBmysqlIterator->execute()
+  src\Ticket.php:5340                                DBmysql->request()
+  src\Central.php:161                                Ticket::showCentralNewList()
+  src\Central.php:106                                Central::showGlobalView()
+  src\CommonGLPI.php:694                             Central::displayTabContentForItem()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  {"user":"7@SISTEMAS2"} 
+[2025-01-15 15:18:48] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT DISTINCT `glpi_tickets`.*, `glpi_itilcategories`.`completename` AS `catname`, `glpi_entities`.`completename` AS `entityname`, `glpi_tickets`.`entities_id` AS `entityID` FROM `glpi_tickets` LEFT JOIN `glpi_groups_tickets` ON (`glpi_tickets`.`id` = `glpi_groups_tickets`.`tickets_id`) LEFT JOIN `glpi_tickets_users` ON (`glpi_tickets`.`id` = `glpi_tickets_users`.`tickets_id`) LEFT JOIN `glpi_suppliers_tickets` ON (`glpi_tickets`.`id` = `glpi_suppliers_tickets`.`tickets_id`) LEFT JOIN `glpi_itilcategories` ON (`glpi_tickets`.`itilcategories_id` = `glpi_itilcategories`.`id`) LEFT JOIN `glpi_items_tickets` ON (`glpi_tickets`.`id` = `glpi_items_tickets`.`tickets_id`) LEFT JOIN `glpi_entities` ON (`glpi_entities`.`id` = `glpi_tickets`.`entities_id`) LEFT JOIN `glpi_tickettasks` ON (`glpi_tickets`.`id` = `glpi_tickettasks`.`tickets_id`) LEFT JOIN `glpi_ticketvalidations` ON (`glpi_tickets`.`id` = `glpi_ticketvalidations`.`tickets_id`) WHERE `status` = '1' AND `is_deleted` = '0' ORDER BY `glpi_tickets`.`date_mod` DESC LIMIT 50
+  Error: Column 'status' in where clause is ambiguous
+  Backtrace :
+  src\DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src\DBmysql.php:1109                               DBmysqlIterator->execute()
+  src\Ticket.php:5340                                DBmysql->request()
+  src\Central.php:161                                Ticket::showCentralNewList()
+  src\Central.php:106                                Central::showGlobalView()
+  src\CommonGLPI.php:694                             Central::displayTabContentForItem()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  {"user":"7@SISTEMAS2"} 
+[2025-01-16 10:16:49] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT DISTINCT `glpi_tickets`.*, `glpi_itilcategories`.`completename` AS `catname`, `glpi_entities`.`completename` AS `entityname`, `glpi_tickets`.`entities_id` AS `entityID` FROM `glpi_tickets` LEFT JOIN `glpi_groups_tickets` ON (`glpi_tickets`.`id` = `glpi_groups_tickets`.`tickets_id`) LEFT JOIN `glpi_tickets_users` ON (`glpi_tickets`.`id` = `glpi_tickets_users`.`tickets_id`) LEFT JOIN `glpi_suppliers_tickets` ON (`glpi_tickets`.`id` = `glpi_suppliers_tickets`.`tickets_id`) LEFT JOIN `glpi_itilcategories` ON (`glpi_tickets`.`itilcategories_id` = `glpi_itilcategories`.`id`) LEFT JOIN `glpi_items_tickets` ON (`glpi_tickets`.`id` = `glpi_items_tickets`.`tickets_id`) LEFT JOIN `glpi_entities` ON (`glpi_entities`.`id` = `glpi_tickets`.`entities_id`) LEFT JOIN `glpi_tickettasks` ON (`glpi_tickets`.`id` = `glpi_tickettasks`.`tickets_id`) LEFT JOIN `glpi_ticketvalidations` ON (`glpi_tickets`.`id` = `glpi_ticketvalidations`.`tickets_id`) WHERE `status` = '1' AND `is_deleted` = '0' ORDER BY `glpi_tickets`.`date_mod` DESC LIMIT 50
+  Error: Column 'status' in where clause is ambiguous
+  Backtrace :
+  src\DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src\DBmysql.php:1109                               DBmysqlIterator->execute()
+  src\Ticket.php:5340                                DBmysql->request()
+  src\Central.php:161                                Ticket::showCentralNewList()
+  src\Central.php:106                                Central::showGlobalView()
+  src\CommonGLPI.php:694                             Central::displayTabContentForItem()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  {"user":"7@SISTEMAS2"} 
+[2025-01-20 09:53:32] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT DISTINCT `glpi_tickets`.*, `glpi_itilcategories`.`completename` AS `catname`, `glpi_entities`.`completename` AS `entityname`, `glpi_tickets`.`entities_id` AS `entityID` FROM `glpi_tickets` LEFT JOIN `glpi_groups_tickets` ON (`glpi_tickets`.`id` = `glpi_groups_tickets`.`tickets_id`) LEFT JOIN `glpi_tickets_users` ON (`glpi_tickets`.`id` = `glpi_tickets_users`.`tickets_id`) LEFT JOIN `glpi_suppliers_tickets` ON (`glpi_tickets`.`id` = `glpi_suppliers_tickets`.`tickets_id`) LEFT JOIN `glpi_itilcategories` ON (`glpi_tickets`.`itilcategories_id` = `glpi_itilcategories`.`id`) LEFT JOIN `glpi_items_tickets` ON (`glpi_tickets`.`id` = `glpi_items_tickets`.`tickets_id`) LEFT JOIN `glpi_entities` ON (`glpi_entities`.`id` = `glpi_tickets`.`entities_id`) LEFT JOIN `glpi_tickettasks` ON (`glpi_tickets`.`id` = `glpi_tickettasks`.`tickets_id`) LEFT JOIN `glpi_ticketvalidations` ON (`glpi_tickets`.`id` = `glpi_ticketvalidations`.`tickets_id`) WHERE `status` = '1' AND `is_deleted` = '0' ORDER BY `glpi_tickets`.`date_mod` DESC LIMIT 50
+  Error: Column 'status' in where clause is ambiguous
+  Backtrace :
+  src\DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src\DBmysql.php:1109                               DBmysqlIterator->execute()
+  src\Ticket.php:5340                                DBmysql->request()
+  src\Central.php:161                                Ticket::showCentralNewList()
+  src\Central.php:106                                Central::showGlobalView()
+  src\CommonGLPI.php:694                             Central::displayTabContentForItem()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  {"user":"7@SISTEMAS2"} 
+[2025-01-21 07:39:03] glpisqllog.WARNING: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 443
+  *** MySQL query warnings:
+  SQL: UPDATE `glpi_projecttasks` SET `percent_done` = NULL, `date_mod` = '2025-01-21 07:39:02' WHERE `id` = '11'
+  Warnings: 
+1048: Column 'percent_done' cannot be null
+  Backtrace :
+  src\DBmysql.php:1503                               DBmysql->doQuery()
+  src\CommonDBTM.php:689                             DBmysql->update()
+  src\CommonDBTM.php:1698                            CommonDBTM->updateInDB()
+  src\ProjectTask.php:1691                           CommonDBTM->update()
+  src\ProjectTask.php:283                            ProjectTask::recalculatePercentDone()
+  src\CommonDBTM.php:1747                            ProjectTask->post_updateItem()
+  front\projecttask.form.php:89                      CommonDBTM->update()
+  {"user":"18@SISTEMAS2"} 
+[2025-01-21 07:40:54] glpisqllog.WARNING: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 443
+  *** MySQL query warnings:
+  SQL: UPDATE `glpi_projecttasks` SET `percent_done` = NULL, `date_mod` = '2025-01-21 07:40:52' WHERE `id` = '13'
+  Warnings: 
+1048: Column 'percent_done' cannot be null
+  Backtrace :
+  src\DBmysql.php:1503                               DBmysql->doQuery()
+  src\CommonDBTM.php:689                             DBmysql->update()
+  src\CommonDBTM.php:1698                            CommonDBTM->updateInDB()
+  src\ProjectTask.php:1691                           CommonDBTM->update()
+  src\ProjectTask.php:300                            ProjectTask::recalculatePercentDone()
+  src\CommonDBTM.php:1747                            ProjectTask->post_updateItem()
+  front\projecttask.form.php:89                      CommonDBTM->update()
+  {"user":"18@SISTEMAS2"} 
+[2025-01-21 07:41:40] glpisqllog.WARNING: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 443
+  *** MySQL query warnings:
+  SQL: UPDATE `glpi_projecttasks` SET `percent_done` = NULL, `date_mod` = '2025-01-21 07:41:39' WHERE `id` = '9'
+  Warnings: 
+1048: Column 'percent_done' cannot be null
+  Backtrace :
+  src\DBmysql.php:1503                               DBmysql->doQuery()
+  src\CommonDBTM.php:689                             DBmysql->update()
+  src\CommonDBTM.php:1698                            CommonDBTM->updateInDB()
+  src\ProjectTask.php:1691                           CommonDBTM->update()
+  src\ProjectTask.php:283                            ProjectTask::recalculatePercentDone()
+  src\CommonDBTM.php:1747                            ProjectTask->post_updateItem()
+  front\projecttask.form.php:89                      CommonDBTM->update()
+  {"user":"18@SISTEMAS2"} 
+[2025-01-21 07:42:39] glpisqllog.WARNING: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 443
+  *** MySQL query warnings:
+  SQL: UPDATE `glpi_projecttasks` SET `percent_done` = NULL, `date_mod` = '2025-01-21 07:42:38' WHERE `id` = '14'
+  Warnings: 
+1048: Column 'percent_done' cannot be null
+  Backtrace :
+  src\DBmysql.php:1503                               DBmysql->doQuery()
+  src\CommonDBTM.php:689                             DBmysql->update()
+  src\CommonDBTM.php:1698                            CommonDBTM->updateInDB()
+  src\ProjectTask.php:1691                           CommonDBTM->update()
+  src\ProjectTask.php:283                            ProjectTask::recalculatePercentDone()
+  src\CommonDBTM.php:1747                            ProjectTask->post_updateItem()
+  front\projecttask.form.php:89                      CommonDBTM->update()
+  {"user":"18@SISTEMAS2"} 
+[2025-01-21 07:43:45] glpisqllog.WARNING: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 443
+  *** MySQL query warnings:
+  SQL: UPDATE `glpi_projecttasks` SET `percent_done` = NULL, `date_mod` = '2025-01-21 07:43:44' WHERE `id` = '20'
+  Warnings: 
+1048: Column 'percent_done' cannot be null
+  Backtrace :
+  src\DBmysql.php:1503                               DBmysql->doQuery()
+  src\CommonDBTM.php:689                             DBmysql->update()
+  src\CommonDBTM.php:1698                            CommonDBTM->updateInDB()
+  src\ProjectTask.php:1691                           CommonDBTM->update()
+  src\ProjectTask.php:283                            ProjectTask::recalculatePercentDone()
+  src\CommonDBTM.php:1747                            ProjectTask->post_updateItem()
+  front\projecttask.form.php:89                      CommonDBTM->update()
+  {"user":"18@SISTEMAS2"} 
+[2025-01-21 10:33:17] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT DISTINCT `glpi_tickets`.*, `glpi_itilcategories`.`completename` AS `catname`, `glpi_entities`.`completename` AS `entityname`, `glpi_tickets`.`entities_id` AS `entityID` FROM `glpi_tickets` LEFT JOIN `glpi_groups_tickets` ON (`glpi_tickets`.`id` = `glpi_groups_tickets`.`tickets_id`) LEFT JOIN `glpi_tickets_users` ON (`glpi_tickets`.`id` = `glpi_tickets_users`.`tickets_id`) LEFT JOIN `glpi_suppliers_tickets` ON (`glpi_tickets`.`id` = `glpi_suppliers_tickets`.`tickets_id`) LEFT JOIN `glpi_itilcategories` ON (`glpi_tickets`.`itilcategories_id` = `glpi_itilcategories`.`id`) LEFT JOIN `glpi_items_tickets` ON (`glpi_tickets`.`id` = `glpi_items_tickets`.`tickets_id`) LEFT JOIN `glpi_entities` ON (`glpi_entities`.`id` = `glpi_tickets`.`entities_id`) LEFT JOIN `glpi_tickettasks` ON (`glpi_tickets`.`id` = `glpi_tickettasks`.`tickets_id`) LEFT JOIN `glpi_ticketvalidations` ON (`glpi_tickets`.`id` = `glpi_ticketvalidations`.`tickets_id`) WHERE `status` = '1' AND `is_deleted` = '0' ORDER BY `glpi_tickets`.`date_mod` DESC LIMIT 50
+  Error: Column 'status' in where clause is ambiguous
+  Backtrace :
+  src\DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src\DBmysql.php:1109                               DBmysqlIterator->execute()
+  src\Ticket.php:5340                                DBmysql->request()
+  src\Central.php:161                                Ticket::showCentralNewList()
+  src\Central.php:106                                Central::showGlobalView()
+  src\CommonGLPI.php:694                             Central::displayTabContentForItem()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  {"user":"7@SISTEMAS2"} 
+[2025-01-22 14:56:41] glpisqllog.WARNING: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 443
+  *** MySQL query warnings:
+  SQL: UPDATE `glpi_projecttasks` SET `percent_done` = NULL, `date_mod` = '2025-01-22 14:56:37' WHERE `id` = '14'
+  Warnings: 
+1048: Column 'percent_done' cannot be null
+  Backtrace :
+  src\DBmysql.php:1503                               DBmysql->doQuery()
+  src\CommonDBTM.php:689                             DBmysql->update()
+  src\CommonDBTM.php:1698                            CommonDBTM->updateInDB()
+  src\ProjectTask.php:1691                           CommonDBTM->update()
+  src\ProjectTask.php:300                            ProjectTask::recalculatePercentDone()
+  src\CommonDBTM.php:1747                            ProjectTask->post_updateItem()
+  front\projecttask.form.php:89                      CommonDBTM->update()
+  {"user":"18@SISTEMAS2"} 
+[2025-01-22 15:54:37] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT DISTINCT `glpi_tickets`.*, `glpi_itilcategories`.`completename` AS `catname`, `glpi_entities`.`completename` AS `entityname`, `glpi_tickets`.`entities_id` AS `entityID` FROM `glpi_tickets` LEFT JOIN `glpi_groups_tickets` ON (`glpi_tickets`.`id` = `glpi_groups_tickets`.`tickets_id`) LEFT JOIN `glpi_tickets_users` ON (`glpi_tickets`.`id` = `glpi_tickets_users`.`tickets_id`) LEFT JOIN `glpi_suppliers_tickets` ON (`glpi_tickets`.`id` = `glpi_suppliers_tickets`.`tickets_id`) LEFT JOIN `glpi_itilcategories` ON (`glpi_tickets`.`itilcategories_id` = `glpi_itilcategories`.`id`) LEFT JOIN `glpi_items_tickets` ON (`glpi_tickets`.`id` = `glpi_items_tickets`.`tickets_id`) LEFT JOIN `glpi_entities` ON (`glpi_entities`.`id` = `glpi_tickets`.`entities_id`) LEFT JOIN `glpi_tickettasks` ON (`glpi_tickets`.`id` = `glpi_tickettasks`.`tickets_id`) LEFT JOIN `glpi_ticketvalidations` ON (`glpi_tickets`.`id` = `glpi_ticketvalidations`.`tickets_id`) WHERE `status` = '1' AND `is_deleted` = '0' ORDER BY `glpi_tickets`.`date_mod` DESC LIMIT 50
+  Error: Column 'status' in where clause is ambiguous
+  Backtrace :
+  src\DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src\DBmysql.php:1109                               DBmysqlIterator->execute()
+  src\Ticket.php:5340                                DBmysql->request()
+  src\Central.php:161                                Ticket::showCentralNewList()
+  src\Central.php:106                                Central::showGlobalView()
+  src\CommonGLPI.php:694                             Central::displayTabContentForItem()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  {"user":"7@SISTEMAS2"} 
+[2025-01-23 08:27:26] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT DISTINCT `glpi_tickets`.*, `glpi_itilcategories`.`completename` AS `catname`, `glpi_entities`.`completename` AS `entityname`, `glpi_tickets`.`entities_id` AS `entityID` FROM `glpi_tickets` LEFT JOIN `glpi_groups_tickets` ON (`glpi_tickets`.`id` = `glpi_groups_tickets`.`tickets_id`) LEFT JOIN `glpi_tickets_users` ON (`glpi_tickets`.`id` = `glpi_tickets_users`.`tickets_id`) LEFT JOIN `glpi_suppliers_tickets` ON (`glpi_tickets`.`id` = `glpi_suppliers_tickets`.`tickets_id`) LEFT JOIN `glpi_itilcategories` ON (`glpi_tickets`.`itilcategories_id` = `glpi_itilcategories`.`id`) LEFT JOIN `glpi_items_tickets` ON (`glpi_tickets`.`id` = `glpi_items_tickets`.`tickets_id`) LEFT JOIN `glpi_entities` ON (`glpi_entities`.`id` = `glpi_tickets`.`entities_id`) LEFT JOIN `glpi_tickettasks` ON (`glpi_tickets`.`id` = `glpi_tickettasks`.`tickets_id`) LEFT JOIN `glpi_ticketvalidations` ON (`glpi_tickets`.`id` = `glpi_ticketvalidations`.`tickets_id`) WHERE `status` = '1' AND `is_deleted` = '0' ORDER BY `glpi_tickets`.`date_mod` DESC LIMIT 50
+  Error: Column 'status' in where clause is ambiguous
+  Backtrace :
+  src\DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src\DBmysql.php:1109                               DBmysqlIterator->execute()
+  src\Ticket.php:5340                                DBmysql->request()
+  src\Central.php:161                                Ticket::showCentralNewList()
+  src\Central.php:106                                Central::showGlobalView()
+  src\CommonGLPI.php:694                             Central::displayTabContentForItem()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  {"user":"7@SISTEMAS2"} 
+[2025-01-27 09:51:35] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT DISTINCT `glpi_tickets`.*, `glpi_itilcategories`.`completename` AS `catname`, `glpi_entities`.`completename` AS `entityname`, `glpi_tickets`.`entities_id` AS `entityID` FROM `glpi_tickets` LEFT JOIN `glpi_groups_tickets` ON (`glpi_tickets`.`id` = `glpi_groups_tickets`.`tickets_id`) LEFT JOIN `glpi_tickets_users` ON (`glpi_tickets`.`id` = `glpi_tickets_users`.`tickets_id`) LEFT JOIN `glpi_suppliers_tickets` ON (`glpi_tickets`.`id` = `glpi_suppliers_tickets`.`tickets_id`) LEFT JOIN `glpi_itilcategories` ON (`glpi_tickets`.`itilcategories_id` = `glpi_itilcategories`.`id`) LEFT JOIN `glpi_items_tickets` ON (`glpi_tickets`.`id` = `glpi_items_tickets`.`tickets_id`) LEFT JOIN `glpi_entities` ON (`glpi_entities`.`id` = `glpi_tickets`.`entities_id`) LEFT JOIN `glpi_tickettasks` ON (`glpi_tickets`.`id` = `glpi_tickettasks`.`tickets_id`) LEFT JOIN `glpi_ticketvalidations` ON (`glpi_tickets`.`id` = `glpi_ticketvalidations`.`tickets_id`) WHERE `status` = '1' AND `is_deleted` = '0' ORDER BY `glpi_tickets`.`date_mod` DESC LIMIT 50
+  Error: Column 'status' in where clause is ambiguous
+  Backtrace :
+  src\DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src\DBmysql.php:1109                               DBmysqlIterator->execute()
+  src\Ticket.php:5340                                DBmysql->request()
+  src\Central.php:161                                Ticket::showCentralNewList()
+  src\Central.php:106                                Central::showGlobalView()
+  src\CommonGLPI.php:694                             Central::displayTabContentForItem()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  {"user":"7@SISTEMAS2"} 
+[2025-01-27 14:21:20] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT DISTINCT `glpi_tickets`.*, `glpi_itilcategories`.`completename` AS `catname`, `glpi_entities`.`completename` AS `entityname`, `glpi_tickets`.`entities_id` AS `entityID` FROM `glpi_tickets` LEFT JOIN `glpi_groups_tickets` ON (`glpi_tickets`.`id` = `glpi_groups_tickets`.`tickets_id`) LEFT JOIN `glpi_tickets_users` ON (`glpi_tickets`.`id` = `glpi_tickets_users`.`tickets_id`) LEFT JOIN `glpi_suppliers_tickets` ON (`glpi_tickets`.`id` = `glpi_suppliers_tickets`.`tickets_id`) LEFT JOIN `glpi_itilcategories` ON (`glpi_tickets`.`itilcategories_id` = `glpi_itilcategories`.`id`) LEFT JOIN `glpi_items_tickets` ON (`glpi_tickets`.`id` = `glpi_items_tickets`.`tickets_id`) LEFT JOIN `glpi_entities` ON (`glpi_entities`.`id` = `glpi_tickets`.`entities_id`) LEFT JOIN `glpi_tickettasks` ON (`glpi_tickets`.`id` = `glpi_tickettasks`.`tickets_id`) LEFT JOIN `glpi_ticketvalidations` ON (`glpi_tickets`.`id` = `glpi_ticketvalidations`.`tickets_id`) WHERE `status` = '1' AND `is_deleted` = '0' ORDER BY `glpi_tickets`.`date_mod` DESC LIMIT 50
+  Error: Column 'status' in where clause is ambiguous
+  Backtrace :
+  src\DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src\DBmysql.php:1109                               DBmysqlIterator->execute()
+  src\Ticket.php:5340                                DBmysql->request()
+  src\Central.php:161                                Ticket::showCentralNewList()
+  src\Central.php:106                                Central::showGlobalView()
+  src\CommonGLPI.php:694                             Central::displayTabContentForItem()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  {"user":"7@SISTEMAS2"} 
+[2025-01-30 08:05:23] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT DISTINCT `glpi_tickets`.*, `glpi_itilcategories`.`completename` AS `catname`, `glpi_entities`.`completename` AS `entityname`, `glpi_tickets`.`entities_id` AS `entityID` FROM `glpi_tickets` LEFT JOIN `glpi_groups_tickets` ON (`glpi_tickets`.`id` = `glpi_groups_tickets`.`tickets_id`) LEFT JOIN `glpi_tickets_users` ON (`glpi_tickets`.`id` = `glpi_tickets_users`.`tickets_id`) LEFT JOIN `glpi_suppliers_tickets` ON (`glpi_tickets`.`id` = `glpi_suppliers_tickets`.`tickets_id`) LEFT JOIN `glpi_itilcategories` ON (`glpi_tickets`.`itilcategories_id` = `glpi_itilcategories`.`id`) LEFT JOIN `glpi_items_tickets` ON (`glpi_tickets`.`id` = `glpi_items_tickets`.`tickets_id`) LEFT JOIN `glpi_entities` ON (`glpi_entities`.`id` = `glpi_tickets`.`entities_id`) LEFT JOIN `glpi_tickettasks` ON (`glpi_tickets`.`id` = `glpi_tickettasks`.`tickets_id`) LEFT JOIN `glpi_ticketvalidations` ON (`glpi_tickets`.`id` = `glpi_ticketvalidations`.`tickets_id`) WHERE `status` = '1' AND `is_deleted` = '0' ORDER BY `glpi_tickets`.`date_mod` DESC LIMIT 50
+  Error: Column 'status' in where clause is ambiguous
+  Backtrace :
+  src\DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src\DBmysql.php:1109                               DBmysqlIterator->execute()
+  src\Ticket.php:5340                                DBmysql->request()
+  src\Central.php:161                                Ticket::showCentralNewList()
+  src\Central.php:106                                Central::showGlobalView()
+  src\CommonGLPI.php:694                             Central::displayTabContentForItem()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  {"user":"7@SISTEMAS2"} 
+[2025-02-05 08:45:10] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT DISTINCT `glpi_tickets`.*, `glpi_itilcategories`.`completename` AS `catname`, `glpi_entities`.`completename` AS `entityname`, `glpi_tickets`.`entities_id` AS `entityID` FROM `glpi_tickets` LEFT JOIN `glpi_groups_tickets` ON (`glpi_tickets`.`id` = `glpi_groups_tickets`.`tickets_id`) LEFT JOIN `glpi_tickets_users` ON (`glpi_tickets`.`id` = `glpi_tickets_users`.`tickets_id`) LEFT JOIN `glpi_suppliers_tickets` ON (`glpi_tickets`.`id` = `glpi_suppliers_tickets`.`tickets_id`) LEFT JOIN `glpi_itilcategories` ON (`glpi_tickets`.`itilcategories_id` = `glpi_itilcategories`.`id`) LEFT JOIN `glpi_items_tickets` ON (`glpi_tickets`.`id` = `glpi_items_tickets`.`tickets_id`) LEFT JOIN `glpi_entities` ON (`glpi_entities`.`id` = `glpi_tickets`.`entities_id`) LEFT JOIN `glpi_tickettasks` ON (`glpi_tickets`.`id` = `glpi_tickettasks`.`tickets_id`) LEFT JOIN `glpi_ticketvalidations` ON (`glpi_tickets`.`id` = `glpi_ticketvalidations`.`tickets_id`) WHERE `status` = '1' AND `is_deleted` = '0' ORDER BY `glpi_tickets`.`date_mod` DESC LIMIT 50
+  Error: Column 'status' in where clause is ambiguous
+  Backtrace :
+  src\DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src\DBmysql.php:1109                               DBmysqlIterator->execute()
+  src\Ticket.php:5340                                DBmysql->request()
+  src\Central.php:161                                Ticket::showCentralNewList()
+  src\Central.php:106                                Central::showGlobalView()
+  src\CommonGLPI.php:694                             Central::displayTabContentForItem()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  {"user":"7@SISTEMAS2"} 
+[2025-02-05 15:50:09] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT DISTINCT `glpi_tickets`.*, `glpi_itilcategories`.`completename` AS `catname`, `glpi_entities`.`completename` AS `entityname`, `glpi_tickets`.`entities_id` AS `entityID` FROM `glpi_tickets` LEFT JOIN `glpi_groups_tickets` ON (`glpi_tickets`.`id` = `glpi_groups_tickets`.`tickets_id`) LEFT JOIN `glpi_tickets_users` ON (`glpi_tickets`.`id` = `glpi_tickets_users`.`tickets_id`) LEFT JOIN `glpi_suppliers_tickets` ON (`glpi_tickets`.`id` = `glpi_suppliers_tickets`.`tickets_id`) LEFT JOIN `glpi_itilcategories` ON (`glpi_tickets`.`itilcategories_id` = `glpi_itilcategories`.`id`) LEFT JOIN `glpi_items_tickets` ON (`glpi_tickets`.`id` = `glpi_items_tickets`.`tickets_id`) LEFT JOIN `glpi_entities` ON (`glpi_entities`.`id` = `glpi_tickets`.`entities_id`) LEFT JOIN `glpi_tickettasks` ON (`glpi_tickets`.`id` = `glpi_tickettasks`.`tickets_id`) LEFT JOIN `glpi_ticketvalidations` ON (`glpi_tickets`.`id` = `glpi_ticketvalidations`.`tickets_id`) WHERE `status` = '1' AND `is_deleted` = '0' ORDER BY `glpi_tickets`.`date_mod` DESC LIMIT 50
+  Error: Column 'status' in where clause is ambiguous
+  Backtrace :
+  src\DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src\DBmysql.php:1109                               DBmysqlIterator->execute()
+  src\Ticket.php:5340                                DBmysql->request()
+  src\Central.php:161                                Ticket::showCentralNewList()
+  src\Central.php:106                                Central::showGlobalView()
+  src\CommonGLPI.php:694                             Central::displayTabContentForItem()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  {"user":"7@SISTEMAS2"} 
+[2025-02-05 15:53:21] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT DISTINCT `glpi_tickets`.*, `glpi_itilcategories`.`completename` AS `catname`, `glpi_entities`.`completename` AS `entityname`, `glpi_tickets`.`entities_id` AS `entityID` FROM `glpi_tickets` LEFT JOIN `glpi_groups_tickets` ON (`glpi_tickets`.`id` = `glpi_groups_tickets`.`tickets_id`) LEFT JOIN `glpi_tickets_users` ON (`glpi_tickets`.`id` = `glpi_tickets_users`.`tickets_id`) LEFT JOIN `glpi_suppliers_tickets` ON (`glpi_tickets`.`id` = `glpi_suppliers_tickets`.`tickets_id`) LEFT JOIN `glpi_itilcategories` ON (`glpi_tickets`.`itilcategories_id` = `glpi_itilcategories`.`id`) LEFT JOIN `glpi_items_tickets` ON (`glpi_tickets`.`id` = `glpi_items_tickets`.`tickets_id`) LEFT JOIN `glpi_entities` ON (`glpi_entities`.`id` = `glpi_tickets`.`entities_id`) LEFT JOIN `glpi_tickettasks` ON (`glpi_tickets`.`id` = `glpi_tickettasks`.`tickets_id`) LEFT JOIN `glpi_ticketvalidations` ON (`glpi_tickets`.`id` = `glpi_ticketvalidations`.`tickets_id`) WHERE `status` = '1' AND `is_deleted` = '0' ORDER BY `glpi_tickets`.`date_mod` DESC LIMIT 50
+  Error: Column 'status' in where clause is ambiguous
+  Backtrace :
+  src\DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src\DBmysql.php:1109                               DBmysqlIterator->execute()
+  src\Ticket.php:5340                                DBmysql->request()
+  src\Central.php:161                                Ticket::showCentralNewList()
+  src\Central.php:106                                Central::showGlobalView()
+  src\CommonGLPI.php:694                             Central::displayTabContentForItem()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  {"user":"7@SISTEMAS2"} 
+[2025-02-05 15:53:46] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT DISTINCT `glpi_tickets`.*, `glpi_itilcategories`.`completename` AS `catname`, `glpi_entities`.`completename` AS `entityname`, `glpi_tickets`.`entities_id` AS `entityID` FROM `glpi_tickets` LEFT JOIN `glpi_groups_tickets` ON (`glpi_tickets`.`id` = `glpi_groups_tickets`.`tickets_id`) LEFT JOIN `glpi_tickets_users` ON (`glpi_tickets`.`id` = `glpi_tickets_users`.`tickets_id`) LEFT JOIN `glpi_suppliers_tickets` ON (`glpi_tickets`.`id` = `glpi_suppliers_tickets`.`tickets_id`) LEFT JOIN `glpi_itilcategories` ON (`glpi_tickets`.`itilcategories_id` = `glpi_itilcategories`.`id`) LEFT JOIN `glpi_items_tickets` ON (`glpi_tickets`.`id` = `glpi_items_tickets`.`tickets_id`) LEFT JOIN `glpi_entities` ON (`glpi_entities`.`id` = `glpi_tickets`.`entities_id`) LEFT JOIN `glpi_tickettasks` ON (`glpi_tickets`.`id` = `glpi_tickettasks`.`tickets_id`) LEFT JOIN `glpi_ticketvalidations` ON (`glpi_tickets`.`id` = `glpi_ticketvalidations`.`tickets_id`) WHERE `status` = '1' AND `is_deleted` = '0' ORDER BY `glpi_tickets`.`date_mod` DESC LIMIT 50
+  Error: Column 'status' in where clause is ambiguous
+  Backtrace :
+  src\DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src\DBmysql.php:1109                               DBmysqlIterator->execute()
+  src\Ticket.php:5340                                DBmysql->request()
+  src\Central.php:161                                Ticket::showCentralNewList()
+  src\Central.php:106                                Central::showGlobalView()
+  src\CommonGLPI.php:694                             Central::displayTabContentForItem()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  {"user":"7@SISTEMAS2"} 
+[2025-02-05 15:53:52] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT DISTINCT `glpi_tickets`.*, `glpi_itilcategories`.`completename` AS `catname`, `glpi_entities`.`completename` AS `entityname`, `glpi_tickets`.`entities_id` AS `entityID` FROM `glpi_tickets` LEFT JOIN `glpi_groups_tickets` ON (`glpi_tickets`.`id` = `glpi_groups_tickets`.`tickets_id`) LEFT JOIN `glpi_tickets_users` ON (`glpi_tickets`.`id` = `glpi_tickets_users`.`tickets_id`) LEFT JOIN `glpi_suppliers_tickets` ON (`glpi_tickets`.`id` = `glpi_suppliers_tickets`.`tickets_id`) LEFT JOIN `glpi_itilcategories` ON (`glpi_tickets`.`itilcategories_id` = `glpi_itilcategories`.`id`) LEFT JOIN `glpi_items_tickets` ON (`glpi_tickets`.`id` = `glpi_items_tickets`.`tickets_id`) LEFT JOIN `glpi_entities` ON (`glpi_entities`.`id` = `glpi_tickets`.`entities_id`) LEFT JOIN `glpi_tickettasks` ON (`glpi_tickets`.`id` = `glpi_tickettasks`.`tickets_id`) LEFT JOIN `glpi_ticketvalidations` ON (`glpi_tickets`.`id` = `glpi_ticketvalidations`.`tickets_id`) WHERE `status` = '1' AND `is_deleted` = '0' ORDER BY `glpi_tickets`.`date_mod` DESC LIMIT 50
+  Error: Column 'status' in where clause is ambiguous
+  Backtrace :
+  src\DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src\DBmysql.php:1109                               DBmysqlIterator->execute()
+  src\Ticket.php:5340                                DBmysql->request()
+  src\Central.php:161                                Ticket::showCentralNewList()
+  src\Central.php:106                                Central::showGlobalView()
+  src\CommonGLPI.php:694                             Central::displayTabContentForItem()
+  src\CommonGLPI.php:656                             CommonGLPI::displayStandardTab()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  {"user":"7@SISTEMAS2"} 
+[2025-02-05 15:56:16] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT DISTINCT `glpi_tickets`.*, `glpi_itilcategories`.`completename` AS `catname`, `glpi_entities`.`completename` AS `entityname`, `glpi_tickets`.`entities_id` AS `entityID` FROM `glpi_tickets` LEFT JOIN `glpi_groups_tickets` ON (`glpi_tickets`.`id` = `glpi_groups_tickets`.`tickets_id`) LEFT JOIN `glpi_tickets_users` ON (`glpi_tickets`.`id` = `glpi_tickets_users`.`tickets_id`) LEFT JOIN `glpi_suppliers_tickets` ON (`glpi_tickets`.`id` = `glpi_suppliers_tickets`.`tickets_id`) LEFT JOIN `glpi_itilcategories` ON (`glpi_tickets`.`itilcategories_id` = `glpi_itilcategories`.`id`) LEFT JOIN `glpi_items_tickets` ON (`glpi_tickets`.`id` = `glpi_items_tickets`.`tickets_id`) LEFT JOIN `glpi_entities` ON (`glpi_entities`.`id` = `glpi_tickets`.`entities_id`) LEFT JOIN `glpi_tickettasks` ON (`glpi_tickets`.`id` = `glpi_tickettasks`.`tickets_id`) LEFT JOIN `glpi_ticketvalidations` ON (`glpi_tickets`.`id` = `glpi_ticketvalidations`.`tickets_id`) WHERE `status` = '1' AND `is_deleted` = '0' ORDER BY `glpi_tickets`.`date_mod` DESC LIMIT 50
+  Error: Column 'status' in where clause is ambiguous
+  Backtrace :
+  src\DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src\DBmysql.php:1109                               DBmysqlIterator->execute()
+  src\Ticket.php:5340                                DBmysql->request()
+  src\Central.php:161                                Ticket::showCentralNewList()
+  src\Central.php:106                                Central::showGlobalView()
+  src\CommonGLPI.php:694                             Central::displayTabContentForItem()
+  src\CommonGLPI.php:656                             CommonGLPI::displayStandardTab()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  {"user":"7@SISTEMAS2"} 
+[2025-02-05 15:59:18] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT DISTINCT `glpi_tickets`.*, `glpi_itilcategories`.`completename` AS `catname`, `glpi_entities`.`completename` AS `entityname`, `glpi_tickets`.`entities_id` AS `entityID` FROM `glpi_tickets` LEFT JOIN `glpi_groups_tickets` ON (`glpi_tickets`.`id` = `glpi_groups_tickets`.`tickets_id`) LEFT JOIN `glpi_tickets_users` ON (`glpi_tickets`.`id` = `glpi_tickets_users`.`tickets_id`) LEFT JOIN `glpi_suppliers_tickets` ON (`glpi_tickets`.`id` = `glpi_suppliers_tickets`.`tickets_id`) LEFT JOIN `glpi_itilcategories` ON (`glpi_tickets`.`itilcategories_id` = `glpi_itilcategories`.`id`) LEFT JOIN `glpi_items_tickets` ON (`glpi_tickets`.`id` = `glpi_items_tickets`.`tickets_id`) LEFT JOIN `glpi_entities` ON (`glpi_entities`.`id` = `glpi_tickets`.`entities_id`) LEFT JOIN `glpi_tickettasks` ON (`glpi_tickets`.`id` = `glpi_tickettasks`.`tickets_id`) LEFT JOIN `glpi_ticketvalidations` ON (`glpi_tickets`.`id` = `glpi_ticketvalidations`.`tickets_id`) WHERE `status` = '1' AND `is_deleted` = '0' ORDER BY `glpi_tickets`.`date_mod` DESC LIMIT 50
+  Error: Column 'status' in where clause is ambiguous
+  Backtrace :
+  src\DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src\DBmysql.php:1109                               DBmysqlIterator->execute()
+  src\Ticket.php:5340                                DBmysql->request()
+  src\Central.php:161                                Ticket::showCentralNewList()
+  src\Central.php:106                                Central::showGlobalView()
+  src\CommonGLPI.php:694                             Central::displayTabContentForItem()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  {"user":"7@SISTEMAS2"} 
+[2025-02-06 08:28:41] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT DISTINCT `glpi_tickets`.*, `glpi_itilcategories`.`completename` AS `catname`, `glpi_entities`.`completename` AS `entityname`, `glpi_tickets`.`entities_id` AS `entityID` FROM `glpi_tickets` LEFT JOIN `glpi_groups_tickets` ON (`glpi_tickets`.`id` = `glpi_groups_tickets`.`tickets_id`) LEFT JOIN `glpi_tickets_users` ON (`glpi_tickets`.`id` = `glpi_tickets_users`.`tickets_id`) LEFT JOIN `glpi_suppliers_tickets` ON (`glpi_tickets`.`id` = `glpi_suppliers_tickets`.`tickets_id`) LEFT JOIN `glpi_itilcategories` ON (`glpi_tickets`.`itilcategories_id` = `glpi_itilcategories`.`id`) LEFT JOIN `glpi_items_tickets` ON (`glpi_tickets`.`id` = `glpi_items_tickets`.`tickets_id`) LEFT JOIN `glpi_entities` ON (`glpi_entities`.`id` = `glpi_tickets`.`entities_id`) LEFT JOIN `glpi_tickettasks` ON (`glpi_tickets`.`id` = `glpi_tickettasks`.`tickets_id`) LEFT JOIN `glpi_ticketvalidations` ON (`glpi_tickets`.`id` = `glpi_ticketvalidations`.`tickets_id`) WHERE `status` = '1' AND `is_deleted` = '0' ORDER BY `glpi_tickets`.`date_mod` DESC LIMIT 50
+  Error: Column 'status' in where clause is ambiguous
+  Backtrace :
+  src\DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src\DBmysql.php:1109                               DBmysqlIterator->execute()
+  src\Ticket.php:5340                                DBmysql->request()
+  src\Central.php:161                                Ticket::showCentralNewList()
+  src\Central.php:106                                Central::showGlobalView()
+  src\CommonGLPI.php:694                             Central::displayTabContentForItem()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  {"user":"7@SISTEMAS2"} 
+[2025-02-10 08:21:22] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT DISTINCT `glpi_tickets`.*, `glpi_itilcategories`.`completename` AS `catname`, `glpi_entities`.`completename` AS `entityname`, `glpi_tickets`.`entities_id` AS `entityID` FROM `glpi_tickets` LEFT JOIN `glpi_groups_tickets` ON (`glpi_tickets`.`id` = `glpi_groups_tickets`.`tickets_id`) LEFT JOIN `glpi_tickets_users` ON (`glpi_tickets`.`id` = `glpi_tickets_users`.`tickets_id`) LEFT JOIN `glpi_suppliers_tickets` ON (`glpi_tickets`.`id` = `glpi_suppliers_tickets`.`tickets_id`) LEFT JOIN `glpi_itilcategories` ON (`glpi_tickets`.`itilcategories_id` = `glpi_itilcategories`.`id`) LEFT JOIN `glpi_items_tickets` ON (`glpi_tickets`.`id` = `glpi_items_tickets`.`tickets_id`) LEFT JOIN `glpi_entities` ON (`glpi_entities`.`id` = `glpi_tickets`.`entities_id`) LEFT JOIN `glpi_tickettasks` ON (`glpi_tickets`.`id` = `glpi_tickettasks`.`tickets_id`) LEFT JOIN `glpi_ticketvalidations` ON (`glpi_tickets`.`id` = `glpi_ticketvalidations`.`tickets_id`) WHERE `status` = '1' AND `is_deleted` = '0' ORDER BY `glpi_tickets`.`date_mod` DESC LIMIT 50
+  Error: Column 'status' in where clause is ambiguous
+  Backtrace :
+  src\DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src\DBmysql.php:1109                               DBmysqlIterator->execute()
+  src\Ticket.php:5340                                DBmysql->request()
+  src\Central.php:161                                Ticket::showCentralNewList()
+  src\Central.php:106                                Central::showGlobalView()
+  src\CommonGLPI.php:694                             Central::displayTabContentForItem()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  {"user":"7@SISTEMAS2"} 
+[2025-02-10 09:38:06] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT COUNT(*) AS cpt FROM `glpi_sockets` WHERE `glpi_sockets`.`entities_id` IN ('0')
+  Error: Unknown column 'glpi_sockets.entities_id' in 'where clause'
+  Backtrace :
+  src\DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src\DBmysql.php:1109                               DBmysqlIterator->execute()
+  src\DbUtils.php:524                                DBmysql->request()
+  src\DbUtils.php:570                                DbUtils->countElementsInTable()
+  inc\db.function.php:221                            DbUtils->countElementsInTableForMyEntities()
+  front\report.networking.php:80                     countElementsInTableForMyEntities()
+  {"user":"28@SISTEMAS2"} 
+[2025-02-10 14:53:11] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT DISTINCT `glpi_tickets`.*, `glpi_itilcategories`.`completename` AS `catname`, `glpi_entities`.`completename` AS `entityname`, `glpi_tickets`.`entities_id` AS `entityID` FROM `glpi_tickets` LEFT JOIN `glpi_groups_tickets` ON (`glpi_tickets`.`id` = `glpi_groups_tickets`.`tickets_id`) LEFT JOIN `glpi_tickets_users` ON (`glpi_tickets`.`id` = `glpi_tickets_users`.`tickets_id`) LEFT JOIN `glpi_suppliers_tickets` ON (`glpi_tickets`.`id` = `glpi_suppliers_tickets`.`tickets_id`) LEFT JOIN `glpi_itilcategories` ON (`glpi_tickets`.`itilcategories_id` = `glpi_itilcategories`.`id`) LEFT JOIN `glpi_items_tickets` ON (`glpi_tickets`.`id` = `glpi_items_tickets`.`tickets_id`) LEFT JOIN `glpi_entities` ON (`glpi_entities`.`id` = `glpi_tickets`.`entities_id`) LEFT JOIN `glpi_tickettasks` ON (`glpi_tickets`.`id` = `glpi_tickettasks`.`tickets_id`) LEFT JOIN `glpi_ticketvalidations` ON (`glpi_tickets`.`id` = `glpi_ticketvalidations`.`tickets_id`) WHERE `status` = '1' AND `is_deleted` = '0' ORDER BY `glpi_tickets`.`date_mod` DESC LIMIT 50
+  Error: Column 'status' in where clause is ambiguous
+  Backtrace :
+  src\DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src\DBmysql.php:1109                               DBmysqlIterator->execute()
+  src\Ticket.php:5340                                DBmysql->request()
+  src\Central.php:161                                Ticket::showCentralNewList()
+  src\Central.php:106                                Central::showGlobalView()
+  src\CommonGLPI.php:694                             Central::displayTabContentForItem()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  {"user":"7@SISTEMAS2"} 
+[2025-02-10 17:25:38] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: INSERT INTO `glpi_locations` (`entities_id`, `is_recursive`, `name`, `comment`, `locations_id`, `address`, `postcode`, `town`, `state`, `country`, `building`, `room`, `latitude`, `longitude`, `altitude`, `level`, `completename`, `date_creation`, `date_mod`) VALUES ('0', '1', 'Mercadeo', '', '0', '', '', '', '', '', '', '', '', '', '', '1', 'Mercadeo', '2025-02-10 17:25:38', '2025-02-10 17:25:38')
+  Error: Duplicate entry '0-0-Mercadeo' for key 'unicity'
+  Backtrace :
+  src\DBmysql.php:1380                               DBmysql->doQuery()
+  src\CommonDBTM.php:729                             DBmysql->insert()
+  src\CommonDBTM.php:1342                            CommonDBTM->addToDB()
+  front\dropdown.common.form.php:62                  CommonDBTM->add()
+  front\location.form.php:39                         include()
+  {"user":"18@SISTEMAS2"} 
+[2025-02-11 10:24:54] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT DISTINCT `glpi_tickets`.*, `glpi_itilcategories`.`completename` AS `catname`, `glpi_entities`.`completename` AS `entityname`, `glpi_tickets`.`entities_id` AS `entityID` FROM `glpi_tickets` LEFT JOIN `glpi_groups_tickets` ON (`glpi_tickets`.`id` = `glpi_groups_tickets`.`tickets_id`) LEFT JOIN `glpi_tickets_users` ON (`glpi_tickets`.`id` = `glpi_tickets_users`.`tickets_id`) LEFT JOIN `glpi_suppliers_tickets` ON (`glpi_tickets`.`id` = `glpi_suppliers_tickets`.`tickets_id`) LEFT JOIN `glpi_itilcategories` ON (`glpi_tickets`.`itilcategories_id` = `glpi_itilcategories`.`id`) LEFT JOIN `glpi_items_tickets` ON (`glpi_tickets`.`id` = `glpi_items_tickets`.`tickets_id`) LEFT JOIN `glpi_entities` ON (`glpi_entities`.`id` = `glpi_tickets`.`entities_id`) LEFT JOIN `glpi_tickettasks` ON (`glpi_tickets`.`id` = `glpi_tickettasks`.`tickets_id`) LEFT JOIN `glpi_ticketvalidations` ON (`glpi_tickets`.`id` = `glpi_ticketvalidations`.`tickets_id`) WHERE `status` = '1' AND `is_deleted` = '0' ORDER BY `glpi_tickets`.`date_mod` DESC LIMIT 50
+  Error: Column 'status' in where clause is ambiguous
+  Backtrace :
+  src\DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src\DBmysql.php:1109                               DBmysqlIterator->execute()
+  src\Ticket.php:5340                                DBmysql->request()
+  src\Central.php:161                                Ticket::showCentralNewList()
+  src\Central.php:106                                Central::showGlobalView()
+  src\CommonGLPI.php:694                             Central::displayTabContentForItem()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  {"user":"7@SISTEMAS2"} 
+[2025-02-11 12:39:57] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT DISTINCT `glpi_tickets`.*, `glpi_itilcategories`.`completename` AS `catname`, `glpi_entities`.`completename` AS `entityname`, `glpi_tickets`.`entities_id` AS `entityID` FROM `glpi_tickets` LEFT JOIN `glpi_groups_tickets` ON (`glpi_tickets`.`id` = `glpi_groups_tickets`.`tickets_id`) LEFT JOIN `glpi_tickets_users` ON (`glpi_tickets`.`id` = `glpi_tickets_users`.`tickets_id`) LEFT JOIN `glpi_suppliers_tickets` ON (`glpi_tickets`.`id` = `glpi_suppliers_tickets`.`tickets_id`) LEFT JOIN `glpi_itilcategories` ON (`glpi_tickets`.`itilcategories_id` = `glpi_itilcategories`.`id`) LEFT JOIN `glpi_items_tickets` ON (`glpi_tickets`.`id` = `glpi_items_tickets`.`tickets_id`) LEFT JOIN `glpi_entities` ON (`glpi_entities`.`id` = `glpi_tickets`.`entities_id`) LEFT JOIN `glpi_tickettasks` ON (`glpi_tickets`.`id` = `glpi_tickettasks`.`tickets_id`) LEFT JOIN `glpi_ticketvalidations` ON (`glpi_tickets`.`id` = `glpi_ticketvalidations`.`tickets_id`) WHERE `status` = '1' AND `is_deleted` = '0' ORDER BY `glpi_tickets`.`date_mod` DESC LIMIT 50
+  Error: Column 'status' in where clause is ambiguous
+  Backtrace :
+  src\DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src\DBmysql.php:1109                               DBmysqlIterator->execute()
+  src\Ticket.php:5340                                DBmysql->request()
+  src\Central.php:161                                Ticket::showCentralNewList()
+  src\Central.php:106                                Central::showGlobalView()
+  src\CommonGLPI.php:694                             Central::displayTabContentForItem()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  {"user":"7@SISTEMAS2"} 
+[2025-02-11 14:09:59] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT DISTINCT `glpi_tickets`.*, `glpi_itilcategories`.`completename` AS `catname`, `glpi_entities`.`completename` AS `entityname`, `glpi_tickets`.`entities_id` AS `entityID` FROM `glpi_tickets` LEFT JOIN `glpi_groups_tickets` ON (`glpi_tickets`.`id` = `glpi_groups_tickets`.`tickets_id`) LEFT JOIN `glpi_tickets_users` ON (`glpi_tickets`.`id` = `glpi_tickets_users`.`tickets_id`) LEFT JOIN `glpi_suppliers_tickets` ON (`glpi_tickets`.`id` = `glpi_suppliers_tickets`.`tickets_id`) LEFT JOIN `glpi_itilcategories` ON (`glpi_tickets`.`itilcategories_id` = `glpi_itilcategories`.`id`) LEFT JOIN `glpi_items_tickets` ON (`glpi_tickets`.`id` = `glpi_items_tickets`.`tickets_id`) LEFT JOIN `glpi_entities` ON (`glpi_entities`.`id` = `glpi_tickets`.`entities_id`) LEFT JOIN `glpi_tickettasks` ON (`glpi_tickets`.`id` = `glpi_tickettasks`.`tickets_id`) LEFT JOIN `glpi_ticketvalidations` ON (`glpi_tickets`.`id` = `glpi_ticketvalidations`.`tickets_id`) WHERE `status` = '1' AND `is_deleted` = '0' ORDER BY `glpi_tickets`.`date_mod` DESC LIMIT 50
+  Error: Column 'status' in where clause is ambiguous
+  Backtrace :
+  src\DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src\DBmysql.php:1109                               DBmysqlIterator->execute()
+  src\Ticket.php:5340                                DBmysql->request()
+  src\Central.php:161                                Ticket::showCentralNewList()
+  src\Central.php:106                                Central::showGlobalView()
+  src\CommonGLPI.php:694                             Central::displayTabContentForItem()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  {"user":"7@SISTEMAS2"} 
+[2025-02-13 11:05:00] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT DISTINCT `glpi_tickets`.*, `glpi_itilcategories`.`completename` AS `catname`, `glpi_entities`.`completename` AS `entityname`, `glpi_tickets`.`entities_id` AS `entityID` FROM `glpi_tickets` LEFT JOIN `glpi_groups_tickets` ON (`glpi_tickets`.`id` = `glpi_groups_tickets`.`tickets_id`) LEFT JOIN `glpi_tickets_users` ON (`glpi_tickets`.`id` = `glpi_tickets_users`.`tickets_id`) LEFT JOIN `glpi_suppliers_tickets` ON (`glpi_tickets`.`id` = `glpi_suppliers_tickets`.`tickets_id`) LEFT JOIN `glpi_itilcategories` ON (`glpi_tickets`.`itilcategories_id` = `glpi_itilcategories`.`id`) LEFT JOIN `glpi_items_tickets` ON (`glpi_tickets`.`id` = `glpi_items_tickets`.`tickets_id`) LEFT JOIN `glpi_entities` ON (`glpi_entities`.`id` = `glpi_tickets`.`entities_id`) LEFT JOIN `glpi_tickettasks` ON (`glpi_tickets`.`id` = `glpi_tickettasks`.`tickets_id`) LEFT JOIN `glpi_ticketvalidations` ON (`glpi_tickets`.`id` = `glpi_ticketvalidations`.`tickets_id`) WHERE `status` = '1' AND `is_deleted` = '0' ORDER BY `glpi_tickets`.`date_mod` DESC LIMIT 50
+  Error: Column 'status' in where clause is ambiguous
+  Backtrace :
+  src\DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src\DBmysql.php:1109                               DBmysqlIterator->execute()
+  src\Ticket.php:5340                                DBmysql->request()
+  src\Central.php:161                                Ticket::showCentralNewList()
+  src\Central.php:106                                Central::showGlobalView()
+  src\CommonGLPI.php:694                             Central::displayTabContentForItem()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  {"user":"7@SISTEMAS2"} 
+[2025-02-17 08:22:26] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT DISTINCT `glpi_tickets`.*, `glpi_itilcategories`.`completename` AS `catname`, `glpi_entities`.`completename` AS `entityname`, `glpi_tickets`.`entities_id` AS `entityID` FROM `glpi_tickets` LEFT JOIN `glpi_groups_tickets` ON (`glpi_tickets`.`id` = `glpi_groups_tickets`.`tickets_id`) LEFT JOIN `glpi_tickets_users` ON (`glpi_tickets`.`id` = `glpi_tickets_users`.`tickets_id`) LEFT JOIN `glpi_suppliers_tickets` ON (`glpi_tickets`.`id` = `glpi_suppliers_tickets`.`tickets_id`) LEFT JOIN `glpi_itilcategories` ON (`glpi_tickets`.`itilcategories_id` = `glpi_itilcategories`.`id`) LEFT JOIN `glpi_items_tickets` ON (`glpi_tickets`.`id` = `glpi_items_tickets`.`tickets_id`) LEFT JOIN `glpi_entities` ON (`glpi_entities`.`id` = `glpi_tickets`.`entities_id`) LEFT JOIN `glpi_tickettasks` ON (`glpi_tickets`.`id` = `glpi_tickettasks`.`tickets_id`) LEFT JOIN `glpi_ticketvalidations` ON (`glpi_tickets`.`id` = `glpi_ticketvalidations`.`tickets_id`) WHERE `status` = '1' AND `is_deleted` = '0' ORDER BY `glpi_tickets`.`date_mod` DESC LIMIT 50
+  Error: Column 'status' in where clause is ambiguous
+  Backtrace :
+  src\DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src\DBmysql.php:1109                               DBmysqlIterator->execute()
+  src\Ticket.php:5340                                DBmysql->request()
+  src\Central.php:161                                Ticket::showCentralNewList()
+  src\Central.php:106                                Central::showGlobalView()
+  src\CommonGLPI.php:694                             Central::displayTabContentForItem()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  {"user":"7@SISTEMAS2"} 
+[2025-02-17 14:46:59] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT DISTINCT `glpi_tickets`.*, `glpi_itilcategories`.`completename` AS `catname`, `glpi_entities`.`completename` AS `entityname`, `glpi_tickets`.`entities_id` AS `entityID` FROM `glpi_tickets` LEFT JOIN `glpi_groups_tickets` ON (`glpi_tickets`.`id` = `glpi_groups_tickets`.`tickets_id`) LEFT JOIN `glpi_tickets_users` ON (`glpi_tickets`.`id` = `glpi_tickets_users`.`tickets_id`) LEFT JOIN `glpi_suppliers_tickets` ON (`glpi_tickets`.`id` = `glpi_suppliers_tickets`.`tickets_id`) LEFT JOIN `glpi_itilcategories` ON (`glpi_tickets`.`itilcategories_id` = `glpi_itilcategories`.`id`) LEFT JOIN `glpi_items_tickets` ON (`glpi_tickets`.`id` = `glpi_items_tickets`.`tickets_id`) LEFT JOIN `glpi_entities` ON (`glpi_entities`.`id` = `glpi_tickets`.`entities_id`) LEFT JOIN `glpi_tickettasks` ON (`glpi_tickets`.`id` = `glpi_tickettasks`.`tickets_id`) LEFT JOIN `glpi_ticketvalidations` ON (`glpi_tickets`.`id` = `glpi_ticketvalidations`.`tickets_id`) WHERE `status` = '1' AND `is_deleted` = '0' ORDER BY `glpi_tickets`.`date_mod` DESC LIMIT 50
+  Error: Column 'status' in where clause is ambiguous
+  Backtrace :
+  src\DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src\DBmysql.php:1109                               DBmysqlIterator->execute()
+  src\Ticket.php:5340                                DBmysql->request()
+  src\Central.php:161                                Ticket::showCentralNewList()
+  src\Central.php:106                                Central::showGlobalView()
+  src\CommonGLPI.php:694                             Central::displayTabContentForItem()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  {"user":"7@SISTEMAS2"} 
+[2025-02-18 07:58:29] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT DISTINCT `glpi_tickets`.*, `glpi_itilcategories`.`completename` AS `catname`, `glpi_entities`.`completename` AS `entityname`, `glpi_tickets`.`entities_id` AS `entityID` FROM `glpi_tickets` LEFT JOIN `glpi_groups_tickets` ON (`glpi_tickets`.`id` = `glpi_groups_tickets`.`tickets_id`) LEFT JOIN `glpi_tickets_users` ON (`glpi_tickets`.`id` = `glpi_tickets_users`.`tickets_id`) LEFT JOIN `glpi_suppliers_tickets` ON (`glpi_tickets`.`id` = `glpi_suppliers_tickets`.`tickets_id`) LEFT JOIN `glpi_itilcategories` ON (`glpi_tickets`.`itilcategories_id` = `glpi_itilcategories`.`id`) LEFT JOIN `glpi_items_tickets` ON (`glpi_tickets`.`id` = `glpi_items_tickets`.`tickets_id`) LEFT JOIN `glpi_entities` ON (`glpi_entities`.`id` = `glpi_tickets`.`entities_id`) LEFT JOIN `glpi_tickettasks` ON (`glpi_tickets`.`id` = `glpi_tickettasks`.`tickets_id`) LEFT JOIN `glpi_ticketvalidations` ON (`glpi_tickets`.`id` = `glpi_ticketvalidations`.`tickets_id`) WHERE `status` = '1' AND `is_deleted` = '0' ORDER BY `glpi_tickets`.`date_mod` DESC LIMIT 50
+  Error: Column 'status' in where clause is ambiguous
+  Backtrace :
+  src\DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src\DBmysql.php:1109                               DBmysqlIterator->execute()
+  src\Ticket.php:5340                                DBmysql->request()
+  src\Central.php:161                                Ticket::showCentralNewList()
+  src\Central.php:106                                Central::showGlobalView()
+  src\CommonGLPI.php:694                             Central::displayTabContentForItem()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  {"user":"7@SISTEMAS2"} 
+[2025-02-18 07:58:59] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT DISTINCT `glpi_tickets`.*, `glpi_itilcategories`.`completename` AS `catname`, `glpi_entities`.`completename` AS `entityname`, `glpi_tickets`.`entities_id` AS `entityID` FROM `glpi_tickets` LEFT JOIN `glpi_groups_tickets` ON (`glpi_tickets`.`id` = `glpi_groups_tickets`.`tickets_id`) LEFT JOIN `glpi_tickets_users` ON (`glpi_tickets`.`id` = `glpi_tickets_users`.`tickets_id`) LEFT JOIN `glpi_suppliers_tickets` ON (`glpi_tickets`.`id` = `glpi_suppliers_tickets`.`tickets_id`) LEFT JOIN `glpi_itilcategories` ON (`glpi_tickets`.`itilcategories_id` = `glpi_itilcategories`.`id`) LEFT JOIN `glpi_items_tickets` ON (`glpi_tickets`.`id` = `glpi_items_tickets`.`tickets_id`) LEFT JOIN `glpi_entities` ON (`glpi_entities`.`id` = `glpi_tickets`.`entities_id`) LEFT JOIN `glpi_tickettasks` ON (`glpi_tickets`.`id` = `glpi_tickettasks`.`tickets_id`) LEFT JOIN `glpi_ticketvalidations` ON (`glpi_tickets`.`id` = `glpi_ticketvalidations`.`tickets_id`) WHERE `status` = '1' AND `is_deleted` = '0' ORDER BY `glpi_tickets`.`date_mod` DESC LIMIT 50
+  Error: Column 'status' in where clause is ambiguous
+  Backtrace :
+  src\DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src\DBmysql.php:1109                               DBmysqlIterator->execute()
+  src\Ticket.php:5340                                DBmysql->request()
+  src\Central.php:161                                Ticket::showCentralNewList()
+  src\Central.php:106                                Central::showGlobalView()
+  src\CommonGLPI.php:694                             Central::displayTabContentForItem()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  {"user":"7@SISTEMAS2"} 
+[2025-02-18 08:00:37] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT DISTINCT `glpi_tickets`.*, `glpi_itilcategories`.`completename` AS `catname`, `glpi_entities`.`completename` AS `entityname`, `glpi_tickets`.`entities_id` AS `entityID` FROM `glpi_tickets` LEFT JOIN `glpi_groups_tickets` ON (`glpi_tickets`.`id` = `glpi_groups_tickets`.`tickets_id`) LEFT JOIN `glpi_tickets_users` ON (`glpi_tickets`.`id` = `glpi_tickets_users`.`tickets_id`) LEFT JOIN `glpi_suppliers_tickets` ON (`glpi_tickets`.`id` = `glpi_suppliers_tickets`.`tickets_id`) LEFT JOIN `glpi_itilcategories` ON (`glpi_tickets`.`itilcategories_id` = `glpi_itilcategories`.`id`) LEFT JOIN `glpi_items_tickets` ON (`glpi_tickets`.`id` = `glpi_items_tickets`.`tickets_id`) LEFT JOIN `glpi_entities` ON (`glpi_entities`.`id` = `glpi_tickets`.`entities_id`) LEFT JOIN `glpi_tickettasks` ON (`glpi_tickets`.`id` = `glpi_tickettasks`.`tickets_id`) LEFT JOIN `glpi_ticketvalidations` ON (`glpi_tickets`.`id` = `glpi_ticketvalidations`.`tickets_id`) WHERE `status` = '1' AND `is_deleted` = '0' ORDER BY `glpi_tickets`.`date_mod` DESC LIMIT 50
+  Error: Column 'status' in where clause is ambiguous
+  Backtrace :
+  src\DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src\DBmysql.php:1109                               DBmysqlIterator->execute()
+  src\Ticket.php:5340                                DBmysql->request()
+  src\Central.php:161                                Ticket::showCentralNewList()
+  src\Central.php:106                                Central::showGlobalView()
+  src\CommonGLPI.php:694                             Central::displayTabContentForItem()
+  src\CommonGLPI.php:656                             CommonGLPI::displayStandardTab()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  {"user":"7@SISTEMAS2"} 
+[2025-02-19 08:11:05] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT DISTINCT `glpi_tickets`.*, `glpi_itilcategories`.`completename` AS `catname`, `glpi_entities`.`completename` AS `entityname`, `glpi_tickets`.`entities_id` AS `entityID` FROM `glpi_tickets` LEFT JOIN `glpi_groups_tickets` ON (`glpi_tickets`.`id` = `glpi_groups_tickets`.`tickets_id`) LEFT JOIN `glpi_tickets_users` ON (`glpi_tickets`.`id` = `glpi_tickets_users`.`tickets_id`) LEFT JOIN `glpi_suppliers_tickets` ON (`glpi_tickets`.`id` = `glpi_suppliers_tickets`.`tickets_id`) LEFT JOIN `glpi_itilcategories` ON (`glpi_tickets`.`itilcategories_id` = `glpi_itilcategories`.`id`) LEFT JOIN `glpi_items_tickets` ON (`glpi_tickets`.`id` = `glpi_items_tickets`.`tickets_id`) LEFT JOIN `glpi_entities` ON (`glpi_entities`.`id` = `glpi_tickets`.`entities_id`) LEFT JOIN `glpi_tickettasks` ON (`glpi_tickets`.`id` = `glpi_tickettasks`.`tickets_id`) LEFT JOIN `glpi_ticketvalidations` ON (`glpi_tickets`.`id` = `glpi_ticketvalidations`.`tickets_id`) WHERE `status` = '1' AND `is_deleted` = '0' ORDER BY `glpi_tickets`.`date_mod` DESC LIMIT 50
+  Error: Column 'status' in where clause is ambiguous
+  Backtrace :
+  src\DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src\DBmysql.php:1109                               DBmysqlIterator->execute()
+  src\Ticket.php:5340                                DBmysql->request()
+  src\Central.php:161                                Ticket::showCentralNewList()
+  src\Central.php:106                                Central::showGlobalView()
+  src\CommonGLPI.php:694                             Central::displayTabContentForItem()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  {"user":"7@SISTEMAS2"} 
+[2025-02-19 15:30:31] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT DISTINCT `glpi_tickets`.*, `glpi_itilcategories`.`completename` AS `catname`, `glpi_entities`.`completename` AS `entityname`, `glpi_tickets`.`entities_id` AS `entityID` FROM `glpi_tickets` LEFT JOIN `glpi_groups_tickets` ON (`glpi_tickets`.`id` = `glpi_groups_tickets`.`tickets_id`) LEFT JOIN `glpi_tickets_users` ON (`glpi_tickets`.`id` = `glpi_tickets_users`.`tickets_id`) LEFT JOIN `glpi_suppliers_tickets` ON (`glpi_tickets`.`id` = `glpi_suppliers_tickets`.`tickets_id`) LEFT JOIN `glpi_itilcategories` ON (`glpi_tickets`.`itilcategories_id` = `glpi_itilcategories`.`id`) LEFT JOIN `glpi_items_tickets` ON (`glpi_tickets`.`id` = `glpi_items_tickets`.`tickets_id`) LEFT JOIN `glpi_entities` ON (`glpi_entities`.`id` = `glpi_tickets`.`entities_id`) LEFT JOIN `glpi_tickettasks` ON (`glpi_tickets`.`id` = `glpi_tickettasks`.`tickets_id`) LEFT JOIN `glpi_ticketvalidations` ON (`glpi_tickets`.`id` = `glpi_ticketvalidations`.`tickets_id`) WHERE `status` = '1' AND `is_deleted` = '0' ORDER BY `glpi_tickets`.`date_mod` DESC LIMIT 50
+  Error: Column 'status' in where clause is ambiguous
+  Backtrace :
+  src\DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src\DBmysql.php:1109                               DBmysqlIterator->execute()
+  src\Ticket.php:5340                                DBmysql->request()
+  src\Central.php:161                                Ticket::showCentralNewList()
+  src\Central.php:106                                Central::showGlobalView()
+  src\CommonGLPI.php:694                             Central::displayTabContentForItem()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  {"user":"7@SISTEMAS2"} 
+[2025-02-20 09:17:36] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT DISTINCT `glpi_tickets`.*, `glpi_itilcategories`.`completename` AS `catname`, `glpi_entities`.`completename` AS `entityname`, `glpi_tickets`.`entities_id` AS `entityID` FROM `glpi_tickets` LEFT JOIN `glpi_groups_tickets` ON (`glpi_tickets`.`id` = `glpi_groups_tickets`.`tickets_id`) LEFT JOIN `glpi_tickets_users` ON (`glpi_tickets`.`id` = `glpi_tickets_users`.`tickets_id`) LEFT JOIN `glpi_suppliers_tickets` ON (`glpi_tickets`.`id` = `glpi_suppliers_tickets`.`tickets_id`) LEFT JOIN `glpi_itilcategories` ON (`glpi_tickets`.`itilcategories_id` = `glpi_itilcategories`.`id`) LEFT JOIN `glpi_items_tickets` ON (`glpi_tickets`.`id` = `glpi_items_tickets`.`tickets_id`) LEFT JOIN `glpi_entities` ON (`glpi_entities`.`id` = `glpi_tickets`.`entities_id`) LEFT JOIN `glpi_tickettasks` ON (`glpi_tickets`.`id` = `glpi_tickettasks`.`tickets_id`) LEFT JOIN `glpi_ticketvalidations` ON (`glpi_tickets`.`id` = `glpi_ticketvalidations`.`tickets_id`) WHERE `status` = '1' AND `is_deleted` = '0' ORDER BY `glpi_tickets`.`date_mod` DESC LIMIT 50
+  Error: Column 'status' in where clause is ambiguous
+  Backtrace :
+  src\DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src\DBmysql.php:1109                               DBmysqlIterator->execute()
+  src\Ticket.php:5340                                DBmysql->request()
+  src\Central.php:161                                Ticket::showCentralNewList()
+  src\Central.php:106                                Central::showGlobalView()
+  src\CommonGLPI.php:694                             Central::displayTabContentForItem()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  {"user":"7@SISTEMAS2"} 
+[2025-02-20 10:23:17] glpisqllog.ERROR: DBmysql::doQuery() in C:\xampp\htdocs\glpi\src\DBmysql.php line 403
+  *** MySQL query error:
+  SQL: SELECT DISTINCT `glpi_tickets`.*, `glpi_itilcategories`.`completename` AS `catname`, `glpi_entities`.`completename` AS `entityname`, `glpi_tickets`.`entities_id` AS `entityID` FROM `glpi_tickets` LEFT JOIN `glpi_groups_tickets` ON (`glpi_tickets`.`id` = `glpi_groups_tickets`.`tickets_id`) LEFT JOIN `glpi_tickets_users` ON (`glpi_tickets`.`id` = `glpi_tickets_users`.`tickets_id`) LEFT JOIN `glpi_suppliers_tickets` ON (`glpi_tickets`.`id` = `glpi_suppliers_tickets`.`tickets_id`) LEFT JOIN `glpi_itilcategories` ON (`glpi_tickets`.`itilcategories_id` = `glpi_itilcategories`.`id`) LEFT JOIN `glpi_items_tickets` ON (`glpi_tickets`.`id` = `glpi_items_tickets`.`tickets_id`) LEFT JOIN `glpi_entities` ON (`glpi_entities`.`id` = `glpi_tickets`.`entities_id`) LEFT JOIN `glpi_tickettasks` ON (`glpi_tickets`.`id` = `glpi_tickettasks`.`tickets_id`) LEFT JOIN `glpi_ticketvalidations` ON (`glpi_tickets`.`id` = `glpi_ticketvalidations`.`tickets_id`) WHERE `status` = '1' AND `is_deleted` = '0' ORDER BY `glpi_tickets`.`date_mod` DESC LIMIT 50
+  Error: Column 'status' in where clause is ambiguous
+  Backtrace :
+  src\DBmysqlIterator.php:112                        DBmysql->doQuery()
+  src\DBmysql.php:1109                               DBmysqlIterator->execute()
+  src\Ticket.php:5340                                DBmysql->request()
+  src\Central.php:161                                Ticket::showCentralNewList()
+  src\Central.php:106                                Central::showGlobalView()
+  src\CommonGLPI.php:694                             Central::displayTabContentForItem()
+  ajax\common.tabs.php:120                           CommonGLPI::displayStandardTab()
+  {"user":"7@SISTEMAS2"} 

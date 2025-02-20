@@ -1,0 +1,59 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-13 08:32+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: inc/category.class.php:195
+msgid "A link with this category already exists"
+msgstr ""
+
+#: inc/group_level.class.php:83 inc/menu.class.php:38 setup.php:79
+msgid "ItilCategory Groups"
+msgstr ""
+
+#: hook.php:81
+msgid "Level "
+msgstr ""
+
+#: inc/category.class.php:117 inc/category.class.php:572
+#: inc/group_level.class.php:125 hook.php:99
+msgid "Level 1"
+msgstr ""
+
+#: inc/category.class.php:121 inc/category.class.php:596
+#: inc/group_level.class.php:126 hook.php:100
+msgid "Level 2"
+msgstr ""
+
+#: inc/category.class.php:126 inc/category.class.php:620
+#: inc/group_level.class.php:127 hook.php:101
+msgid "Level 3"
+msgstr ""
+
+#: inc/category.class.php:130 inc/category.class.php:644
+#: inc/group_level.class.php:128 hook.php:102
+msgid "Level 4"
+msgstr ""
+
+#: inc/group_level.class.php:42 inc/group_level.class.php:120
+#: inc/group_level.class.php:154
+msgid "Level attribution"
+msgstr ""
+
+#: inc/category.class.php:42 inc/category.class.php:497 inc/menu.class.php:34
+msgid "Link ItilCategory - Groups"
+msgstr ""

@@ -1,0 +1,449 @@
+{
+    "action": "inventory",
+    "content": {
+        "accesslog": {
+            "logdate": "2025-02-20 07:53:20"
+        },
+        "antivirus": [
+            {
+                "enabled": true,
+                "guid": "{DA5F8466-F00B-8E6B-6CB8-5AE55C9EBDCD}",
+                "name": "WithSecure\u2122 Elements Agent",
+                "uptodate": true
+            },
+            {
+                "base_version": "1.421.516.0",
+                "company": "Microsoft Corporation",
+                "enabled": false,
+                "guid": "{D68DDC3A-831F-4fae-9E44-DA132C1ACF46}",
+                "name": "Windows Defender",
+                "uptodate": true
+            }
+        ],
+        "bios": {
+            "bdate": "2017-01-17",
+            "bmanufacturer": "LENOVO",
+            "bversion": "M10KT22A",
+            "mmanufacturer": "LENOVO",
+            "mmodel": "SKYBAY",
+            "msn": "MP15EGHH",
+            "skunumber": "LENOVO_MT_10NH_BU_LENOVO_FM_Lenovo V510z",
+            "smanufacturer": "LENOVO",
+            "smodel": "10NH0041LS",
+            "ssn": "MP15EGHH"
+        },
+        "firewalls": [
+            {
+                "profile": "StandardProfile",
+                "status": "on"
+            },
+            {
+                "profile": "DomainProfile",
+                "status": "on"
+            },
+            {
+                "profile": "PublicProfile",
+                "status": "on"
+            }
+        ],
+        "hardware": {
+            "chassis_type": "All In One",
+            "lastloggeduser": "GESTION.DOCUMENTAL",
+            "name": "D0030",
+            "uuid": "2a3d0455-29fb-e611-b753-fc45967b892e",
+            "vmsystem": "Physical",
+            "winprodkey": "N6R3J-KFBTY-GQ7BT-R779K-8QKTP"
+        },
+        "memories": [
+            {
+                "capacity": 4096,
+                "caption": "ChannelA-DIMM0",
+                "description": "SODIMM",
+                "manufacturer": "Samsung",
+                "model": "M471A5244CB0-CRC",
+                "numslots": 1,
+                "serialnumber": "121E0417",
+                "speed": "2133",
+                "type": "DDR4"
+            },
+            {
+                "caption": "ChannelB-DIMM0",
+                "numslots": 2
+            }
+        ],
+        "operatingsystem": {
+            "arch": "32-bit",
+            "dns_domain": "dissql.com.co",
+            "fqdn": "D0030.dissql.com.co",
+            "install_date": "2023-03-23 07:55:49",
+            "kernel_name": "MSWin32",
+            "name": "Windows",
+            "service_pack": "5371",
+            "timezone": {
+                "name": "America\/Bogota",
+                "offset": "-0500"
+            },
+            "version": "22H2"
+        },
+        "ports": [
+            {
+                "caption": "PS2Mouse",
+                "description": "PS\/2",
+                "name": "J1A1",
+                "type": "Mouse Port"
+            },
+            {
+                "caption": "Keyboard",
+                "description": "PS\/2",
+                "name": "J1A1",
+                "type": "Keyboard Port"
+            },
+            {
+                "caption": "TV Out",
+                "description": "Mini Centronics Type-14",
+                "name": "J2A1",
+                "type": "Other"
+            },
+            {
+                "caption": "COM A",
+                "description": "DB-9 male",
+                "name": "J2A2A",
+                "type": "Serial Port 16550A Compatible"
+            },
+            {
+                "caption": "Video",
+                "description": "DB-15 female",
+                "name": "J2A2B",
+                "type": "Video Port"
+            },
+            {
+                "caption": "USB1",
+                "description": "Access Bus (USB)",
+                "name": "J3A1",
+                "type": "USB"
+            },
+            {
+                "caption": "USB2",
+                "description": "Access Bus (USB)",
+                "name": "J3A1",
+                "type": "USB"
+            },
+            {
+                "caption": "USB3",
+                "description": "Access Bus (USB)",
+                "name": "J3A1",
+                "type": "USB"
+            },
+            {
+                "description": "Other",
+                "name": "J9A1 - TPM HDR",
+                "type": "Other"
+            },
+            {
+                "description": "Other",
+                "name": "J9C1 - PCIE DOCKING CONN",
+                "type": "Other"
+            },
+            {
+                "description": "Other",
+                "name": "J2B3 - CPU FAN",
+                "type": "Other"
+            },
+            {
+                "description": "Other",
+                "name": "J6C2 - EXT HDMI",
+                "type": "Other"
+            },
+            {
+                "description": "Other",
+                "name": "J3C1 - GMCH FAN",
+                "type": "Other"
+            },
+            {
+                "description": "Other",
+                "name": "J1D1 - ITP",
+                "type": "Other"
+            },
+            {
+                "description": "Other",
+                "name": "J9E2 - MDC INTPSR",
+                "type": "Other"
+            },
+            {
+                "description": "Other",
+                "name": "J9E4 - MDC INTPSR",
+                "type": "Other"
+            },
+            {
+                "description": "Other",
+                "name": "J9E3 - LPC HOT DOCKING",
+                "type": "Other"
+            },
+            {
+                "description": "Other",
+                "name": "J9E1 - SCAN MATRIX",
+                "type": "Other"
+            },
+            {
+                "description": "Other",
+                "name": "J9G1 - LPC SIDE BAND",
+                "type": "Other"
+            },
+            {
+                "description": "Other",
+                "name": "J8F1 - UNIFIED",
+                "type": "Other"
+            },
+            {
+                "description": "Other",
+                "name": "J6F1 - LVDS",
+                "type": "Other"
+            },
+            {
+                "description": "Other",
+                "name": "J2F1 - LAI FAN",
+                "type": "Other"
+            },
+            {
+                "description": "Other",
+                "name": "J2G1 - GFX VID",
+                "type": "Other"
+            },
+            {
+                "description": "Other",
+                "name": "J1G6 - AC JACK",
+                "type": "Other"
+            }
+        ],
+        "remote_mgmt": [
+            {
+                "id": "164353659",
+                "type": "anydesk"
+            }
+        ],
+        "slots": [
+            {
+                "description": "x16 PCI Express",
+                "designation": "0",
+                "name": "J6B2",
+                "status": "used"
+            },
+            {
+                "description": "x1 PCI Express",
+                "designation": "1",
+                "name": "J6B1",
+                "status": "used"
+            },
+            {
+                "description": "x1 PCI Express",
+                "designation": "2",
+                "name": "J6D1",
+                "status": "used"
+            },
+            {
+                "description": "x1 PCI Express",
+                "designation": "3",
+                "name": "J7B1",
+                "status": "used"
+            },
+            {
+                "description": "x1 PCI Express",
+                "designation": "4",
+                "name": "J8B4",
+                "status": "used"
+            }
+        ],
+        "softwares": [
+            {
+                "arch": "i586",
+                "from": "registry",
+                "guid": "mspaint-b330ad9e-f80b-4c96-9949-4b4228be9a6e",
+                "install_date": "2023-12-28",
+                "name": "mspaint-b330ad9e-f80b-4c96-9949-4b4228be9a6e",
+                "publisher": "Microsoft Corporation",
+                "system_category": "application",
+                "uninstall_string": "\"C:\\WINDOWS\\System32\\mspaint.exe\" \/uninstall"
+            },
+            {
+                "arch": "i586",
+                "from": "registry",
+                "guid": "mstsc-4b0a31aa-df6a-4307-9b47-d5cc50009643",
+                "install_date": "2023-11-29",
+                "name": "mstsc-4b0a31aa-df6a-4307-9b47-d5cc50009643",
+                "publisher": "Microsoft Corporation",
+                "system_category": "application",
+                "uninstall_string": "\"C:\\WINDOWS\\System32\\mstsc.exe\" \/uninstall"
+            },
+            {
+                "arch": "i586",
+                "from": "registry",
+                "guid": "SnippingTool-ee6eb196-db28-4d99-816d-fa9a63b4a377",
+                "install_date": "2023-12-28",
+                "name": "SnippingTool-ee6eb196-db28-4d99-816d-fa9a63b4a377",
+                "publisher": "Microsoft Corporation",
+                "system_category": "application",
+                "uninstall_string": "\"C:\\WINDOWS\\System32\\SnippingTool.exe\" \/uninstall"
+            },
+            {
+                "arch": "i586",
+                "from": "registry",
+                "guid": "VulkanRT1.0.65.1",
+                "install_date": "2023-03-23",
+                "name": "Vulkan Run Time Libraries 1.0.65.1",
+                "publisher": "LunarG, Inc.",
+                "system_category": "system_component",
+                "uninstall_string": "C:\\Program Files (x86)\\VulkanRT\\1.0.65.1\\UninstallVulkanRT.exe",
+                "version": "1.0.65.1"
+            },
+            {
+                "arch": "i586",
+                "from": "registry",
+                "guid": "WinRAR archiver",
+                "install_date": "2023-04-10",
+                "name": "WinRAR 6.21 (64-bit)",
+                "publisher": "win.rar GmbH",
+                "system_category": "application",
+                "uninstall_string": "C:\\Program Files\\WinRAR\\uninstall.exe",
+                "version": "6.21.0"
+            },
+            {
+                "arch": "i586",
+                "from": "registry",
+                "guid": "{0746492E-47B6-4251-940C-44462DFD74BB}",
+                "helplink": "http:\/\/support.microsoft.com\/kb\/4480730",
+                "install_date": "2023-03-22",
+                "name": "Update for Windows 10 for x64-based Systems (KB4480730)",
+                "publisher": "Microsoft Corporation",
+                "system_category": "application",
+                "uninstall_string": "MsiExec.exe \/X{0746492E-47B6-4251-940C-44462DFD74BB}",
+                "url_info_about": "http:\/\/support.microsoft.com\/kb\/4480730",
+                "version": "2.55.0.0"
+            },
+            {
+                "arch": "i586",
+                "from": "registry",
+                "guid": "{1FC1A6C2-576E-489A-9B4A-92D21F542136}",
+                "install_date": "2023-11-03",
+                "name": "Microsoft Update Health Tools",
+                "publisher": "Microsoft Corporation",
+                "system_category": "application",
+                "uninstall_string": "MsiExec.exe \/X{1FC1A6C2-576E-489A-9B4A-92D21F542136}",
+                "version": "3.74.0.0"
+            },
+            {
+                "arch": "i586",
+                "from": "registry",
+                "guid": "{76A22428-2400-4521-96AF-7AC4A6174CA5}",
+                "install_date": "2023-03-22",
+                "name": "UpdateAssistant",
+                "publisher": "Microsoft Corporation",
+                "system_category": "system_component",
+                "uninstall_string": "MsiExec.exe \/I{76A22428-2400-4521-96AF-7AC4A6174CA5}",
+                "version": "1.25.0.0"
+            },
+            {
+                "arch": "i586",
+                "from": "registry",
+                "guid": "{90140000-002A-0000-1000-0000000FF1CE}",
+                "install_date": "2023-04-10",
+                "name": "Microsoft Office Office 64-bit Components 2010",
+                "publisher": "Microsoft Corporation",
+                "system_category": "system_component",
+                "uninstall_string": "MsiExec.exe \/X{90140000-002A-0000-1000-0000000FF1CE}",
+                "version": "14.0.4763.1000"
+            },
+            {
+                "arch": "i586",
+                "from": "registry",
+                "guid": "{90140000-002A-0C0A-1000-0000000FF1CE}",
+                "install_date": "2023-04-10",
+                "name": "Microsoft Office Shared 64-bit MUI (Spanish) 2010",
+                "publisher": "Microsoft Corporation",
+                "system_category": "system_component",
+                "uninstall_string": "MsiExec.exe \/X{90140000-002A-0C0A-1000-0000000FF1CE}",
+                "version": "14.0.4763.1000"
+            },
+            {
+                "arch": "i586",
+                "from": "registry",
+                "guid": "{90150000-008F-0000-1000-0000000FF1CE}",
+                "install_date": "2023-03-23",
+                "name": "Office 15 Click-to-Run Licensing Component",
+                "publisher": "Microsoft Corporation",
+                "system_category": "system_component",
+                "uninstall_string": "MsiExec.exe \/I{90150000-008F-0000-1000-0000000FF1CE}",
+                "version": "15.0.4433.1508"
+            },
+            {
+                "arch": "i586",
+                "comments": "GLPI Agent 1.7.1",
+                "from": "registry",
+                "guid": "{CF9A3F4C-6BF4-1014-BBBD-E6E599B62783}",
+                "helplink": "https:\/\/glpi-project.org\/discussions\/",
+                "install_date": "2024-12-13",
+                "name": "GLPI Agent 1.7.1",
+                "publisher": "Teclib'",
+                "system_category": "application",
+                "uninstall_string": "MsiExec.exe \/I{CF9A3F4C-6BF4-1014-BBBD-E6E599B62783}",
+                "url_info_about": "https:\/\/glpi-project.org\/",
+                "version": "1.7.1"
+            },
+            {
+                "arch": "i586",
+                "from": "registry",
+                "guid": "{DA80A019-4C3B-4DAA-ACA1-6937D7CAAF9E}",
+                "helplink": "http:\/\/support.microsoft.com\/kb\/5001716",
+                "install_date": "2024-10-17",
+                "name": "Update for x64-based Windows Systems (KB5001716)",
+                "publisher": "Microsoft Corporation",
+                "system_category": "application",
+                "uninstall_string": "MsiExec.exe \/X{DA80A019-4C3B-4DAA-ACA1-6937D7CAAF9E}",
+                "url_info_about": "http:\/\/support.microsoft.com\/kb\/5001716",
+                "version": "8.94.0.0"
+            },
+            {
+                "arch": "i586",
+                "from": "registry",
+                "install_date": "2023-11-29",
+                "name": "Internet Explorer",
+                "publisher": "Microsoft Corporation",
+                "version": "11.3636.19041.0"
+            }
+        ],
+        "storages": [
+            {
+                "description": "Integrated : Bus 0 : Device 23 : Function 0 : Adapter 0 : Port 1",
+                "disksize": 240057,
+                "firmware": "M6CR054",
+                "interface": "SATA",
+                "model": "CT240BX500SSD1",
+                "name": "PhysicalDisk0",
+                "serial": "2147E5E79873",
+                "type": "SSD"
+            }
+        ],
+        "users": [
+            {
+                "domain": "DISSQL",
+                "login": "GESTION.DOCUMENTAL"
+            }
+        ],
+        "versionclient": "GLPI-Agent_v1.7.1",
+        "versionprovider": {
+            "comments": [
+                "Provided by Teclib Edition",
+                "Installer built on Fri Dec 22 15:25:22 2023 UTC",
+                "Built with Strawberry Perl 5.36.0",
+                "Built on github actions windows image for glpi-project\/glpi-agent repository"
+            ],
+            "etime": 6,
+            "name": "GLPI",
+            "perl_exe": "C:\\Program Files\\GLPI-Agent\\perl\\bin\\glpi-agent.exe",
+            "perl_version": "v5.36.0",
+            "program": "C:\\Program Files\\GLPI-Agent\\perl\\bin\\glpi-win32-service",
+            "version": "1.7.1"
+        }
+    },
+    "deviceid": "D0030-2024-12-13-11-13-30",
+    "itemtype": "Computer"
+}

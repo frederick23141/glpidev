@@ -1,0 +1,534 @@
+2024-09-26 20:26:08 [7@SISTEMAS2]
+0 seconds for "GLPI Inventory plugin installation"
+2024-09-26 20:26:08 [7@SISTEMAS2]
+0 seconds for "Clean data from old installation of the plugin"
+2024-09-26 20:26:08 [7@SISTEMAS2]
+0 seconds for "Clean rules from old installation of the plugin"
+2024-09-26 20:26:26 [7@SISTEMAS2]
+18 seconds for "Creation tables in database"
+2024-09-26 20:26:26 [7@SISTEMAS2]
+0 seconds for "Creation of folders"
+2024-09-26 20:26:41 [7@SISTEMAS2]
+15 seconds for "Initialize profiles"
+2024-09-26 20:26:48 [7@SISTEMAS2]
+7 seconds for "Initialize configuration"
+2024-09-26 20:26:49 [7@SISTEMAS2]
+1 segundos for "Initialize agent TASKS"
+2024-12-03 21:06:53 [7@SISTEMAS2]
+0 seconds for "Migration Classname : Migration"
+2024-12-03 21:06:59 [7@SISTEMAS2]
+6 seconds for "Update of plugin GLPI Inventory"
+2024-12-03 21:06:59 [7@SISTEMAS2]
+0 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_agents"
+2024-12-03 21:06:59 [7@SISTEMAS2]
+0 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_agents"
+2024-12-03 21:07:00 [7@SISTEMAS2]
+1 segundos for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_agents"
+2024-12-03 21:07:00 [7@SISTEMAS2]
+0 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_agentmodules"
+2024-12-03 21:07:01 [7@SISTEMAS2]
+1 segundos for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_configs"
+2024-12-03 21:07:01 [7@SISTEMAS2]
+0 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_configs"
+2024-12-03 21:07:02 [7@SISTEMAS2]
+1 segundos for "Agregando índices de unicidad - glpi_plugin_glpiinventory_configs"
+2024-12-03 21:07:02 [7@SISTEMAS2]
+0 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_entities"
+2024-12-03 21:07:02 [7@SISTEMAS2]
+0 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_entities"
+2024-12-03 21:07:03 [7@SISTEMAS2]
+1 segundos for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_entities"
+2024-12-03 21:07:03 [7@SISTEMAS2]
+0 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_locks"
+2024-12-03 21:07:03 [7@SISTEMAS2]
+0 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_locks"
+2024-12-03 21:07:04 [7@SISTEMAS2]
+1 segundos for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_locks"
+2024-12-03 21:07:04 [7@SISTEMAS2]
+0 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_locks"
+2024-12-03 21:07:05 [7@SISTEMAS2]
+1 segundos for "Agregando índices de unicidad - glpi_plugin_glpiinventory_locks"
+2024-12-03 21:07:05 [7@SISTEMAS2]
+0 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_ignoredimportdevices"
+2024-12-03 21:07:05 [7@SISTEMAS2]
+0 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_ignoredimportdevices"
+2024-12-03 21:07:06 [7@SISTEMAS2]
+1 segundos for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_ignoredimportdevices"
+2024-12-03 21:07:06 [7@SISTEMAS2]
+0 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_rulematchedlogs"
+2024-12-03 21:07:08 [7@SISTEMAS2]
+2 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_rulematchedlogs"
+2024-12-03 21:07:09 [7@SISTEMAS2]
+1 segundos for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_unmanageds"
+2024-12-03 21:07:09 [7@SISTEMAS2]
+0 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_unmanageds"
+2024-12-03 21:07:10 [7@SISTEMAS2]
+1 segundos for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_unmanageds"
+2024-12-03 21:07:10 [7@SISTEMAS2]
+0 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_inventorycomputercriterias"
+2024-12-03 21:07:10 [7@SISTEMAS2]
+0 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_inventorycomputercriterias"
+2024-12-03 21:07:11 [7@SISTEMAS2]
+1 segundos for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_inventorycomputercriterias"
+2024-12-03 21:07:11 [7@SISTEMAS2]
+0 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_inventorycomputerblacklists"
+2024-12-03 21:07:11 [7@SISTEMAS2]
+0 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_inventorycomputerblacklists"
+2024-12-03 21:07:18 [7@SISTEMAS2]
+7 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_inventorycomputerblacklists"
+2024-12-03 21:07:18 [7@SISTEMAS2]
+0 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_inventorycomputercomputers"
+2024-12-03 21:07:19 [7@SISTEMAS2]
+1 segundos for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_inventorycomputercomputers"
+2024-12-03 21:07:20 [7@SISTEMAS2]
+1 segundos for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_inventorycomputercomputers"
+2024-12-03 21:07:20 [7@SISTEMAS2]
+0 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_computerlicenseinfos"
+2024-12-03 21:07:20 [7@SISTEMAS2]
+0 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_computerlicenseinfos"
+2024-12-03 21:07:21 [7@SISTEMAS2]
+1 segundos for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_computerlicenseinfos"
+2024-12-03 21:07:21 [7@SISTEMAS2]
+0 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_computerremotemanagements"
+2024-12-03 21:07:22 [7@SISTEMAS2]
+1 segundos for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_computerremotemanagements"
+2024-12-03 21:07:22 [7@SISTEMAS2]
+0 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_computerremotemanagements"
+2024-12-03 21:07:23 [7@SISTEMAS2]
+1 segundos for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_inventorycomputercomputers"
+2024-12-03 21:07:25 [7@SISTEMAS2]
+2 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_dblockinventorynames"
+2024-12-03 21:07:25 [7@SISTEMAS2]
+0 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_dblockinventorynames"
+2024-12-03 21:07:26 [7@SISTEMAS2]
+1 segundos for "Agregando índices de unicidad - glpi_plugin_glpiinventory_dblockinventorynames"
+2024-12-03 21:07:26 [7@SISTEMAS2]
+0 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_dblockinventories"
+2024-12-03 21:07:26 [7@SISTEMAS2]
+0 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_dblockinventories"
+2024-12-03 21:07:27 [7@SISTEMAS2]
+1 segundos for "Agregando índices de unicidad - glpi_plugin_glpiinventory_dblockinventories"
+2024-12-03 21:07:28 [7@SISTEMAS2]
+1 segundos for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_dblocksoftwares"
+2024-12-03 21:07:28 [7@SISTEMAS2]
+0 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_dblocksoftwares"
+2024-12-03 21:07:29 [7@SISTEMAS2]
+1 segundos for "Agregando índices de unicidad - glpi_plugin_glpiinventory_dblocksoftwares"
+2024-12-03 21:07:30 [7@SISTEMAS2]
+1 segundos for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_dblocksoftwareversions"
+2024-12-03 21:07:30 [7@SISTEMAS2]
+0 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_dblocksoftwareversions"
+2024-12-03 21:07:31 [7@SISTEMAS2]
+1 segundos for "Agregando índices de unicidad - glpi_plugin_glpiinventory_dblocksoftwareversions"
+2024-12-03 21:07:33 [7@SISTEMAS2]
+2 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_taskjobs"
+2024-12-03 21:07:33 [7@SISTEMAS2]
+0 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_ipranges"
+2024-12-03 21:07:34 [7@SISTEMAS2]
+1 segundos for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_ipranges_configsecurities"
+2024-12-03 21:07:35 [7@SISTEMAS2]
+1 segundos for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_ipranges_configsecurities"
+2024-12-03 21:07:35 [7@SISTEMAS2]
+0 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_configlogfields"
+2024-12-03 21:07:37 [7@SISTEMAS2]
+2 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_configlogfields"
+2024-12-03 21:07:37 [7@SISTEMAS2]
+0 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_networkportconnectionlogs"
+2024-12-03 21:07:38 [7@SISTEMAS2]
+1 segundos for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_networkportconnectionlogs"
+2024-12-03 21:07:38 [7@SISTEMAS2]
+0 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_networkporttypes"
+2024-12-03 21:07:39 [7@SISTEMAS2]
+1 segundos for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_networkporttypes"
+2024-12-03 21:07:39 [7@SISTEMAS2]
+0 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_networkports"
+2024-12-03 21:07:42 [7@SISTEMAS2]
+3 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_networkports"
+2024-12-03 21:07:42 [7@SISTEMAS2]
+0 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_networkportlogs"
+2024-12-03 21:07:42 [7@SISTEMAS2]
+0 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_networkportlogs"
+2024-12-03 21:07:43 [7@SISTEMAS2]
+1 segundos for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_networkportlogs"
+2024-12-03 21:07:44 [7@SISTEMAS2]
+1 segundos for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_printers"
+2024-12-03 21:07:46 [7@SISTEMAS2]
+2 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_printers"
+2024-12-03 21:07:47 [7@SISTEMAS2]
+1 segundos for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_printerlogs"
+2024-12-03 21:07:48 [7@SISTEMAS2]
+1 segundos for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_printerlogs"
+2024-12-03 21:07:48 [7@SISTEMAS2]
+0 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_printercartridges"
+2024-12-03 21:07:49 [7@SISTEMAS2]
+1 segundos for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_printercartridges"
+2024-12-03 21:07:49 [7@SISTEMAS2]
+0 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_printercartridges"
+2024-12-03 21:07:50 [7@SISTEMAS2]
+1 segundos for "Clean printers"
+2024-12-03 21:07:50 [7@SISTEMAS2]
+0 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_networkequipments"
+2024-12-03 21:07:52 [7@SISTEMAS2]
+2 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_networkequipments"
+2024-12-03 21:07:53 [7@SISTEMAS2]
+1 segundos for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_configsecurities"
+2024-12-03 21:07:54 [7@SISTEMAS2]
+1 segundos for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_configsecurities"
+2024-12-03 21:07:55 [7@SISTEMAS2]
+1 segundos for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_statediscoveries"
+2024-12-03 21:07:55 [7@SISTEMAS2]
+0 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_deployfiles"
+2024-12-03 21:07:56 [7@SISTEMAS2]
+1 segundos for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_deployfiles"
+2024-12-03 21:07:58 [7@SISTEMAS2]
+2 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_deploypackages"
+2024-12-03 21:07:58 [7@SISTEMAS2]
+0 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_deploypackages_entities"
+2024-12-03 21:07:58 [7@SISTEMAS2]
+0 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_deploypackages_groups"
+2024-12-03 21:07:59 [7@SISTEMAS2]
+1 segundos for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_deploypackages_profiles"
+2024-12-03 21:07:59 [7@SISTEMAS2]
+0 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_deploypackages_users"
+2024-12-03 21:08:00 [7@SISTEMAS2]
+1 segundos for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_deploymirrors"
+2024-12-03 21:08:00 [7@SISTEMAS2]
+0 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_deploygroups"
+2024-12-03 21:08:01 [7@SISTEMAS2]
+1 segundos for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_deploygroups_staticdatas"
+2024-12-03 21:08:01 [7@SISTEMAS2]
+0 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_deploygroups_dynamicdatas"
+2024-12-03 21:08:01 [7@SISTEMAS2]
+0 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_credentials"
+2024-12-03 21:08:02 [7@SISTEMAS2]
+1 segundos for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_credentialips"
+2024-12-03 21:08:04 [7@SISTEMAS2]
+2 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_collects"
+2024-12-03 21:08:04 [7@SISTEMAS2]
+0 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_collects_registries"
+2024-12-03 21:08:04 [7@SISTEMAS2]
+0 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_collects_registries_contents"
+2024-12-03 21:08:05 [7@SISTEMAS2]
+1 segundos for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_collects_wmis"
+2024-12-03 21:08:05 [7@SISTEMAS2]
+0 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_collects_wmis_contents"
+2024-12-03 21:08:05 [7@SISTEMAS2]
+0 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_collects_files"
+2024-12-03 21:08:06 [7@SISTEMAS2]
+1 segundos for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_collects_files_contents"
+2024-12-03 21:08:06 [7@SISTEMAS2]
+0 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_tasks"
+2024-12-03 21:08:07 [7@SISTEMAS2]
+1 segundos for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_taskjobs"
+2024-12-03 21:08:07 [7@SISTEMAS2]
+0 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_taskjoblogs"
+2024-12-03 21:08:07 [7@SISTEMAS2]
+0 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_taskjobstates"
+2024-12-03 21:08:10 [7@SISTEMAS2]
+3 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_taskjobstates"
+2024-12-03 21:08:10 [7@SISTEMAS2]
+0 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_timeslots"
+2024-12-03 21:08:11 [7@SISTEMAS2]
+1 segundos for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_timeslotentries"
+2024-12-03 21:08:14 [7@SISTEMAS2]
+3 seconds for "Add Crontasks"
+2024-12-03 21:08:14 [7@SISTEMAS2]
+0 seconds for "Valores de configuración agregados para credentials_encryption_migration_was_executed (glpiinventory)."
+2024-12-03 21:08:14 [7@SISTEMAS2]
+0 seconds for "Migration Classname : Migration"
+2024-12-03 21:08:14 [7@SISTEMAS2]
+0 seconds for "Use core capabilities"
+2024-12-03 21:08:15 [7@SISTEMAS2]
+1 segundos for "Use core agent"
+2024-12-03 21:08:16 [7@SISTEMAS2]
+1 segundos for "Use core SNMP credentials"
+2024-12-03 21:08:16 [7@SISTEMAS2]
+0 seconds for "Use core network ports"
+2024-12-03 21:08:17 [7@SISTEMAS2]
+1 segundos for "Use core computers"
+2024-12-03 21:08:17 [7@SISTEMAS2]
+0 seconds for "Use core network equipments"
+2024-12-03 21:08:18 [7@SISTEMAS2]
+1 segundos for "Use core printers"
+2024-12-03 21:08:18 [7@SISTEMAS2]
+0 seconds for "Use core printer logs"
+2024-12-03 21:08:18 [7@SISTEMAS2]
+0 seconds for "Use core networkports logs"
+2024-12-03 21:08:20 [7@SISTEMAS2]
+2 seconds for "Use core network ports types"
+2024-12-03 21:08:20 [7@SISTEMAS2]
+0 seconds for "Use core unmanaged equipments"
+2024-12-03 21:08:21 [7@SISTEMAS2]
+1 segundos for "Drop ignored equipments"
+2024-12-03 21:08:21 [7@SISTEMAS2]
+0 seconds for "Use core rules"
+2024-12-03 21:08:22 [7@SISTEMAS2]
+1 segundos for "Use core remote management"
+2024-12-03 21:08:22 [7@SISTEMAS2]
+0 seconds for "Use core fields locks"
+2024-12-03 21:08:23 [7@SISTEMAS2]
+1 segundos for "Drop dblock tables"
+2024-12-03 21:08:24 [7@SISTEMAS2]
+1 segundos for "Use core entities"
+2024-12-03 21:08:25 [7@SISTEMAS2]
+1 segundos for "Drop network ports and printers logs tables"
+2024-12-03 21:08:25 [7@SISTEMAS2]
+0 seconds for "Drop inventory mapping table"
+2024-12-03 21:08:32 [7@SISTEMAS2]
+0 seconds for "Migration Classname : Migration"
+2024-12-03 21:08:34 [7@SISTEMAS2]
+9 seconds for "Drop blacklists tables"
+2024-12-03 21:08:37 [7@SISTEMAS2]
+5 seconds for "Update of plugin GLPI Inventory"
+2024-12-03 21:08:37 [7@SISTEMAS2]
+0 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_agents"
+2024-12-03 21:08:37 [7@SISTEMAS2]
+0 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_agents"
+2024-12-03 21:08:38 [7@SISTEMAS2]
+1 segundos for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_agents"
+2024-12-03 21:08:38 [7@SISTEMAS2]
+0 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_agentmodules"
+2024-12-03 21:08:39 [7@SISTEMAS2]
+1 segundos for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_configs"
+2024-12-03 21:08:39 [7@SISTEMAS2]
+0 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_configs"
+2024-12-03 21:08:40 [7@SISTEMAS2]
+1 segundos for "Agregando índices de unicidad - glpi_plugin_glpiinventory_configs"
+2024-12-03 21:08:40 [7@SISTEMAS2]
+0 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_entities"
+2024-12-03 21:08:41 [7@SISTEMAS2]
+1 segundos for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_entities"
+2024-12-03 21:08:42 [7@SISTEMAS2]
+1 segundos for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_entities"
+2024-12-03 21:08:42 [7@SISTEMAS2]
+0 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_locks"
+2024-12-03 21:08:42 [7@SISTEMAS2]
+0 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_locks"
+2024-12-03 21:08:44 [7@SISTEMAS2]
+2 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_locks"
+2024-12-03 21:08:44 [7@SISTEMAS2]
+0 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_locks"
+2024-12-03 21:08:45 [7@SISTEMAS2]
+1 segundos for "Agregando índices de unicidad - glpi_plugin_glpiinventory_locks"
+2024-12-03 21:08:45 [7@SISTEMAS2]
+0 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_ignoredimportdevices"
+2024-12-03 21:08:45 [7@SISTEMAS2]
+0 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_ignoredimportdevices"
+2024-12-03 21:08:46 [7@SISTEMAS2]
+1 segundos for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_ignoredimportdevices"
+2024-12-03 21:08:47 [7@SISTEMAS2]
+1 segundos for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_rulematchedlogs"
+2024-12-03 21:08:48 [7@SISTEMAS2]
+1 segundos for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_rulematchedlogs"
+2024-12-03 21:08:49 [7@SISTEMAS2]
+1 segundos for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_unmanageds"
+2024-12-03 21:08:49 [7@SISTEMAS2]
+0 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_unmanageds"
+2024-12-03 21:08:51 [7@SISTEMAS2]
+2 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_unmanageds"
+2024-12-03 21:08:52 [7@SISTEMAS2]
+1 segundos for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_inventorycomputercriterias"
+2024-12-03 21:08:52 [7@SISTEMAS2]
+0 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_inventorycomputercriterias"
+2024-12-03 21:08:53 [7@SISTEMAS2]
+1 segundos for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_inventorycomputercriterias"
+2024-12-03 21:08:53 [7@SISTEMAS2]
+0 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_inventorycomputerblacklists"
+2024-12-03 21:08:53 [7@SISTEMAS2]
+0 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_inventorycomputerblacklists"
+2024-12-03 21:09:03 [7@SISTEMAS2]
+10 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_inventorycomputerblacklists"
+2024-12-03 21:09:03 [7@SISTEMAS2]
+0 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_inventorycomputercomputers"
+2024-12-03 21:09:03 [7@SISTEMAS2]
+0 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_inventorycomputercomputers"
+2024-12-03 21:09:04 [7@SISTEMAS2]
+1 segundos for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_inventorycomputercomputers"
+2024-12-03 21:09:05 [7@SISTEMAS2]
+1 segundos for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_computerlicenseinfos"
+2024-12-03 21:09:05 [7@SISTEMAS2]
+0 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_computerlicenseinfos"
+2024-12-03 21:09:06 [7@SISTEMAS2]
+1 segundos for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_computerlicenseinfos"
+2024-12-03 21:09:06 [7@SISTEMAS2]
+0 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_computerremotemanagements"
+2024-12-03 21:09:06 [7@SISTEMAS2]
+0 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_computerremotemanagements"
+2024-12-03 21:09:07 [7@SISTEMAS2]
+1 segundos for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_computerremotemanagements"
+2024-12-03 21:09:07 [7@SISTEMAS2]
+0 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_inventorycomputercomputers"
+2024-12-03 21:09:09 [7@SISTEMAS2]
+2 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_dblockinventorynames"
+2024-12-03 21:09:09 [7@SISTEMAS2]
+0 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_dblockinventorynames"
+2024-12-03 21:09:10 [7@SISTEMAS2]
+1 segundos for "Agregando índices de unicidad - glpi_plugin_glpiinventory_dblockinventorynames"
+2024-12-03 21:09:10 [7@SISTEMAS2]
+0 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_dblockinventories"
+2024-12-03 21:09:10 [7@SISTEMAS2]
+0 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_dblockinventories"
+2024-12-03 21:09:11 [7@SISTEMAS2]
+1 segundos for "Agregando índices de unicidad - glpi_plugin_glpiinventory_dblockinventories"
+2024-12-03 21:09:13 [7@SISTEMAS2]
+2 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_dblocksoftwares"
+2024-12-03 21:09:13 [7@SISTEMAS2]
+0 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_dblocksoftwares"
+2024-12-03 21:09:14 [7@SISTEMAS2]
+1 segundos for "Agregando índices de unicidad - glpi_plugin_glpiinventory_dblocksoftwares"
+2024-12-03 21:09:16 [7@SISTEMAS2]
+2 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_dblocksoftwareversions"
+2024-12-03 21:09:16 [7@SISTEMAS2]
+0 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_dblocksoftwareversions"
+2024-12-03 21:09:17 [7@SISTEMAS2]
+1 segundos for "Agregando índices de unicidad - glpi_plugin_glpiinventory_dblocksoftwareversions"
+2024-12-03 21:09:18 [7@SISTEMAS2]
+1 segundos for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_taskjobs"
+2024-12-03 21:09:19 [7@SISTEMAS2]
+1 segundos for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_ipranges"
+2024-12-03 21:09:19 [7@SISTEMAS2]
+0 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_ipranges_configsecurities"
+2024-12-03 21:09:19 [7@SISTEMAS2]
+0 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_ipranges_configsecurities"
+2024-12-03 21:09:19 [7@SISTEMAS2]
+0 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_configlogfields"
+2024-12-03 21:09:21 [7@SISTEMAS2]
+2 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_configlogfields"
+2024-12-03 21:09:21 [7@SISTEMAS2]
+0 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_networkportconnectionlogs"
+2024-12-03 21:09:22 [7@SISTEMAS2]
+1 segundos for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_networkportconnectionlogs"
+2024-12-03 21:09:22 [7@SISTEMAS2]
+0 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_networkporttypes"
+2024-12-03 21:09:24 [7@SISTEMAS2]
+2 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_networkporttypes"
+2024-12-03 21:09:25 [7@SISTEMAS2]
+1 segundos for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_networkports"
+2024-12-03 21:09:26 [7@SISTEMAS2]
+1 segundos for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_networkports"
+2024-12-03 21:09:27 [7@SISTEMAS2]
+1 segundos for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_networkportlogs"
+2024-12-03 21:09:27 [7@SISTEMAS2]
+0 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_networkportlogs"
+2024-12-03 21:09:30 [7@SISTEMAS2]
+3 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_networkportlogs"
+2024-12-03 21:09:30 [7@SISTEMAS2]
+0 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_printers"
+2024-12-03 21:09:32 [7@SISTEMAS2]
+2 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_printers"
+2024-12-03 21:09:32 [7@SISTEMAS2]
+0 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_printerlogs"
+2024-12-03 21:09:36 [7@SISTEMAS2]
+4 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_printerlogs"
+2024-12-03 21:09:36 [7@SISTEMAS2]
+0 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_printercartridges"
+2024-12-03 21:09:36 [7@SISTEMAS2]
+0 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_printercartridges"
+2024-12-03 21:09:38 [7@SISTEMAS2]
+2 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_printercartridges"
+2024-12-03 21:09:39 [7@SISTEMAS2]
+1 segundos for "Clean printers"
+2024-12-03 21:09:39 [7@SISTEMAS2]
+0 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_networkequipments"
+2024-12-03 21:09:42 [7@SISTEMAS2]
+3 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_networkequipments"
+2024-12-03 21:09:43 [7@SISTEMAS2]
+1 segundos for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_configsecurities"
+2024-12-03 21:09:44 [7@SISTEMAS2]
+1 segundos for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_configsecurities"
+2024-12-03 21:09:44 [7@SISTEMAS2]
+0 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_statediscoveries"
+2024-12-03 21:09:44 [7@SISTEMAS2]
+0 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_deployfiles"
+2024-12-03 21:09:45 [7@SISTEMAS2]
+1 segundos for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_deploypackages"
+2024-12-03 21:09:45 [7@SISTEMAS2]
+0 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_deploypackages_entities"
+2024-12-03 21:09:46 [7@SISTEMAS2]
+1 segundos for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_deploypackages_groups"
+2024-12-03 21:09:46 [7@SISTEMAS2]
+0 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_deploypackages_profiles"
+2024-12-03 21:09:46 [7@SISTEMAS2]
+0 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_deploypackages_users"
+2024-12-03 21:09:46 [7@SISTEMAS2]
+0 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_deploymirrors"
+2024-12-03 21:09:47 [7@SISTEMAS2]
+1 segundos for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_deploygroups"
+2024-12-03 21:09:47 [7@SISTEMAS2]
+0 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_deploygroups_staticdatas"
+2024-12-03 21:09:47 [7@SISTEMAS2]
+0 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_deploygroups_dynamicdatas"
+2024-12-03 21:09:48 [7@SISTEMAS2]
+1 segundos for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_credentials"
+2024-12-03 21:09:48 [7@SISTEMAS2]
+0 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_credentialips"
+2024-12-03 21:09:49 [7@SISTEMAS2]
+1 segundos for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_collects"
+2024-12-03 21:09:49 [7@SISTEMAS2]
+0 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_collects_registries"
+2024-12-03 21:09:49 [7@SISTEMAS2]
+0 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_collects_registries_contents"
+2024-12-03 21:09:49 [7@SISTEMAS2]
+0 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_collects_wmis"
+2024-12-03 21:09:50 [7@SISTEMAS2]
+1 segundos for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_collects_wmis_contents"
+2024-12-03 21:09:50 [7@SISTEMAS2]
+0 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_collects_files"
+2024-12-03 21:09:50 [7@SISTEMAS2]
+0 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_collects_files_contents"
+2024-12-03 21:09:51 [7@SISTEMAS2]
+1 segundos for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_tasks"
+2024-12-03 21:09:51 [7@SISTEMAS2]
+0 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_taskjobs"
+2024-12-03 21:09:52 [7@SISTEMAS2]
+1 segundos for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_taskjoblogs"
+2024-12-03 21:09:52 [7@SISTEMAS2]
+0 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_taskjobstates"
+2024-12-03 21:09:52 [7@SISTEMAS2]
+0 seconds for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_timeslots"
+2024-12-03 21:09:53 [7@SISTEMAS2]
+1 segundos for "Cambio del diseño de la Base de datos - glpi_plugin_glpiinventory_timeslotentries"
+2024-12-03 21:09:55 [7@SISTEMAS2]
+2 seconds for "Add Crontasks"
+2024-12-03 21:09:55 [7@SISTEMAS2]
+0 seconds for "Migration Classname : Migration"
+2024-12-03 21:09:55 [7@SISTEMAS2]
+0 seconds for "Use core capabilities"
+2024-12-03 21:09:55 [7@SISTEMAS2]
+0 seconds for "Use core agent"
+2024-12-03 21:09:56 [7@SISTEMAS2]
+1 segundos for "Use core SNMP credentials"
+2024-12-03 21:09:57 [7@SISTEMAS2]
+1 segundos for "Use core network ports"
+2024-12-03 21:09:57 [7@SISTEMAS2]
+0 seconds for "Use core computers"
+2024-12-03 21:09:58 [7@SISTEMAS2]
+1 segundos for "Use core network equipments"
+2024-12-03 21:09:58 [7@SISTEMAS2]
+0 seconds for "Use core printers"
+2024-12-03 21:10:00 [7@SISTEMAS2]
+2 seconds for "Use core printer logs"
+2024-12-03 21:10:00 [7@SISTEMAS2]
+0 seconds for "Use core networkports logs"
+2024-12-03 21:10:00 [7@SISTEMAS2]
+0 seconds for "Use core network ports types"
+2024-12-03 21:10:01 [7@SISTEMAS2]
+1 segundos for "Use core unmanaged equipments"
+2024-12-03 21:10:01 [7@SISTEMAS2]
+0 seconds for "Drop ignored equipments"
+2024-12-03 21:10:01 [7@SISTEMAS2]
+0 seconds for "Use core rules"
+2024-12-03 21:10:02 [7@SISTEMAS2]
+1 segundos for "Use core remote management"
+2024-12-03 21:10:02 [7@SISTEMAS2]
+0 seconds for "Use core fields locks"
+2024-12-03 21:10:03 [7@SISTEMAS2]
+1 segundos for "Drop dblock tables"
+2024-12-03 21:10:04 [7@SISTEMAS2]
+1 segundos for "Use core entities"
+2024-12-03 21:10:04 [7@SISTEMAS2]
+0 seconds for "Drop network ports and printers logs tables"
+2024-12-03 21:10:04 [7@SISTEMAS2]
+0 seconds for "Drop inventory mapping table"
+2024-12-03 21:10:13 [7@SISTEMAS2]
+9 seconds for "Drop blacklists tables"

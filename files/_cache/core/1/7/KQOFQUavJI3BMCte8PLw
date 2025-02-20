@@ -1,0 +1,117 @@
+0
+e40139be5396fa1c08aa6f50a924b3eefd6635f1
+s:4012:"#chart_1702728229 {
+  /*!
+ * ---------------------------------------------------------------------
+ *
+ * GLPI - Gestionnaire Libre de Parc Informatique
+ *
+ * http://glpi-project.org
+ *
+ * @copyright 2015-2024 Teclib' and contributors.
+ * @copyright 2003-2014 by the INDEPNET Development Team.
+ * @licence   https://www.gnu.org/licenses/gpl-3.0.html
+ *
+ * ---------------------------------------------------------------------
+ *
+ * LICENSE
+ *
+ * This file is part of GLPI.
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <https://www.gnu.org/licenses/>.
+ *
+ * ---------------------------------------------------------------------
+ */
+}
+#chart_1702728229 .ct-series-0 .ct-point, #chart_1702728229 .ct-series-0 .ct-line, #chart_1702728229 .ct-series-0 .ct-bar, #chart_1702728229 .ct-series-0 .ct-slice-donut {
+  stroke: #a6a6a6;
+}
+#chart_1702728229 .ct-series-0 .ct-bar + .ct-barlabel {
+  fill: setcolor(#a6a6a6);
+}
+#chart_1702728229 .ct-series-0 .ct-circle {
+  fill: #a6a6a6;
+}
+#chart_1702728229 .ct-series-0 .ct-circle + .ct-label {
+  fill: #a6a6a6;
+}
+#chart_1702728229 .ct-series-0 .ct-slice-pie, #chart_1702728229 .ct-series-0 .ct-area, #chart_1702728229 .ct-series-0 .ct-slice-donut-solid {
+  fill: #a6a6a6;
+  stroke: setcolor(#a6a6a6);
+}
+#chart_1702728229 .ct-series-0:before {
+  background-color: #a6a6a6;
+  border-color: #a6a6a6;
+}
+#chart_1702728229 .ct-series-1 .ct-point, #chart_1702728229 .ct-series-1 .ct-line, #chart_1702728229 .ct-series-1 .ct-bar, #chart_1702728229 .ct-series-1 .ct-slice-donut {
+  stroke: #808080;
+}
+#chart_1702728229 .ct-series-1 .ct-bar + .ct-barlabel {
+  fill: setcolor(#808080);
+}
+#chart_1702728229 .ct-series-1 .ct-circle {
+  fill: #808080;
+}
+#chart_1702728229 .ct-series-1 .ct-circle + .ct-label {
+  fill: #808080;
+}
+#chart_1702728229 .ct-series-1 .ct-slice-pie, #chart_1702728229 .ct-series-1 .ct-area, #chart_1702728229 .ct-series-1 .ct-slice-donut-solid {
+  fill: #808080;
+  stroke: setcolor(#808080);
+}
+#chart_1702728229 .ct-series-1:before {
+  background-color: #808080;
+  border-color: #808080;
+}
+#chart_1702728229 .ct-series-2 .ct-point, #chart_1702728229 .ct-series-2 .ct-line, #chart_1702728229 .ct-series-2 .ct-bar, #chart_1702728229 .ct-series-2 .ct-slice-donut {
+  stroke: #595959;
+}
+#chart_1702728229 .ct-series-2 .ct-bar + .ct-barlabel {
+  fill: setcolor(#595959);
+}
+#chart_1702728229 .ct-series-2 .ct-circle {
+  fill: #595959;
+}
+#chart_1702728229 .ct-series-2 .ct-circle + .ct-label {
+  fill: #595959;
+}
+#chart_1702728229 .ct-series-2 .ct-slice-pie, #chart_1702728229 .ct-series-2 .ct-area, #chart_1702728229 .ct-series-2 .ct-slice-donut-solid {
+  fill: #595959;
+  stroke: setcolor(#595959);
+}
+#chart_1702728229 .ct-series-2:before {
+  background-color: #595959;
+  border-color: #595959;
+}
+#chart_1702728229 .ct-series-3 .ct-point, #chart_1702728229 .ct-series-3 .ct-line, #chart_1702728229 .ct-series-3 .ct-bar, #chart_1702728229 .ct-series-3 .ct-slice-donut {
+  stroke: #333333;
+}
+#chart_1702728229 .ct-series-3 .ct-bar + .ct-barlabel {
+  fill: setcolor(#333333);
+}
+#chart_1702728229 .ct-series-3 .ct-circle {
+  fill: #333333;
+}
+#chart_1702728229 .ct-series-3 .ct-circle + .ct-label {
+  fill: #333333;
+}
+#chart_1702728229 .ct-series-3 .ct-slice-pie, #chart_1702728229 .ct-series-3 .ct-area, #chart_1702728229 .ct-series-3 .ct-slice-donut-solid {
+  fill: #333333;
+  stroke: setcolor(#333333);
+}
+#chart_1702728229 .ct-series-3:before {
+  background-color: #333333;
+  border-color: #333333;
+}
+";
